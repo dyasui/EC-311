@@ -1,0 +1,61 @@
+---
+title: "EC327 Introductory Game Theory"
+subtitle: "Economics Course at the University of Oregon"
+filters:
+  - shinylive
+---
+
+This elective game theory class EC327 is taught by [Dante Yasui](https://cas.uoregon.edu/directory/economics/all/dyasui)
+at the [University of Oregon](https://socialsciences.uoregon.edu/economics).
+
+## Fall 2024 Class Details
+
+:::: {.columns}
+:::{.column}
+**Class Time:** Monday and Wednesday 8:30-9:50 am
+
+**Classroom:** Gerlinger 302
+
+**Office Hours:** Monday 10-11 am \& Wednesday 1-2 pm
+:::
+
+::: {.column}
+<a href="Syllabus/main.pdf" target="_blank">Syllabus</a>
+
+**Textbook:**
+Dixit, Skeath, and McAdams. Games of Strategy, 5th edition.
+:::
+
+---
+
+## Tentative Schedule
+
+| **Week** | **Chapter** | **Topic**                                                        | Assignments                                                                                                      |
+|:--------:+:-----------:+------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------|
+|     1    |     1, 2    | [Intro & General Principles](Slides/#intro-and-syllabus-day)     | [Activity 1](activities/01GuessTwoThirds/GuessTwoThirds.qmd)                                                     |
+|     2    |      3      | [Sequential Move Games](Slides/#sequential-games)                | [Homework 1](Homework/assignment1/main.pdf), [Activity 2](activities/02SurvivorFlags/SurvivorFlags.qmd)          |
+|     3    |      4      | [Simultaneous Move Games](Slides/#simultaneous-games)            | [Activity 4](activities/04BlottoElection/BlottoElection.qmd)                                                     |
+|     4    |      5      | [Continuous Strategies](Slides/#simultaneous-games)              | [Homework 2](Homework/assignment2/main.pdf)                                                                      |
+|     4    |      6      | [Combining Forms](Slides/#combining-simultaneous-and-sequential) |                                                                                                                  |
+|     5    |      6      | Review & **Midterm**                                             |                                                                                                                  |
+|     6    |      7      | [Mixed Strategies](Slides/#mixed-strategies)                     | [Activity 5](activities/05CournotComp/cournotcomp.qmd), [Activity 6](activities/06PenaltyKicks/penaltykicks.qmd) |
+|     7    |      7      | [Mixed Strategies](Slides/#mixed-strategies)                     | [Homework 3](Homework/assignment3/main.pdf)                                                                      |
+|     8    |      9      | [Uncertainty and Information](Slides/#asymmetric-info)           | [Activity 7](activities/07Brinksmanship/brinksmanship.qmd)                                                                   |
+|     9    |      8      | [Strategic Moves](Slides/#strategic-moves)                       | [Activity 8](activities/Brinksmanship/main.qmd)                                                                  |
+|    10    |      10     | [Repeated Games](Slides/#repeated-games)                         | [Homework 4](Homework/assignment4/main.pdf)                                                                      |
+| *Finals* |  Cumulative | **Exam**: Friday, Dec. 13 - 10:15am                              |                                                                                                                  |
+
+---
+
+# Acknowledgements
+
+I have used materials passed on to me from previous graduate student instructors at the University of Oregon
+such as slides, activities, and homework questions to create this class.
+Thank you to Evan Hart,
+[Ethan Holdahl](https://ethanholdahl.com/),
+[Hanyuan Huang](https://sites.google.com/view/hanyuanhuang/),
+[Connor Wiegand](https://ctwie.me/),
+and [Zachary Kiefer](https://zkiefer10.github.io/)
+for creating some of the materials in this class,
+and for advice on teaching Game Theory.
+

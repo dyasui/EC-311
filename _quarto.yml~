@@ -1,0 +1,40 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+
+website: 
+  title: "EC311 Intermediate Micro"
+  repo-url: https://gituhub.com/dyasui/EC-311
+  repo-actions: [edit, source, issue]
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Slides"
+        href: Slides/index.qmd
+      - text: "Labs"
+        href: Labs/index.qmd
+      - text: "Assignments"
+        href: Homework/index.qmd
+  sidebar: 
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents: 
+      - section: "Introduction"
+        contents:
+          - text: "Syllabus"
+            href: Syllabus/main.pdf
+          - text: "[Slides]{.text-info}: General Principles"
+            href: Slides/#intro-and-syllabus-day
+          - text: "[Activity]{.text-success}: Guessing Two Thirds"
+            href: activities/01GuessTwoThirds/GuessTwoThirds.qmd
