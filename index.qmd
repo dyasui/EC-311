@@ -1,61 +1,67 @@
 ---
-title: "EC327 Introductory Game Theory"
-subtitle: "Economics Course at the University of Oregon"
-filters:
-  - shinylive
+title: "Home"
 ---
 
-This elective game theory class EC327 is taught by [Dante Yasui](https://cas.uoregon.edu/directory/economics/all/dyasui)
-at the [University of Oregon](https://socialsciences.uoregon.edu/economics).
+## Syllabus
 
-## Fall 2024 Class Details
+```{=html}
+<details>
+  <summary>Spring 2025 Syllabus PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="Syllabus/main.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="Syllabus/main.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+## Spring 2025 Class Details
 
 :::: {.columns}
-:::{.column}
-**Class Time:** Monday and Wednesday 8:30-9:50 am
+:::{.column width="50%"}
 
-**Classroom:** Gerlinger 302
+**Instructor:** Dante Yasui
 
-**Office Hours:** Monday 10-11 am \& Wednesday 1-2 pm
+**Email:** dyasui@uoregon.edu
+
+**Office Hours:** *TBD* in PLC 525
 :::
 
-::: {.column}
-<a href="Syllabus/main.pdf" target="_blank">Syllabus</a>
+::: {.column width="50%"}
 
-**Textbook:**
-Dixit, Skeath, and McAdams. Games of Strategy, 5th edition.
+**Class Location:** Straub 145
+
+**Class Day & Time:** Mon & Wed - 4:00-5:00pm
+
+**Textbook/Readings:** Goolsbee, Levitt, & Syverson
 :::
 
----
+::::
 
-## Tentative Schedule
+### Course Grade Breakdown
 
-| **Week** | **Chapter** | **Topic**                                                        | Assignments                                                                                                      |
-|:--------:+:-----------:+------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------|
-|     1    |     1, 2    | [Intro & General Principles](Slides/#intro-and-syllabus-day)     | [Activity 1](activities/01GuessTwoThirds/GuessTwoThirds.qmd)                                                     |
-|     2    |      3      | [Sequential Move Games](Slides/#sequential-games)                | [Homework 1](Homework/assignment1/main.pdf), [Activity 2](activities/02SurvivorFlags/SurvivorFlags.qmd)          |
-|     3    |      4      | [Simultaneous Move Games](Slides/#simultaneous-games)            | [Activity 4](activities/04BlottoElection/BlottoElection.qmd)                                                     |
-|     4    |      5      | [Continuous Strategies](Slides/#simultaneous-games)              | [Homework 2](Homework/assignment2/main.pdf)                                                                      |
-|     4    |      6      | [Combining Forms](Slides/#combining-simultaneous-and-sequential) |                                                                                                                  |
-|     5    |      6      | Review & **Midterm**                                             |                                                                                                                  |
-|     6    |      7      | [Mixed Strategies](Slides/#mixed-strategies)                     | [Activity 5](activities/05CournotComp/cournotcomp.qmd), [Activity 6](activities/06PenaltyKicks/penaltykicks.qmd) |
-|     7    |      7      | [Mixed Strategies](Slides/#mixed-strategies)                     | [Homework 3](Homework/assignment3/main.pdf)                                                                      |
-|     8    |      9      | [Uncertainty and Information](Slides/#asymmetric-info)           | [Activity 7](activities/07Brinksmanship/brinksmanship.qmd)                                                                   |
-|     9    |      8      | [Strategic Moves](Slides/#strategic-moves)                       | [Activity 8](activities/Brinksmanship/main.qmd)                                                                  |
-|    10    |      10     | [Repeated Games](Slides/#repeated-games)                         | [Homework 4](Homework/assignment4/main.pdf)                                                                      |
-| *Finals* |  Cumulative | **Exam**: Friday, Dec. 13 - 10:15am                              |                                                                                                                  |
+For more details, read the [Syllabus](Syllabus/main.pdf) above
 
----
+| Assignment  | Grade Weight | 
+|:------------|:------------:|
+| Participation | **5%** |
+| Achieve Homework | **20%** |
+| Canvas Quizzes | **15%** |
+| Midterm Exam | **30%** |
+| Final Exam | **30%** |
 
-# Acknowledgements
+### Tentative Schedule
 
-I have used materials passed on to me from previous graduate student instructors at the University of Oregon
-such as slides, activities, and homework questions to create this class.
-Thank you to Evan Hart,
-[Ethan Holdahl](https://ethanholdahl.com/),
-[Hanyuan Huang](https://sites.google.com/view/hanyuanhuang/),
-[Connor Wiegand](https://ctwie.me/),
-and [Zachary Kiefer](https://zkiefer10.github.io/)
-for creating some of the materials in this class,
-and for advice on teaching Game Theory.
-
+| **Week** |    **Topic**    | **Assignments** |
+|:--------:|:---------------:|:---------------:|
+|    1     | Ch 2: Intro & Review  | Quiz 1 & Ch 2 HW |
+|    2     | Ch 4: Utility & Indifference | Quiz 2 |
+|    3     | Ch 4: Budgets & Optimization | Quiz 3 & Ch 4 HW |
+|    4     | Ch 5: Foundations of Demand  | Quiz 4 |
+|    5     | Ch 5: Comparative Statics    | Ch 5 HW |
+|    6     | Review & **MIDTERM** | - |
+|    7     | | |
+|    8     | | |
+|    9     | | |
+|   10     | | |
