@@ -26,21 +26,6 @@ website:
         href: Slides/index.qmd
       - text: "Labs"
         href: Labs/index.qmd
-      - text: "Assignments"
-        href: Homework/index.qmd
-  sidebar: 
-    style: "docked"
-    search: true
-    collapse-level: 1
-    contents: 
-      - section: "Introduction"
-        contents:
-          - text: "Syllabus"
-            href: Syllabus/main.pdf
-          - text: "[Slides]{.text-info}: General Principles"
-            href: Slides/#intro-and-syllabus-day
-          - text: "[Activity]{.text-success}: Guessing Two Thirds"
-            href: activities/01GuessTwoThirds/GuessTwoThirds.qmd
   announcement: 
     icon: clipboard2-check-fill
     dismissable: true
