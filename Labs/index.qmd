@@ -1,0 +1,123 @@
+---
+title: "Lab Assignments"
+---
+
+# Lab 1 : Math Review 
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w1-mathreview.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w1-mathreview.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 2
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w2-equilibrium-utility.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w2-equilibrium-utility.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 3
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w3-utilitymax.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w3-utilitymax.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 4
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w4-elasticity-theory.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w4-elasticity-theory.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 5
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w5-midterm-review.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w5-midterm-review.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 6
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w6-production-intro.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w6-production-intro.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 7
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w7-production-costs.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w7-production-costs.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+# Lab 8
+**Due:** ***
+[**Submit to Canvas**](https://canvas.uoregon.edu/courses/251353/assignments/1721122){target="_blank"}
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a class="btn btn-primary btn-lg cv-download" href="ec311-w8-costs.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download
+  </a>
+  <div class="embed-container">
+    <iframe src="ec311-w8-costs.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
