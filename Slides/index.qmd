@@ -17,7 +17,7 @@ title: "Lecture Slides"
 <div>
   <iframe class="slide deck" src="01_CalculusRev/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="01_Calculusrev/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="01_CalculusRev/Main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -27,7 +27,7 @@ title: "Lecture Slides"
 <div>
   <iframe class="slide deck" src="02_ConsumerBehavior/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="02_Consumerbehavior/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="02_ConsumerBehavior/Main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -55,9 +55,9 @@ title: "Lecture Slides"
 ## Production
 ```{=html}
 <div>
-  <iframe class="slide deck" src="05_Production/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="05_Production/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="05_Production/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="05_Production/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -65,9 +65,9 @@ title: "Lecture Slides"
 ## Cost Functions
 ```{=html}
 <div>
-  <iframe class="slide deck" src="06_CostFunctions/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="06_CostFunctions/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="06_CostFunctions/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="06_CostFunctions/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -75,9 +75,9 @@ title: "Lecture Slides"
 ## Profit Maximization
 ```{=html}
 <div>
-  <iframe class="slide deck" src="07_ProfitMaximization/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="07_ProfitMaximization/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="07_ProfitMaximization/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="07_ProfitMaximization/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -85,9 +85,9 @@ title: "Lecture Slides"
 ## Market Supply
 ```{=html}
 <div>
-  <iframe class="slide deck" src="08_MarketSupply/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="08_MarketSupply/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="08_MarketSupply/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="08_MarketSupply/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -95,9 +95,9 @@ title: "Lecture Slides"
 ## Monopoly
 ```{=html}
 <div>
-  <iframe class="slide deck" src="09_Monopoly/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="09_Monopoly/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="09_Monopoly/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="09_Monopoly/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
@@ -105,9 +105,9 @@ title: "Lecture Slides"
 ## Imperfect Competition
 ```{=html}
 <div>
-  <iframe class="slide deck" src="10_ImperfectCompetition/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="10_ImperfectCompetition/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="10_ImperfectCompetition/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="10_ImperfectCompetition/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
