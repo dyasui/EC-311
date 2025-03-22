@@ -9,9 +9,7 @@ project:
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
+    theme: solar
 
 website: 
   title: "EC311 Intermediate Micro"
