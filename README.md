@@ -5,7 +5,17 @@
     Taught by <a href="https://cas.uoregon.edu/directory/economics/all/dyasui" target="_blank" rel="noreferrer">Dante Yasui</a> at the University of Oregon
 </h2>
 
-Welcome to my Intermediate Microeconomics Course Material Repository!
+Welcome to this course material repository for Intermediate Microeconomics!
+
+## 🌐 Course Website
+
+You can find the most recent versions of lecture slides, homework assignments,
+and in-class activities on the course website:
+
+<https://dyasui.github.io/EC-311/>
+
+## 📝 Course Description
+
 This course equips students with essential theoretical and mathematical tools for understanding microeconomics.
 Building on the foundational market supply and demand models from EC201, we delve into consumer and producer behavior by applying math to simplify real-world decision-making.
 
@@ -13,10 +23,10 @@ By the end of this course, students will be well-prepared to apply these models 
 Explore the materials to discover how microeconomic theory can enhance your understanding and approach to economic challenges!
 
 ## 📆 **Spring 2025** Schedule
-**Class Time** Monday and Wednesday 4:00-5:00 pm
-**Classroom** Straub 145
 
-**Office Hours** *TBD*
+| **Class Time** | Monday and Wednesday 4:00-5:50 pm |
+| **Classroom** | Straub 145 |
+| **Office Hours** | Monday 10am, Wednesday 1pm |
 
 ---
 
@@ -31,13 +41,6 @@ Explore the materials to discover how microeconomic theory can enhance your unde
 
 > [!IMPORTANT] 
 > Achieve access code is required for homework assignments
-
-## 🌐 Course Website
-
-You can find the most recent versions of lecture slides, homework assignments,
-and in-class activities on the course website:
-
-<https://dyasui.github.io/EC-311/>
 
 # Acknowledgements
 
