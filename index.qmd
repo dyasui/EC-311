@@ -26,12 +26,12 @@ title: "Home"
 ### Tentative Schedule
 
 | **Week** |    **Topic**    | **Assignments** |
-|:--------:|:---------------:|:---------------:|
+|:--------:|:----------------|:----------------|
 |    1     | Ch 2: [Intro](Slides/#intro-and-syllabus-day) & [Review](Slides/#calculus-review)  | [Quiz 1](https://canvas.uoregon.edu/courses/260984/quizzes/387474) & Ch 2 HW |
 |    2     | Ch 4: [Utility & Indifference](Slides/#consumer-behavior) | [Quiz 2](https://canvas.uoregon.edu/courses/260984/quizzes/387476) |
 |    3     | Ch 4: [Budgets & Optimization](Slides/#utility-maximization) | [Quiz 3](https://canvas.uoregon.edu/courses/260984/quizzes/387475) & Ch 4 HW |
 |    4     | Ch 5: [Demand](Slides/#Demand)  | [Quiz 4](https://canvas.uoregon.edu/courses/260984/quizzes/387478) & Ch 5 HW |
-|    5     | Ch 5: [Comparative Statics](Slides/#Demand)    | **MIDTERM** |
+|    5     | *TBD*    | **MIDTERM** |
 |    6     | Ch 6: [Production](Slides/#production) | Ch 6 HW |
 |    7     | Ch 7: [Cost Functions](Slides/#cost-functions) | [Quiz 5](https://canvas.uoregon.edu/courses/260984/quizzes/387477) & Ch 7 HW |
 |    8     | Ch 8: [Supply](Slides/#market-supply) | [Quiz 6](https://canvas.uoregon.edu/courses/260984/quizzes/387479) & Ch 8 HW |

@@ -45,9 +45,9 @@ title: "Lecture Slides"
 ## Demand
 ```{=html}
 <div>
-  <iframe class="slide deck" src="04_Demand/Main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+  <iframe class="slide deck" src="04_Demand/main.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 </div>
-<a class="btn btn-primary btn-md" href="04_Demand/Main.html" target="_blank">
+<a class="btn btn-primary btn-md" href="04_Demand/main.html" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Expand
 </a>
 ```
