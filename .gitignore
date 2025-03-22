@@ -7,3 +7,20 @@
 *~
 _site/
 **.DS_Store
+
+# latex processing files
+**.aux
+**.fdb_latxmk
+**.fls
+**.log
+**.synctex.gz
+**.out
+**.fdb_latexmk
+**.dvi
+**.nav
+**.snm
+**.toc
+
+# Student Info from Canvas
+**\ Student\ Analysis\ Report.csv
+**_Grades-*.csv
