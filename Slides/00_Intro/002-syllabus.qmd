@@ -120,7 +120,7 @@ name: syllabus
 
 ---
 
-## Attendence Wheel!
+## Attendance Wheel!
 
 ```{=html}
 <iframe width="780" height="500" src="https://wheelofnames.com/84r-qq7" title="Wheel of Names!"></iframe>
