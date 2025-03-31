@@ -8,17 +8,17 @@ What to Expect from the Course?
 
 . . .
 
-- This course involves a mix of math and economic theory
+- This class is basically an applied math class
 
-- I recognize most of, if not all, are here for the requirement in your program so I aim to make it as relevant and interesting as possible
-
-. . .
-
-What do we do with Microeconomics?
+- You don't have to love math right now, we'll try to gain confidence together and see how it can be used in interesting situations
 
 . . .
 
-> It sets up a lot of the foundational work for cool research that we may not consider as Economics
+What do we do with Micro theory?
+
+. . .
+
+> The models from this class give you access to understanding a whole new world of economics!
 
 ---
 
@@ -58,7 +58,7 @@ Why are we here studying microeconometrics?
 [So Why Should You Care?]{.hii}
 
 Consider this to be the very basics of applying market research. 
-Which is incredibly important for many differnt employers:
+Which is incredibly important for many different employers:
 
 :::: {.columns}
 
@@ -119,24 +119,24 @@ They make choices on:
 :::: {.columns}
 
 ::: {.column width="40%"}
-![](./images/Jose_Pic.jpg){.absolute top=100 left=0 width="350"}
+![](./images/dante-pic.jpg){.absolute top=100 left=0 width="350"}
 :::
 
 ::: {.column width="60%"}
 
-I'm from [San Jose, Costa Rica]{.hii}
+I'm from [Davis, California]{.hii}
 
 <br> 
 
 ::: {.incremental}
 
-- I'm a 3rd year PhD Student
+- I'm a 4th year PhD Student
 
-    - It is a 5 year program so I'll likely graduate with some of you 
+    - I have taught Game Theory and Econometrics before, but this is my first time teaching 311!
 
-- My current research is focused on international trade, development, and political economy
+- My current research is focused on historical migration patterns in the US.
 
-- I like to read mystery/spy novels so if you have recommendations let me know!
+- I like roller skating around Eugene, reading science fiction, and listening to music from the former Yugoslavia
 
 :::
 

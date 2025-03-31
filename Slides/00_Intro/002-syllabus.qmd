@@ -4,8 +4,8 @@ name: syllabus
 
 ## Class Information {.smaller}
 
-- [**Schedule:**]{.hi} Tuesday & Thursday in Straub 145
-- [**Office Hours:**]{.hi} Thursday from 12:00 to 14:00
+- [**Schedule:**]{.hi} Monday & Wednesday in Straub 145
+- [**Office Hours:**]{.hi} Monday 10-11am, Wednesday 1-2pm
 - [Attendance]{.hii} is important to your learning experience
     - A lot goes on in the class that may be hard to understand just from lecture slides
 
@@ -97,9 +97,9 @@ name: syllabus
 
 ::: {.incremental}
 - Midterm (30%)
-    - [Week 6 - Thursday at 08:00]{.hi-red}
+    - [Week 5 - Wednesday at 4:00]{.hi-red}
 - Final (30%)
-    - [March 20 - Wednesday at 08:00]{.hi-red}
+    - [June 11 - Wednesday at 2:45]{.hi-red}
 :::
 
 :::
@@ -118,9 +118,18 @@ name: syllabus
 - Everyone will eventually be called upon so you cannot escape it
 :::
 
-. . .
+---
 
-[Grade Notes]{.hii}
-- There will most likely be a curve applied to your course grade 
-- Because of this, what truly matters is the class distribution, not your raw score
-    - If you are above the class average, your doing great
+## Attendence Wheel!
+
+```{=html}
+<iframe width="780" height="500" src="https://wheelofnames.com/84r-qq7" title="Wheel of Names!"></iframe>
+```
+
+---
+
+## Course Website
+
+```{=html}
+<iframe width="780" height="500" src="https://dyasui.github.io/EC-311/" title="Class Site"></iframe>
+```
