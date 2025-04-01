@@ -57,7 +57,7 @@ name: syllabus
 - You [MUST]{.h} register for the course through Achieve
 - This is where you will complete your homework 
 - It also gives you access to the digital version of the textbook
-- The course code is [sveono]{.hp}
+- The course code is [fm6j5k]{.hp}
 - Your lowest homework grade will be dropped
 - 1 day grace period (with 5% penalty) $\rightarrow$ no submissions allowed after that
 :::
