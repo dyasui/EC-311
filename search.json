@@ -4218,7 +4218,7 @@
     "href": "Slides/01_CalculusRev/014-optim.html#another-example",
     "title": "EC311 Intermediate Micro",
     "section": "Another Example",
-    "text": "Another Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n. . .\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
+    "text": "Another Example\n\\[f(x,y) = \\sqrt{x^2+y^2}\\]\nWhat are the partial derivatives?\n. . .\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/01_CalculusRev/012-derivatives.html",
