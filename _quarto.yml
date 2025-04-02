@@ -9,7 +9,9 @@ project:
 
 format:
   html:
-    theme: solar
+    theme: 
+      light: flatly
+      dark: darkly
 
 website: 
   title: "EC311 Intermediate Micro"
@@ -27,6 +29,6 @@ website:
   announcement: 
     icon: clipboard2-check-fill
     dismissable: true
-    content: "Announcements appear here"
+    content: "Correct Achieve Course Code is fm6j5k"
     type: warning
     position: below-navbar
