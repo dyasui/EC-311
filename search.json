@@ -4176,7 +4176,7 @@
     "href": "Slides/01_CalculusRev/014-optim.html#examples-1",
     "title": "EC311 Intermediate Micro",
     "section": "Examples",
-    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]\n\n\n\n\nWhat do these derivatives tell us?\n\n. . .\n\nWhether \\(f()\\) is increasing or decreasing\n\n\n\n\nIf \\(x&lt;1\\), we know \\(f()\\) is increasing with \\(x\\)\nIf \\(x&gt;1\\), we know \\(f()\\) is decreasing with \\(x\\)\n\n\n\nIf \\(y&lt;2\\), we know \\(f()\\) is increasing with \\(y\\)\nIf \\(y&gt;2\\), we know \\(f()\\) is decreasing with \\(y\\)\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s take an example coordinate and see if it’s a maximum:\nstarting at the origin: &gt; \\((x=0,y=0)\\)\nAt \\((x=0, y=0)\\), \\(f(0,0) = 1\\)\n\nbut \\(\\dfrac{df}{dx} = 2\\) which tells us we could increase \\(f()\\) by increasing \\(x\\)\nalso, \\(\\dfrac{df}{dy} = 4\\), so we could also increase \\(f()\\) by increasing \\(y\\)\n\n. . .\nSo we know \\((0,0)\\) is not a maximum, and we know which direction to go to look for one\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=1,y=1)\\)\n\\(f(1,1) = 5\\) which is higher, but is it a maximum?\n. . .\n\n\\(\\dfrac{df}{dx} = 0\\)\nbut, \\(\\dfrac{df}{dy} = 2\\), so we still could increase \\(f()\\) by increasing \\(y\\)\n\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=2,y=2)\\)\n\\(f(2,2) = 5\\) which isn’t any higher than \\((1,1)\\)\n. . .\n\n\\(\\dfrac{df}{dx} = -2\\), this tells us we went too far in \\(x\\)!\n\\(\\dfrac{df}{dy} = 0\\), so we should stop increasing \\(y\\)\n\n. . .\nWhat is the max of this function?\n. . .\nWhere both partial derivatives are equal to zero:\n\n\\(\\drfrac{df}{dx} = 0 \\Rightarrow x = 1\\)\n\\(\\drfrac{df}{dy} = 0 \\Rightarrow x = 2\\)\n\n\\(f(1,2) = 6\\) is the maximum value!\n\n\nAnother Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n. . .\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
+    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]\n\n\n\n\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]\n\n\n\n\nWhat do these derivatives tell us?\n\n. . .\n\nWhether \\(f()\\) is increasing or decreasing\n\n\n\n\nIf \\(x&lt;1\\), we know \\(f()\\) is increasing with \\(x\\)\nIf \\(x&gt;1\\), we know \\(f()\\) is decreasing with \\(x\\)\n\n\n\nIf \\(y&lt;2\\), we know \\(f()\\) is increasing with \\(y\\)\nIf \\(y&gt;2\\), we know \\(f()\\) is decreasing with \\(y\\)"
   },
   {
     "objectID": "Slides/01_CalculusRev/014-optim.html#examples-2",
@@ -4844,13 +4844,6 @@
     "text": "Multivariate Derivatives\nNon-Separable\n\\[f(x,y) = x^{2} \\cdot y^{1/2}\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= 2x^{2-1} \\cdot y^{1/2} \\\\\n&= 2xy^{1/2}\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= \\dfrac{1}{2}y^{1/2 - 1} \\cdot x^{2} \\\\\n&= \\dfrac{1}{2} \\cdot \\dfrac{1}{y^{1/2}} \\cdot x^{2}\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#calculus-review",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#calculus-review",
-    "title": "EC311 Intermediate Micro",
-    "section": "Calculus Review",
-    "text": "Calculus Review\nThere is a worksheet on Canvas for you to practice everything in this lecture.\nI recommend you complete it to get the practice in\nThis class is roughly 70% doing math and 30% understanding and interpreting said math"
-  },
-  {
     "objectID": "Slides/01_CalculusRev/Main.html#starting-simple",
     "href": "Slides/01_CalculusRev/Main.html#starting-simple",
     "title": "Calculus Review",
@@ -5047,13 +5040,6 @@
     "text": "Multivariate Derivatives\nNon-Separable\n\\[f(x,y) = x^{2} \\cdot y^{1/2}\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= 2x^{2-1} \\cdot y^{1/2} \\\\\n&= 2xy^{1/2}\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= \\dfrac{1}{2}y^{1/2 - 1} \\cdot x^{2} \\\\\n&= \\dfrac{1}{2} \\cdot \\dfrac{1}{y^{1/2}} \\cdot x^{2}\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/01_CalculusRev/Main.html#calculus-review",
-    "href": "Slides/01_CalculusRev/Main.html#calculus-review",
-    "title": "Calculus Review",
-    "section": "Calculus Review",
-    "text": "Calculus Review\nThere is a worksheet on Canvas for you to practice everything in this lecture.\nI recommend you complete it to get the practice in\nThis class is roughly 70% doing math and 30% understanding and interpreting said math"
-  },
-  {
     "objectID": "Slides/01_CalculusRev/Main.html#finding-maximum-or-minimum-values",
     "href": "Slides/01_CalculusRev/Main.html#finding-maximum-or-minimum-values",
     "title": "Calculus Review",
@@ -5072,7 +5058,7 @@
     "href": "Slides/01_CalculusRev/Main.html#examples-1",
     "title": "Calculus Review",
     "section": "Examples",
-    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]\n\n\n\nWhat do these derivatives tell us?\n\n\n\nWhether \\(f()\\) is increasing or decreasing\n\n\n\n\nIf \\(x&lt;1\\), we know \\(f()\\) is increasing with \\(x\\)\nIf \\(x&gt;1\\), we know \\(f()\\) is decreasing with \\(x\\)\n\n\n\nIf \\(y&lt;2\\), we know \\(f()\\) is increasing with \\(y\\)\nIf \\(y&gt;2\\), we know \\(f()\\) is decreasing with \\(y\\)\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s take an example coordinate and see if it’s a maximum:\nstarting at the origin: &gt; \\((x=0,y=0)\\)\nAt \\((x=0, y=0)\\), \\(f(0,0) = 1\\)\n\nbut \\(\\dfrac{df}{dx} = 2\\) which tells us we could increase \\(f()\\) by increasing \\(x\\)\nalso, \\(\\dfrac{df}{dy} = 4\\), so we could also increase \\(f()\\) by increasing \\(y\\)\n\n\nSo we know \\((0,0)\\) is not a maximum, and we know which direction to go to look for one\n\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=1,y=1)\\)\n\\(f(1,1) = 5\\) which is higher, but is it a maximum?\n\n\n\\(\\dfrac{df}{dx} = 0\\)\nbut, \\(\\dfrac{df}{dy} = 2\\), so we still could increase \\(f()\\) by increasing \\(y\\)\n\n\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=2,y=2)\\)\n\\(f(2,2) = 5\\) which isn’t any higher than \\((1,1)\\)\n\n\n\\(\\dfrac{df}{dx} = -2\\), this tells us we went too far in \\(x\\)!\n\\(\\dfrac{df}{dy} = 0\\), so we should stop increasing \\(y\\)\n\n\n\nWhat is the max of this function?\n\n\nWhere both partial derivatives are equal to zero:\n\n\\(\\drfrac{df}{dx} = 0 \\Rightarrow x = 1\\)\n\\(\\drfrac{df}{dy} = 0 \\Rightarrow x = 2\\)\n\n\\(f(1,2) = 6\\) is the maximum value!\n\n\n\nAnother Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
+    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/01_CalculusRev/Main.html#examples-2",
@@ -5101,6 +5087,13 @@
     "title": "Calculus Review",
     "section": "Another Example",
     "text": "Another Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#calculus-review",
+    "href": "Slides/01_CalculusRev/Main.html#calculus-review",
+    "title": "Calculus Review",
+    "section": "Calculus Review",
+    "text": "Calculus Review\nThere is a worksheet on Canvas for you to practice everything in this lecture.\nI recommend you complete it to get the practice in\nThis class is roughly 70% doing math and 30% understanding and interpreting said math"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/022-indifference_curves.html",
