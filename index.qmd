@@ -9,7 +9,7 @@ title: "Home"
 
 **Instructor:** [Dante Yasui](https://github.com/dyasui)
 
-**Office Hours:** Mon 10am, Wed 1pm in PLC 525
+**Office Hours:** Mon 10am, Wed 1pm in [Tykeson hall](https://map.uoregon.edu/9195592d9)
 
 :::
 
@@ -56,6 +56,13 @@ For more details, read the [Syllabus](Syllabus/main.pdf) below
 | Canvas Quizzes | **15%** |
 | Midterm Exam | **30%** |
 | Final Exam | **30%** |
+
+### Achieve Access
+
+Follow [this link](https://mhe.my.site.com/macmillanlearning/s/article/Students-Register-for-Achieve-courses-via-your-school-s-LMS)
+to register for our course in Achieve once you have purchased an access code.
+
+The course code is `fm6j5k`.
 
 ## Syllabus
 
