@@ -88,32 +88,7 @@ $$f(x,y) = 1 - x^2 - y^2 + 2x + 4y$$
 
 ---
 
-:::: {.columns}
-
-::: {.column width="50%"}
-- Partial w.r.t. $x$
-
-:::: {.fragment}
-\begin{align*}
-\dfrac{df}{dx} &= -2x + 2 \\
-\end{align*}
-::::
-:::
-
-::: {.column width="50%"}
-- Partial w.r.t. $y$
-
-:::: {.fragment}
-\begin{align*}
-\dfrac{df}{dy} &= -2y + 4 \\
-\end{align*}
-::::
-
-:::
-::::
-- What do these derivatives tell us?
-
-. . .
+## What do these derivatives tell us?
 
 - Whether $f()$ is *increasing* or *decreasing*
 
@@ -139,6 +114,7 @@ $$f(x,y) = 1 - x^2 - y^2 + 2x + 4y$$
 Let's take an example coordinate and see if it's a *maximum*:
 
 starting at the origin:
+
 > $(x=0,y=0)$
 
 At $(x=0, y=0)$, $f(0,0) = 1$
@@ -157,6 +133,7 @@ So we know $(0,0)$ is not a maximum, and we know which direction to go to look f
 $$f(x,y) = 1 - x^2 - y^2 + 2x + 4y$$
 
 Let's go up in $x$ and $y$:
+
 > $(x=1,y=1)$
 
 $f(1,1) = 5$ which is higher, but is it a *maximum*?
@@ -173,6 +150,7 @@ $f(1,1) = 5$ which is higher, but is it a *maximum*?
 $$f(x,y) = 1 - x^2 - y^2 + 2x + 4y$$
 
 Let's go up in $x$ and $y$:
+
 > $(x=2,y=2)$
 
 $f(2,2) = 5$ which isn't any higher than $(1,1)$
@@ -182,16 +160,14 @@ $f(2,2) = 5$ which isn't any higher than $(1,1)$
 - $\dfrac{df}{dx} = -2$, this tells us we went too far in $x$!
 - $\dfrac{df}{dy} = 0$, so we should stop increasing $y$
 
-. . .
+---
 
-What *is* the max of this function?
-
-. . .
+## What *is* the max of this function?
 
 Where both partial derivatives are *equal to zero*: 
 
-- $\drfrac{df}{dx} = 0 \Rightarrow x = 1$
-- $\drfrac{df}{dy} = 0 \Rightarrow x = 2$
+- $\dfrac{df}{dx} = 0 \Rightarrow x = 1$
+- $\dfrac{df}{dy} = 0 \Rightarrow x = 2$
 
 $f(1,2) = 6$ is the maximum value!
 
@@ -199,7 +175,7 @@ $f(1,2) = 6$ is the maximum value!
 
 ## Another Example
 
-$$f(x,y) = \sqrt(x^2+y^2)$$
+$$f(x,y) = \sqrt{x^2+y^2}$$
 
 What are the partial derivatives?
 
@@ -236,3 +212,4 @@ What is the [partial derivative of $y \rightarrow \dfrac{df}{dx}$]{.hi}?
 :::
 :::: 
 
+---
