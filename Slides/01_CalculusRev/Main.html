@@ -9,7 +9,6 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <meta name="author" content="Jose Rojas-Fallas">
   <meta name="dcterms.date" content="2025-01-01">
   <title>EC311 Intermediate Micro – Calculus Review</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -132,11 +131,6 @@
   <p class="subtitle">EC 311 - Intermediate Microeconomics</p>
 
 <div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Jose Rojas-Fallas 
-</div>
-</div>
 </div>
 
   <p class="date">2025</p>
@@ -640,9 +634,6 @@ Jose Rojas-Fallas
 \end{align*}\]</span></p>
 </div>
 </div></div>
-</section>
-<section class="slide level2">
-
 </section></section>
 <section>
 <section id="optimization" class="title-slide slide level1 inverse note center">
@@ -721,32 +712,8 @@ Jose Rojas-Fallas
 </div>
 </div></div>
 </section>
-<section class="slide level2">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Partial w.r.t. <span class="math inline">\(x\)</span></li>
-</ul>
-<div class="fragment">
-<p><span class="math display">\[\begin{align*}
-\dfrac{df}{dx} &amp;= -2x + 2 \\
-\end{align*}\]</span></p>
-</div>
-</div><div class="column" style="width:50%;">
-<ul>
-<li>Partial w.r.t. <span class="math inline">\(y\)</span></li>
-</ul>
-<div class="fragment">
-<p><span class="math display">\[\begin{align*}
-\dfrac{df}{dy} &amp;= -2y + 4 \\
-\end{align*}\]</span></p>
-</div>
-</div></div>
-<ul>
-<li>What do these derivatives tell us?</li>
-</ul>
-<div class="fragment">
+<section id="what-do-these-derivatives-tell-us" class="slide level2">
+<h2>What do these derivatives tell us?</h2>
 <ul>
 <li>Whether <span class="math inline">\(f()\)</span> is <em>increasing</em> or <em>decreasing</em></li>
 </ul>
@@ -762,13 +729,15 @@ Jose Rojas-Fallas
 <li>If <span class="math inline">\(y&gt;2\)</span>, we know <span class="math inline">\(f()\)</span> is <em>decreasing</em> with <span class="math inline">\(y\)</span></li>
 </ul>
 </div></div>
-</div>
 </section>
 <section id="examples-2" class="slide level2">
 <h2>Examples</h2>
 <p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
 <p>Let’s take an example coordinate and see if it’s a <em>maximum</em>:</p>
-<p>starting at the origin: &gt; <span class="math inline">\((x=0,y=0)\)</span></p>
+<p>starting at the origin:</p>
+<blockquote>
+<p><span class="math inline">\((x=0,y=0)\)</span></p>
+</blockquote>
 <p>At <span class="math inline">\((x=0, y=0)\)</span>, <span class="math inline">\(f(0,0) = 1\)</span></p>
 <ul>
 <li>but <span class="math inline">\(\dfrac{df}{dx} = 2\)</span> which tells us we could increase <span class="math inline">\(f()\)</span> by increasing <span class="math inline">\(x\)</span></li>
@@ -781,7 +750,10 @@ Jose Rojas-Fallas
 <section id="examples-3" class="slide level2">
 <h2>Examples</h2>
 <p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
-<p>Let’s go up in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>: &gt; <span class="math inline">\((x=1,y=1)\)</span></p>
+<p>Let’s go up in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>:</p>
+<blockquote>
+<p><span class="math inline">\((x=1,y=1)\)</span></p>
+</blockquote>
 <p><span class="math inline">\(f(1,1) = 5\)</span> which is higher, but is it a <em>maximum</em>?</p>
 <div class="fragment">
 <ul>
@@ -793,7 +765,10 @@ Jose Rojas-Fallas
 <section id="examples-4" class="slide level2">
 <h2>Examples</h2>
 <p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
-<p>Let’s go up in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>: &gt; <span class="math inline">\((x=2,y=2)\)</span></p>
+<p>Let’s go up in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>:</p>
+<blockquote>
+<p><span class="math inline">\((x=2,y=2)\)</span></p>
+</blockquote>
 <p><span class="math inline">\(f(2,2) = 5\)</span> which isn’t any higher than <span class="math inline">\((1,1)\)</span></p>
 <div class="fragment">
 <ul>
@@ -801,21 +776,19 @@ Jose Rojas-Fallas
 <li><span class="math inline">\(\dfrac{df}{dy} = 0\)</span>, so we should stop increasing <span class="math inline">\(y\)</span></li>
 </ul>
 </div>
-<div class="fragment">
-<p>What <em>is</em> the max of this function?</p>
-</div>
-<div class="fragment">
+</section>
+<section id="what-is-the-max-of-this-function" class="slide level2">
+<h2>What <em>is</em> the max of this function?</h2>
 <p>Where both partial derivatives are <em>equal to zero</em>:</p>
 <ul>
-<li><span class="math inline">\(\drfrac{df}{dx} = 0 \Rightarrow x = 1\)</span></li>
-<li><span class="math inline">\(\drfrac{df}{dy} = 0 \Rightarrow x = 2\)</span></li>
+<li><span class="math inline">\(\dfrac{df}{dx} = 0 \Rightarrow x = 1\)</span></li>
+<li><span class="math inline">\(\dfrac{df}{dy} = 0 \Rightarrow x = 2\)</span></li>
 </ul>
 <p><span class="math inline">\(f(1,2) = 6\)</span> is the maximum value!</p>
-</div>
 </section>
 <section id="another-example" class="slide level2">
 <h2>Another Example</h2>
-<p><span class="math display">\[f(x,y) = \sqrt(x^2+y^2)\]</span></p>
+<p><span class="math display">\[f(x,y) = \sqrt{x^2+y^2}\]</span></p>
 <p>What are the partial derivatives?</p>
 <div class="fragment">
 <div class="columns">
