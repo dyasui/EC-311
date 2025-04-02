@@ -1,7 +1,6 @@
 ---
 title: "Consumer Behavior"
 subtitle: "EC 311 - Intermediate Microeconomics"
-author: Jose Rojas-Fallas
 date: last-modified
 date-format: "YYYY"
 format:
@@ -25,8 +24,8 @@ title-slide-attributes:
   - Budget Constraints (4.3)
 
 - Other Stuff
-  - Remember Office Hours on [Thursdays from 12:00 - 14:00 in PLC 523]{.hii}
-  - Also feel free to email me your questions at [jrojas2@uoregon.com]{.hii}
+  - Remember Office Hours on [Monday 10-11, Wednesday 1-2 in Tykeson 3rd floor]{.hii}
+  - Also feel free to email me your questions at [dyasui@uoregon.edu]{.hii}
 
 
 # Preferences and Utility {.inverse .note}

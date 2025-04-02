@@ -211,5 +211,3 @@ What is the [partial derivative of $y \rightarrow \dfrac{df}{dx}$]{.hi}?
 
 :::
 :::: 
-
----

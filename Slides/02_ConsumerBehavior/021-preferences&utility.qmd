@@ -6,9 +6,9 @@ name: Preferences & Utility
 
 Imagine the market for coffee on campus
 
-- Additionally, picture that the only other good that can be purchased is tea
+- Additionally, imagine that the only other good that can be purchased is boba
 
-- On a basic level, [demand for coffee]{.hii} is derived from individual's choosing how to divide their income between coffee and tea
+- On a basic level, [demand for coffee]{.hii} is derived from individual's choosing how to divide their income between coffee and boba
 
 ```{r supply-demand, fig.align='center'}
 library(ggplot2)
@@ -369,18 +369,18 @@ $$U = f(x,y)$$
 
 [For Example:]{.h}
 
-- Let's say that the utility I receive from [Beer (B)]{.h} and [Soda (S)]{.h} can be modeled as:
+- Let's say that the utility I receive from [kombucha (K)]{.h} and [hop water (H)]{.h} can be modeled as:
 
-$$U = f(B,S) = 10B + 2S$$
+$$U = f(K,H) = 10K + 2H$$
 
 - Before, we were only interested in the slope of Beer
-- Now, we are interested in the [slopes]{.hii} of both Beer & Soda
+- Now, we are interested in the [slopes]{.hii} of both kombucha & hop water
 
 ---
 
-## Utility Functions - Beer & Soda
+## Utility Functions - kombucha & hop water
 
-$$U = f(B,S) = 10B + 2S$$
+$$U = f(K,H) = 10K + 2H$$
 
 For a function of two variables there are [two slopes]{.hi}
 
@@ -388,14 +388,14 @@ For a function of two variables there are [two slopes]{.hi}
 
 . . .
 
-- In the [Beer (B)]{.h} and [Soda (S)]{.h} example we will have:
+- In the [kombucha (K)]{.h} and [hop water (H)]{.h} example we will have:
 
-  - The [Marginal Utility of Beer]{.hii} [($MU_{B}$)]{.h}
-  - The [Marginal Utility of Soda]{.hii} [($MU_{S}$)]{.h}
+  - The [Marginal Utility of kombucha]{.hii} [($MU_{B}$)]{.h}
+  - The [Marginal Utility of hop water]{.hii} [($MU_{H}$)]{.h}
 
 . . .
 
-> What are the Marginal Utilities of Beer and Soda?
+> What are the Marginal Utilities of kombucha and hop water?
 
 ---
 
@@ -501,9 +501,9 @@ I dislike $x$
 
 ## Like or Dislike - Example
 
-Given my utility curve for [Beer (B)]{.h} and [Soda (S)]{.h}, what do I like or dislike?
+Given my utility curve for [kombucha (K)]{.h} and [hop water (H)]{.h}, what do I like or dislike?
 
-$$U = f(B,S) = 10B + 2S$$
+$$U = f(K,H) = 10K + 2H$$
 
 . . .
 
@@ -513,19 +513,19 @@ $$U = f(B,S) = 10B + 2S$$
 :::: {.columns}
 
 ::: {.column width="50%"}
-I like [Beer]{.h}
+I like [kombucha]{.h}
 
 ::: {.fragment}
-$$MU_{B} = 10 > 0$$
+$$MU_{K} = 10 > 0$$
 :::
 
 :::
 
 ::: {.column width="50%"}
-I like [Soda]{.h}
+I like [hop water]{.h}
 
 ::: {.fragment}
-$$MU_{S} = 2 > 0$$
+$$MU_{H} = 2 > 0$$
 :::
 
 :::

@@ -1,7 +1,6 @@
 ---
 title: "Calculus Review"
 subtitle: "EC 311 - Intermediate Microeconomics"
-author: Jose Rojas-Fallas
 date: last-modified
 date-format: "YYYY"
 format:
