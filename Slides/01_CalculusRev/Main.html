@@ -646,8 +646,181 @@ Jose Rojas-Fallas
 <p>There is a worksheet on <a href="https://canvas.uoregon.edu/courses/236659/files/17824298?module_item_id=4513110">Canvas</a> for you to practice everything in this lecture.</p>
 <p>I recommend you complete it to get the practice in</p>
 <p>This class is roughly 70% doing math and 30% understanding and interpreting said math</p>
+</section></section>
+<section>
+<section id="optimization" class="title-slide slide level1 inverse note center">
+<h1>Optimization</h1>
+
+</section>
+<section id="finding-maximum-or-minimum-values" class="slide level2">
+<h2>Finding Maximum (or Minimum) Values</h2>
+<p>When we have a continuos function, we can use calculus to find where the largest (or smallest) value will occur</p>
+<ul>
+<li><p>Recall that when the <span class="hii">derivative</span> is <span class="h">positive</span>, then the function is <em>increasing</em></p></li>
+<li><p>and when the derivative is <span class="h">negative</span>, then the function is <em>decreasing</em></p></li>
+</ul>
+<div class="fragment">
+<p><br></p>
+<ul>
+<li>Where the function is neither increasing nor decreasing, it’s either because it’s as high as it goes!</li>
+</ul>
+</div>
+</section>
+<section id="examples" class="slide level2">
+<h2>Examples</h2>
+<p>Let’s look at an example:</p>
+<p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
+<p>How can we figure out where the maximum value of <span class="math inline">\(f()\)</span> will occur?</p>
+<div class="fragment">
+<ul>
+<li>Let’s start by taking some derivatives!</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Partial w.r.t. <span class="math inline">\(x\)</span></li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+\dfrac{df}{dx} &amp;= -2x + 2 \\
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Partial w.r.t. <span class="math inline">\(y\)</span></li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+\dfrac{df}{dy} &amp;= -2y + 4 \\
+\end{align*}\]</span></p>
+</div>
+</div></div>
+</div>
+</section>
+<section id="examples-1" class="slide level2">
+<h2>Examples</h2>
+<p>Let’s look at an example:</p>
+<p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Partial w.r.t. <span class="math inline">\(x\)</span></li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+\dfrac{df}{dx} &amp;= -2x + 2 \\
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Partial w.r.t. <span class="math inline">\(y\)</span></li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+\dfrac{df}{dy} &amp;= -2y + 4 \\
+\end{align*}\]</span></p>
+</div>
+</div></div>
+<ul>
+<li>What do these derivatives tell us?</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Whether <span class="math inline">\(f()\)</span> is <em>increasing</em> or <em>decreasing</em></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>If <span class="math inline">\(x&lt;1\)</span>, we know <span class="math inline">\(f()\)</span> is <em>increasing</em> with <span class="math inline">\(x\)</span></li>
+<li>If <span class="math inline">\(x&gt;1\)</span>, we know <span class="math inline">\(f()\)</span> is <em>decreasing</em> with <span class="math inline">\(x\)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>If <span class="math inline">\(y&lt;2\)</span>, we know <span class="math inline">\(f()\)</span> is <em>increasing</em> with <span class="math inline">\(y\)</span></li>
+<li>If <span class="math inline">\(y&gt;2\)</span>, we know <span class="math inline">\(f()\)</span> is <em>decreasing</em> with <span class="math inline">\(y\)</span></li>
+</ul>
+</div><hr><section id="examples-2" class="slide level2">
+<h2>Examples</h2>
+<p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
+<p>Let’s take an example coordinate and see if it’s a <em>maximum</em>:</p>
+<p>starting at the origin: &gt; <span class="math inline">\((x=0,y=0)\)</span></p>
+<p>At <span class="math inline">\((x=0, y=0)\)</span>, <span class="math inline">\(f(0,0) = 1\)</span></p>
+<ul>
+<li>but <span class="math inline">\(\dfrac{df}{dx} = 2\)</span> which tells us we could increase <span class="math inline">\(f()\)</span> by increasing <span class="math inline">\(x\)</span></li>
+<li>also, <span class="math inline">\(\dfrac{df}{dy} = 4\)</span>, so we could also increase <span class="math inline">\(f()\)</span> by increasing <span class="math inline">\(y\)</span></li>
+</ul>
+<div class="fragment">
+<p>So we know <span class="math inline">\((0,0)\)</span> is not a maximum, and we know which direction to go to look for one</p>
+<hr>
+</div>
+</section><section id="examples-3" class="slide level2">
+<h2>Examples</h2>
+<p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
+<p>Let’s go up in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>: &gt; <span class="math inline">\((x=1,y=1)\)</span></p>
+<p><span class="math inline">\(f(1,1) = 5\)</span> which is higher, but is it a <em>maximum</em>?</p>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(\dfrac{df}{dx} = 0\)</span></li>
+<li>but, <span class="math inline">\(\dfrac{df}{dy} = 2\)</span>, so we still could increase <span class="math inline">\(f()\)</span> by increasing <span class="math inline">\(y\)</span></li>
+</ul>
+<hr>
+</div>
+</section><section id="examples-4" class="slide level2">
+<h2>Examples</h2>
+<p><span class="math display">\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\]</span></p>
+<p>Let’s go up in <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>: &gt; <span class="math inline">\((x=2,y=2)\)</span></p>
+<p><span class="math inline">\(f(2,2) = 5\)</span> which isn’t any higher than <span class="math inline">\((1,1)\)</span></p>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(\dfrac{df}{dx} = -2\)</span>, this tells us we went too far in <span class="math inline">\(x\)</span>!</li>
+<li><span class="math inline">\(\dfrac{df}{dy} = 0\)</span>, so we should stop increasing <span class="math inline">\(y\)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<p>What <em>is</em> the max of this function?</p>
+</div>
+<div class="fragment">
+<p>Where both partial derivatives are <em>equal to zero</em>:</p>
+<ul>
+<li><span class="math inline">\(\drfrac{df}{dx} = 0 \Rightarrow x = 1\)</span></li>
+<li><span class="math inline">\(\drfrac{df}{dy} = 0 \Rightarrow x = 2\)</span></li>
+</ul>
+<p><span class="math inline">\(f(1,2) = 6\)</span> is the maximum value!</p>
+<hr>
+</div>
+</section><section id="another-example" class="slide level2">
+<h2>Another Example</h2>
+<p><span class="math display">\[f(x,y) = \sqrt(x^2+y^2)\]</span></p>
+<p>What are the partial derivatives?</p>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>What is the <span class="hi">partial derivative of <span class="math inline">\(x \rightarrow \dfrac{df}{dx}\)</span></span>?</p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+\dfrac{d}{dx}(x^2+y^2)^\frac{1}{2} &amp; = \\
+&amp; \frac{1}{2} (x^2+y^2)^{-\frac{1}{2}} (2x) \\
+\dfrac{df}{dx} = 0 &amp; \Rightarrow x = 0 \\
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<p>What is the <span class="hi">partial derivative of <span class="math inline">\(y \rightarrow \dfrac{df}{dx}\)</span></span>?</p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+\dfrac{d}{dy}(x^2+y^2)^\frac{1}{2} &amp; = \\
+&amp; \frac{1}{2} (x^2+y^2)^{-\frac{1}{2}} (2y) \\
+\dfrac{df}{dy} = 0 &amp; \Rightarrow y = 0 \\
+\end{align*}\]</span></p>
+</div>
+</div></div>
 
 
+</div>
+</section>
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

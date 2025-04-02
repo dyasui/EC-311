@@ -4151,319 +4151,200 @@
     "text": "Preferences Assumptions\nAll of these are necessary to understand utility funcitons and be able to graph them\nTo do so we first need to learn about Indifference Curves"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html",
-    "href": "Slides/01_CalculusRev/013-multivariate.html",
+    "objectID": "Slides/01_CalculusRev/014-optim.html",
+    "href": "Slides/01_CalculusRev/014-optim.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "For this I need to introduce some new notation\n\n\\(F = f(x,y)\\) is a function of \\(x\\) and \\(y\\)\n\n. . .\n\n\\(F\\) now has 2 derivatives\n\n“With respect to \\(x\\)”\n“With respect to \\(y\\)”\n\nEach of these is called a partial derivative\n\n. . .\nEach partial derivative is calculated as if the other variable is a constant number"
+    "text": "When we have a continuos function, we can use calculus to find where the largest (or smallest) value will occur\n\nRecall that when the derivative is positive, then the function is increasing\nand when the derivative is negative, then the function is decreasing\n\n. . .\n\n\nWhere the function is neither increasing nor decreasing, it’s either because it’s as high as it goes!"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#functions-with-two-variables",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#functions-with-two-variables",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#finding-maximum-or-minimum-values",
+    "href": "Slides/01_CalculusRev/014-optim.html#finding-maximum-or-minimum-values",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "For this I need to introduce some new notation\n\n\\(F = f(x,y)\\) is a function of \\(x\\) and \\(y\\)\n\n. . .\n\n\\(F\\) now has 2 derivatives\n\n“With respect to \\(x\\)”\n“With respect to \\(y\\)”\n\nEach of these is called a partial derivative\n\n. . .\nEach partial derivative is calculated as if the other variable is a constant number"
+    "text": "When we have a continuos function, we can use calculus to find where the largest (or smallest) value will occur\n\nRecall that when the derivative is positive, then the function is increasing\nand when the derivative is negative, then the function is decreasing\n\n. . .\n\n\nWhere the function is neither increasing nor decreasing, it’s either because it’s as high as it goes!"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#examples",
+    "href": "Slides/01_CalculusRev/014-optim.html#examples",
     "title": "EC311 Intermediate Micro",
-    "section": "Multivariate Derivatives",
-    "text": "Multivariate Derivatives\nLet’s try a basic example: \\(f(x,y) = x + 2y\\)\n. . .\n\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\nWe act as if \\(y\\) is a constant\n\n\n\n\\[\\dfrac{df}{dx} = 1\\]\n\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\nWe act as if \\(x\\) is a constant\n\n\n\n\\[\\dfrac{df}{dy} = 2\\]"
+    "section": "Examples",
+    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nHow can we figure out where the maximum value of \\(f()\\) will occur?\n. . .\n\nLet’s start by taking some derivatives!\n\n. . .\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-1",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-1",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#examples-1",
+    "href": "Slides/01_CalculusRev/014-optim.html#examples-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Multivariate Derivatives",
-    "text": "Multivariate Derivatives\nAdditively Separable\n\\[f(x,y) = ln(x) + 3y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\dfrac{df}{dx} = \\dfrac{1}{x}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\dfrac{df}{dy} = 3\\]"
+    "section": "Examples",
+    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]\n\n\n\n\nWhat do these derivatives tell us?\n\n. . .\n\nWhether \\(f()\\) is increasing or decreasing\n\n\n\n\nIf \\(x&lt;1\\), we know \\(f()\\) is increasing with \\(x\\)\nIf \\(x&gt;1\\), we know \\(f()\\) is decreasing with \\(x\\)\n\n\n\nIf \\(y&lt;2\\), we know \\(f()\\) is increasing with \\(y\\)\nIf \\(y&gt;2\\), we know \\(f()\\) is decreasing with \\(y\\)\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s take an example coordinate and see if it’s a maximum:\nstarting at the origin: &gt; \\((x=0,y=0)\\)\nAt \\((x=0, y=0)\\), \\(f(0,0) = 1\\)\n\nbut \\(\\dfrac{df}{dx} = 2\\) which tells us we could increase \\(f()\\) by increasing \\(x\\)\nalso, \\(\\dfrac{df}{dy} = 4\\), so we could also increase \\(f()\\) by increasing \\(y\\)\n\n. . .\nSo we know \\((0,0)\\) is not a maximum, and we know which direction to go to look for one\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=1,y=1)\\)\n\\(f(1,1) = 5\\) which is higher, but is it a maximum?\n. . .\n\n\\(\\dfrac{df}{dx} = 0\\)\nbut, \\(\\dfrac{df}{dy} = 2\\), so we still could increase \\(f()\\) by increasing \\(y\\)\n\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=2,y=2)\\)\n\\(f(2,2) = 5\\) which isn’t any higher than \\((1,1)\\)\n. . .\n\n\\(\\dfrac{df}{dx} = -2\\), this tells us we went too far in \\(x\\)!\n\\(\\dfrac{df}{dy} = 0\\), so we should stop increasing \\(y\\)\n\n. . .\nWhat is the max of this function?\n. . .\nWhere both partial derivatives are equal to zero:\n\n\\(\\drfrac{df}{dx} = 0 \\Rightarrow x = 1\\)\n\\(\\drfrac{df}{dy} = 0 \\Rightarrow x = 2\\)\n\n\\(f(1,2) = 6\\) is the maximum value!\n\n\nAnother Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n. . .\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-2",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-2",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#examples-2",
+    "href": "Slides/01_CalculusRev/014-optim.html#examples-2",
     "title": "EC311 Intermediate Micro",
-    "section": "Multivariate Derivatives",
-    "text": "Multivariate Derivatives\nNon-Separable\n\\[f(x,y) = x \\cdot y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= 1 \\cdot x^{1-1} \\cdot y \\\\\n&= y\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\dfrac{df}{dy} = x\\]"
+    "section": "Examples",
+    "text": "Examples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s take an example coordinate and see if it’s a maximum:\nstarting at the origin: &gt; \\((x=0,y=0)\\)\nAt \\((x=0, y=0)\\), \\(f(0,0) = 1\\)\n\nbut \\(\\dfrac{df}{dx} = 2\\) which tells us we could increase \\(f()\\) by increasing \\(x\\)\nalso, \\(\\dfrac{df}{dy} = 4\\), so we could also increase \\(f()\\) by increasing \\(y\\)\n\n. . .\nSo we know \\((0,0)\\) is not a maximum, and we know which direction to go to look for one"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-3",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-3",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#examples-3",
+    "href": "Slides/01_CalculusRev/014-optim.html#examples-3",
     "title": "EC311 Intermediate Micro",
-    "section": "Multivariate Derivatives",
-    "text": "Multivariate Derivatives\nNon-Separable\n\\[f(x,y) = x^{2} \\cdot y^{1/2}\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= 2x^{2-1} \\cdot y^{1/2} \\\\\n&= 2xy^{1/2}\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= \\dfrac{1}{2}y^{1/2 - 1} \\cdot x^{2} \\\\\n&= \\dfrac{1}{2} \\cdot \\dfrac{1}{y^{1/2}} \\cdot x^{2}\n\\end{align*}\\]"
+    "section": "Examples",
+    "text": "Examples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=1,y=1)\\)\n\\(f(1,1) = 5\\) which is higher, but is it a maximum?\n. . .\n\n\\(\\dfrac{df}{dx} = 0\\)\nbut, \\(\\dfrac{df}{dy} = 2\\), so we still could increase \\(f()\\) by increasing \\(y\\)"
   },
   {
-    "objectID": "Slides/01_CalculusRev/013-multivariate.html#calculus-review",
-    "href": "Slides/01_CalculusRev/013-multivariate.html#calculus-review",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#examples-4",
+    "href": "Slides/01_CalculusRev/014-optim.html#examples-4",
     "title": "EC311 Intermediate Micro",
-    "section": "Calculus Review",
-    "text": "Calculus Review\nThere is a worksheet on Canvas for you to practice everything in this lecture.\nI recommend you complete it to get the practice in\nThis class is roughly 70% doing math and 30% understanding and interpreting said math"
+    "section": "Examples",
+    "text": "Examples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=2,y=2)\\)\n\\(f(2,2) = 5\\) which isn’t any higher than \\((1,1)\\)\n. . .\n\n\\(\\dfrac{df}{dx} = -2\\), this tells us we went too far in \\(x\\)!\n\\(\\dfrac{df}{dy} = 0\\), so we should stop increasing \\(y\\)\n\n. . .\nWhat is the max of this function?\n. . .\nWhere both partial derivatives are equal to zero:\n\n\\(\\drfrac{df}{dx} = 0 \\Rightarrow x = 1\\)\n\\(\\drfrac{df}{dy} = 0 \\Rightarrow x = 2\\)\n\n\\(f(1,2) = 6\\) is the maximum value!"
   },
   {
-    "objectID": "Slides/01_CalculusRev/011-slopes.html",
-    "href": "Slides/01_CalculusRev/011-slopes.html",
+    "objectID": "Slides/01_CalculusRev/014-optim.html#another-example",
+    "href": "Slides/01_CalculusRev/014-optim.html#another-example",
     "title": "EC311 Intermediate Micro",
-    "section": "",
-    "text": "library(ggplot2)\n\n# Create data for the line\nx &lt;- c(0, 2, 4, 6, 8)\ny &lt;- x * (1/2) + 5\n\nline_data &lt;- data.frame(x, y)\n\n# Create the line plot\nline_plot &lt;- ggplot(line_data, aes(x, y)) +\n  geom_line(color= \"#b45c20\", lwd = 2) +\n  labs(x = \"X\", y = \"Y\") +\n  theme_minimal()\n\nprint(line_plot)\n\n\n\n\n\n\n\n\nWe call the slope the RISE over RUN"
+    "section": "Another Example",
+    "text": "Another Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n. . .\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/01_CalculusRev/011-slopes.html#starting-simple",
-    "href": "Slides/01_CalculusRev/011-slopes.html#starting-simple",
-    "title": "EC311 Intermediate Micro",
-    "section": "",
-    "text": "library(ggplot2)\n\n# Create data for the line\nx &lt;- c(0, 2, 4, 6, 8)\ny &lt;- x * (1/2) + 5\n\nline_data &lt;- data.frame(x, y)\n\n# Create the line plot\nline_plot &lt;- ggplot(line_data, aes(x, y)) +\n  geom_line(color= \"#b45c20\", lwd = 2) +\n  labs(x = \"X\", y = \"Y\") +\n  theme_minimal()\n\nprint(line_plot)\n\n\n\n\n\n\n\n\nWe call the slope the RISE over RUN"
-  },
-  {
-    "objectID": "Slides/01_CalculusRev/011-slopes.html#functions-slopes",
-    "href": "Slides/01_CalculusRev/011-slopes.html#functions-slopes",
-    "title": "EC311 Intermediate Micro",
-    "section": "Functions & Slopes",
-    "text": "Functions & Slopes\nWe can write that previous line as a mathematical function:\n\\[f(x) =  \\dfrac{x}{2} + 5\\]\nImportantly, the slope for this function is \\(1/2\\) everywhere\n. . .\n\nEverywhere means for all values of \\(x\\)\nSo no matter at what point of the line we calculate the slope, we will always find it to be \\(1/2\\)"
-  },
-  {
-    "objectID": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-1",
-    "href": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-1",
-    "title": "EC311 Intermediate Micro",
-    "section": "Functions & Slopes",
-    "text": "Functions & Slopes\nSlopes can take positive, negative, or zero values\nAnd each of these let’s us know how the function is behaving as we increse in \\(x\\) (as we move to the right):\n\nPositive values mean the function is increasing\nNegative values mean the function is decreasing\nZero values mean the function is staying constant (neither increasing or decreasing)\n\n\n\nlibrary(ggplot2)\n\n# Create x values\nx &lt;- seq(0, 5, by = 0.5)\n\n# Calculate y values for each line\ny_positive_slope &lt;- 0.5 * x + 2\ny_negative_slope &lt;- -0.5 * x + 5\ny_zero_slope &lt;- rep(3, length(x))\n\n# Create a data frame\nline_data &lt;- data.frame(x, y_positive_slope, y_negative_slope, y_zero_slope)\n\n# Create the line plot\nline_plot &lt;- ggplot(line_data, aes(x)) +\n  geom_line(aes(y = y_positive_slope), color = \"blue\", linetype = \"solid\", size = 1) +\n  geom_line(aes(y = y_negative_slope), color = \"red\", linetype = \"solid\", size = 1) +\n  geom_line(aes(y = y_zero_slope), color = \"green\", linetype = \"solid\", size = 1) +\n  labs(x = \"X\", y = \"Y\") +\n  theme_minimal()\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\nprint(line_plot)"
-  },
-  {
-    "objectID": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-2",
-    "href": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-2",
-    "title": "EC311 Intermediate Micro",
-    "section": "Functions & Slopes",
-    "text": "Functions & Slopes\nThe previous functions are called linear functions:\n\nSlopes are constant at all values of \\(x\\)\nThey are behaving in an equal manner at all points\n\n. . .\n\nWe will mostly be working with non-linear functions, which simply mean they have some form of curvature\n\nWe will use quadratic and cubic functions\n\nQuadratic: \\(f(x) = 3x^{2} + 5x + 10\\)\nCubic: \\(f(x) = x^{3} - 2x^{2} + x - 5\\)\n\n\n. . .\nWhat we truly care about is their slope. And there is a simpler way to find the slope of a function."
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html",
-    "href": "Slides/00_Intro/003-economics.html",
-    "title": "Basics Review",
-    "section": "",
-    "text": "What we will be learning in this course will seem simplistic and reductive to the world we actually observe\nBefore we jump into Intermediate Microeconomics, we need to refresh our memories of more basic concepts from EC 201:\n\nDemand\nSupply\nEconomic Assumptions"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#foundations",
-    "href": "Slides/00_Intro/003-economics.html#foundations",
-    "title": "Basics Review",
-    "section": "",
-    "text": "What we will be learning in this course will seem simplistic and reductive to the world we actually observe\nBefore we jump into Intermediate Microeconomics, we need to refresh our memories of more basic concepts from EC 201:\n\nDemand\nSupply\nEconomic Assumptions"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#demand",
-    "href": "Slides/00_Intro/003-economics.html#demand",
-    "title": "Basics Review",
-    "section": "Demand",
-    "text": "Demand\n\nlibrary(ggplot2)\n\n# Create data for demand and supply curves\nprice &lt;- c(1, 2, 3, 4, 5)\nquantity_demanded &lt;- c(10, 8, 6, 4, 2)\nquantity_supplied &lt;- c(2, 4, 6, 8, 10)\n\ndf &lt;- data.frame(price, quantity_demanded, quantity_supplied)\n\n# Create demand and supply curve plot\ndemand_plot &lt;- ggplot(df, aes(x = quantity_demanded, y = price)) +\n  geom_line(color = \"blue\", lwd = 3) +\n  labs(x = \"Quantity\", y = \"Price\") +\n  theme_minimal() \n\nprint(demand_plot)"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#demand-1",
-    "href": "Slides/00_Intro/003-economics.html#demand-1",
-    "title": "Basics Review",
-    "section": "Demand",
-    "text": "Demand\n\nDemand is the QUANTITY of a good that consumers want at a given PRICE\n\n. . .\n\nThe Demand Curve shows the RELATIONSHIP between PRICES and QUANTITY of a good for consumers\n\n. . .\nWe will make the distinction between Individual Demand and Market Demand\nIndividual Demand: Single Consumer (One Person)\nMarket Demand: All potential consumers (Everyone participating in the market)\n. . .\nNote: The first half of the course will be about demand and how we can find it for individuals and then for an entire market"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#demand-2",
-    "href": "Slides/00_Intro/003-economics.html#demand-2",
-    "title": "Basics Review",
-    "section": "Demand",
-    "text": "Demand\nSome Factors that can affect demand are:\n\nNumber of Consumers\nChanges to Income\nConsumer Preferences (Tastes)\nThe Price of Other Goods\n\nComplements\nSubstitutes"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#supply",
-    "href": "Slides/00_Intro/003-economics.html#supply",
-    "title": "Basics Review",
-    "section": "Supply",
-    "text": "Supply\n\nlibrary(ggplot2)\n\n# Create data for demand and supply curves\nprice &lt;- c(1, 2, 3, 4, 5)\nquantity_demanded &lt;- c(10, 8, 6, 4, 2)\nquantity_supplied &lt;- c(2, 4, 6, 8, 10)\n\ndf &lt;- data.frame(price, quantity_demanded, quantity_supplied)\n\n# Create demand and supply curve plot\nsupply_plot &lt;- ggplot(df, aes(x = quantity_supplied, y = price)) +\n  geom_line(color = \"red\", lwd = 3) +\n  labs(x = \"Quantity\", y = \"Price\") +\n  theme_minimal() \nprint(supply_plot)"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#supply-1",
-    "href": "Slides/00_Intro/003-economics.html#supply-1",
-    "title": "Basics Review",
-    "section": "Supply",
-    "text": "Supply\n\nSupply is the QUANTITY of goods available for sale at a given PRICE\n\n. . .\n\nThe Supply Curve shows the RELATIONSHIP between PRICES and QUANTITY of a good for producers\n\n. . .\nWe also make the distinction between Individual Supply and Market Supply\nIndividual Supply: A Single Producer (One Firm)\nMarket Supply: All potential producers (All firms that are participating in the market)\n. . .\nNote: The second half of the course will deal with how producers make their decisions"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#supply-2",
-    "href": "Slides/00_Intro/003-economics.html#supply-2",
-    "title": "Basics Review",
-    "section": "Supply",
-    "text": "Supply\nSome Factors that may affect supply are:\n\nProduction Costs (Cost of Raw Materials, Technology, etc.)\nNumber of Sellers (Number of firms in the market)\nProducers outside options"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#supply-demand",
-    "href": "Slides/00_Intro/003-economics.html#supply-demand",
-    "title": "Basics Review",
-    "section": "Supply & Demand",
-    "text": "Supply & Demand\n\nlibrary(ggplot2)\n\n# Create data for demand and supply curves\nprice &lt;- c(1, 2, 3, 4, 5)\nquantity_demanded &lt;- c(10, 8, 6, 4, 2)\nquantity_supplied &lt;- c(2, 4, 6, 8, 10)\n\ndf &lt;- data.frame(price, quantity_demanded, quantity_supplied)\n\n# Create demand and supply curve plot\nsupply_plot &lt;- ggplot(df, aes(x = quantity_supplied, y = price)) +\n  geom_line(color = \"red\", lwd = 3) +\n  geom_line(aes(x = quantity_demanded, y = price), color = \"blue\", lwd = 3) + \n  labs(x = \"Quantity\", y = \"Price\") +\n  theme_minimal() \n\nprint(supply_plot)\n\n\n\n\n\n\n\n\nPut together they give us this classic graph"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#supply-demand-1",
-    "href": "Slides/00_Intro/003-economics.html#supply-demand-1",
-    "title": "Basics Review",
-    "section": "Supply & Demand",
-    "text": "Supply & Demand\nWhere these two are equal to each other (where they cross) we say it is the market equilibrium\nThe third part of the course will be about variations to the classic market equilibrium\n\nWhat happens when the market is deep (has many producers) (Perfect Competition)\nWhat happens when the market is shallow (only one producer) (Monopoly)\nWhat about other forms of competition where firms have some market power but not total market control? (Imperfect Competition)"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#models",
-    "href": "Slides/00_Intro/003-economics.html#models",
-    "title": "Basics Review",
-    "section": "Models",
-    "text": "Models\nWe can use all these to make very complex models of what we think the world looks like\nBut to begin, we need to develop the basics of:\n\nWhat does Demand look like?\nWhat does Supply look like?\nWhat form of Competition are we in?\n\n\nOnce we put all of these together we are modeling a market. With a model, you can begin to analyze the effects of changes to Model Inputs on Model Outputs"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#assumptions",
-    "href": "Slides/00_Intro/003-economics.html#assumptions",
-    "title": "Basics Review",
-    "section": "Assumptions",
-    "text": "Assumptions\nWe will work with models you have seen before and some new ones that are classified as “classical economics”\n. . .\nThese require certain assumptions in order to simplify the results:\n\nAssume that individuals are Rational and Self-Interested\nAssume that markets have No Externalities and Asymmetric Information"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#assumptions-1",
-    "href": "Slides/00_Intro/003-economics.html#assumptions-1",
-    "title": "Basics Review",
-    "section": "Assumptions",
-    "text": "Assumptions\nThese assumptions help make things simple and work to set a benchmark of sorts\nThey are often good approximations of the real world but are often not exact\nWe use these fundamental pieces of classical economics and build on top of them\n\nNote: I’m not attempting to describe the way the world works exactly, but rather give you a strating point for future endeavors"
-  },
-  {
-    "objectID": "Slides/00_Intro/003-economics.html#last-tool-you-will-need",
-    "href": "Slides/00_Intro/003-economics.html#last-tool-you-will-need",
-    "title": "Basics Review",
-    "section": "Last Tool You Will Need",
-    "text": "Last Tool You Will Need\nWe will need calculus\nIt turns out that intermediate micro is fundamentally inseparable from multi-variate calculus\n. . .\n\nI cannot show you where a demand curve comes from without using (a tiny bit) of calculus\n\nSo the second thing we will do is discuss the math you will need in order to follow the material"
-  },
-  {
-    "objectID": "Slides/00_Intro/001-prologue.html",
-    "href": "Slides/00_Intro/001-prologue.html",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html",
+    "href": "Slides/01_CalculusRev/012-derivatives.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "What to Expect from the Course?\n. . .\n\nThis class is basically an applied math class\nYou don’t have to love math right now, we’ll try to gain confidence together and see how it can be used in interesting situations\n\n. . .\nWhat do we do with Micro theory?\n. . .\n\nThe models from this class give you access to understanding a whole new world of economics!"
+    "text": "A Derivative is simply another function that tells us the slope of a function\n\nIt tells us how a function is behaving\nA Derivative will be how we find the slope of our functions\n\n. . .\n\nMathematically\n\nWe will denote a Derivative as \\(f'(x)\\)\n\nOur original function is labeled \\(f(x)\\) so you can read this as: “The derivative of \\(f(x)\\) is \\(f'(x)\\)”\nNote that \\(f'(x)\\) is the slope of \\(f(x)\\) at any point \\(x\\)"
   },
   {
-    "objectID": "Slides/00_Intro/001-prologue.html#motivation",
-    "href": "Slides/00_Intro/001-prologue.html#motivation",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#definition",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#definition",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "What to Expect from the Course?\n. . .\n\nThis class is basically an applied math class\nYou don’t have to love math right now, we’ll try to gain confidence together and see how it can be used in interesting situations\n\n. . .\nWhat do we do with Micro theory?\n. . .\n\nThe models from this class give you access to understanding a whole new world of economics!"
+    "text": "A Derivative is simply another function that tells us the slope of a function\n\nIt tells us how a function is behaving\nA Derivative will be how we find the slope of our functions\n\n. . .\n\nMathematically\n\nWe will denote a Derivative as \\(f'(x)\\)\n\nOur original function is labeled \\(f(x)\\) so you can read this as: “The derivative of \\(f(x)\\) is \\(f'(x)\\)”\nNote that \\(f'(x)\\) is the slope of \\(f(x)\\) at any point \\(x\\)"
   },
   {
-    "objectID": "Slides/00_Intro/001-prologue.html#motivation-1",
-    "href": "Slides/00_Intro/001-prologue.html#motivation-1",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#intuition",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#intuition",
     "title": "EC311 Intermediate Micro",
-    "section": "Motivation",
-    "text": "Motivation\nSome Cool Research Ex.\n\n\n\nDoes international trade impact political polarization in developing countries?\nHow does the city you live in affect your economic mobility: Evidence from Japanese Internment Camps\nEstimating the child labor-education returns and trade-offs in Tanzania\n\n\n\nWhat explains the gender pay gap?\nDoes globalization increase or reduce the gender wage gap: Looking at Vietnam"
+    "section": "Intuition",
+    "text": "Intuition\n\nlibrary(ggplot2)\n\n# Create time values\ntime &lt;- seq(0, 10, length.out = 100)\n\n# Calculate height values for the parabola\nheight &lt;- -0.5 * (time - 5)^2 + 10\n\n# Create a data frame\nparabola_data &lt;- data.frame(time, height)\n\n# Split the data into increasing and decreasing segments\nincreasing_data &lt;- parabola_data[parabola_data$time &lt;= 5, ]\ndecreasing_data &lt;- parabola_data[parabola_data$time &gt; 5, ]\n\n# Create the parabola plot with different colors\nparabola_plot &lt;- ggplot() +\n  geom_line(data = increasing_data, aes(time, height), color = \"#A3BE8C\", size = 1) +\n  geom_line(data = decreasing_data, aes(time, height), color = \"#BF616A\"  , size = 1) +\n  theme_minimal() +\n  theme(axis.text.x = element_blank(),  # Remove x-axis ticks and labels\n        axis.ticks.x = element_blank(),  # Remove x-axis ticks, \n        axis.ticks.y = element_blank(),  # Remove y-axis ticks\n        axis.text.y = element_blank())\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\nparabola_plot\n\n\n\n\n\n\n\n\n. . .\nInitially, the height of the ball is increasing over time\nEventually, the height of the ball is decreasing over time"
   },
   {
-    "objectID": "Slides/00_Intro/001-prologue.html#motivation-2",
-    "href": "Slides/00_Intro/001-prologue.html#motivation-2",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#intuition-1",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#intuition-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Motivation",
-    "text": "Motivation\nWhy are we here studying microeconometrics?\n. . .\n\nIts a requirement\nIt will help develop a healthy way of logically thinking about problems\n\n. . .\nSo Why Should You Care?\nConsider this to be the very basics of applying market research. Which is incredibly important for many different employers:\n\n\n\nGovernment regulators\nProduct strategists and marketers\nCorporate lawyers\n\n\n\nVenture capital firms\nAnyone interested in a market\n\n\n\n. . ."
+    "section": "Intuition",
+    "text": "Intuition\nThe sign of the derivative matters a ton!\n\nAn increasing derivative means that the function is going up\nA decreasing derivative means that the function is going down\n\n. . .\nThe magnitude also carries some significance:\n\nA small absolute value means that the derivative is moving slowly\nA large absolute value means that the derivative is moving rapidly\n\n. . .\n\nNote: I am talking about absoltue values so this applies to both positive and negative values. Because we use negatives, our intuition may challenged a bit but hopefully a future example will clear things up"
   },
   {
-    "objectID": "Slides/00_Intro/001-prologue.html#motivation-3",
-    "href": "Slides/00_Intro/001-prologue.html#motivation-3",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#derivative-equal-to-zero",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#derivative-equal-to-zero",
     "title": "EC311 Intermediate Micro",
-    "section": "Motivation",
-    "text": "Motivation\nEmployers need to estimate what will happen to a market if/when prices, techonology, consumer tastes, or policies changes\n. . .\nBut other than finding a job, we can apply these concepts to our own lives\nConsider your single most valuable resource: Time\n\nAs a students, you can spend it many different ways:\n\nStudying and going to lectures\nExercising or completing a hobby\nSocializing\nStaring at the wall"
+    "section": "Derivative Equal to Zero",
+    "text": "Derivative Equal to Zero\nFunctions can increase and decrease, which implies something very critical\n. . .\n\nFunctions can have zero slope! This happens when the function switches from increasing to decreasing (and vice-versa)\n\n. . .\n\nBut Why Does This Matter?\n\nThe switch between positive and negative happens exactly when the function is at its maximum/minimum\nAnd Economics is all about maximizing stuff!\n\nSometimes we minimize a function but the logic remains the same"
   },
   {
-    "objectID": "Slides/00_Intro/001-prologue.html#motivation-4",
-    "href": "Slides/00_Intro/001-prologue.html#motivation-4",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#bringing-the-math-to-economics",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#bringing-the-math-to-economics",
     "title": "EC311 Intermediate Micro",
-    "section": "Motivation",
-    "text": "Motivation\nFirms essentially face the same challenges of efficiently allocating time and other resources\n. . .\nThey make choices on:\n\nEmployee pay\nInvesting in R&D\nPurchasing intermediate inputs\nIncreasing marketing/advertising expenditures"
+    "section": "Bringing the Math to Economics",
+    "text": "Bringing the Math to Economics\nThink about profits.\nAs a firm, we want to maximize profits so we:\n\n\nWrite down profits as a function of quantity produced\nTake its derivative\nSet that derivative (remember it is a function) equal to zero\nKnow how much quantity to produce\n\n\n. . .\nOnce we know what we are doing, the math is extremely simple.\nThe hard part is understanding what we are doing, and then interpreting what a result of \\(x^{*} = 6\\) means."
   },
   {
-    "objectID": "Slides/00_Intro/001-prologue.html#about-me-an-economist-in-training",
-    "href": "Slides/00_Intro/001-prologue.html#about-me-an-economist-in-training",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#how-do-we-calculate-derivatives",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#how-do-we-calculate-derivatives",
     "title": "EC311 Intermediate Micro",
-    "section": "About Me (An Economist in Training)",
-    "text": "About Me (An Economist in Training)\n\n\n\n\nI’m from Davis, California\n\n\n\nI’m a 4th year PhD Student\n\nI have taught Game Theory and Econometrics before, but this is my first time teaching 311!\n\nMy current research is focused on historical migration patterns in the US.\nI like roller skating around Eugene, reading science fiction, and listening to music from the former Yugoslavia"
+    "section": "How Do We Calculate Derivatives?",
+    "text": "How Do We Calculate Derivatives?\nYou may already know how to take derivatives but prepare to receive a crash-course in derivative shortcuts\n. . .\nStarting with the basics:\n\n\\(y\\) will be a function of \\(x\\) such that \\(y = f(x)\\)\nI will be using variables to show general cases so you can look back at how it’s done\n\n. . .\nWe will go over the following:\n\n\n\nPower Rule\nSum (and Difference) Rule\nConstant Rule\n\n\n\nLog Rule\nChain Rule"
   },
   {
-    "objectID": "Exams/Midterm/notes.html#exam-notes-corrections",
-    "href": "Exams/Midterm/notes.html#exam-notes-corrections",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule",
     "title": "EC311 Intermediate Micro",
-    "section": "Exam Notes & Corrections",
-    "text": "Exam Notes & Corrections\nShort Answer Question Correction\nPoints are missprinted on test. The correct amounts should be:\n\n\n\nQuestion 11: 8 points\nQuestion 12: 6 points\n\n\n\nQuestion 13: 8 points\nQuestion 14: 8 points\n\n\n\nBathroom Policy\nYou are free to leave the classroom to use the bathroom at any time. Please leave your phone on my table on your way out. Pick it up once you return"
+    "section": "Power Rule",
+    "text": "Power Rule\nThis will be the most common derivative we will be using\n\\[y = a \\cdot x^{b}\\]\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = {\\color{red}b} \\cdot a \\cdot x^{\\color{red}{b-1}}\\]\n. . .\nFor example:\n\\[y = 5x^{3}\\]\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = {\\color{red}3} \\cdot 5 x^{\\color{red}{3-1}} = 15x^{2}\\]"
   },
   {
-    "objectID": "Exams/Midterm/notes.html#exam-notes-corrections-1",
-    "href": "Exams/Midterm/notes.html#exam-notes-corrections-1",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent",
     "title": "EC311 Intermediate Micro",
-    "section": "Exam Notes & Corrections",
-    "text": "Exam Notes & Corrections\nMulti-Part Analysis\nQuestion 15\n\nPart A: Remember to label minimum bundle points for each indifference curve\n\nQuestion 16\nShould be price decrease in sushi rice, not increase ​ \nHelp yourself to a lollipop once you turn in your exam"
+    "section": "Power Rule (Negative Exponent)",
+    "text": "Power Rule (Negative Exponent)\nSometimes we will see factors with a negative exponent, like \\(x^{-3}\\) for example\nAs a rule of thumb, you should always turn your negative exponents into positive ones\nThankfully, its a simple process:\n. . .\nWe just “invert” the negative factor (aka flip the fraction)\n\\[x^{\\color{red}-3} = \\dfrac{1}{\\color{red}{x^{3}}}\\]\n. . .\nThe derivative works exactly the same way so we can begin with the derivative and then make it positive."
   },
   {
-    "objectID": "Labs/index.html",
-    "href": "Labs/index.html",
-    "title": "Lab Assignments",
-    "section": "",
-    "text": "Lab 1 : Math Review\n\n  PDF\n  \n    \n  \n\n\n\nLab 2 : Equilibria and Utility Functions\n\n  PDF\n  \n    \n  \n\n\n\nLab 3 : Utility Maximization\n\n  PDF\n  \n    \n  \n\n\n\nLab 4 : Demand Elasticity\n\n  PDF\n  \n    \n  \n\n\n\nLab 5 : Midterm Practice\n\n  PDF\n  \n    \n  \n\n\n\nLab 6 : Production\n\n  PDF\n  \n    \n  \n\n\n\nLab 7 : Costs\n\n  PDF\n  \n    \n  \n\n\n\nLab 8 : Costs\n\n  PDF"
-  },
-  {
-    "objectID": "Slides/00_Intro/002-syllabus.html",
-    "href": "Slides/00_Intro/002-syllabus.html",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent-1",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent-1",
     "title": "EC311 Intermediate Micro",
-    "section": "",
-    "text": "Schedule: Monday & Wednesday in Straub 145\nOffice Hours: Monday 10-11am, Wednesday 1-2pm\nAttendance is important to your learning experience\n\nA lot goes on in the class that may be hard to understand just from lecture slides\n\n\n. . .\nLectures\n\nThey will be dynamic, with me asking general questions and expecting answers from you\nThere will be in-class problems for you to complete and which will be a part of your participation grade\nOn ocassion I will use the whiteboard to make graphs or to answer math questions"
+    "section": "Power Rule (Negative Exponent)",
+    "text": "Power Rule (Negative Exponent)\nSo for \\(y = 5x^{-2}\\) we have:\n\\[\\dfrac{\\delta y}{\\delta x} = -2 \\cdot 5x^{-2-1} = -10x^{-3} = \\dfrac{-10}{x^{3}}\\]\nI’ll leave it to you to show yourself that making it \\(y = \\dfrac{5}{x^{2}}\\) gives the same result"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#class-information",
-    "href": "Slides/00_Intro/002-syllabus.html#class-information",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-fractional-exponent",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-fractional-exponent",
     "title": "EC311 Intermediate Micro",
-    "section": "",
-    "text": "Schedule: Monday & Wednesday in Straub 145\nOffice Hours: Monday 10-11am, Wednesday 1-2pm\nAttendance is important to your learning experience\n\nA lot goes on in the class that may be hard to understand just from lecture slides\n\n\n. . .\nLectures\n\nThey will be dynamic, with me asking general questions and expecting answers from you\nThere will be in-class problems for you to complete and which will be a part of your participation grade\nOn ocassion I will use the whiteboard to make graphs or to answer math questions"
+    "section": "Power Rule (Fractional Exponent)",
+    "text": "Power Rule (Fractional Exponent)\nA lot of the time we will have fractional exponents (or decimals)\n\\[y = x^{1/5} = x^{0.2}\\]\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = \\dfrac{1}{5} \\cdot x^{1/5 - 1} = \\dfrac{1}{5} x^{-4/5} = \\dfrac{1}{5} \\cdot \\dfrac{1}{x^{4/5}}\\]\n. . .\n\n\\[\\dfrac{\\delta y}{\\delta x} = 0.2 \\cdot x^{0.2 - 1} = 0.2 \\cdot x^{-0.8} = \\dfrac{0.2}{x^{0.8}}\\]"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#expectations",
-    "href": "Slides/00_Intro/002-syllabus.html#expectations",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-exponent-equal-to-1",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-exponent-equal-to-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Expectations",
-    "text": "Expectations\nPrerequisites\n\nEC 201: Intro to Microeconomics\nMATH 111:\n\nMATH 241: Calculus 1 (Recommended but not required)\nI’ll give you a crashcourse in what we’ll need from calculus in the next lecture"
+    "section": "Power Rule (Exponent Equal to 1)",
+    "text": "Power Rule (Exponent Equal to 1)\nLastly, I’ll remind you that every number has a default exponent of 1\nThat is to say, if we see \\(3x\\) it is equivalent to \\(3x^{1}\\)\nThis helps us take the derivative using the Power Rule\nFor example: \\(y = -3x\\)\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = 1 \\cdot -3x^{1-1} = -3x^{0} = -3\\]\n\nThe key is to remember that any number with exponent 0 equals 1"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#expectations-1",
-    "href": "Slides/00_Intro/002-syllabus.html#expectations-1",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule",
     "title": "EC311 Intermediate Micro",
-    "section": "Expectations",
-    "text": "Expectations\nWhat to Expect from the Course\n\nThe course involves a healthy mix of math and economic theory\n\nThe math is relatively straightforward, but it requires a good grasp on the theory to properly interpret it\n\nMore importantly than committing the theory to memory, the goal is to think like an economist\n\nThere is a set logic in the theory that we will see and it should lead to predictable conclusions\n\n\n. . .\n\nI recognize that perhaps all of you are here for the requirement in your own programs, so my aim is to make it as relevant and interesting as possible\nI’m not trying to convert you into economists, but rather have you takeaway things that you can apply in your own careers"
+    "section": "Sum (and Difference) Rule",
+    "text": "Sum (and Difference) Rule\nSometimes our functions will have several parts, separated by \\(\\pm\\)\nTo make it more general, I’ll introduce some new notation:\n. . .\n\n\\(f(x)\\) and \\(g(x)\\) are both functions of \\(x\\).\n\n. . .\n\n\\(\\dfrac{dy}{dx}\\) refers to the overall derivative of \\(y\\)\n\nThis just means that we will take the derivative of all factors that are functions of \\(x\\)\n\n\n\\[\\begin{align*}\n  y &= f(x) \\pm g(x) \\\\\n  \\dfrac{dy}{dx} &= f'(x) \\pm g'(x)\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#assignments",
-    "href": "Slides/00_Intro/002-syllabus.html#assignments",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-1",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Assignments",
-    "text": "Assignments\nAchieve Online Learning\n\n\nYou MUST register for the course through Achieve\nThis is where you will complete your homework\nIt also gives you access to the digital version of the textbook\nThe course code is fm6j5k\nYour lowest homework grade will be dropped\n1 day grace period (with 5% penalty) \\(\\rightarrow\\) no submissions allowed after that\n\n\nCanvas Quizzes\n\n\nWeekly quizzes that will help you get accustomed to how test questions will look\nRoughly 10 questions with only one attempt allowed\nYour lowest homework grade will be dropped\nNo late submissions allowed"
+    "section": "Sum (and Difference) Rule",
+    "text": "Sum (and Difference) Rule\nLet’s look at a sum:\n\\[y = x^{2} + 3x\\]\n. . .\n\n\n\\[\\begin{align*}\n  f(x) &= x^{2} \\\\\n  f'(x) &= 2x\n\\end{align*}\\]\n\n\\[\\begin{align*}\n  g(x) &= 3x \\\\\n  g'(x) &= 3\n\\end{align*}\\]\n\n\n. . .\n\\[\\dfrac{dy}{dx} = 2x + 3\\]"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#grades",
-    "href": "Slides/00_Intro/002-syllabus.html#grades",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-2",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-2",
     "title": "EC311 Intermediate Micro",
-    "section": "Grades",
-    "text": "Grades\n\n\nHomework\n\n\nAchieve Homework (20%)\n\n8 Assignments\nDue on Mondays of week after they are assigned at 11:59 pm\n\nThe last assignments will be due on the Saturday before Finals week\n\n\nCanvas Quizzes (15%)\n\n7 Quizzes\nDue on Mondays of week after they are assigned at 11:59 pm\n\n\n\n\nExams\n\n\nMidterm (30%)\n\nWeek 5 - Wednesday at 4:00\n\nFinal (30%)\n\nJune 11 - Wednesday at 2:45"
+    "section": "Sum (and Difference) Rule",
+    "text": "Sum (and Difference) Rule\nHow about a difference:\n\\[y = x - 3x^{2}\\]\n. . .\n\n\n\\[\\begin{align*}\n  f(x) &= x \\\\\n  f'(x) &= 1\n\\end{align*}\\]\n\n\\[\\begin{align*}\n  g(x) &= 3x^{2} \\\\\n  g'(x) &= 6x\n\\end{align*}\\]\n\n\n. . .\n\\[\\dfrac{dy}{dx} = 1 - 6x\\]"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#grades-1",
-    "href": "Slides/00_Intro/002-syllabus.html#grades-1",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#constant-rule",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#constant-rule",
     "title": "EC311 Intermediate Micro",
-    "section": "Grades",
-    "text": "Grades\nParticipation\n\n\nI’ll randomly select someone to share their answer to lecture problems\n\nBeing correct is not important, but rather that you attempted it\n\nEveryone will eventually be called upon so you cannot escape it"
+    "section": "Constant Rule",
+    "text": "Constant Rule\nImportant but straightforward \\(y = f(x) = a\\), where \\(a\\) is a constant\n\nlibrary(ggplot2)\n\np &lt;- ggplot(data = NULL, aes(x = NULL, y = NULL)) +\n  xlim(0,10) +\n  ylim(0,10) +\n  labs(x = \"x\", y = \"y\") +\n  theme_minimal() +\n  theme(axis.text.x = element_blank(),  # Remove x-axis ticks and labels\n        axis.ticks.x = element_blank(),  # Remove x-axis ticks, \n        axis.ticks.y = element_blank(),  # Remove y-axis ticks\n        axis.text.y = element_blank())\n\np + geom_hline(yintercept = 5, linetype = \"solid\", color = \"black\", linewidth = 2)\n\n\n\n\n\n\n\n\n. . .\n\\(y \\;\\) does not change as \\(\\; x \\;\\) increases, so the slope is 0"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#attendance-wheel",
-    "href": "Slides/00_Intro/002-syllabus.html#attendance-wheel",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#log-rule",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#log-rule",
     "title": "EC311 Intermediate Micro",
-    "section": "Attendance Wheel!",
-    "text": "Attendance Wheel!"
+    "section": "Log Rule",
+    "text": "Log Rule\nOne of the important functions we will see later uses the natural log function \\(ln(x)\\)\n\n# Load the ggplot2 library if not already loaded\nlibrary(ggplot2)\n\n# Create a data frame with x values\ndata &lt;- data.frame(x = seq(0.1, 5, by = 0.1)) # Generate x values from 0.1 to 5\n\n# Add a new column with the natural logarithm of x\ndata$ln_x &lt;- log(data$x)\n\n# Create the ggplot object and plot the natural log function\nggplot(data, aes(x = x, y = ln_x)) +\n  geom_line(color = \"black\", size = 2) +\n  xlim(0,5) +\n  labs(\n    x = \"x\",\n    y = \"ln(x)\"\n  ) +\n  theme_minimal() +\n  theme(axis.text.x = element_blank(),  # Remove x-axis ticks and labels\n        axis.ticks.x = element_blank(),  # Remove x-axis ticks, \n        axis.ticks.y = element_blank(),  # Remove y-axis ticks\n        axis.text.y = element_blank())\n\n\n\n\n\n\n\n\nIt’s primary use is that it increases at a decreasing rate which is math for it is always going up but by less and less every time"
   },
   {
-    "objectID": "Slides/00_Intro/002-syllabus.html#course-website",
-    "href": "Slides/00_Intro/002-syllabus.html#course-website",
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#log-rule-1",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#log-rule-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Course Website",
-    "text": "Course Website"
+    "section": "Log Rule",
+    "text": "Log Rule\n\\[y = ln(x)\\]\n. . .\n\\[\\dfrac{dy}{dx} = \\dfrac{1}{x}\\]\n. . .\nHow about?\n\\[y = a \\cdot ln(x)\\]\n. . .\n\\[\\dfrac{dy}{dx} = a \\cdot \\dfrac{1}{x} = \\dfrac{a}{x}\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#chain-rule",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#chain-rule",
+    "title": "EC311 Intermediate Micro",
+    "section": "Chain Rule",
+    "text": "Chain Rule\n\nSometimes there are multiple operations happening at the same time over a variable. Generelly, it looks like:\n\n\\[y = f\\left(g(x)\\right)\\]\n. . .\n\nWe solve this by working from the outside layer to the inner most one, multiplying each time\nLearning this is important for derivative math, but we will try to avoid them as much as possible"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/012-derivatives.html#chain-rule-1",
+    "href": "Slides/01_CalculusRev/012-derivatives.html#chain-rule-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Chain Rule",
+    "text": "Chain Rule\n\\[y = \\left(x^{3} + 2x\\right)^{4}\\]\n. . .\n\\[\\begin{align*}\n\\dfrac{dy}{dx} &= 4\\left( x^{3} + 2x \\right)^{4-1} \\cdot \\left( 3x^{3-1} + 2x^{1-1} \\right) \\\\\n&= 4 \\left( x^{3} + 2x \\right)^{3} \\cdot \\left( 3x^{2} + 2 \\right)\n\\end{align*}\\]\n. . .\nHow about?\n\\[y = ln(x^{b})\\]\n. . .\n\\[\\begin{align*}\n\\dfrac{dy}{dx} &= \\dfrac{1}{x^{b}} \\cdot \\dfrac{bx^{b-1}}{x^{b}} \\\\\n&= bx^{b-1-b} = bx^{-1} = \\dfrac{b}{x}\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/00_Intro/Main.html#motivation",
@@ -4655,144 +4536,319 @@
     "text": "Last Tool You Will Need\nWe will need calculus\nIt turns out that intermediate micro is fundamentally inseparable from multi-variate calculus\n\n\nI cannot show you where a demand curve comes from without using (a tiny bit) of calculus\n\nSo the second thing we will do is discuss the math you will need in order to follow the material"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html",
-    "href": "Slides/01_CalculusRev/012-derivatives.html",
+    "objectID": "Slides/00_Intro/002-syllabus.html",
+    "href": "Slides/00_Intro/002-syllabus.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "A Derivative is simply another function that tells us the slope of a function\n\nIt tells us how a function is behaving\nA Derivative will be how we find the slope of our functions\n\n. . .\n\nMathematically\n\nWe will denote a Derivative as \\(f'(x)\\)\n\nOur original function is labeled \\(f(x)\\) so you can read this as: “The derivative of \\(f(x)\\) is \\(f'(x)\\)”\nNote that \\(f'(x)\\) is the slope of \\(f(x)\\) at any point \\(x\\)"
+    "text": "Schedule: Monday & Wednesday in Straub 145\nOffice Hours: Monday 10-11am, Wednesday 1-2pm\nAttendance is important to your learning experience\n\nA lot goes on in the class that may be hard to understand just from lecture slides\n\n\n. . .\nLectures\n\nThey will be dynamic, with me asking general questions and expecting answers from you\nThere will be in-class problems for you to complete and which will be a part of your participation grade\nOn ocassion I will use the whiteboard to make graphs or to answer math questions"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#definition",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#definition",
+    "objectID": "Slides/00_Intro/002-syllabus.html#class-information",
+    "href": "Slides/00_Intro/002-syllabus.html#class-information",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "A Derivative is simply another function that tells us the slope of a function\n\nIt tells us how a function is behaving\nA Derivative will be how we find the slope of our functions\n\n. . .\n\nMathematically\n\nWe will denote a Derivative as \\(f'(x)\\)\n\nOur original function is labeled \\(f(x)\\) so you can read this as: “The derivative of \\(f(x)\\) is \\(f'(x)\\)”\nNote that \\(f'(x)\\) is the slope of \\(f(x)\\) at any point \\(x\\)"
+    "text": "Schedule: Monday & Wednesday in Straub 145\nOffice Hours: Monday 10-11am, Wednesday 1-2pm\nAttendance is important to your learning experience\n\nA lot goes on in the class that may be hard to understand just from lecture slides\n\n\n. . .\nLectures\n\nThey will be dynamic, with me asking general questions and expecting answers from you\nThere will be in-class problems for you to complete and which will be a part of your participation grade\nOn ocassion I will use the whiteboard to make graphs or to answer math questions"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#intuition",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#intuition",
+    "objectID": "Slides/00_Intro/002-syllabus.html#expectations",
+    "href": "Slides/00_Intro/002-syllabus.html#expectations",
     "title": "EC311 Intermediate Micro",
-    "section": "Intuition",
-    "text": "Intuition\n\nlibrary(ggplot2)\n\n# Create time values\ntime &lt;- seq(0, 10, length.out = 100)\n\n# Calculate height values for the parabola\nheight &lt;- -0.5 * (time - 5)^2 + 10\n\n# Create a data frame\nparabola_data &lt;- data.frame(time, height)\n\n# Split the data into increasing and decreasing segments\nincreasing_data &lt;- parabola_data[parabola_data$time &lt;= 5, ]\ndecreasing_data &lt;- parabola_data[parabola_data$time &gt; 5, ]\n\n# Create the parabola plot with different colors\nparabola_plot &lt;- ggplot() +\n  geom_line(data = increasing_data, aes(time, height), color = \"#A3BE8C\", size = 1) +\n  geom_line(data = decreasing_data, aes(time, height), color = \"#BF616A\"  , size = 1) +\n  theme_minimal() +\n  theme(axis.text.x = element_blank(),  # Remove x-axis ticks and labels\n        axis.ticks.x = element_blank(),  # Remove x-axis ticks, \n        axis.ticks.y = element_blank(),  # Remove y-axis ticks\n        axis.text.y = element_blank())\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\nparabola_plot\n\n\n\n\n\n\n\n\n. . .\nInitially, the height of the ball is increasing over time\nEventually, the height of the ball is decreasing over time"
+    "section": "Expectations",
+    "text": "Expectations\nPrerequisites\n\nEC 201: Intro to Microeconomics\nMATH 111:\n\nMATH 241: Calculus 1 (Recommended but not required)\nI’ll give you a crashcourse in what we’ll need from calculus in the next lecture"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#intuition-1",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#intuition-1",
+    "objectID": "Slides/00_Intro/002-syllabus.html#expectations-1",
+    "href": "Slides/00_Intro/002-syllabus.html#expectations-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Intuition",
-    "text": "Intuition\nThe sign of the derivative matters a ton!\n\nAn increasing derivative means that the function is going up\nA decreasing derivative means that the function is going down\n\n. . .\nThe magnitude also carries some significance:\n\nA small absolute value means that the derivative is moving slowly\nA large absolute value means that the derivative is moving rapidly\n\n. . .\n\nNote: I am talking about absoltue values so this applies to both positive and negative values. Because we use negatives, our intuition may challenged a bit but hopefully a future example will clear things up"
+    "section": "Expectations",
+    "text": "Expectations\nWhat to Expect from the Course\n\nThe course involves a healthy mix of math and economic theory\n\nThe math is relatively straightforward, but it requires a good grasp on the theory to properly interpret it\n\nMore importantly than committing the theory to memory, the goal is to think like an economist\n\nThere is a set logic in the theory that we will see and it should lead to predictable conclusions\n\n\n. . .\n\nI recognize that perhaps all of you are here for the requirement in your own programs, so my aim is to make it as relevant and interesting as possible\nI’m not trying to convert you into economists, but rather have you takeaway things that you can apply in your own careers"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#derivative-equal-to-zero",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#derivative-equal-to-zero",
+    "objectID": "Slides/00_Intro/002-syllabus.html#assignments",
+    "href": "Slides/00_Intro/002-syllabus.html#assignments",
     "title": "EC311 Intermediate Micro",
-    "section": "Derivative Equal to Zero",
-    "text": "Derivative Equal to Zero\nFunctions can increase and decrease, which implies something very critical\n. . .\n\nFunctions can have zero slope! This happens when the function switches from increasing to decreasing (and vice-versa)\n\n. . .\n\nBut Why Does This Matter?\n\nThe switch between positive and negative happens exactly when the function is at its maximum/minimum\nAnd Economics is all about maximizing stuff!\n\nSometimes we minimize a function but the logic remains the same"
+    "section": "Assignments",
+    "text": "Assignments\nAchieve Online Learning\n\n\nYou MUST register for the course through Achieve\nThis is where you will complete your homework\nIt also gives you access to the digital version of the textbook\nThe course code is fm6j5k\nYour lowest homework grade will be dropped\n1 day grace period (with 5% penalty) \\(\\rightarrow\\) no submissions allowed after that\n\n\nCanvas Quizzes\n\n\nWeekly quizzes that will help you get accustomed to how test questions will look\nRoughly 10 questions with only one attempt allowed\nYour lowest homework grade will be dropped\nNo late submissions allowed"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#bringing-the-math-to-economics",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#bringing-the-math-to-economics",
+    "objectID": "Slides/00_Intro/002-syllabus.html#grades",
+    "href": "Slides/00_Intro/002-syllabus.html#grades",
     "title": "EC311 Intermediate Micro",
-    "section": "Bringing the Math to Economics",
-    "text": "Bringing the Math to Economics\nThink about profits.\nAs a firm, we want to maximize profits so we:\n\n\nWrite down profits as a function of quantity produced\nTake its derivative\nSet that derivative (remember it is a function) equal to zero\nKnow how much quantity to produce\n\n\n. . .\nOnce we know what we are doing, the math is extremely simple.\nThe hard part is understanding what we are doing, and then interpreting what a result of \\(x^{*} = 6\\) means."
+    "section": "Grades",
+    "text": "Grades\n\n\nHomework\n\n\nAchieve Homework (20%)\n\n8 Assignments\nDue on Mondays of week after they are assigned at 11:59 pm\n\nThe last assignments will be due on the Saturday before Finals week\n\n\nCanvas Quizzes (15%)\n\n7 Quizzes\nDue on Mondays of week after they are assigned at 11:59 pm\n\n\n\n\nExams\n\n\nMidterm (30%)\n\nWeek 5 - Wednesday at 4:00\n\nFinal (30%)\n\nJune 11 - Wednesday at 2:45"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#how-do-we-calculate-derivatives",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#how-do-we-calculate-derivatives",
+    "objectID": "Slides/00_Intro/002-syllabus.html#grades-1",
+    "href": "Slides/00_Intro/002-syllabus.html#grades-1",
     "title": "EC311 Intermediate Micro",
-    "section": "How Do We Calculate Derivatives?",
-    "text": "How Do We Calculate Derivatives?\nYou may already know how to take derivatives but prepare to receive a crash-course in derivative shortcuts\n. . .\nStarting with the basics:\n\n\\(y\\) will be a function of \\(x\\) such that \\(y = f(x)\\)\nI will be using variables to show general cases so you can look back at how it’s done\n\n. . .\nWe will go over the following:\n\n\n\nPower Rule\nSum (and Difference) Rule\nConstant Rule\n\n\n\nLog Rule\nChain Rule"
+    "section": "Grades",
+    "text": "Grades\nParticipation\n\n\nI’ll randomly select someone to share their answer to lecture problems\n\nBeing correct is not important, but rather that you attempted it\n\nEveryone will eventually be called upon so you cannot escape it"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule",
+    "objectID": "Slides/00_Intro/002-syllabus.html#attendance-wheel",
+    "href": "Slides/00_Intro/002-syllabus.html#attendance-wheel",
     "title": "EC311 Intermediate Micro",
-    "section": "Power Rule",
-    "text": "Power Rule\nThis will be the most common derivative we will be using\n\\[y = a \\cdot x^{b}\\]\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = {\\color{red}b} \\cdot a \\cdot x^{\\color{red}{b-1}}\\]\n. . .\nFor example:\n\\[y = 5x^{3}\\]\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = {\\color{red}3} \\cdot 5 x^{\\color{red}{3-1}} = 15x^{2}\\]"
+    "section": "Attendance Wheel!",
+    "text": "Attendance Wheel!"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent",
+    "objectID": "Slides/00_Intro/002-syllabus.html#course-website",
+    "href": "Slides/00_Intro/002-syllabus.html#course-website",
     "title": "EC311 Intermediate Micro",
-    "section": "Power Rule (Negative Exponent)",
-    "text": "Power Rule (Negative Exponent)\nSometimes we will see factors with a negative exponent, like \\(x^{-3}\\) for example\nAs a rule of thumb, you should always turn your negative exponents into positive ones\nThankfully, its a simple process:\n. . .\nWe just “invert” the negative factor (aka flip the fraction)\n\\[x^{\\color{red}-3} = \\dfrac{1}{\\color{red}{x^{3}}}\\]\n. . .\nThe derivative works exactly the same way so we can begin with the derivative and then make it positive."
+    "section": "Course Website",
+    "text": "Course Website"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent-1",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-negative-exponent-1",
-    "title": "EC311 Intermediate Micro",
-    "section": "Power Rule (Negative Exponent)",
-    "text": "Power Rule (Negative Exponent)\nSo for \\(y = 5x^{-2}\\) we have:\n\\[\\dfrac{\\delta y}{\\delta x} = -2 \\cdot 5x^{-2-1} = -10x^{-3} = \\dfrac{-10}{x^{3}}\\]\nI’ll leave it to you to show yourself that making it \\(y = \\dfrac{5}{x^{2}}\\) gives the same result"
+    "objectID": "Labs/index.html",
+    "href": "Labs/index.html",
+    "title": "Lab Assignments",
+    "section": "",
+    "text": "Lab 1 : Math Review\n\n  PDF\n  \n    \n  \n\n\n\nLab 2 : Equilibria and Utility Functions\n\n  PDF\n  \n    \n  \n\n\n\nLab 3 : Utility Maximization\n\n  PDF\n  \n    \n  \n\n\n\nLab 4 : Demand Elasticity\n\n  PDF\n  \n    \n  \n\n\n\nLab 5 : Midterm Practice\n\n  PDF\n  \n    \n  \n\n\n\nLab 6 : Production\n\n  PDF\n  \n    \n  \n\n\n\nLab 7 : Costs\n\n  PDF\n  \n    \n  \n\n\n\nLab 8 : Costs\n\n  PDF"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-fractional-exponent",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-fractional-exponent",
+    "objectID": "Exams/Midterm/notes.html#exam-notes-corrections",
+    "href": "Exams/Midterm/notes.html#exam-notes-corrections",
     "title": "EC311 Intermediate Micro",
-    "section": "Power Rule (Fractional Exponent)",
-    "text": "Power Rule (Fractional Exponent)\nA lot of the time we will have fractional exponents (or decimals)\n\\[y = x^{1/5} = x^{0.2}\\]\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = \\dfrac{1}{5} \\cdot x^{1/5 - 1} = \\dfrac{1}{5} x^{-4/5} = \\dfrac{1}{5} \\cdot \\dfrac{1}{x^{4/5}}\\]\n. . .\n\n\\[\\dfrac{\\delta y}{\\delta x} = 0.2 \\cdot x^{0.2 - 1} = 0.2 \\cdot x^{-0.8} = \\dfrac{0.2}{x^{0.8}}\\]"
+    "section": "Exam Notes & Corrections",
+    "text": "Exam Notes & Corrections\nShort Answer Question Correction\nPoints are missprinted on test. The correct amounts should be:\n\n\n\nQuestion 11: 8 points\nQuestion 12: 6 points\n\n\n\nQuestion 13: 8 points\nQuestion 14: 8 points\n\n\n\nBathroom Policy\nYou are free to leave the classroom to use the bathroom at any time. Please leave your phone on my table on your way out. Pick it up once you return"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#power-rule-exponent-equal-to-1",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#power-rule-exponent-equal-to-1",
+    "objectID": "Exams/Midterm/notes.html#exam-notes-corrections-1",
+    "href": "Exams/Midterm/notes.html#exam-notes-corrections-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Power Rule (Exponent Equal to 1)",
-    "text": "Power Rule (Exponent Equal to 1)\nLastly, I’ll remind you that every number has a default exponent of 1\nThat is to say, if we see \\(3x\\) it is equivalent to \\(3x^{1}\\)\nThis helps us take the derivative using the Power Rule\nFor example: \\(y = -3x\\)\n. . .\n\\[\\dfrac{\\delta y}{\\delta x} = 1 \\cdot -3x^{1-1} = -3x^{0} = -3\\]\n\nThe key is to remember that any number with exponent 0 equals 1"
+    "section": "Exam Notes & Corrections",
+    "text": "Exam Notes & Corrections\nMulti-Part Analysis\nQuestion 15\n\nPart A: Remember to label minimum bundle points for each indifference curve\n\nQuestion 16\nShould be price decrease in sushi rice, not increase ​ \nHelp yourself to a lollipop once you turn in your exam"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule",
+    "objectID": "Slides/00_Intro/001-prologue.html",
+    "href": "Slides/00_Intro/001-prologue.html",
     "title": "EC311 Intermediate Micro",
-    "section": "Sum (and Difference) Rule",
-    "text": "Sum (and Difference) Rule\nSometimes our functions will have several parts, separated by \\(\\pm\\)\nTo make it more general, I’ll introduce some new notation:\n. . .\n\n\\(f(x)\\) and \\(g(x)\\) are both functions of \\(x\\).\n\n. . .\n\n\\(\\dfrac{dy}{dx}\\) refers to the overall derivative of \\(y\\)\n\nThis just means that we will take the derivative of all factors that are functions of \\(x\\)\n\n\n\\[\\begin{align*}\n  y &= f(x) \\pm g(x) \\\\\n  \\dfrac{dy}{dx} &= f'(x) \\pm g'(x)\n\\end{align*}\\]"
+    "section": "",
+    "text": "What to Expect from the Course?\n. . .\n\nThis class is basically an applied math class\nYou don’t have to love math right now, we’ll try to gain confidence together and see how it can be used in interesting situations\n\n. . .\nWhat do we do with Micro theory?\n. . .\n\nThe models from this class give you access to understanding a whole new world of economics!"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-1",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-1",
+    "objectID": "Slides/00_Intro/001-prologue.html#motivation",
+    "href": "Slides/00_Intro/001-prologue.html#motivation",
     "title": "EC311 Intermediate Micro",
-    "section": "Sum (and Difference) Rule",
-    "text": "Sum (and Difference) Rule\nLet’s look at a sum:\n\\[y = x^{2} + 3x\\]\n. . .\n\n\n\\[\\begin{align*}\n  f(x) &= x^{2} \\\\\n  f'(x) &= 2x\n\\end{align*}\\]\n\n\\[\\begin{align*}\n  g(x) &= 3x \\\\\n  g'(x) &= 3\n\\end{align*}\\]\n\n\n. . .\n\\[\\dfrac{dy}{dx} = 2x + 3\\]"
+    "section": "",
+    "text": "What to Expect from the Course?\n. . .\n\nThis class is basically an applied math class\nYou don’t have to love math right now, we’ll try to gain confidence together and see how it can be used in interesting situations\n\n. . .\nWhat do we do with Micro theory?\n. . .\n\nThe models from this class give you access to understanding a whole new world of economics!"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-2",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#sum-and-difference-rule-2",
+    "objectID": "Slides/00_Intro/001-prologue.html#motivation-1",
+    "href": "Slides/00_Intro/001-prologue.html#motivation-1",
     "title": "EC311 Intermediate Micro",
-    "section": "Sum (and Difference) Rule",
-    "text": "Sum (and Difference) Rule\nHow about a difference:\n\\[y = x - 3x^{2}\\]\n. . .\n\n\n\\[\\begin{align*}\n  f(x) &= x \\\\\n  f'(x) &= 1\n\\end{align*}\\]\n\n\\[\\begin{align*}\n  g(x) &= 3x^{2} \\\\\n  g'(x) &= 6x\n\\end{align*}\\]\n\n\n. . .\n\\[\\dfrac{dy}{dx} = 1 - 6x\\]"
+    "section": "Motivation",
+    "text": "Motivation\nSome Cool Research Ex.\n\n\n\nDoes international trade impact political polarization in developing countries?\nHow does the city you live in affect your economic mobility: Evidence from Japanese Internment Camps\nEstimating the child labor-education returns and trade-offs in Tanzania\n\n\n\nWhat explains the gender pay gap?\nDoes globalization increase or reduce the gender wage gap: Looking at Vietnam"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#constant-rule",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#constant-rule",
+    "objectID": "Slides/00_Intro/001-prologue.html#motivation-2",
+    "href": "Slides/00_Intro/001-prologue.html#motivation-2",
     "title": "EC311 Intermediate Micro",
-    "section": "Constant Rule",
-    "text": "Constant Rule\nImportant but straightforward \\(y = f(x) = a\\), where \\(a\\) is a constant\n\nlibrary(ggplot2)\n\np &lt;- ggplot(data = NULL, aes(x = NULL, y = NULL)) +\n  xlim(0,10) +\n  ylim(0,10) +\n  labs(x = \"x\", y = \"y\") +\n  theme_minimal() +\n  theme(axis.text.x = element_blank(),  # Remove x-axis ticks and labels\n        axis.ticks.x = element_blank(),  # Remove x-axis ticks, \n        axis.ticks.y = element_blank(),  # Remove y-axis ticks\n        axis.text.y = element_blank())\n\np + geom_hline(yintercept = 5, linetype = \"solid\", color = \"black\", linewidth = 2)\n\n\n\n\n\n\n\n\n. . .\n\\(y \\;\\) does not change as \\(\\; x \\;\\) increases, so the slope is 0"
+    "section": "Motivation",
+    "text": "Motivation\nWhy are we here studying microeconometrics?\n. . .\n\nIts a requirement\nIt will help develop a healthy way of logically thinking about problems\n\n. . .\nSo Why Should You Care?\nConsider this to be the very basics of applying market research. Which is incredibly important for many different employers:\n\n\n\nGovernment regulators\nProduct strategists and marketers\nCorporate lawyers\n\n\n\nVenture capital firms\nAnyone interested in a market\n\n\n\n. . ."
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#log-rule",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#log-rule",
+    "objectID": "Slides/00_Intro/001-prologue.html#motivation-3",
+    "href": "Slides/00_Intro/001-prologue.html#motivation-3",
     "title": "EC311 Intermediate Micro",
-    "section": "Log Rule",
-    "text": "Log Rule\nOne of the important functions we will see later uses the natural log function \\(ln(x)\\)\n\n# Load the ggplot2 library if not already loaded\nlibrary(ggplot2)\n\n# Create a data frame with x values\ndata &lt;- data.frame(x = seq(0.1, 5, by = 0.1)) # Generate x values from 0.1 to 5\n\n# Add a new column with the natural logarithm of x\ndata$ln_x &lt;- log(data$x)\n\n# Create the ggplot object and plot the natural log function\nggplot(data, aes(x = x, y = ln_x)) +\n  geom_line(color = \"black\", size = 2) +\n  xlim(0,5) +\n  labs(\n    x = \"x\",\n    y = \"ln(x)\"\n  ) +\n  theme_minimal() +\n  theme(axis.text.x = element_blank(),  # Remove x-axis ticks and labels\n        axis.ticks.x = element_blank(),  # Remove x-axis ticks, \n        axis.ticks.y = element_blank(),  # Remove y-axis ticks\n        axis.text.y = element_blank())\n\n\n\n\n\n\n\n\nIt’s primary use is that it increases at a decreasing rate which is math for it is always going up but by less and less every time"
+    "section": "Motivation",
+    "text": "Motivation\nEmployers need to estimate what will happen to a market if/when prices, techonology, consumer tastes, or policies changes\n. . .\nBut other than finding a job, we can apply these concepts to our own lives\nConsider your single most valuable resource: Time\n\nAs a students, you can spend it many different ways:\n\nStudying and going to lectures\nExercising or completing a hobby\nSocializing\nStaring at the wall"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#log-rule-1",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#log-rule-1",
+    "objectID": "Slides/00_Intro/001-prologue.html#motivation-4",
+    "href": "Slides/00_Intro/001-prologue.html#motivation-4",
     "title": "EC311 Intermediate Micro",
-    "section": "Log Rule",
-    "text": "Log Rule\n\\[y = ln(x)\\]\n. . .\n\\[\\dfrac{dy}{dx} = \\dfrac{1}{x}\\]\n. . .\nHow about?\n\\[y = a \\cdot ln(x)\\]\n. . .\n\\[\\dfrac{dy}{dx} = a \\cdot \\dfrac{1}{x} = \\dfrac{a}{x}\\]"
+    "section": "Motivation",
+    "text": "Motivation\nFirms essentially face the same challenges of efficiently allocating time and other resources\n. . .\nThey make choices on:\n\nEmployee pay\nInvesting in R&D\nPurchasing intermediate inputs\nIncreasing marketing/advertising expenditures"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#chain-rule",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#chain-rule",
+    "objectID": "Slides/00_Intro/001-prologue.html#about-me-an-economist-in-training",
+    "href": "Slides/00_Intro/001-prologue.html#about-me-an-economist-in-training",
     "title": "EC311 Intermediate Micro",
-    "section": "Chain Rule",
-    "text": "Chain Rule\n\nSometimes there are multiple operations happening at the same time over a variable. Generelly, it looks like:\n\n\\[y = f\\left(g(x)\\right)\\]\n. . .\n\nWe solve this by working from the outside layer to the inner most one, multiplying each time\nLearning this is important for derivative math, but we will try to avoid them as much as possible"
+    "section": "About Me (An Economist in Training)",
+    "text": "About Me (An Economist in Training)\n\n\n\n\nI’m from Davis, California\n\n\n\nI’m a 4th year PhD Student\n\nI have taught Game Theory and Econometrics before, but this is my first time teaching 311!\n\nMy current research is focused on historical migration patterns in the US.\nI like roller skating around Eugene, reading science fiction, and listening to music from the former Yugoslavia"
   },
   {
-    "objectID": "Slides/01_CalculusRev/012-derivatives.html#chain-rule-1",
-    "href": "Slides/01_CalculusRev/012-derivatives.html#chain-rule-1",
+    "objectID": "Slides/00_Intro/003-economics.html",
+    "href": "Slides/00_Intro/003-economics.html",
+    "title": "Basics Review",
+    "section": "",
+    "text": "What we will be learning in this course will seem simplistic and reductive to the world we actually observe\nBefore we jump into Intermediate Microeconomics, we need to refresh our memories of more basic concepts from EC 201:\n\nDemand\nSupply\nEconomic Assumptions"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#foundations",
+    "href": "Slides/00_Intro/003-economics.html#foundations",
+    "title": "Basics Review",
+    "section": "",
+    "text": "What we will be learning in this course will seem simplistic and reductive to the world we actually observe\nBefore we jump into Intermediate Microeconomics, we need to refresh our memories of more basic concepts from EC 201:\n\nDemand\nSupply\nEconomic Assumptions"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#demand",
+    "href": "Slides/00_Intro/003-economics.html#demand",
+    "title": "Basics Review",
+    "section": "Demand",
+    "text": "Demand\n\nlibrary(ggplot2)\n\n# Create data for demand and supply curves\nprice &lt;- c(1, 2, 3, 4, 5)\nquantity_demanded &lt;- c(10, 8, 6, 4, 2)\nquantity_supplied &lt;- c(2, 4, 6, 8, 10)\n\ndf &lt;- data.frame(price, quantity_demanded, quantity_supplied)\n\n# Create demand and supply curve plot\ndemand_plot &lt;- ggplot(df, aes(x = quantity_demanded, y = price)) +\n  geom_line(color = \"blue\", lwd = 3) +\n  labs(x = \"Quantity\", y = \"Price\") +\n  theme_minimal() \n\nprint(demand_plot)"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#demand-1",
+    "href": "Slides/00_Intro/003-economics.html#demand-1",
+    "title": "Basics Review",
+    "section": "Demand",
+    "text": "Demand\n\nDemand is the QUANTITY of a good that consumers want at a given PRICE\n\n. . .\n\nThe Demand Curve shows the RELATIONSHIP between PRICES and QUANTITY of a good for consumers\n\n. . .\nWe will make the distinction between Individual Demand and Market Demand\nIndividual Demand: Single Consumer (One Person)\nMarket Demand: All potential consumers (Everyone participating in the market)\n. . .\nNote: The first half of the course will be about demand and how we can find it for individuals and then for an entire market"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#demand-2",
+    "href": "Slides/00_Intro/003-economics.html#demand-2",
+    "title": "Basics Review",
+    "section": "Demand",
+    "text": "Demand\nSome Factors that can affect demand are:\n\nNumber of Consumers\nChanges to Income\nConsumer Preferences (Tastes)\nThe Price of Other Goods\n\nComplements\nSubstitutes"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#supply",
+    "href": "Slides/00_Intro/003-economics.html#supply",
+    "title": "Basics Review",
+    "section": "Supply",
+    "text": "Supply\n\nlibrary(ggplot2)\n\n# Create data for demand and supply curves\nprice &lt;- c(1, 2, 3, 4, 5)\nquantity_demanded &lt;- c(10, 8, 6, 4, 2)\nquantity_supplied &lt;- c(2, 4, 6, 8, 10)\n\ndf &lt;- data.frame(price, quantity_demanded, quantity_supplied)\n\n# Create demand and supply curve plot\nsupply_plot &lt;- ggplot(df, aes(x = quantity_supplied, y = price)) +\n  geom_line(color = \"red\", lwd = 3) +\n  labs(x = \"Quantity\", y = \"Price\") +\n  theme_minimal() \nprint(supply_plot)"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#supply-1",
+    "href": "Slides/00_Intro/003-economics.html#supply-1",
+    "title": "Basics Review",
+    "section": "Supply",
+    "text": "Supply\n\nSupply is the QUANTITY of goods available for sale at a given PRICE\n\n. . .\n\nThe Supply Curve shows the RELATIONSHIP between PRICES and QUANTITY of a good for producers\n\n. . .\nWe also make the distinction between Individual Supply and Market Supply\nIndividual Supply: A Single Producer (One Firm)\nMarket Supply: All potential producers (All firms that are participating in the market)\n. . .\nNote: The second half of the course will deal with how producers make their decisions"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#supply-2",
+    "href": "Slides/00_Intro/003-economics.html#supply-2",
+    "title": "Basics Review",
+    "section": "Supply",
+    "text": "Supply\nSome Factors that may affect supply are:\n\nProduction Costs (Cost of Raw Materials, Technology, etc.)\nNumber of Sellers (Number of firms in the market)\nProducers outside options"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#supply-demand",
+    "href": "Slides/00_Intro/003-economics.html#supply-demand",
+    "title": "Basics Review",
+    "section": "Supply & Demand",
+    "text": "Supply & Demand\n\nlibrary(ggplot2)\n\n# Create data for demand and supply curves\nprice &lt;- c(1, 2, 3, 4, 5)\nquantity_demanded &lt;- c(10, 8, 6, 4, 2)\nquantity_supplied &lt;- c(2, 4, 6, 8, 10)\n\ndf &lt;- data.frame(price, quantity_demanded, quantity_supplied)\n\n# Create demand and supply curve plot\nsupply_plot &lt;- ggplot(df, aes(x = quantity_supplied, y = price)) +\n  geom_line(color = \"red\", lwd = 3) +\n  geom_line(aes(x = quantity_demanded, y = price), color = \"blue\", lwd = 3) + \n  labs(x = \"Quantity\", y = \"Price\") +\n  theme_minimal() \n\nprint(supply_plot)\n\n\n\n\n\n\n\n\nPut together they give us this classic graph"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#supply-demand-1",
+    "href": "Slides/00_Intro/003-economics.html#supply-demand-1",
+    "title": "Basics Review",
+    "section": "Supply & Demand",
+    "text": "Supply & Demand\nWhere these two are equal to each other (where they cross) we say it is the market equilibrium\nThe third part of the course will be about variations to the classic market equilibrium\n\nWhat happens when the market is deep (has many producers) (Perfect Competition)\nWhat happens when the market is shallow (only one producer) (Monopoly)\nWhat about other forms of competition where firms have some market power but not total market control? (Imperfect Competition)"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#models",
+    "href": "Slides/00_Intro/003-economics.html#models",
+    "title": "Basics Review",
+    "section": "Models",
+    "text": "Models\nWe can use all these to make very complex models of what we think the world looks like\nBut to begin, we need to develop the basics of:\n\nWhat does Demand look like?\nWhat does Supply look like?\nWhat form of Competition are we in?\n\n\nOnce we put all of these together we are modeling a market. With a model, you can begin to analyze the effects of changes to Model Inputs on Model Outputs"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#assumptions",
+    "href": "Slides/00_Intro/003-economics.html#assumptions",
+    "title": "Basics Review",
+    "section": "Assumptions",
+    "text": "Assumptions\nWe will work with models you have seen before and some new ones that are classified as “classical economics”\n. . .\nThese require certain assumptions in order to simplify the results:\n\nAssume that individuals are Rational and Self-Interested\nAssume that markets have No Externalities and Asymmetric Information"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#assumptions-1",
+    "href": "Slides/00_Intro/003-economics.html#assumptions-1",
+    "title": "Basics Review",
+    "section": "Assumptions",
+    "text": "Assumptions\nThese assumptions help make things simple and work to set a benchmark of sorts\nThey are often good approximations of the real world but are often not exact\nWe use these fundamental pieces of classical economics and build on top of them\n\nNote: I’m not attempting to describe the way the world works exactly, but rather give you a strating point for future endeavors"
+  },
+  {
+    "objectID": "Slides/00_Intro/003-economics.html#last-tool-you-will-need",
+    "href": "Slides/00_Intro/003-economics.html#last-tool-you-will-need",
+    "title": "Basics Review",
+    "section": "Last Tool You Will Need",
+    "text": "Last Tool You Will Need\nWe will need calculus\nIt turns out that intermediate micro is fundamentally inseparable from multi-variate calculus\n. . .\n\nI cannot show you where a demand curve comes from without using (a tiny bit) of calculus\n\nSo the second thing we will do is discuss the math you will need in order to follow the material"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/011-slopes.html",
+    "href": "Slides/01_CalculusRev/011-slopes.html",
     "title": "EC311 Intermediate Micro",
-    "section": "Chain Rule",
-    "text": "Chain Rule\n\\[y = \\left(x^{3} + 2x\\right)^{4}\\]\n. . .\n\\[\\begin{align*}\n\\dfrac{dy}{dx} &= 4\\left( x^{3} + 2x \\right)^{4-1} \\cdot \\left( 3x^{3-1} + 2x^{1-1} \\right) \\\\\n&= 4 \\left( x^{3} + 2x \\right)^{3} \\cdot \\left( 3x^{2} + 2 \\right)\n\\end{align*}\\]\n. . .\nHow about?\n\\[y = ln(x^{b})\\]\n. . .\n\\[\\begin{align*}\n\\dfrac{dy}{dx} &= \\dfrac{1}{x^{b}} \\cdot \\dfrac{bx^{b-1}}{x^{b}} \\\\\n&= bx^{b-1-b} = bx^{-1} = \\dfrac{b}{x}\n\\end{align*}\\]"
+    "section": "",
+    "text": "library(ggplot2)\n\n# Create data for the line\nx &lt;- c(0, 2, 4, 6, 8)\ny &lt;- x * (1/2) + 5\n\nline_data &lt;- data.frame(x, y)\n\n# Create the line plot\nline_plot &lt;- ggplot(line_data, aes(x, y)) +\n  geom_line(color= \"#b45c20\", lwd = 2) +\n  labs(x = \"X\", y = \"Y\") +\n  theme_minimal()\n\nprint(line_plot)\n\n\n\n\n\n\n\n\nWe call the slope the RISE over RUN"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/011-slopes.html#starting-simple",
+    "href": "Slides/01_CalculusRev/011-slopes.html#starting-simple",
+    "title": "EC311 Intermediate Micro",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Create data for the line\nx &lt;- c(0, 2, 4, 6, 8)\ny &lt;- x * (1/2) + 5\n\nline_data &lt;- data.frame(x, y)\n\n# Create the line plot\nline_plot &lt;- ggplot(line_data, aes(x, y)) +\n  geom_line(color= \"#b45c20\", lwd = 2) +\n  labs(x = \"X\", y = \"Y\") +\n  theme_minimal()\n\nprint(line_plot)\n\n\n\n\n\n\n\n\nWe call the slope the RISE over RUN"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/011-slopes.html#functions-slopes",
+    "href": "Slides/01_CalculusRev/011-slopes.html#functions-slopes",
+    "title": "EC311 Intermediate Micro",
+    "section": "Functions & Slopes",
+    "text": "Functions & Slopes\nWe can write that previous line as a mathematical function:\n\\[f(x) =  \\dfrac{x}{2} + 5\\]\nImportantly, the slope for this function is \\(1/2\\) everywhere\n. . .\n\nEverywhere means for all values of \\(x\\)\nSo no matter at what point of the line we calculate the slope, we will always find it to be \\(1/2\\)"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-1",
+    "href": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Functions & Slopes",
+    "text": "Functions & Slopes\nSlopes can take positive, negative, or zero values\nAnd each of these let’s us know how the function is behaving as we increse in \\(x\\) (as we move to the right):\n\nPositive values mean the function is increasing\nNegative values mean the function is decreasing\nZero values mean the function is staying constant (neither increasing or decreasing)\n\n\n\nlibrary(ggplot2)\n\n# Create x values\nx &lt;- seq(0, 5, by = 0.5)\n\n# Calculate y values for each line\ny_positive_slope &lt;- 0.5 * x + 2\ny_negative_slope &lt;- -0.5 * x + 5\ny_zero_slope &lt;- rep(3, length(x))\n\n# Create a data frame\nline_data &lt;- data.frame(x, y_positive_slope, y_negative_slope, y_zero_slope)\n\n# Create the line plot\nline_plot &lt;- ggplot(line_data, aes(x)) +\n  geom_line(aes(y = y_positive_slope), color = \"blue\", linetype = \"solid\", size = 1) +\n  geom_line(aes(y = y_negative_slope), color = \"red\", linetype = \"solid\", size = 1) +\n  geom_line(aes(y = y_zero_slope), color = \"green\", linetype = \"solid\", size = 1) +\n  labs(x = \"X\", y = \"Y\") +\n  theme_minimal()\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\nprint(line_plot)"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-2",
+    "href": "Slides/01_CalculusRev/011-slopes.html#functions-slopes-2",
+    "title": "EC311 Intermediate Micro",
+    "section": "Functions & Slopes",
+    "text": "Functions & Slopes\nThe previous functions are called linear functions:\n\nSlopes are constant at all values of \\(x\\)\nThey are behaving in an equal manner at all points\n\n. . .\n\nWe will mostly be working with non-linear functions, which simply mean they have some form of curvature\n\nWe will use quadratic and cubic functions\n\nQuadratic: \\(f(x) = 3x^{2} + 5x + 10\\)\nCubic: \\(f(x) = x^{3} - 2x^{2} + x - 5\\)\n\n\n. . .\nWhat we truly care about is their slope. And there is a simpler way to find the slope of a function."
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html",
+    "href": "Slides/01_CalculusRev/013-multivariate.html",
+    "title": "EC311 Intermediate Micro",
+    "section": "",
+    "text": "For this I need to introduce some new notation\n\n\\(F = f(x,y)\\) is a function of \\(x\\) and \\(y\\)\n\n. . .\n\n\\(F\\) now has 2 derivatives\n\n“With respect to \\(x\\)”\n“With respect to \\(y\\)”\n\nEach of these is called a partial derivative\n\n. . .\nEach partial derivative is calculated as if the other variable is a constant number"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html#functions-with-two-variables",
+    "href": "Slides/01_CalculusRev/013-multivariate.html#functions-with-two-variables",
+    "title": "EC311 Intermediate Micro",
+    "section": "",
+    "text": "For this I need to introduce some new notation\n\n\\(F = f(x,y)\\) is a function of \\(x\\) and \\(y\\)\n\n. . .\n\n\\(F\\) now has 2 derivatives\n\n“With respect to \\(x\\)”\n“With respect to \\(y\\)”\n\nEach of these is called a partial derivative\n\n. . .\nEach partial derivative is calculated as if the other variable is a constant number"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives",
+    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives",
+    "title": "EC311 Intermediate Micro",
+    "section": "Multivariate Derivatives",
+    "text": "Multivariate Derivatives\nLet’s try a basic example: \\(f(x,y) = x + 2y\\)\n. . .\n\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\nWe act as if \\(y\\) is a constant\n\n\n\n\\[\\dfrac{df}{dx} = 1\\]\n\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\nWe act as if \\(x\\) is a constant\n\n\n\n\\[\\dfrac{df}{dy} = 2\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-1",
+    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Multivariate Derivatives",
+    "text": "Multivariate Derivatives\nAdditively Separable\n\\[f(x,y) = ln(x) + 3y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\dfrac{df}{dx} = \\dfrac{1}{x}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\dfrac{df}{dy} = 3\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-2",
+    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-2",
+    "title": "EC311 Intermediate Micro",
+    "section": "Multivariate Derivatives",
+    "text": "Multivariate Derivatives\nNon-Separable\n\\[f(x,y) = x \\cdot y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= 1 \\cdot x^{1-1} \\cdot y \\\\\n&= y\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\dfrac{df}{dy} = x\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-3",
+    "href": "Slides/01_CalculusRev/013-multivariate.html#multivariate-derivatives-3",
+    "title": "EC311 Intermediate Micro",
+    "section": "Multivariate Derivatives",
+    "text": "Multivariate Derivatives\nNon-Separable\n\\[f(x,y) = x^{2} \\cdot y^{1/2}\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= 2x^{2-1} \\cdot y^{1/2} \\\\\n&= 2xy^{1/2}\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= \\dfrac{1}{2}y^{1/2 - 1} \\cdot x^{2} \\\\\n&= \\dfrac{1}{2} \\cdot \\dfrac{1}{y^{1/2}} \\cdot x^{2}\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/013-multivariate.html#calculus-review",
+    "href": "Slides/01_CalculusRev/013-multivariate.html#calculus-review",
+    "title": "EC311 Intermediate Micro",
+    "section": "Calculus Review",
+    "text": "Calculus Review\nThere is a worksheet on Canvas for you to practice everything in this lecture.\nI recommend you complete it to get the practice in\nThis class is roughly 70% doing math and 30% understanding and interpreting said math"
   },
   {
     "objectID": "Slides/01_CalculusRev/Main.html#starting-simple",
@@ -4996,6 +5052,55 @@
     "title": "Calculus Review",
     "section": "Calculus Review",
     "text": "Calculus Review\nThere is a worksheet on Canvas for you to practice everything in this lecture.\nI recommend you complete it to get the practice in\nThis class is roughly 70% doing math and 30% understanding and interpreting said math"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#finding-maximum-or-minimum-values",
+    "href": "Slides/01_CalculusRev/Main.html#finding-maximum-or-minimum-values",
+    "title": "Calculus Review",
+    "section": "Finding Maximum (or Minimum) Values",
+    "text": "Finding Maximum (or Minimum) Values\nWhen we have a continuos function, we can use calculus to find where the largest (or smallest) value will occur\n\nRecall that when the derivative is positive, then the function is increasing\nand when the derivative is negative, then the function is decreasing\n\n\n\n\nWhere the function is neither increasing nor decreasing, it’s either because it’s as high as it goes!"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#examples",
+    "href": "Slides/01_CalculusRev/Main.html#examples",
+    "title": "Calculus Review",
+    "section": "Examples",
+    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nHow can we figure out where the maximum value of \\(f()\\) will occur?\n\n\nLet’s start by taking some derivatives!\n\n\n\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#examples-1",
+    "href": "Slides/01_CalculusRev/Main.html#examples-1",
+    "title": "Calculus Review",
+    "section": "Examples",
+    "text": "Examples\nLet’s look at an example:\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\n\n\n\nPartial w.r.t. \\(x\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dx} &= -2x + 2 \\\\\n\\end{align*}\\]\n\n\n\nPartial w.r.t. \\(y\\)\n\n\n\\[\\begin{align*}\n\\dfrac{df}{dy} &= -2y + 4 \\\\\n\\end{align*}\\]\n\n\n\nWhat do these derivatives tell us?\n\n\n\nWhether \\(f()\\) is increasing or decreasing\n\n\n\n\nIf \\(x&lt;1\\), we know \\(f()\\) is increasing with \\(x\\)\nIf \\(x&gt;1\\), we know \\(f()\\) is decreasing with \\(x\\)\n\n\n\nIf \\(y&lt;2\\), we know \\(f()\\) is increasing with \\(y\\)\nIf \\(y&gt;2\\), we know \\(f()\\) is decreasing with \\(y\\)\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s take an example coordinate and see if it’s a maximum:\nstarting at the origin: &gt; \\((x=0,y=0)\\)\nAt \\((x=0, y=0)\\), \\(f(0,0) = 1\\)\n\nbut \\(\\dfrac{df}{dx} = 2\\) which tells us we could increase \\(f()\\) by increasing \\(x\\)\nalso, \\(\\dfrac{df}{dy} = 4\\), so we could also increase \\(f()\\) by increasing \\(y\\)\n\n\nSo we know \\((0,0)\\) is not a maximum, and we know which direction to go to look for one\n\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=1,y=1)\\)\n\\(f(1,1) = 5\\) which is higher, but is it a maximum?\n\n\n\\(\\dfrac{df}{dx} = 0\\)\nbut, \\(\\dfrac{df}{dy} = 2\\), so we still could increase \\(f()\\) by increasing \\(y\\)\n\n\n\n\nExamples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=2,y=2)\\)\n\\(f(2,2) = 5\\) which isn’t any higher than \\((1,1)\\)\n\n\n\\(\\dfrac{df}{dx} = -2\\), this tells us we went too far in \\(x\\)!\n\\(\\dfrac{df}{dy} = 0\\), so we should stop increasing \\(y\\)\n\n\n\nWhat is the max of this function?\n\n\nWhere both partial derivatives are equal to zero:\n\n\\(\\drfrac{df}{dx} = 0 \\Rightarrow x = 1\\)\n\\(\\drfrac{df}{dy} = 0 \\Rightarrow x = 2\\)\n\n\\(f(1,2) = 6\\) is the maximum value!\n\n\n\nAnother Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#examples-2",
+    "href": "Slides/01_CalculusRev/Main.html#examples-2",
+    "title": "Calculus Review",
+    "section": "Examples",
+    "text": "Examples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s take an example coordinate and see if it’s a maximum:\nstarting at the origin: &gt; \\((x=0,y=0)\\)\nAt \\((x=0, y=0)\\), \\(f(0,0) = 1\\)\n\nbut \\(\\dfrac{df}{dx} = 2\\) which tells us we could increase \\(f()\\) by increasing \\(x\\)\nalso, \\(\\dfrac{df}{dy} = 4\\), so we could also increase \\(f()\\) by increasing \\(y\\)\n\n\nSo we know \\((0,0)\\) is not a maximum, and we know which direction to go to look for one"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#examples-3",
+    "href": "Slides/01_CalculusRev/Main.html#examples-3",
+    "title": "Calculus Review",
+    "section": "Examples",
+    "text": "Examples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=1,y=1)\\)\n\\(f(1,1) = 5\\) which is higher, but is it a maximum?\n\n\n\\(\\dfrac{df}{dx} = 0\\)\nbut, \\(\\dfrac{df}{dy} = 2\\), so we still could increase \\(f()\\) by increasing \\(y\\)"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#examples-4",
+    "href": "Slides/01_CalculusRev/Main.html#examples-4",
+    "title": "Calculus Review",
+    "section": "Examples",
+    "text": "Examples\n\\[f(x,y) = 1 - x^2 - y^2 + 2x + 4y\\]\nLet’s go up in \\(x\\) and \\(y\\): &gt; \\((x=2,y=2)\\)\n\\(f(2,2) = 5\\) which isn’t any higher than \\((1,1)\\)\n\n\n\\(\\dfrac{df}{dx} = -2\\), this tells us we went too far in \\(x\\)!\n\\(\\dfrac{df}{dy} = 0\\), so we should stop increasing \\(y\\)\n\n\n\nWhat is the max of this function?\n\n\nWhere both partial derivatives are equal to zero:\n\n\\(\\drfrac{df}{dx} = 0 \\Rightarrow x = 1\\)\n\\(\\drfrac{df}{dy} = 0 \\Rightarrow x = 2\\)\n\n\\(f(1,2) = 6\\) is the maximum value!"
+  },
+  {
+    "objectID": "Slides/01_CalculusRev/Main.html#another-example",
+    "href": "Slides/01_CalculusRev/Main.html#another-example",
+    "title": "Calculus Review",
+    "section": "Another Example",
+    "text": "Another Example\n\\[f(x,y) = \\sqrt(x^2+y^2)\\]\nWhat are the partial derivatives?\n\n\n\nWhat is the partial derivative of \\(x \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dx}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2x) \\\\\n\\dfrac{df}{dx} = 0 & \\Rightarrow x = 0 \\\\\n\\end{align*}\\]\n\n\nWhat is the partial derivative of \\(y \\rightarrow \\dfrac{df}{dx}\\)?\n\n\\[\\begin{align*}\n\\dfrac{d}{dy}(x^2+y^2)^\\frac{1}{2} & = \\\\\n& \\frac{1}{2} (x^2+y^2)^{-\\frac{1}{2}} (2y) \\\\\n\\dfrac{df}{dy} = 0 & \\Rightarrow y = 0 \\\\\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/022-indifference_curves.html",
