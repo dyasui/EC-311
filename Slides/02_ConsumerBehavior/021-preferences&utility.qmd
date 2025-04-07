@@ -2,6 +2,146 @@
 name: Preferences & Utility
 ---
 
+## Foundations of Rational Choice
+
+Before we get into the math behind utity functions, let's motivate what we want our economic models to do.
+
+. . .
+
+- Generate *testable* predictions which can be adapted to a wide range of applications
+
+. . .
+
+- Have a *shared vocabulary* to help us have productive conversations about what really matters
+
+. . .
+
+- Help us understand the world around us, not try to shape the data to meet our preconceptions
+
+---
+
+## Preferences
+
+[Preferences]{.h} describe the subjective ranking that we put on different alternatives.
+
+For example, my preference ranking of Eugene boba stores could go:
+
+::: {.incremental}
+  1. [Tea 4]{.hi}
+  2. [Bobahead]{.hi}
+  5. [Day & Night]{.hi}
+  4. [No boba]{.hi}
+  5. [Rabbit Hole]{.hi}
+:::
+
+. . .
+
+> What do you notice about the way I represented my preferences here?
+
+. . .
+
+- This ranking is [ordinal]{.h}; I didn't say how *much* more I like each thing, only which I like *better*
+
+- The ranking includes an *outside option*: No boba
+
+- Is it complete? Is there any place I'm missing?
+
+---
+
+## Axioms of Preferences
+
+:::: {.notes}
+
+Let's first define what an [Axiom]{.hi} is
+
+- A proposition that is assumed to be true without proof for the sake of studying the consequences that follow from it
+
+::::
+
+. . .
+
+- Our axioms help us to make clear, logical statements which anyone can agree with (as long as they agree with the original axioms)
+
+---
+
+## Rational Preferences
+
+The [rational model]{.h} of choice is the foundation of all economics.
+
+Its [axioms]{.hi} are that:
+
+::: {.incremental}
+
+  * People have [complete preferences]{.h}
+
+  * Those preferences are [transitive]{.h}
+
+:::
+
+- For convenience, we also usually add other [assumptions]{.hi}, such as assuming ["More is Better"]{.hi}
+
+---
+
+## Completeness 
+
+We say that preferences are always [complete]{.hi}. So when comparing bundles A and B, you can always say one of the following:
+
+. . .
+
+- I prefer A to B ($A \succeq B$)
+
+- I prefer B to A ($B \succeq A$)
+
+- I am indifferent between A and B ($A \sim B$) 
+
+. . .
+
+- Example: for any pair of deserts, $\{ \ 🍨 \ , \ 🍩 \ \}$, either $(🍨 \succeq 🍩 \ )$, or $(🍩 \ \succeq 🍨 \ )$, or $(🍨 \sim 🍩 \ )$
+
+This allows us to compare and order any pair of bundles
+
+---
+
+## Transitivity
+
+Preferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:
+
+. . . 
+
+- If you prefer B to A ($B \succeq A$) and C to B ($C \succeq B$) then you must prefer C to A ($C \succeq A$)
+
+. . .
+
+- Example: if $(☕ \succeq 🍵 \ )$ and $(🍵 \succeq 🍶 \ )$, then $(☕ \succeq 🍶)$  ( for any $\{☕ \ , 🍵 \ , 🍶 \ \} \in 🫖 \ $)
+
+![](Images/Transitivity-line.png){fig-align="center"}
+
+---
+
+## Transitivity
+
+What would this graph mean?
+
+![](Images/Transitivity-Equal-line.png){fig-align="center"}
+
+. . .
+
+All bundles are preferred equally!
+
+---
+
+## "More is Better"
+
+Or at least more is no worse than less
+
+. . .
+
+In general, if a good is desirable we will want more of it
+
+- However, sometimes products can be bads (instead of goods) and we would, obviously, want less of those
+
+---
+
 ## Where Does Demand Come From?
 
 Imagine the market for coffee on campus
@@ -333,6 +473,42 @@ $$
 :::
 
 ::::
+
+---
+
+## Rationality & Utility
+
+One key proposition of rationality is that we can represent preferences by real numbers.
+
+::: {.incremental}
+
+A [utility function]{.h} maps a choice to a single number.
+
+For example, let $u(.)$ be the utility function from emoji to utils
+
+  * I can have $u(🍺) =5$,
+  $u(🌯)=10$,
+  $u(🤸)=25$
+
+  * I can also have $u(🍺 \ , 🌯) = 20$, $u(🍺 \ , 🌯 \ , 🤸) = 15$
+
+:::
+  
+---
+  
+## Ordinal vs. Cardinal numbers
+
+::: {.incremental}
+
+  * [Cardinal:]{.h} amounts which can be measured in meaningful units are *cardinal numbers* 
+    
+    + examples: $9.99, 80 students, 50:50 odds
+
+  * [Ordinal:]{.h} all that matters is the *relative ranking*
+  
+    + examples: utility; what does 100 utility mean? (it's less than 200)
+  
+:::
 
 ---
 
@@ -1089,15 +1265,7 @@ Bundle 2 is (1,0)
 
 ---
 
-## Bundles & Axioms of Preferences
-
-:::: {.notes}
-
-Let's first define what an Axiom is
-
-- A proposition that is assumed to be true without proof for the sake of studying the consequences that follow from it
-
-::::
+## Bundles and Rational Choice
 
 We will use the following axioms about preferences between bundles to ensure logical consistency
 
@@ -1107,11 +1275,11 @@ We will use the following axioms about preferences between bundles to ensure log
 
 . . .
 
-- "More is Better"
+- Transitivity
 
 . . .
 
-- Transitivity
+- "More is Better"
 
 . . .
 
@@ -1120,62 +1288,6 @@ We will use the following axioms about preferences between bundles to ensure log
 . . .
 
 > [We are attempting to successfully predict behavior, so we will simply assume that everyone behaves accordingly]{.h .note}
-
----
-
-## Completeness 
-
-We say that preferences are always [complete]{.hi}. So when comparing bundles A and B, you can always say one of the following:
-
-. . .
-
-- I prefer A to B ($A \succeq B$)
-
-- I prefer B to A ($B \succeq A$)
-
-- I am indifferent between A and B ($A \sim B$) 
-
-. . .
-
-This allows us to compare and order any pair of bundles
-
----
-
-## "More is Better"
-
-Or at least more is no worse than less
-
-. . .
-
-In general, if a good is desirable we will want more of it
-
-- However, sometimes products can be bads (instead of goods) and we would, obviously, want less of those
-
----
-
-## Transitivity
-
-Preferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:
-
-. . . 
-
-- If you prefer B to A ($B \succeq A$) and C to B ($C \succeq B$) then you must prefer C to A ($C \succeq A$)
-
-. . .
-
-![](Images\Transitivity-line.png){fig-align="center"}
-
----
-
-## Transitivity
-
-What would this graph mean?
-
-![](Images\Transitivity-Equal-line.png){fig-align="center"}
-
-. . .
-
-All bundles are preferred equally!
 
 ---
 
