@@ -3819,7 +3819,7 @@
     "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#preferences",
     "title": "EC311 Intermediate Micro",
     "section": "Preferences",
-    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n. . .\n\nWhat do you notice about the way I represented my preferences here?\n\n. . .\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\n\n. . .\n\nThe ranking includes an outside option: No boba\n\n. . .\n\nIs it complete? Is there any place I’m missing?"
+    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n\n\n\nWhat do you notice about the way I represented my preferences here?\n\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\nThe ranking includes an outside option: No boba\nIs it complete? Is there any place I’m missing?"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#axioms-of-preferences",
@@ -5345,7 +5345,7 @@
     "href": "Slides/02_ConsumerBehavior/Main.html#preferences",
     "title": "Consumer Behavior",
     "section": "Preferences",
-    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n. . .\n\nWhat do you notice about the way I represented my preferences here?\n\n. . .\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\n\n. . .\n\nThe ranking includes an outside option: No boba\n\n. . .\n\nIs it complete? Is there any place I’m missing?"
+    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n\n\n\nWhat do you notice about the way I represented my preferences here?\n\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\nThe ranking includes an outside option: No boba\nIs it complete? Is there any place I’m missing?"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#axioms-of-preferences",
