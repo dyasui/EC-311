@@ -3805,14 +3805,70 @@
     "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Imagine the market for coffee on campus\n\nAdditionally, imagine that the only other good that can be purchased is boba\nOn a basic level, demand for coffee is derived from individual’s choosing how to divide their income between coffee and boba\n\n\nlibrary(ggplot2)\n\n# Create data for the supply and demand curves\nquantity &lt;- c(10, 20, 30, 40, 50, 60)\nprice_supply &lt;- c(1, 2, 3, 4, 5, 6)\nprice_demand &lt;- c(6, 5, 4, 3, 2, 1)\n\n# Create a data frame\ncurve_data &lt;- data.frame(quantity, price_supply, price_demand)\n\n# Create the plot\nggplot(curve_data, aes(x = quantity)) +\n  geom_line(aes(y = price_supply), color = \"blue\", lwd = 2, linetype = \"solid\") +\n  geom_line(aes(y = price_demand), color = \"red\", lwd = 2, linetype = \"solid\") +\n  labs(\n    y = \"Price\",\n    x = \"Quantity\"\n  ) +\n  theme_minimal() +\n  annotate(\"text\", x = 60, y = 5.65, label = \"S\", color = \"blue\", size = 8) +\n  annotate(\"text\", x = 60, y = 1.3, label = \"D\", color = \"red\", size = 8)"
+    "text": "Before we get into the math behind utity functions, let’s motivate what we want our economic models to do.\n. . .\n\nGenerate testable predictions which can be adapted to a wide range of applications\n\n. . .\n\nHave a shared vocabulary to help us have productive conversations about what really matters\n\n. . .\n\nHelp us understand the world around us, not try to shape the data to meet our preconceptions"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#foundations-of-rational-choice",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#foundations-of-rational-choice",
+    "title": "EC311 Intermediate Micro",
+    "section": "",
+    "text": "Before we get into the math behind utity functions, let’s motivate what we want our economic models to do.\n. . .\n\nGenerate testable predictions which can be adapted to a wide range of applications\n\n. . .\n\nHave a shared vocabulary to help us have productive conversations about what really matters\n\n. . .\n\nHelp us understand the world around us, not try to shape the data to meet our preconceptions"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#preferences",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#preferences",
+    "title": "EC311 Intermediate Micro",
+    "section": "Preferences",
+    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n\n. . .\n\nWhat do you notice about the way I represented my preferences here?\n\n. . .\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\nThe ranking includes an outside option: No boba\nIs it complete? Is there any place I’m missing?"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#axioms-of-preferences",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#axioms-of-preferences",
+    "title": "EC311 Intermediate Micro",
+    "section": "Axioms of Preferences",
+    "text": "Axioms of Preferences\n\nLet’s first define what an Axiom is\n\nA proposition that is assumed to be true without proof for the sake of studying the consequences that follow from it\n\n\n. . .\n\nOur axioms help us to make clear, logical statements which anyone can agree with (as long as they agree with the original axioms)"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#rational-preferences",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#rational-preferences",
+    "title": "EC311 Intermediate Micro",
+    "section": "Rational Preferences",
+    "text": "Rational Preferences\nThe rational model of choice is the foundation of all economics.\nIts axioms are that:\n\n\nPeople have complete preferences\nThose preferences are transitive\n\n\n\nFor convenience, we also usually add other assumptions, such as assuming “More is Better”"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#completeness",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#completeness",
+    "title": "EC311 Intermediate Micro",
+    "section": "Completeness",
+    "text": "Completeness\nWe say that preferences are always complete. So when comparing bundles A and B, you can always say one of the following:\n. . .\n\nI prefer A to B (\\(A \\succeq B\\))\nI prefer B to A (\\(B \\succeq A\\))\nI am indifferent between A and B (\\(A \\sim B\\))\n\n. . .\n\nExample: for any pair of deserts, \\(\\{ \\ 🍨 \\ , \\ 🍩 \\ \\}\\), either \\((🍨 \\succeq 🍩 \\ )\\), or \\((🍩 \\ \\succeq 🍨 \\ )\\), or \\((🍨 \\sim 🍩 \\ )\\)\n\nThis allows us to compare and order any pair of bundles"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity",
+    "title": "EC311 Intermediate Micro",
+    "section": "Transitivity",
+    "text": "Transitivity\nPreferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:\n. . .\n\nIf you prefer B to A (\\(B \\succeq A\\)) and C to B (\\(C \\succeq B\\)) then you must prefer C to A (\\(C \\succeq A\\))\n\n. . .\n\nExample: if \\((☕ \\succeq 🍵 \\ )\\) and \\((🍵 \\succeq 🍶 \\ )\\), then \\((☕ \\succeq 🍶)\\) ( for any \\(\\{☕ \\ , 🍵 \\ , 🍶 \\ \\} \\in 🫖 \\ \\))"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity-1",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Transitivity",
+    "text": "Transitivity\nWhat would this graph mean?\n\n\n\n\n\n. . .\nAll bundles are preferred equally!"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#more-is-better",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#more-is-better",
+    "title": "EC311 Intermediate Micro",
+    "section": "“More is Better”",
+    "text": "“More is Better”\nOr at least more is no worse than less\n. . .\nIn general, if a good is desirable we will want more of it\n\nHowever, sometimes products can be bads (instead of goods) and we would, obviously, want less of those"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#where-does-demand-come-from",
     "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#where-does-demand-come-from",
     "title": "EC311 Intermediate Micro",
-    "section": "",
-    "text": "Imagine the market for coffee on campus\n\nAdditionally, imagine that the only other good that can be purchased is boba\nOn a basic level, demand for coffee is derived from individual’s choosing how to divide their income between coffee and boba\n\n\nlibrary(ggplot2)\n\n# Create data for the supply and demand curves\nquantity &lt;- c(10, 20, 30, 40, 50, 60)\nprice_supply &lt;- c(1, 2, 3, 4, 5, 6)\nprice_demand &lt;- c(6, 5, 4, 3, 2, 1)\n\n# Create a data frame\ncurve_data &lt;- data.frame(quantity, price_supply, price_demand)\n\n# Create the plot\nggplot(curve_data, aes(x = quantity)) +\n  geom_line(aes(y = price_supply), color = \"blue\", lwd = 2, linetype = \"solid\") +\n  geom_line(aes(y = price_demand), color = \"red\", lwd = 2, linetype = \"solid\") +\n  labs(\n    y = \"Price\",\n    x = \"Quantity\"\n  ) +\n  theme_minimal() +\n  annotate(\"text\", x = 60, y = 5.65, label = \"S\", color = \"blue\", size = 8) +\n  annotate(\"text\", x = 60, y = 1.3, label = \"D\", color = \"red\", size = 8)"
+    "section": "Where Does Demand Come From?",
+    "text": "Where Does Demand Come From?\nImagine the market for coffee on campus\n\nAdditionally, imagine that the only other good that can be purchased is boba\nOn a basic level, demand for coffee is derived from individual’s choosing how to divide their income between coffee and boba\n\n\nlibrary(ggplot2)\n\n# Create data for the supply and demand curves\nquantity &lt;- c(10, 20, 30, 40, 50, 60)\nprice_supply &lt;- c(1, 2, 3, 4, 5, 6)\nprice_demand &lt;- c(6, 5, 4, 3, 2, 1)\n\n# Create a data frame\ncurve_data &lt;- data.frame(quantity, price_supply, price_demand)\n\n# Create the plot\nggplot(curve_data, aes(x = quantity)) +\n  geom_line(aes(y = price_supply), color = \"blue\", lwd = 2, linetype = \"solid\") +\n  geom_line(aes(y = price_demand), color = \"red\", lwd = 2, linetype = \"solid\") +\n  labs(\n    y = \"Price\",\n    x = \"Quantity\"\n  ) +\n  theme_minimal() +\n  annotate(\"text\", x = 60, y = 5.65, label = \"S\", color = \"blue\", size = 8) +\n  annotate(\"text\", x = 60, y = 1.3, label = \"D\", color = \"red\", size = 8)"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#where-does-demand-come-from-1",
@@ -3890,6 +3946,20 @@
     "title": "EC311 Intermediate Micro",
     "section": "What’s Going On? Mathematically",
     "text": "What’s Going On? Mathematically\nThe utility function of beer we’ve been using is:\n\\[U(x) = -x^{2} + 12x\\]\nLet’s practice: What would the optimal consumption amount be if the cost of beer is $2?\n. . .\n\n\nFind the Marginal Benefit\n\n\\[\nMU_{x} = \\dfrac{\\partial U}{\\partial x} = -2x + 12\n\\]\n\n\n\nSet the MB equal to MC\n\n\n\\[\\begin{align*}\n  MB &= MC \\\\\n  -2x + 12 &= 2 \\\\\n  2x &= 10 \\\\\n  x &= 5\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#rationality-utility",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#rationality-utility",
+    "title": "EC311 Intermediate Micro",
+    "section": "Rationality & Utility",
+    "text": "Rationality & Utility\nOne key proposition of rationality is that we can represent preferences by real numbers.\n\nA utility function maps a choice to a single number.\nFor example, let \\(u(.)\\) be the utility function from emoji to utils\n\nI can have \\(u(🍺) =5\\), \\(u(🌯)=10\\), \\(u(🤸)=25\\)\nI can also have \\(u(🍺 \\ , 🌯) = 20\\), \\(u(🍺 \\ , 🌯 \\ , 🤸) = 15\\)"
+  },
+  {
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#ordinal-vs.-cardinal-numbers",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#ordinal-vs.-cardinal-numbers",
+    "title": "EC311 Intermediate Micro",
+    "section": "Ordinal vs. Cardinal numbers",
+    "text": "Ordinal vs. Cardinal numbers\n\n\nCardinal: amounts which can be measured in meaningful units are cardinal numbers\n\nexamples: $9.99, 80 students, 50:50 odds\n\nOrdinal: all that matters is the relative ranking\n\nexamples: utility; what does 100 utility mean? (it’s less than 200)"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#a-two-good-problem",
@@ -4109,39 +4179,11 @@
     "text": "Bundles\nWhen you have a utility function of two goods, any given combination of those two goods is called a Bundle\n\nEvery bundle has an associated utility level\n\nTake the following utility function and bundles\n\\[U(x,y) = x^{2}y\\]\n. . .\n\n\nBundle 1 is (3,2)\n\n\\[\\begin{align*}\n  U(3,2) &= 3^{2} \\cdot 2 \\\\\n         &= 9 \\cdot 2 = 18\n\\end{align*}\\]\n\n\nBundle 2 is (1,0)\n\n\\[\\begin{align*}\n  U(1,0) &= 1^{2} \\cdot 0 \\\\\n         &= 1 \\cdot 0 = 0\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#bundles-axioms-of-preferences",
-    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#bundles-axioms-of-preferences",
+    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#bundles-and-rational-choice",
+    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#bundles-and-rational-choice",
     "title": "EC311 Intermediate Micro",
-    "section": "Bundles & Axioms of Preferences",
-    "text": "Bundles & Axioms of Preferences\n\nLet’s first define what an Axiom is\n\nA proposition that is assumed to be true without proof for the sake of studying the consequences that follow from it\n\n\nWe will use the following axioms about preferences between bundles to ensure logical consistency\n. . .\n\nCompleteness\n\n. . .\n\n“More is Better”\n\n. . .\n\nTransitivity\n\n. . .\n\nThese come from economic theory so they will help you think like an economist but do not think this tells us how people behave\n\n. . .\n\nWe are attempting to successfully predict behavior, so we will simply assume that everyone behaves accordingly"
-  },
-  {
-    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#completeness",
-    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#completeness",
-    "title": "EC311 Intermediate Micro",
-    "section": "Completeness",
-    "text": "Completeness\nWe say that preferences are always complete. So when comparing bundles A and B, you can always say one of the following:\n. . .\n\nI prefer A to B (\\(A \\succeq B\\))\nI prefer B to A (\\(B \\succeq A\\))\nI am indifferent between A and B (\\(A \\sim B\\))\n\n. . .\nThis allows us to compare and order any pair of bundles"
-  },
-  {
-    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#more-is-better",
-    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#more-is-better",
-    "title": "EC311 Intermediate Micro",
-    "section": "“More is Better”",
-    "text": "“More is Better”\nOr at least more is no worse than less\n. . .\nIn general, if a good is desirable we will want more of it\n\nHowever, sometimes products can be bads (instead of goods) and we would, obviously, want less of those"
-  },
-  {
-    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity",
-    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity",
-    "title": "EC311 Intermediate Micro",
-    "section": "Transitivity",
-    "text": "Transitivity\nPreferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:\n. . .\n\nIf you prefer B to A (\\(B \\succeq A\\)) and C to B (\\(C \\succeq B\\)) then you must prefer C to A (\\(C \\succeq A\\))\n\n. . ."
-  },
-  {
-    "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity-1",
-    "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity-1",
-    "title": "EC311 Intermediate Micro",
-    "section": "Transitivity",
-    "text": "Transitivity\nWhat would this graph mean?\n\n\n\n\n\n. . .\nAll bundles are preferred equally!"
+    "section": "Bundles and Rational Choice",
+    "text": "Bundles and Rational Choice\nWe will use the following axioms about preferences between bundles to ensure logical consistency\n. . .\n\nCompleteness\n\n. . .\n\nTransitivity\n\n. . .\n\n“More is Better”\n\n. . .\n\nThese come from economic theory so they will help you think like an economist but do not think this tells us how people behave\n\n. . .\n\nWe are attempting to successfully predict behavior, so we will simply assume that everyone behaves accordingly"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#preferences-assumptions",
