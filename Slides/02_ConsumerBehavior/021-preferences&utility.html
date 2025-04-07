@@ -207,25 +207,33 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="preferences">Preferences</h2>
 <p><span class="h">Preferences</span> describe the subjective ranking that we put on different alternatives.</p>
 <p>For example, my preference ranking of Eugene boba stores could go:</p>
-<div class="incremental">
-<ol class="incremental" type="1">
-<li><span class="hi">Tea 4</span></li>
-<li><span class="hi">Bobahead</span></li>
-<li><span class="hi">Day &amp; Night</span></li>
-<li><span class="hi">No boba</span></li>
-<li><span class="hi">Rabbit Hole</span></li>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ol type="1">
+<li><p><span class="hi">Tea 4</span></p></li>
+<li><p><span class="hi">Bobahead</span></p></li>
+<li><p><span class="hi">Day &amp; Night</span></p></li>
+<li><p><span class="hi">No boba</span></p></li>
+<li><p><span class="hi">Rabbit Hole</span></p></li>
 </ol>
-</div>
-<p>. . .</p>
+</div><p>. . .</p><div class="column" style="width:50%;">
 <blockquote class="blockquote">
 <p>What do you notice about the way I represented my preferences here?</p>
 </blockquote>
 <p>. . .</p>
 <ul>
-<li><p>This ranking is <span class="h">ordinal</span>; I didn’t say how <em>much</em> more I like each thing, only which I like <em>better</em></p></li>
-<li><p>The ranking includes an <em>outside option</em>: No boba</p></li>
-<li><p>Is it complete? Is there any place I’m missing?</p></li>
+<li>This ranking is <span class="h">ordinal</span>; I didn’t say how <em>much</em> more I like each thing, only which I like <em>better</em></li>
 </ul>
+<p>. . .</p>
+<ul>
+<li>The ranking includes an <em>outside option</em>: No boba</li>
+</ul>
+<p>. . .</p>
+<ul>
+<li>Is it complete? Is there any place I’m missing?</li>
+</ul>
+</div>
+</div>
 <hr>
 </section>
 <section id="axioms-of-preferences" class="level2">
@@ -250,11 +258,9 @@ window.Quarto = {
 <ul class="incremental">
 <li><p>People have <span class="h">complete preferences</span></p></li>
 <li><p>Those preferences are <span class="h">transitive</span></p></li>
+<li><p>For convenience, we also usually add other <span class="hi">assumptions</span>, such as assuming <span class="hi">“More is Better”</span></p></li>
 </ul>
 </div>
-<ul>
-<li>For convenience, we also usually add other <span class="hi">assumptions</span>, such as assuming <span class="hi">“More is Better”</span></li>
-</ul>
 <hr>
 </section>
 <section id="completeness" class="level2">
@@ -268,7 +274,7 @@ window.Quarto = {
 </ul>
 <p>. . .</p>
 <ul>
-<li>Example: for any pair of deserts, <span class="math inline">\(\{ \ 🍨 \ , \ 🍩 \ \}\)</span>, either <span class="math inline">\((🍨 \succeq 🍩 \ )\)</span>, or <span class="math inline">\((🍩 \ \succeq 🍨 \ )\)</span>, or <span class="math inline">\((🍨 \sim 🍩 \ )\)</span></li>
+<li>Example: for any pair of deserts, <span class="math inline">\(\{ \ 🍨 \ , \ 🍩 \ \}\)</span>: either <span class="math inline">\((🍨 \succeq 🍩 \ )\)</span>, or <span class="math inline">\((🍩 \ \succeq 🍨 \ )\)</span>, or <span class="math inline">\((🍨 \sim 🍩 \ )\)</span></li>
 </ul>
 <p>This allows us to compare and order any pair of bundles</p>
 <hr>
