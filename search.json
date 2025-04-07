@@ -3840,14 +3840,14 @@
     "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#completeness",
     "title": "EC311 Intermediate Micro",
     "section": "Completeness",
-    "text": "Completeness\nWe say that preferences are always complete. So when comparing bundles A and B, you can always say one of the following:\n. . .\n\nI prefer A to B (\\(A \\succeq B\\))\nI prefer B to A (\\(B \\succeq A\\))\nI am indifferent between A and B (\\(A \\sim B\\))\n\n. . .\n\nExample: for any pair of deserts, \\(\\{ \\ 🍨 \\ , \\ 🍩 \\ \\}\\), either: \\[(🍨 \\succeq 🍩 \\ )$, or $(🍩 \\ \\succeq 🍨 \\ )$, or $(🍨 \\sim 🍩 \\ )\\]\n\nThis allows us to compare and order any pair of bundles"
+    "text": "Completeness\nWe say that preferences are always complete. So when comparing bundles A and B, you can always say one of the following:\n. . .\n\nI prefer A to B (\\(A \\succeq B\\))\nI prefer B to A (\\(B \\succeq A\\))\nI am indifferent between A and B (\\(A \\sim B\\))\n\n. . .\n\nExample: for any pair of deserts, \\(\\{ \\ 🍨 \\ , \\ 🍩 \\ \\}\\), either: \\[(🍨 \\succeq 🍩 \\ ), \\text{ or }(🍩 \\ \\succeq 🍨 \\ ) \\text{, or } (🍨 \\sim 🍩 \\ )\\]\n\nThis allows us to compare and order any pair of bundles"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity",
     "href": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity",
     "title": "EC311 Intermediate Micro",
     "section": "Transitivity",
-    "text": "Transitivity\nPreferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:\n. . .\n\nIf you prefer B to A (\\(B \\succeq A\\)) and C to B (\\(C \\succeq B\\)) then you must prefer C to A (\\(C \\succeq A\\))\n\n. . .\n\nExample: if \\((☕ \\succeq 🍵 \\ )\\) and \\((🍵 \\succeq 🍶 \\ )\\), then: \\[☕ \\succeq 🍶  \\text{for any} \\ \\{☕ \\ , 🍵 \\ , 🍶 \\ \\} \\in 🫖 \\ \\]"
+    "text": "Transitivity\nPreferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:\n. . .\n\nIf you prefer B to A (\\(B \\succeq A\\)) and C to B (\\(C \\succeq B\\)) then you must prefer C to A (\\(C \\succeq A\\))\n\n. . .\n\nExample: if \\((☕ \\succeq 🍵 \\ )\\) and \\((🍵 \\succeq 🍶 \\ )\\), then \\(☕ \\succeq 🍶\\) for any {☕  , 🍵  , 🍶  } 🫖  $"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/021-preferences&utility.html#transitivity-1",
@@ -5366,14 +5366,14 @@
     "href": "Slides/02_ConsumerBehavior/Main.html#completeness",
     "title": "Consumer Behavior",
     "section": "Completeness",
-    "text": "Completeness\nWe say that preferences are always complete. So when comparing bundles A and B, you can always say one of the following:\n\n\nI prefer A to B (\\(A \\succeq B\\))\nI prefer B to A (\\(B \\succeq A\\))\nI am indifferent between A and B (\\(A \\sim B\\))\n\n\n\n\nExample: for any pair of deserts, \\(\\{ \\ 🍨 \\ , \\ 🍩 \\ \\}\\), either: \\[(🍨 \\succeq 🍩 \\ )$, or $(🍩 \\ \\succeq 🍨 \\ )$, or $(🍨 \\sim 🍩 \\ )\\]\n\nThis allows us to compare and order any pair of bundles"
+    "text": "Completeness\nWe say that preferences are always complete. So when comparing bundles A and B, you can always say one of the following:\n\n\nI prefer A to B (\\(A \\succeq B\\))\nI prefer B to A (\\(B \\succeq A\\))\nI am indifferent between A and B (\\(A \\sim B\\))\n\n\n\n\nExample: for any pair of deserts, \\(\\{ \\ 🍨 \\ , \\ 🍩 \\ \\}\\), either: \\[(🍨 \\succeq 🍩 \\ ), \\text{ or }(🍩 \\ \\succeq 🍨 \\ ) \\text{, or } (🍨 \\sim 🍩 \\ )\\]\n\nThis allows us to compare and order any pair of bundles"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#transitivity",
     "href": "Slides/02_ConsumerBehavior/Main.html#transitivity",
     "title": "Consumer Behavior",
     "section": "Transitivity",
-    "text": "Transitivity\nPreferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:\n\n\nIf you prefer B to A (\\(B \\succeq A\\)) and C to B (\\(C \\succeq B\\)) then you must prefer C to A (\\(C \\succeq A\\))\n\n\n\n\nExample: if \\((☕ \\succeq 🍵 \\ )\\) and \\((🍵 \\succeq 🍶 \\ )\\), then: \\[☕ \\succeq 🍶  \\text{for any} \\ \\{☕ \\ , 🍵 \\ , 🍶 \\ \\} \\in 🫖 \\ \\]"
+    "text": "Transitivity\nPreferences are transitive. This means that when comparing bundles A, B, and C you can get logical orderings through rankings:\n\n\nIf you prefer B to A (\\(B \\succeq A\\)) and C to B (\\(C \\succeq B\\)) then you must prefer C to A (\\(C \\succeq A\\))\n\n\n\n\nExample: if \\((☕ \\succeq 🍵 \\ )\\) and \\((🍵 \\succeq 🍶 \\ )\\), then \\(☕ \\succeq 🍶\\) for any {☕  , 🍵  , 🍶  } 🫖  $"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#transitivity-1",
