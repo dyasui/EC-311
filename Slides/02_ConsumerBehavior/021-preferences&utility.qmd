@@ -26,25 +26,42 @@ Before we get into the math behind utity functions, let's motivate what we want 
 
 For example, my preference ranking of Eugene boba stores could go:
 
-::: {.incremental}
-  1. [Tea 4]{.hi}
-  2. [Bobahead]{.hi}
-  5. [Day & Night]{.hi}
-  4. [No boba]{.hi}
-  5. [Rabbit Hole]{.hi}
-:::
+::::: {.columns}
 
-. . .
+:::: {.column width="40%"}
+
+  1. [Tea 4]{.hi}
+
+  2. [Bobahead]{.hi}
+
+  5. [Day & Night]{.hi}
+
+  4. [No boba]{.hi}
+
+  5. [Rabbit Hole]{.hi}
+
+::::
+
+:::: {.column width="60%"}
+
+::: {.incremental}
 
 > What do you notice about the way I represented my preferences here?
 
-. . .
 
 - This ranking is [ordinal]{.h}; I didn't say how *much* more I like each thing, only which I like *better*
 
+
 - The ranking includes an *outside option*: No boba
 
+
 - Is it complete? Is there any place I'm missing?
+
+:::
+
+::::
+
+:::::
 
 ---
 
@@ -76,9 +93,10 @@ Its [axioms]{.hi} are that:
 
   * Those preferences are [transitive]{.h}
 
+  * For convenience, we also usually add other [assumptions]{.hi}, such as assuming ["More is Better"]{.hi}
+
 :::
 
-- For convenience, we also usually add other [assumptions]{.hi}, such as assuming ["More is Better"]{.hi}
 
 ---
 
@@ -96,7 +114,8 @@ We say that preferences are always [complete]{.hi}. So when comparing bundles A 
 
 . . .
 
-- Example: for any pair of deserts, $\{ \ 🍨 \ , \ 🍩 \ \}$, either $(🍨 \succeq 🍩 \ )$, or $(🍩 \ \succeq 🍨 \ )$, or $(🍨 \sim 🍩 \ )$
+- Example: for any pair of deserts, $\{ \ 🍨 \ , \ 🍩 \ \}$, either:
+$$(🍨 \succeq 🍩 \ ), \text{ or }(🍩 \ \succeq 🍨 \ ) \text{, or } (🍨 \sim 🍩 \ )$$
 
 This allows us to compare and order any pair of bundles
 
@@ -112,7 +131,7 @@ Preferences are transitive. This means that when comparing bundles A, B, and C y
 
 . . .
 
-- Example: if $(☕ \succeq 🍵 \ )$ and $(🍵 \succeq 🍶 \ )$, then $(☕ \succeq 🍶)$  ( for any $\{☕ \ , 🍵 \ , 🍶 \ \} \in 🫖 \ $)
+- Example: if $(☕ \succeq 🍵 \ )$ and $(🍵 \succeq 🍶 \ )$, then $☕ \succeq 🍶$ for any  \{☕ \ , 🍵 \ , 🍶 \ \} \in 🫖 \ $
 
 ![](Images/Transitivity-line.png){fig-align="center"}
 
