@@ -46,9 +46,9 @@ The core question we are attempting to answer is
 
 :::: {layout-ncol=2}
 
-![](Images\Budget-Constraint.png)
+![](Images/Budget-Constraint.png)
 
-![](Images\Indifference-Curve.png)
+![](Images/Indifference-Curve.png)
 
 ::::
 
@@ -58,7 +58,7 @@ These are our two ingredients to solving a utility maximization problem
 
 ## Putting It Together
 
-![](Images\Utility-Max-Graph1.png){fig-align="center"}
+![](Images/Utility-Max-Graph1.png){fig-align="center"}
 
 The key for these graphs is to internalize the fact that there are infinite amounts of IC we can draw
 
@@ -74,7 +74,7 @@ The key for these graphs is to internalize the fact that there are infinite amou
 
 ::: {.column width="70%"}
 
-![](Images\Utility-Max-Graph2.png){fig-align="center"}
+![](Images/Utility-Max-Graph2.png){fig-align="center"}
 
 Which one is the utility maximizing bundle?
 
@@ -144,7 +144,7 @@ ICs [below]{.hi} the BC:
 
 ## IC With The Highest Utility 
 
-![](Images\Utility-Max-Graph2.png){fig-align="center"}
+![](Images/Utility-Max-Graph2.png){fig-align="center"}
 
 [**Point C**]{.h} is a magical point
 
@@ -156,7 +156,7 @@ ICs [below]{.hi} the BC:
 
 ## IC With The Highest Utility 
 
-![](Images\Utility-Max-Graph2.png){fig-align="center"}
+![](Images/Utility-Max-Graph2.png){fig-align="center"}
 
 - We call [**Point C**]{.h} the [Utility Maximizing Bundle]{.hii}
 
