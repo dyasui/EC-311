@@ -26,7 +26,7 @@ title: "Practice Exams"
 ### Winter 2024 Midterm
 ```{=html}
 <div class="embed-container">
-  <iframe src="Midterm/EC-311-Winter-24-Midterm.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  <iframe src="Midterm/EC-311-Winter-24-Midterm-v2.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
 </div>
 ```
 
@@ -45,6 +45,6 @@ title: "Practice Exams"
 ### Winter 2024 Final
 ```{=html}
 <div class="embed-container">
-  <iframe src="Final/EC-311-Winter-24-Final" style="border: 0.5px" height="1000" width="800"></iframe>
+  <iframe src="Final/EC-311-Winter-24-Final.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
 </div>
 ```

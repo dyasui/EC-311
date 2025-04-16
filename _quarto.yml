@@ -34,9 +34,3 @@ website:
     content: "No Wednesday Office Hour, now on Friday: 12:30 in PLC 525"
     type: warning
     position: below-navbar
-  announcement: 
-    icon: clipboard2-check-fill
-    dismissable: true
-    content: "Correct Achieve Course Code is fm6j5k"
-    type: warning
-    position: below-navbar
