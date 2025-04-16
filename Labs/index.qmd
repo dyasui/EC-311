@@ -2,82 +2,166 @@
 title: "Lab Assignments"
 ---
 
-### Lab 1 : Math Review 
+### lab 1 : math review 
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w1-mathreview.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 2 : Equilibria and Utility Functions
+### lab 2 : equilibria and utility functions
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w2-equilibrium-utility.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 3 : Utility Maximization
+### lab 3 : utility maximization
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w3-utilitymax.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 4 : Demand Elasticity
+### lab 4 : demand elasticity
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w4-elasticity-theory.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 5 : Midterm Practice
+### lab 5 : midterm practice
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w5-midterm-review.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 6 : Production 
+### lab 6 : production 
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w6-production-intro.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 7 : Costs
+### lab 7 : costs
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w7-production-costs.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
 
-### Lab 8 : Costs
+### lab 8 : costs
 ```{=html}
 <details>
-  <summary>PDF</summary>
+  <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w8-costs.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+---
+
+# Solutions
+
+### lab 1 : math review 
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w1-mathreview-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 2 : equilibria and utility functions
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w2-equilibrium-utility-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 3 : utility maximization
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w3-utilitymax-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 4 : demand elasticity
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w4-elasticity-theory-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 5 : midterm practice
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w5-midterm-review-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 6 : production 
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w6-production-intro-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 7 : costs
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w7-production-costs-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### lab 8 : costs
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w8-costs-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```

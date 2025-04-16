@@ -26,6 +26,14 @@ website:
         href: Slides/index.qmd
       - text: "Labs"
         href: Labs/index.qmd
+      - text: "Practice Exams"
+        href: "Exams/index.qmd"
+  announcement: 
+    icon: clipboard2-check-fill
+    dismissable: true
+    content: "No Wednesday Office Hour, now on Friday: 12:30 in PLC 525"
+    type: warning
+    position: below-navbar
   announcement: 
     icon: clipboard2-check-fill
     dismissable: true

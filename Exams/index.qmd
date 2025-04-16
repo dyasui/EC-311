@@ -1,0 +1,50 @@
+---
+title: "Practice Exams"
+---
+
+# Policies:
+
+<u>Allowed Materials:</u>
+
+  - one 3-inch by 5-inch handwritten notecard
+  - a scientific (non-graphing) calculator
+  - student ID card
+  - pencils, erasers, rulers, etc. recommended for graphing
+
+# Midterm
+
+### Winter 2024 Practice Midterm
+```{=html}
+<div class="embed-container">
+  <iframe src="Midterm/EC-311-Winter-24-Practice-Midterm.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+</div>
+<a class="btn btn-primary btn-md" href="Midterm/Answers-EC-311-Winter-24-Practice-Midterm.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Solutions
+</a>
+```
+
+### Winter 2024 Midterm
+```{=html}
+<div class="embed-container">
+  <iframe src="Midterm/EC-311-Winter-24-Midterm.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+</div>
+```
+
+# Final
+
+### Winter 2024 Practice Final
+```{=html}
+<div class="embed-container">
+  <iframe src="Final/EC-311-Winter-24-Practice-Final.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+</div>
+<a class="btn btn-primary btn-md" href="Final/[Answers]EC-311-Winter-24-Practice-Final.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Solutions
+</a>
+```
+
+### Winter 2024 Final
+```{=html}
+<div class="embed-container">
+  <iframe src="Final/EC-311-Winter-24-Final" style="border: 0.5px" height="1000" width="800"></iframe>
+</div>
+```
