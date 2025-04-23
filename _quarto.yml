@@ -31,6 +31,6 @@ website:
   announcement: 
     icon: clipboard2-check-fill
     dismissable: true
-    content: "No Wednesday Office Hour, now on Friday: 12:30 in PLC 525"
+    content: "Please fill out the Midterm Course Survey on Canvas!"
     type: warning
     position: below-navbar
