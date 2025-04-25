@@ -9,7 +9,11 @@ title: "Home"
 
 **Instructor:** [Dante Yasui](https://github.com/dyasui)
 
-**Office Hours:** Mon 10am in [Tykeson hall](https://map.uoregon.edu/9195592d9), Fri 12:30m in PLC 535
+**Office Hours:**
+
+  - Mon 10am in [Tykeson hall](https://map.uoregon.edu/9195592d9) 3rd floor,
+
+  - Fri 12:30m in PLC 525
 
 :::
 
