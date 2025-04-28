@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>producer-theory-basics – EC311 Intermediate Micro</title>
+<title>sr-v-lr – EC311 Intermediate Micro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,164 +156,187 @@ window.Quarto = {
 
 
 
-<section id="production-assumptions" class="level2">
-<h2 class="anchored" data-anchor-id="production-assumptions">Production Assumptions</h2>
-<p>Just like we made simplifying assumptions about <em>consumers</em>, we’ll need some ground rules for <span class="hi">producers</span>:</p>
-<div class="columns">
-<div class="incremental">
-<div class="column" style="width:50%;">
-<ol class="incremental" type="1">
-<li>Single production good</li>
-<li>Product choice is fixed</li>
-<li>Cost minimization</li>
-<li>Capital is fixed in short-run</li>
-</ol>
-</div>
-<div class="column" style="width:50%;">
-<ol class="incremental" start="5" type="1">
-<li>More inputs <span class="math inline">\(\rightarrow\)</span> more outputs</li>
-<li>Diminishing marginal returns</li>
-<li>Firm’s aren’t budget constrained</li>
-</ol>
-</div>
-</div>
-</div>
+<section id="assumption-4-capital-is-fixed-in-the-short-run" class="level2">
+<h2 class="anchored" data-anchor-id="assumption-4-capital-is-fixed-in-the-short-run">Assumption 4: Capital is Fixed in the Short-Run</h2>
+<p>We implicitly define the <span class="h">short-run</span> as the time-span where firms don’t have enough time to buy more capital.</p>
+<ul>
+<li>As opposed to the <span class="h">long-run</span> where capital is assumed to be variable</li>
+</ul>
+</section>
+<section id="assumption-7-firms-arent-budget-constrained" class="level2">
+<h2 class="anchored" data-anchor-id="assumption-7-firms-arent-budget-constrained">Assumption 7: Firms aren’t Budget Constrained</h2>
+<p>For the short-run, capital is only constrained by time-frame, not by how much money the firm has.</p>
+<ul>
+<li><p>In the long-run, the firm can choose any combination of capital <em>and</em> labor it wants</p></li>
+<li><p>We assume that as long as there is profit to be made, there is a complete credit market that will provide funds</p></li>
+</ul>
+</section>
+<section id="example-dantes-taco-truck" class="level2">
+<h2 class="anchored" data-anchor-id="example-dantes-taco-truck">Example: Dante’s Taco Truck</h2>
+<p>Before we found the <em>demand</em> functions for Tacos (and drinks).</p>
+<ul>
+<li>But now we want to figure out how best I should meet that demand.</li>
+</ul>
+<p>Suppose that we just care about producing Tacos, which require deep fryers <span class="math inline">\(K\)</span>, and workers <span class="math inline">\(L\)</span></p>
+<p><span class="math display">\[Q_s^{\text{tacos}} = f(K,L) = \sqrt{KL}\]</span></p>
+</section>
+<section id="example-dantes-taco-truck-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-dantes-taco-truck-1">Example: Dante’s Taco Truck</h2>
+<p>I only have 4 fryers to start out with <span class="math inline">\(\bar{K}=4\)</span>, but I can hire as many workers as I need.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Fryers</th>
+<th>Workers</th>
+<th>Tacos Produced</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>2</td>
+<td><span class="math inline">\(\sqrt{8} \approx 2.8\)</span></td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>3</td>
+<td><span class="math inline">\(\sqrt{12} \approx 3.5\)</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>4</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
 <p>. . .</p>
-<p>I’ll tackle each one in a slightly different order, but this is how they appear in the textbook</p>
-</section>
-<section id="assumption-1-single-output" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-1-single-output">Assumption 1: Single Output</h2>
-<p>In our models, each type of firm only produces one type of good.</p>
 <ul>
-<li>I.e., Shoe companies just produce generic shoes, we don’t care about different styles</li>
+<li>What do you notice as the number of workers increases?</li>
 </ul>
 </section>
-<section id="firms-what-do-they-make-how-do-they-make-it-lets-find-out" class="level2">
-<h2 class="anchored" data-anchor-id="firms-what-do-they-make-how-do-they-make-it-lets-find-out">Firms: What do They Make? How Do They Make It? Let’s Find Out!</h2>
-<p>Let’s determine the role of the firm</p>
+<section id="example-dantes-taco-truck-2" class="level2">
+<h2 class="anchored" data-anchor-id="example-dantes-taco-truck-2">Example: Dante’s Taco Truck</h2>
+<p>The <span class="h">marginal product of labor</span> is decreasing!</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Fryers</th>
+<th>Workers</th>
+<th>Tacos Produced</th>
+<th>Marginal Product</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>2</td>
+<td><span class="math inline">\(\sqrt{8} \approx 2.8\)</span></td>
+<td>0.8</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>3</td>
+<td><span class="math inline">\(\sqrt{12} \approx 3.5\)</span></td>
+<td>0.7</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>0.5</td>
+</tr>
+</tbody>
+</table>
+<p>The next worker adds less and less to the total production the more workers we already have in the kitchen</p>
+</section>
+<section id="marginal-product-of-labor" class="level2">
+<h2 class="anchored" data-anchor-id="marginal-product-of-labor">Marginal Product of Labor</h2>
+<p>The <span class="h">Marginal Product of Labor</span> is the change in the quantity of production caused by a change in the quantity of labor as an input.</p>
 <div class="incremental">
 <ul class="incremental">
-<li><p>Firms produce <span class="hi">goods (output)</span> to sell consumers</p></li>
-<li><p>To produce <span class="hi">output</span>, firms need <span class="hi">factors of production (inputs)</span> such as <span class="hi">labor and capital</span></p></li>
-<li><p>Firms use a <span class="hi">production process (technology)</span> to transform <span class="hi">inputs</span> into <span class="hi">output</span></p></li>
+<li><p>Given a production function <span class="math inline">\(f(K,L)\)</span>, how could you find an expression which represents this change <em>for any quantity change</em> of labor?</p></li>
+<li><p>Take the partial derivative <span class="math inline">\(\frac{df}{dL}\)</span> holding capital fixed!</p></li>
 </ul>
-</div>
-<hr>
-</section>
-<section id="firm-productivity" class="level2">
-<h2 class="anchored" data-anchor-id="firm-productivity">Firm Productivity</h2>
-<p>How firms choose to produce things is guided by a similar principle to how individuals consume things</p>
-<p>. . .</p>
-<p><br></p>
-<p><span class="hi">Marginal Productivity</span></p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><span class="h">The impact of one additional factor of production on the total amount produced</span></p></li>
-<li><p>Recall that utility is usually diminishing as consumption increases</p></li>
-<li><p>Productivity also diminishes as a firm uses more inputs</p></li>
-</ul>
-</div>
-<hr>
-</section>
-<section id="production-functions" class="level2">
-<h2 class="anchored" data-anchor-id="production-functions">Production Functions</h2>
-<p>In mathematical language: a <span class="h">production function</span> takes inputs to create a quantity of output:</p>
-<p><span class="math display">\[f(x_1,...,x_n) : \mathbb{R}^n \rightarrow \mathbb{R}\]</span></p>
-<div class="incremental">
-<ul class="incremental">
-<li>Just like <em>utility functions</em>, <span class="h">production functions</span> can take multiple inputs</li>
-</ul>
-</div>
-</section>
-<section id="production-functions-1" class="level2">
-<h2 class="anchored" data-anchor-id="production-functions-1">Production Functions</h2>
-<p>We will only consieder production with <strong>two</strong> inputs at a time:</p>
-<p><span class="math display">\[Q = f(K,L)\]</span></p>
-<p>This production function means that a firm produces <span class="math inline">\(Q\)</span> units of it’s output good using:</p>
-<ul>
-<li><span class="math inline">\(K\)</span>: <span class="h">Captial</span> (machines, buildings, computers, etc.)</li>
-<li><span class="math inline">\(L\)</span>: <span class="h">Labor</span> - the human workers who use the capital
-<ul>
-<li>Units could be in number of workers, labor hours, etc.</li>
-</ul></li>
-</ul>
-</section>
-<section id="assumption-2-product-choice-is-fixed" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-2-product-choice-is-fixed">Assumption 2: Product Choice is Fixed</h2>
-<p>We will assume that all potential producing firms in a market have already decided on their single product.</p>
-<ul>
-<li>We don’t consider e.g., Amazon going from ecommerce to cloud services</li>
-</ul>
-</section>
-<section id="assumption-5-more-inputs---more-output" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-5-more-inputs---more-output">Assumption 5: More Inputs -&gt; More Output</h2>
-<p>For simplicity, we assume that firms can always achieve higher production levels by using more inputs</p>
-<ul>
-<li><p><span class="math inline">\((f(K,L)\)</span> is <span class="hi">monitonically increasing</span> in <span class="math inline">\(K,L\)</span> (<span class="math inline">\(\frac{df}{dK},\frac{df}{dL}&gt;0\)</span>)</p></li>
-<li><p>similar to our “more is better” assumption of consumer utility</p></li>
-</ul>
-</section>
-<section id="assumption-6-diminishing-returns" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-6-diminishing-returns">Assumption 6: Diminishing Returns</h2>
-<p>More capital and labor always leads to more production, <em>but</em> those gains will fade out the more you have already used</p>
-<ul>
-<li><p><span class="math inline">\(\frac{df}{dK^2},\frac{df}{dL^2} &lt; 0\)</span></p></li>
-<li><p>If graphed on the <em>input-product</em> axes, the production function will be <span class="h">concave</span>.</p></li>
-</ul>
-</section>
-<section id="the-production-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-production-problem">The Production Problem</h2>
-<p>We will begin by making a simplifying assumption to make our lives easier</p>
-<p><br></p>
-<p>Firms will have <span class="hi">2 typical inputs</span></p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><span class="hi">Labor (L)</span> <span class="math inline">\(\Rightarrow\)</span> Workers</p>
-<ul class="incremental">
-<li>The cost of a unit of labor is the <span class="hi">wage <span class="math inline">\((w)\)</span></span> paid</li>
-</ul></li>
-<li><p><span class="hi">Capital (K)</span> <span class="math inline">\(\Rightarrow\)</span> Factory space, equipment, hardware, etc.</p>
-<ul class="incremental">
-<li>The cost of a unit of capital is the <span class="hi">rental rate or interest rate <span class="math inline">\((r)\)</span></span></li>
-</ul></li>
-</ul>
-</div>
-<hr>
-</section>
-<section id="labor-inputs-for-an-office" class="level2">
-<h2 class="anchored" data-anchor-id="labor-inputs-for-an-office">Labor Inputs for an Office</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/labor-input.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<hr>
-</section>
-<section id="capital-inputs-for-an-office" class="level2">
-<h2 class="anchored" data-anchor-id="capital-inputs-for-an-office">Capital Inputs for an Office</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/capital-input.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<hr>
-</section>
-<section id="formalizing-the-production-problem" class="level2">
-<h2 class="anchored" data-anchor-id="formalizing-the-production-problem">Formalizing the Production Problem</h2>
-<p>Similar to the Budget Constraint from Consumer Theory, we can formalize the firm’s costs:</p>
-<p><span class="math display">\[
-    \text{Costs:} \;\; w \cdot L + r \cdot K
-\]</span></p>
-<p>. . .</p>
-<p><br></p>
-<p><span class="note hi align-center">Write the costs of a firm that faces a wage of $10 and a rental rate of $12:</span></p>
-<p>. . .</p>
-<p><br></p>
-<p><span class="math display">\[
-   \text{Costs:} \;\; 10 L + 12 K
-\]</span></p>
+<section id="average-product-of-labor" class="level2">
+<h2 class="anchored" data-anchor-id="average-product-of-labor">Average Product of Labor</h2>
+<p>The <span class="h">average product</span> is different from the <span class="h">marginal product</span></p>
+<p><span class="math display">\[AP_L = Q/L\]</span></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 32%">
+<col style="width: 23%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fryers</th>
+<th>Workers</th>
+<th>Tacos Produced</th>
+<th>Marginal Product</th>
+<th>Average Product</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>2</td>
+<td><span class="math inline">\(\sqrt{8} \approx 2.8\)</span></td>
+<td>0.8</td>
+<td><span class="math inline">\(\approx 1.4\)</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>3</td>
+<td><span class="math inline">\(\sqrt{12} \approx 3.5\)</span></td>
+<td>0.7</td>
+<td><span class="math inline">\(\approx 1.2\)</span></td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>0.5</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -883,4 +906,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://gituhub.com/dyasui/EC-311/edit/main/Slides/05_Production/051-producer-theory-basics.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://gituhub.com/dyasui/EC-311/blob/main/Slides/05_Production/051-producer-theory-basics.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://gituhub.com/dyasui/EC-311/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://gituhub.com/dyasui/EC-311/edit/main/Slides/05_Production/052-sr-v-lr.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://gituhub.com/dyasui/EC-311/blob/main/Slides/05_Production/052-sr-v-lr.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://gituhub.com/dyasui/EC-311/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

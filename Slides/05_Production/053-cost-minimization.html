@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>producer-theory-basics – EC311 Intermediate Micro</title>
+<title>cost-minimization – EC311 Intermediate Micro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,162 +156,394 @@ window.Quarto = {
 
 
 
-<section id="production-assumptions" class="level2">
-<h2 class="anchored" data-anchor-id="production-assumptions">Production Assumptions</h2>
-<p>Just like we made simplifying assumptions about <em>consumers</em>, we’ll need some ground rules for <span class="hi">producers</span>:</p>
-<div class="columns">
-<div class="incremental">
-<div class="column" style="width:50%;">
-<ol class="incremental" type="1">
-<li>Single production good</li>
-<li>Product choice is fixed</li>
-<li>Cost minimization</li>
-<li>Capital is fixed in short-run</li>
-</ol>
-</div>
-<div class="column" style="width:50%;">
-<ol class="incremental" start="5" type="1">
-<li>More inputs <span class="math inline">\(\rightarrow\)</span> more outputs</li>
-<li>Diminishing marginal returns</li>
-<li>Firm’s aren’t budget constrained</li>
-</ol>
-</div>
-</div>
-</div>
+<section id="assumption-3-cost-minimization" class="level2">
+<h2 class="anchored" data-anchor-id="assumption-3-cost-minimization">Assumption 3: Cost Minimization</h2>
+<p>Instead of trying to <em>maximize production</em>, firms try to <em>minimize costs</em> while trying to meet a specific level of production.</p>
+<p><span class="math display">\[
+\begin{align}
+min &amp; w \cdot L + r \cdot K \\
+\text{subject to } &amp; f(K,L) = Q \\
+\end{aligh}
+\]</span></p>
 <p>. . .</p>
-<p>I’ll tackle each one in a slightly different order, but this is how they appear in the textbook</p>
-</section>
-<section id="assumption-1-single-output" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-1-single-output">Assumption 1: Single Output</h2>
-<p>In our models, each type of firm only produces one type of good.</p>
 <ul>
-<li>I.e., Shoe companies just produce generic shoes, we don’t care about different styles</li>
+<li>Notice how this is the flip side of the constrained <em>maximization</em> problem?</li>
 </ul>
 </section>
-<section id="firms-what-do-they-make-how-do-they-make-it-lets-find-out" class="level2">
-<h2 class="anchored" data-anchor-id="firms-what-do-they-make-how-do-they-make-it-lets-find-out">Firms: What do They Make? How Do They Make It? Let’s Find Out!</h2>
-<p>Let’s determine the role of the firm</p>
-<div class="incremental">
-<ul class="incremental">
-<li><p>Firms produce <span class="hi">goods (output)</span> to sell consumers</p></li>
-<li><p>To produce <span class="hi">output</span>, firms need <span class="hi">factors of production (inputs)</span> such as <span class="hi">labor and capital</span></p></li>
-<li><p>Firms use a <span class="hi">production process (technology)</span> to transform <span class="hi">inputs</span> into <span class="hi">output</span></p></li>
+<section id="isoquants" class="level2">
+<h2 class="anchored" data-anchor-id="isoquants">Isoquants</h2>
+<p>What do these production functions look like graphically?</p>
+<ul>
+<li><p><span class="h">isoquants</span> are sets of bundles of inputs that produce the same level of output</p></li>
+<li><p>Visually similar to <em>indifference curves</em>, but conceptually different</p></li>
 </ul>
-</div>
-<hr>
 </section>
-<section id="firm-productivity" class="level2">
-<h2 class="anchored" data-anchor-id="firm-productivity">Firm Productivity</h2>
-<p>How firms choose to produce things is guided by a similar principle to how individuals consume things</p>
+<section id="firm-optimization-story-time" class="level2">
+<h2 class="anchored" data-anchor-id="firm-optimization-story-time">Firm Optimization Story Time</h2>
+<p>Imagine you are the manager of a clothing factory that produces Ducks football jerseys</p>
+<p>It is almost Fall and Mr.&nbsp;Nike himself calls you. They tell you <span class="hii">“We need 20,000 jerseys made for the start of the season”</span></p>
 <p>. . .</p>
 <p><br></p>
-<p><span class="hi">Marginal Productivity</span></p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><span class="h">The impact of one additional factor of production on the total amount produced</span></p></li>
-<li><p>Recall that utility is usually diminishing as consumption increases</p></li>
-<li><p>Productivity also diminishes as a firm uses more inputs</p></li>
-</ul>
-</div>
+<p>Your goal is to choose how many <span class="h">workers <span class="math inline">\((L)\)</span></span> and how much <span class="h">capital <span class="math inline">\((L)\)</span></span> to use to produce the 20,000 jerseys as cheaply as possible</p>
+<blockquote class="blockquote">
+<p>How do you figure out how to use <span class="math inline">\(L\)</span> and <span class="math inline">\(K\)</span> to make 20,000 jerseys?</p>
+<p><span class="h align-center">With a Production Function</span></p>
+</blockquote>
 <hr>
 </section>
 <section id="production-functions" class="level2">
 <h2 class="anchored" data-anchor-id="production-functions">Production Functions</h2>
-<p>In mathematical language: a <span class="h">production function</span> takes inputs to create a quantity of output:</p>
-<p><span class="math display">\[f(x_1,...,x_n) : \mathbb{R}^n \rightarrow \mathbb{R}\]</span></p>
+<p>These are a function of how a firm can transform <span class="hi">inputs</span> into <span class="hi">outputs</span></p>
+<p>It will work just like a utility function</p>
+<ul>
+<li>In our the jersey example, we have:</li>
+</ul>
+<p><span class="math display">\[\begin{align*}
+    F(L,K) &amp;= Q \\
+    F(L,K) &amp;= 20,000
+\end{align*}\]</span></p>
+<hr>
+</section>
+<section id="putting-it-together" class="level2">
+<h2 class="anchored" data-anchor-id="putting-it-together">Putting it Together</h2>
+<p>The problem the factory manager solves can be written as</p>
+<p><span class="math display">\[
+    \min \;\; w \cdot L + r \cdot K \;\;\; s.t. \;\;\; F(L,K) = Q = 20,000
+\]</span></p>
+<p>. . .</p>
+<p>We can read this as:</p>
+<ul>
+<li>The firm minimizes their <span class="hi">costs (<span class="math inline">\(w \cdot L + r \cdot K\)</span>)</span> such that you produce a given <span class="hi">quantity <span class="math inline">\((Q)\)</span></span> using <span class="hi">labor <span class="math inline">\((L)\)</span> and capital <span class="math inline">\((K)\)</span></span> with <span class="hi">Production Technology <span class="math inline">\(F(L,K)\)</span></span></li>
+</ul>
+<hr>
+</section>
+<section id="lets-give-things-some-values" class="level2">
+<h2 class="anchored" data-anchor-id="lets-give-things-some-values">Let’s Give Things Some Values</h2>
+<p>Now let’s say we have the following values:</p>
+<ul>
+<li>Wages are <span class="math inline">\(w = 10\)</span></li>
+<li>Rental rates are <span class="math inline">\(r = 5\)</span></li>
+<li>The factory’s Production Function is <span class="math inline">\(F(L,K) = 5L + 2K\)</span></li>
+</ul>
+<p>. . .</p>
+<p><br> The problem becomes:</p>
+<p><span class="math display">\[
+    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
+\]</span></p>
+</section>
+<section id="solving-cost-minimization-problems---new-terms" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="solving-cost-minimization-problems---new-terms">Solving Cost Minimization Problems - New Terms</h2>
+<p>The methods to solve these problems are practically the same as we saw in Consumer Theory</p>
+<p>However, we need to re-label some things:</p>
 <div class="incremental">
 <ul class="incremental">
-<li>Just like <em>utility functions</em>, <span class="h">production functions</span> can take multiple inputs</li>
+<li>The Marginal Rate of Substitution will not be named <span class="hi">Marginal Rate of Technological Substitution (MRTS)</span>
+<ul class="incremental">
+<li>This has a similar interpretation as before:
+<ul class="incremental">
+<li><span class="hi">What is the firm’s willingness to trade Labor for Capital</span></li>
+</ul></li>
+</ul></li>
+<li>Now, instead of using the ratio of marginal utilities, we will use the <span class="hi">ratio of marginal productivities</span></li>
 </ul>
 </div>
+<p>. . .</p>
+<p><span class="math display">\[
+    \text{MRTS} = \frac{MP_{L}}{MP_{K}} = \frac{\frac{\partial F}{\partial L}}{\frac{\partial F}{\partial K}} = \frac{\text{Marginal Productivity of Labor}}{\text{Marginal Productivity of Capital}}
+\]</span></p>
 </section>
-<section id="production-functions-1" class="level2">
-<h2 class="anchored" data-anchor-id="production-functions-1">Production Functions</h2>
-<p>We will only consieder production with <strong>two</strong> inputs at a time:</p>
-<p><span class="math display">\[Q = f(K,L)\]</span></p>
-<p>This production function means that a firm produces <span class="math inline">\(Q\)</span> units of it’s output good using:</p>
+<section id="lets-solve-the-jersey-problem" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="lets-solve-the-jersey-problem">Let’s Solve the Jersey Problem</h2>
+<p><span class="math display">\[
+    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
+\]</span></p>
+<p>The solution should look very familiar. We are trying to choose <span class="math inline">\(L^{*}\)</span> and <span class="math inline">\(K^{*}\)</span> that optimizes our productivity.</p>
+<p>. . .</p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><span class="note h">What type of production function is this?</span></p>
+</div><div class="column" style="width:30%;">
+<div class="fragment">
+<p>Perfect Substitutes</p>
+</div>
+</div>
+</div>
+<p>. . .</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi small">Find MRTS and Set Equal to Price Ratio</span></p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+    \text{MRTS} \;\; &amp;? \;\; \text{Price Ratio} \\
+    \frac{MP_{L}}{MP_{K}} \;\; &amp;? \;\; \frac{w}{r} \\
+    \frac{5}{2} \;\; &amp;? \;\; \frac{10}{5} \\
+    
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><span class="hi small">Interpret the MRTS and Price Ratio Relationship</span></p>
+<p><span class="math display">\[
+    \text{MRTS} &gt; \text{Price Ratio}
+\]</span></p>
+<p><span class="hi align-center">Use only Labor <span class="math inline">\(\; \rightarrow \; K^{*} = 0\)</span></span></p>
+</div>
+</div>
+</div>
+<p>. . .</p>
+<p><span class="hi align-center">Plug into Production Function</span></p>
+<p><span class="math display">\[
+    K^{*} = 0 \; \Rightarrow \; F(L,K) = 20,000 \; \rightarrow \; 5L + 2(0) = 20,000 \; \rightarrow \; L^{*} = \frac{20,000}{5} = 4,000
+\]</span></p>
+<hr>
+</section>
+<section id="jersey-problem-2" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="jersey-problem-2">Jersey Problem 2</h2>
+<p><span class="math display">\[
+    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
+\]</span></p>
+<p><span class="hi note align-center">What if <span class="math inline">\(\; w = 20 \;\)</span> and <span class="math inline">\(\; r = 5 \;\)</span>?</span></p>
+<p>. . .</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi small">Find MRTS and Set Equal to Price Ratio</span></p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+    \text{MRTS} \;\; &amp;? \;\; \text{Price Ratio} \\
+    \frac{MP_{L}}{MP_{K}} \;\; &amp;? \;\; \frac{w}{r} \\
+    \frac{5}{2} \;\; &amp;? \;\; \frac{20}{5} \\
+    
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><span class="hi small">Interpret the MRTS and Price Ratio Relationship</span></p>
+<p><span class="math display">\[
+    \text{MRTS} &lt; \text{Price Ratio}
+\]</span></p>
+<p><span class="hi align-center">Use only Capital <span class="math inline">\(\; \rightarrow \; L^{*} = 0\)</span></span></p>
+</div>
+</div>
+</div>
+<p>. . .</p>
+<p><span class="hi align-center">Plug into Production Function</span></p>
+<p><span class="math display">\[
+    K^{*} = 0 \; \Rightarrow \; F(L,K) = 20,000 \; \rightarrow \; 5(0) + 2K = 20,000 \; \rightarrow \; K^{*} = \frac{20,000}{2} = 10,000
+\]</span></p>
+<hr>
+</section>
+<section id="production-function-forms" class="level2">
+<h2 class="anchored" data-anchor-id="production-function-forms">Production Function Forms</h2>
+<p>We have the exact same functional forms that we used for utility functions</p>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li><span class="math inline">\(K\)</span>: <span class="h">Captial</span> (machines, buildings, computers, etc.)</li>
-<li><span class="math inline">\(L\)</span>: <span class="h">Labor</span> - the human workers who use the capital
-<ul>
-<li>Units could be in number of workers, labor hours, etc.</li>
-</ul></li>
+<li>Cobb-Douglas</li>
+<li>Quasi-Linear</li>
 </ul>
-</section>
-<section id="assumption-2-product-choice-is-fixed" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-2-product-choice-is-fixed">Assumption 2: Product Choice is Fixed</h2>
-<p>We will assume that all potential producing firms in a market have already decided on their single product.</p>
+</div><div class="column" style="width:50%;">
 <ul>
-<li>We don’t consider e.g., Amazon going from ecommerce to cloud services</li>
+<li>Perfect Substitutes</li>
+<li>Perfect Complements</li>
 </ul>
+</div>
+</div>
+<p>. . .</p>
+<p>This is good news! It means that mathematically nothing should be suprising</p>
+<p>We are just relabeling variables and using the same processes we already know</p>
+<hr>
 </section>
-<section id="assumption-5-more-inputs---more-output" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-5-more-inputs---more-output">Assumption 5: More Inputs -&gt; More Output</h2>
-<p>For simplicity, we assume that firms can always achieve higher production levels by using more inputs</p>
-<ul>
-<li><p><span class="math inline">\((f(K,L)\)</span> is <span class="hi">monitonically increasing</span> in <span class="math inline">\(K,L\)</span> (<span class="math inline">\(\frac{df}{dK},\frac{df}{dL}&gt;0\)</span>)</p></li>
-<li><p>similar to our “more is better” assumption of consumer utility</p></li>
-</ul>
-</section>
-<section id="assumption-6-diminishing-returns" class="level2">
-<h2 class="anchored" data-anchor-id="assumption-6-diminishing-returns">Assumption 6: Diminishing Returns</h2>
-<p>More capital and labor always leads to more production, <em>but</em> those gains will fade out the more you have already used</p>
-<ul>
-<li><p><span class="math inline">\(\frac{df}{dK^2},\frac{df}{dL^2} &lt; 0\)</span></p></li>
-<li><p>If graphed on the <em>input-product</em> axes, the production function will be <span class="h">concave</span>.</p></li>
-</ul>
-</section>
-<section id="the-production-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-production-problem">The Production Problem</h2>
-<p>We will begin by making a simplifying assumption to make our lives easier</p>
+<section id="production-function-example" class="level2">
+<h2 class="anchored" data-anchor-id="production-function-example">Production Function Example</h2>
+<p><span class="hi note align-center">Identify and find the MRTS for the following Production Function</span></p>
+<p><span class="math display">\[
+    F(L,K) = L^{1/3}K^{2/3}
+\]</span></p>
+<p>. . .</p>
 <p><br></p>
-<p>Firms will have <span class="hi">2 typical inputs</span></p>
+<p><span class="math display">\[
+    \text{MRTS} = \frac{MP_{L}}{MP_{K}} = \frac{1/3 \cdot L^{-2/3}K^{2/3}}{2/3 \cdot L^{1/3}K^{-1/3}} = \frac{1/3}{2/3} \cdot \frac{K^{2/3}K^{1/3}}{L^{1/3}L^{2/3}} = \frac{1}{2} \cdot \frac{K}{L}
+\]</span></p>
+<hr>
+</section>
+<section id="solving-cost-minimization-problems" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="solving-cost-minimization-problems">Solving Cost Minimization Problems</h2>
+<p>We will deal with each functional form the same way as we did before.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi align-center">Cobb-Douglas</span></p>
+<div class="fragment">
+<ul>
+<li><p>Set MRTS equal to Price Ratio</p></li>
+<li><p>This tells us the relationship that must hold between <span class="math inline">\(L\)</span> and <span class="math inline">\(K\)</span> (Optimality Conditions)</p></li>
+<li><p>Plug Optimality into Production Function constraint</p></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<p><span class="hi align-center">Quasi-linear</span></p>
+<div class="fragment">
+<ul>
+<li><p>Set MRTS equal to Price Ratio</p></li>
+<li><p>This tells you exactly how much of the input that is inside the <span class="math inline">\(ln()\)</span> function to use</p></li>
+<li><p>Plug Optimality into Production Function constraint</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi align-center">Perfect Complements</span></p>
+<div class="fragment">
+<ul>
+<li>Enforce the No-Waste Condition</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<p><span class="hi align-center">Perfect Substitutes</span></p>
+<div class="fragment">
+<p>Compare the MRTS to the Price Ratio</p>
+<ul>
+<li>If MRTS is larger, use only labor <span class="math inline">\((L)\)</span></li>
+<li>If MRTS is smaller, use only capital <span class="math inline">\((K)\)</span></li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="cost-minimization-example" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="cost-minimization-example">Cost Minimization Example</h2>
+<p><span class="math display">\[
+    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = L \cdot K = 20,000
+\]</span></p>
+<p><span class="hi note align-center">Find the Optimal Values of Labor and Capital</span></p>
+<p>. . .</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi align-center">Find MRTS and set it equal to Price Ratio</span></p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+    \text{MRTS} &amp;= \frac{w}{r} \\
+    \frac{K}{L} &amp;= \frac{10}{5} = 2 \\
+    K^{*} &amp;= 2L
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><span class="hi align-center">Plug Optimality Condition into Production Function constraint</span></p>
+</div>
+<div class="fragment tiny">
+<p><span class="math display">\[\begin{align*}
+    L \cdot \color{red}{K^{*}} &amp;= 20,000 \\
+    L \cdot \color{red}{2L} &amp;= 20,000 \\
+    2L^{2} &amp;= 20,000 \\
+    L^{2} &amp;= 10,000 \\
+    L^{*} &amp;= \sqrt{10,000} \\
+    L^{*} &amp;= 100 \\ \\
+\end{align*}\]</span></p>
+</div>
+</div>
+</div>
+<p>. . .</p>
+<p><span class="hi align-center">Find Optimal Capital</span></p>
+<p><span class="math display">\[K^{*} = 2 \cdot \color{red}{L^{*}} = 2 \cdot \color{red}{100} = 200\]</span></p>
+<hr>
+</section>
+<section id="perfect-substitutes-example" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="perfect-substitutes-example">Perfect Substitutes Example</h2>
+<p>Let the firm’s production function be <span class="math inline">\(F(L,K) = L + 2K\)</span>. What are the cost minimizing <span class="math inline">\(L\)</span> and <span class="math inline">\(K\)</span> to produce 100 goods, when they face <span class="math inline">\(w = 10\)</span> and <span class="math inline">\(r = 10\)</span></p>
+<p>. . .</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi align-center">Find MRTS and Compare to Price Ratio</span></p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+    \text{MRTS} &amp;= \frac{w}{r} \\
+    \frac{MP_{L}}{MP_{K}} &amp;= \frac{10}{10} \\
+    \frac{1}{2} &amp;\lesseqgtr 1
+\end{align*}\]</span></p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><span class="hi align-center">Determine which is greater</span></p>
+<div class="fragment">
+<p><span class="math display">\[\begin{align*}
+    \frac{1}{2} &lt; 1
+\end{align*}\]</span></p>
+<p><span class="align-center">Use only Capital <span class="math inline">\(\rightarrow L^{*} = 0\)</span></span></p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><span class="hi align-center">Plug into Production Function to Determine <span class="math inline">\(\; K^{*}\)</span></span></p>
+<p><span class="math display">\[\begin{align*}
+    F(L,K) &amp;= Q \\
+    L^{*} + 2K^{*} &amp;= 100 \\
+    0 + 2K^{*} &amp;= 100 \\
+    K^{*} &amp;= 50
+\end{align*}\]</span></p>
+</div>
+<hr>
+</section>
+<section id="whats-actually-different-then" class="level2">
+<h2 class="anchored" data-anchor-id="whats-actually-different-then">What’s Actually Different Then?</h2>
+<p>Although the problem we are solving is essentially the same, the levers we are pulling are not</p>
+<p>Let’s introduce some new (but familiar) concepts:</p>
 <div class="incremental">
 <ul class="incremental">
-<li><p><span class="hi">Labor (L)</span> <span class="math inline">\(\Rightarrow\)</span> Workers</p>
-<ul class="incremental">
-<li>The cost of a unit of labor is the <span class="hi">wage <span class="math inline">\((w)\)</span></span> paid</li>
-</ul></li>
-<li><p><span class="hi">Capital (K)</span> <span class="math inline">\(\Rightarrow\)</span> Factory space, equipment, hardware, etc.</p>
-<ul class="incremental">
-<li>The cost of a unit of capital is the <span class="hi">rental rate or interest rate <span class="math inline">\((r)\)</span></span></li>
-</ul></li>
+<li><p>Production Functions have <span class="hi">Isoquants</span> instead of Indifference Curves</p></li>
+<li><p><span class="hi">Isoquants</span> are all the possible combinations of <span class="h">labor and capital</span> that produce a certain level of output</p></li>
+<li><p>Fortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced</p></li>
 </ul>
 </div>
 <hr>
 </section>
-<section id="labor-inputs-for-an-office" class="level2">
-<h2 class="anchored" data-anchor-id="labor-inputs-for-an-office">Labor Inputs for an Office</h2>
+<section id="isoquants-1" class="level2">
+<h2 class="anchored" data-anchor-id="isoquants-1">Isoquants</h2>
+<p>Imagine that it takes exactly 20 minutes of labor (1/3 of an hour) <span class="hi">AND</span> 10 units of capital to make one Ducks Jersey</p>
+<p>. . .</p>
+<p><span class="h note">What form does this Production Function take?</span></p>
+<p>. . .</p>
+<p><span class="hi align-center">Perfect Complements</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/labor-input.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="images/isoquant-perfect-comps.png" class="quarto-figure quarto-figure-center figure-img" height="350"></p>
 </figure>
 </div>
 <hr>
 </section>
-<section id="capital-inputs-for-an-office" class="level2">
-<h2 class="anchored" data-anchor-id="capital-inputs-for-an-office">Capital Inputs for an Office</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/capital-input.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+<section id="whats-actually-different-the-process" class="level2">
+<h2 class="anchored" data-anchor-id="whats-actually-different-the-process">What’s Actually Different? The Process</h2>
+<p>The key difference is a conceptual one:</p>
+<ul>
+<li><p>For consumers, we would <span class="hi">maximize the Utility Function, where the costs acted as our constraint</span></p></li>
+<li><p>For producers, we <span class="hi">minimize the cost function and the production function is the constraint</span></p>
+<ul>
+<li>Additionally, we will call this cost function an <span class="hi">Isocost line</span></li>
+</ul></li>
+</ul>
+<p>. . .</p>
+<blockquote class="blockquote">
+<p><span class="h note">We are looking for the lowest possible Isocost line that touches the production contraint exactly once</span></p>
+</blockquote>
+<div class="notes">
+<p>Switch to iPad to show draw</p>
 </div>
 <hr>
 </section>
-<section id="formalizing-the-production-problem" class="level2">
-<h2 class="anchored" data-anchor-id="formalizing-the-production-problem">Formalizing the Production Problem</h2>
-<p>Similar to the Budget Constraint from Consumer Theory, we can formalize the firm’s costs:</p>
-<p><span class="math display">\[
-    \text{Costs:} \;\; w \cdot L + r \cdot K
-\]</span></p>
-<p>. . .</p>
-<p><br></p>
-<p><span class="note hi align-center">Write the costs of a firm that faces a wage of $10 and a rental rate of $12:</span></p>
-<p>. . .</p>
-<p><br></p>
-<p><span class="math display">\[
-   \text{Costs:} \;\; 10 L + 12 K
-\]</span></p>
+<section id="understanding-the-differences-visually" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-differences-visually">Understanding the Differences Visually</h2>
+<hr>
+</section>
+<section id="what-is-the-same" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-same">What is the Same?</h2>
+<p>Some things have not changed</p>
+<div class="incremental">
+<ul class="incremental">
+<li>The slope of the isoquant is the negative MRTS (-MRTS)</li>
+<li>The MRTS tells us the firm’s willingness to trade away capital to get another unit of labor</li>
+<li>We still have a price ratio: <span class="math inline">\(\frac{w}{r}\)</span></li>
+</ul>
+</div>
 
 
 </section>
@@ -883,4 +1115,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://gituhub.com/dyasui/EC-311/edit/main/Slides/05_Production/051-producer-theory-basics.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://gituhub.com/dyasui/EC-311/blob/main/Slides/05_Production/051-producer-theory-basics.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://gituhub.com/dyasui/EC-311/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://gituhub.com/dyasui/EC-311/edit/main/Slides/05_Production/053-cost-minimization.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://gituhub.com/dyasui/EC-311/blob/main/Slides/05_Production/053-cost-minimization.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://gituhub.com/dyasui/EC-311/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
