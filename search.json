@@ -2279,7 +2279,7 @@
     "href": "Slides/05_Production/main.html#assumption-3-cost-minimization",
     "title": "Production",
     "section": "Assumption 3: Cost Minimization",
-    "text": "Assumption 3: Cost Minimization\nInstead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{aligh}\n\\]\n\n\nNotice how this is the flip side of the constrained maximization problem?"
+    "text": "Assumption 3: Cost Minimization\nInstead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n\n\nNotice how this is the flip side of the constrained maximization problem?"
   },
   {
     "objectID": "Slides/05_Production/main.html#isoquants",
@@ -2468,14 +2468,14 @@
     "href": "Slides/05_Production/053-cost-minimization.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{aligh}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
+    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
   },
   {
     "objectID": "Slides/05_Production/053-cost-minimization.html#assumption-3-cost-minimization",
     "href": "Slides/05_Production/053-cost-minimization.html#assumption-3-cost-minimization",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{aligh}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
+    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
   },
   {
     "objectID": "Slides/05_Production/053-cost-minimization.html#isoquants",
@@ -4673,7 +4673,7 @@
     "href": "Exams/index.html",
     "title": "Practice Exams",
     "section": "",
-    "text": "Policies:\nAllowed Materials:\n\none 3-inch by 5-inch handwritten notecard\na scientific (non-graphing) calculator\nstudent ID card\npencils, erasers, rulers, etc. recommended for graphing\n\n\n\nMidterm\n\nWinter 2024 Practice Midterm\n\n  \n\n\n   Solutions\n\n\n\nWinter 2024 Midterm\n\n  \n\n\n\n\nFinal\n\nWinter 2024 Practice Final\n\n  \n\n\n   Solutions\n\n\n\nWinter 2024 Final"
+    "text": "Policies:\nAllowed Materials:\n\none 3-inch by 5-inch handwritten notecard\na scientific (non-graphing) calculator\nstudent ID card\npencils, erasers, rulers, etc. recommended for graphing\n\n\n\nMidterm\n\nTopics Handout\n\n  \n\n\n\nWinter 2024 Practice Midterm\n\n  \n\n\n   Solutions\n\n\n\nWinter 2024 Midterm\n\n  \n\n\n\n\nFinal\n\nWinter 2024 Practice Final\n\n  \n\n\n   Solutions\n\n\n\nWinter 2024 Final"
   },
   {
     "objectID": "Exams/Midterm/notes.html#exam-notes-corrections",
