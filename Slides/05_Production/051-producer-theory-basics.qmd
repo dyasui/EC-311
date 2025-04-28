@@ -2,6 +2,36 @@
 name: producer theory
 ---
 
+## Production Assumptions
+
+Just like we made simplifying assumptions about *consumers*, we'll need some ground rules for [producers]{.hi}:
+
+::::: {.columns}
+:::: {.incremental}
+::: {.column width="50%"}
+1. Single production good
+2. Product choice is fixed
+3. Cost minimization
+4. Capital is fixed in short-run
+:::
+::: {.column width="50%"}
+5. More inputs $\rightarrow$ more outputs
+6. Diminishing marginal returns
+7. Firm's aren't budget constrained
+:::
+::::
+:::::
+
+. . .
+
+I'll tackle each one in a slightly different order, but this is how they appear in the textbook
+
+## Assumption 1: Single Output
+
+In our models, each type of firm only produces one type of good.
+
+- I.e., Shoe companies just produce generic shoes, we don't care about different styles
+
 ## Firms: What do They Make? How Do They Make It? Let's Find Out!
 
 Let's determine the role of the firm
@@ -35,6 +65,52 @@ How firms choose to produce things is guided by a similar principle to how indiv
 :::
 
 ---
+
+
+## Production Functions
+
+In mathematical language: a [production function]{.h} takes inputs to create a quantity of output:
+
+$$f(x_1,...,x_n) : \mathbb{R}^n \rightarrow \mathbb{R}$$
+
+::: {.incremental}
+- Just like *utility functions*, [production functions]{.h} can take multiple inputs
+:::
+
+## Production Functions
+
+We will only consieder production with **two** inputs at a time:
+
+$$Q = f(K,L)$$
+
+This production function means that a firm produces $Q$ units of it's output good using:
+
+- $K$: [Captial]{.h} (machines, buildings, computers, etc.)
+- $L$: [Labor]{.h} - the human workers who use the capital
+  * Units could be in number of workers, labor hours, etc.
+
+## Assumption 2: Product Choice is Fixed
+
+We will assume that all potential producing firms in a market have already decided on their single product.
+
+- We don't consider e.g., Amazon going from ecommerce to cloud services
+
+## Assumption 5: More Inputs -> More Output
+
+For simplicity, we assume that firms can always achieve higher production levels by using more inputs
+
+- $(f(K,L)$ is [monitonically increasing]{.hi} in $K,L$ ($\frac{df}{dK},\frac{df}{dL}>0$)
+
+- similar to our "more is better" assumption of consumer utility
+
+## Assumption 6: Diminishing Returns
+
+More capital and labor always leads to more production,
+*but* those gains will fade out the more you have already used
+
+- $\frac{df}{dK^2},\frac{df}{dL^2} < 0$
+
+- If graphed on the *input-product* axes, the production function will be [concave]{.h}.
 
 ## The Production Problem
 

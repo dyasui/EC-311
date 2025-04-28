@@ -1,0 +1,80 @@
+---
+name: short-run vs long-run
+---
+
+## Assumption 4: Capital is Fixed in the Short-Run
+
+We implicitly define the [short-run]{.h} as the time-span where firms don't have enough time to buy more capital.
+
+- As opposed to the [long-run]{.h} where capital is assumed to be variable
+
+## Assumption 7: Firms aren't Budget Constrained
+
+For the short-run, capital is only constrained by time-frame, not by how much money the firm has.
+
+- In the long-run, the firm can choose any combination of capital *and* labor it wants
+
+- We assume that as long as there is profit to be made, there is a complete credit market that will provide funds
+
+## Example: Dante's Taco Truck
+
+Before we found the *demand* functions for Tacos (and drinks).
+
+- But now we want to figure out how best I should meet that demand.
+
+Suppose that we just care about producing Tacos, which require deep fryers $K$, and workers $L$
+
+$$Q_s^{\text{tacos}} = f(K,L) = \sqrt{KL}$$
+
+## Example: Dante's Taco Truck
+
+I only have 4 fryers to start out with $\bar{K}=4$, but I can hire as many workers as I need.
+
+| Fryers | Workers | Tacos Produced          |
+|--------|---------|-------------------------|
+| 4      | 1       | 2                       |
+| 4      | 2       | $\sqrt{8} \approx 2.8$  |
+| 4      | 3       | $\sqrt{12} \approx 3.5$ |
+| 4      | 4       | 4                       |
+
+. . .
+
+- What do you notice as the number of workers increases?
+
+## Example: Dante's Taco Truck
+
+The [marginal product of labor]{.h} is decreasing!
+
+| Fryers | Workers | Tacos Produced          | Marginal Product |
+|--------|---------|-------------------------|------------------|
+| 4      | 0       | 0                       | -                |
+| 4      | 1       | 2                       | 2                |
+| 4      | 2       | $\sqrt{8} \approx 2.8$  | 0.8              |
+| 4      | 3       | $\sqrt{12} \approx 3.5$ | 0.7              |
+| 4      | 4       | 4                       | 0.5              |
+
+The next worker adds less and less to the total production the more workers we already have in the kitchen
+
+## Marginal Product of Labor
+
+The [Marginal Product of Labor]{.h} is the change in the quantity of production caused by a change in the quantity of labor as an input.
+
+::: {.incremental}
+
+- Given a production function $f(K,L)$, how could you find an expression which represents this change *for any quantity change* of labor?
+
+- Take the partial derivative $\frac{df}{dL}$ holding capital fixed!
+
+## Average Product of Labor
+
+The [average product]{.h} is different from the [marginal product]{.h}
+
+$$AP_L = Q/L$$
+
+| Fryers | Workers | Tacos Produced          | Marginal Product | Average Product |
+|--------|---------|-------------------------|------------------|-----------------|
+| 4      | 0       | 0                       | -                | -               |
+| 4      | 1       | 2                       | 2                | 2               |
+| 4      | 2       | $\sqrt{8} \approx 2.8$  | 0.8              | $\approx 1.4$   |
+| 4      | 3       | $\sqrt{12} \approx 3.5$ | 0.7              | $\approx 1.2$   |
+| 4      | 4       | 4                       | 0.5              | 1               |

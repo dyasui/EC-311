@@ -23,53 +23,106 @@ title-slide-attributes:
 
     - Producer Theory Basics (6.1)
 
+    - Short-run vs Long-run (6.2, 6.3)
+
     - Cost Minimization Problems (6.4)
 
     - Returns to Scale (6.5) 
 
-## Demand & Now Supply
+    - Technological Change (6.6)
 
-This course boils down to two main things:
+## Big Picture
 
-<br><br>
+As economists, we want a model of [market economies]{.hi} based in [rational choice theory]{.hi}.
 
-:::: {.columns}
+. . .
 
-::: {.column width="50%"}
-
-[Consumers buy things]{.hi .align-center}
+Why?
 
 ::: {.incremental}
-- We call that [Demand]{.h}
+- Make *positive* predictions about economics consequences of future world-events
 
-- We just slayed that beast 
+- Guide [efficient]{.hi} production of market goods.
+I.e., how to make the most of the limited resources we have
+
+- Guide policy makers to craft [socially-efficient]{.hi} policies.
+E.g., How to make public funds benefit the maximum amount of people in need?
 :::
 
-:::
+## Big Picture
 
-::: {.column width="50%"}
-
-[Firms make things]{.hi .align-center}
+Our first step was to construct a model of a [rational consumer]{.h}.
 
 ::: {.incremental}
-- We call this [Supply]{.h}
+- This allows us to predict what *will* people do when things change:
 
-- We are about to meet this beast
+  * how income changes affect consumption
+
+  * how price changes affect consumption and substitution
+
+- ...without telling making judgements about what they *should* do
 :::
 
+## Big Picture
+
+But markets are not only influenced by *consumers*, so now we will consider the other side; *firms*, or [producers]{.hi} of goods.
+
+::: {.incremental}
+
+- If *consumers* care about maximising their happines, what do we think [producers]{.hi} care about?
+
+  * **Profit!** 💰💰💰
+
+  * Meeting the needs of their consumers
+
+    + could apply even to non-profits like government agencies or NGO's
+
 :::
 
-::::
+## Big Picture
+
+Why should we care about what big corporations do with their inputs?
+
+::: {.incremental}
+
+- Because as consumers we are affected by the choices they make
+
+- Our models here can be applied to sujects like anti-trust policy, environmental regulations, and other consumer welfare issues!
+
+- We'll start off with assuming perfect competition, full information, no externalities, etc.
+but by relaxing these assumptions we can apply our simple models to tackle big issues
+
+:::
+
+## Why care about industrial production?
+
+```{=html}
+<iframe width="780" height="500" src="https://www.theguardian.com/environment/2025/apr/23/coral-reef-bleaching-worst-global-event-on-record" title="Coral Bleaching News"></iframe>
+```
+
+## Big Picture
+
+Before we deal with the more interesting examples of [market failures]{.h},
+we'll need to understand how the market works under optimal conditions:
+
+- [perfect information]{.h}
+
+- [many producers]{.h}
+
+- [consumers internalize all costs/benefits privately]{.h} (no externalities)
 
 # Producer Theory Basics {.inverse .note}
 
 {{< include 051-producer-theory-basics.qmd >}}
 
+# Long vs Short Run Production {.inverse .note}
+
+{{< include 052-sr-v-lr.qmd >}}
+
 # Cost Minimization Problems {.inverse .note}
 
-{{< include 052-cost-minimization.qmd >}}
-
+{{< include 053-cost-minimization.qmd >}}
 
 # Returns to Scale {.inverse .note}
 
-{{< include 053-returns-to-scale.qmd >}}
+{{< include 054-returns-to-scale.qmd >}}

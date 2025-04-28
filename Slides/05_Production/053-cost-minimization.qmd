@@ -2,21 +2,28 @@
 name: cost minimization problems
 ---
 
-## How Do Firms Optimize?
+## Assumption 3: Cost Minimization
 
-[Instead of maximizing utility, as consumers do, firms will]{.align-center}
+Instead of trying to *maximize production*, firms try to *minimize costs* while trying to meet a specific level of production.
 
-[MINIMIZE THEIR COSTS OF PRODUCTION]{.hi .align-center}
+$$
+\begin{align}
+min & w \cdot L + r \cdot K \\
+\text{subject to } & f(K,L) = Q \\ 
+\end{aligh}
+$$
 
 . . .
 
-<br><br>
+- Notice how this is the flip side of the constrained *maximization* problem?
 
-These decisions are also done under a constraint, but what constraints do firms face?
+## Isoquants
 
-Let's tell a story to see the logic before we jump into the math
+What do these production functions look like graphically?
 
----
+- [isoquants]{.h} are sets of bundles of inputs that produce the same level of output
+
+- Visually similar to *indifference curves*, but conceptually different
 
 ## Firm Optimization Story Time
 
