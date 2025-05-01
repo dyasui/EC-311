@@ -13,6 +13,13 @@ title: "Practice Exams"
 
 # Midterm
 
+### Topics Handout
+```{=html}
+<div class="embed-container">
+  <iframe src="Handout-Midterm-Topics.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+</div>
+```
+
 ### Winter 2024 Practice Midterm
 ```{=html}
 <div class="embed-container">
