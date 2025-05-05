@@ -1635,14 +1635,21 @@
     "href": "Slides/05_Production/052-sr-v-lr.html#average-product-of-labor",
     "title": "EC311 Intermediate Micro",
     "section": "Average Product of Labor",
-    "text": "Average Product of Labor\nAverage Product is the quantity of output produced per unit of input.\n\\[AP_L = Q/L\\]\n\nThe average product is related to the marginal product, but not the same\n\n\\[AP_L = Q/L\\]\n\n\n\n\n\n\n\n\n\n\nIrons\nWorkers\nShoes Produced\nMarginal Product\nAverage Product\n\n\n\n\n4\n0\n0\n-\n-\n\n\n4\n1\n2\n2\n2\n\n\n4\n2\n\\(\\sqrt{8} \\approx 2.8\\)\n0.8\n\\(\\approx 1.4\\)\n\n\n4\n3\n\\(\\sqrt{12} \\approx 3.5\\)\n0.7\n\\(\\approx 1.2\\)\n\n\n4\n4\n4\n0.5\n1"
+    "text": "Average Product of Labor\nAverage Product is the quantity of output produced per unit of input.\n\\[AP_L = Q/L\\]\n\nThe average product is related to the marginal product, but not the same\n\n\\[AP_L = Q/L\\]"
+  },
+  {
+    "objectID": "Slides/05_Production/052-sr-v-lr.html#average-product-of-labor-1",
+    "href": "Slides/05_Production/052-sr-v-lr.html#average-product-of-labor-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Average Product of Labor",
+    "text": "Average Product of Labor\n\n\n\n\n\n\n\n\n\n\nIrons\nWorkers\nShoes Produced\nMarginal Product\nAverage Product\n\n\n\n\n4\n0\n0\n-\n-\n\n\n4\n1\n2\n2\n2\n\n\n4\n2\n\\(\\sqrt{8} \\approx 2.8\\)\n0.8\n\\(\\approx 1.4\\)\n\n\n4\n3\n\\(\\sqrt{12} \\approx 3.5\\)\n0.7\n\\(\\approx 1.2\\)\n\n\n4\n4\n4\n0.5\n1"
   },
   {
     "objectID": "Slides/05_Production/052-sr-v-lr.html#assumption-4-capital-is-variable-in-the-long-run",
     "href": "Slides/05_Production/052-sr-v-lr.html#assumption-4-capital-is-variable-in-the-long-run",
     "title": "EC311 Intermediate Micro",
     "section": "Assumption 4: Capital is Variable in the Long-Run",
-    "text": "Assumption 4: Capital is Variable in the Long-Run\nThe flip side of assumption 4: the Long-Run is the time when Capltal is not fixed\n\nOur Long-Run Production Function:\n\n\\[Q = f(K,L)\\]\n\nThe same as the SR version, but now \\(K\\) is treated as a variable, not a constant"
+    "text": "Assumption 4: Capital is Variable in the Long-Run\nThe flip side of assumption 4: the Long-Run is the time when Capital is not fixed\n\nOur Long-Run Production Function:\n\n\\[Q = f(K,L)\\]\n\nThe same as the SR version, but now \\(K\\) is treated as a variable, not a constant"
   },
   {
     "objectID": "Slides/05_Production/052-sr-v-lr.html#long-run-production-functions",
@@ -5849,28 +5856,14 @@
     "href": "Slides/05_Production/051-producer-theory-basics.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Just like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\n\n. . .\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
-  },
-  {
-    "objectID": "Slides/05_Production/051-producer-theory-basics.html#production-assumptions",
-    "href": "Slides/05_Production/051-producer-theory-basics.html#production-assumptions",
-    "title": "EC311 Intermediate Micro",
-    "section": "",
-    "text": "Just like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\n\n. . .\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
-  },
-  {
-    "objectID": "Slides/05_Production/051-producer-theory-basics.html#assumption-1-single-output",
-    "href": "Slides/05_Production/051-producer-theory-basics.html#assumption-1-single-output",
-    "title": "EC311 Intermediate Micro",
-    "section": "Assumption 1: Single Output",
-    "text": "Assumption 1: Single Output\nIn our models, each type of firm only produces one type of good.\n\nI.e., Shoe companies just produce generic shoes, we don’t care about different styles"
+    "text": "Let’s determine the role of the firm\n\n\nFirms produce goods (output) to sell consumers\nTo produce output, firms need factors of production (inputs) such as labor and capital\nFirms use a production process (technology) to transform inputs into output"
   },
   {
     "objectID": "Slides/05_Production/051-producer-theory-basics.html#firms-what-do-they-make-how-do-they-make-it-lets-find-out",
     "href": "Slides/05_Production/051-producer-theory-basics.html#firms-what-do-they-make-how-do-they-make-it-lets-find-out",
     "title": "EC311 Intermediate Micro",
-    "section": "Firms: What do They Make? How Do They Make It? Let’s Find Out!",
-    "text": "Firms: What do They Make? How Do They Make It? Let’s Find Out!\nLet’s determine the role of the firm\n\n\nFirms produce goods (output) to sell consumers\nTo produce output, firms need factors of production (inputs) such as labor and capital\nFirms use a production process (technology) to transform inputs into output"
+    "section": "",
+    "text": "Let’s determine the role of the firm\n\n\nFirms produce goods (output) to sell consumers\nTo produce output, firms need factors of production (inputs) such as labor and capital\nFirms use a production process (technology) to transform inputs into output"
   },
   {
     "objectID": "Slides/05_Production/051-producer-theory-basics.html#firm-productivity",
@@ -5878,6 +5871,20 @@
     "title": "EC311 Intermediate Micro",
     "section": "Firm Productivity",
     "text": "Firm Productivity\nHow firms choose to produce things is guided by a similar principle to how individuals consume things\n. . .\n\nMarginal Productivity\n\n\nThe impact of one additional factor of production on the total amount produced\nRecall that utility is usually diminishing as consumption increases\nProductivity also diminishes as a firm uses more inputs"
+  },
+  {
+    "objectID": "Slides/05_Production/051-producer-theory-basics.html#production-assumptions",
+    "href": "Slides/05_Production/051-producer-theory-basics.html#production-assumptions",
+    "title": "EC311 Intermediate Micro",
+    "section": "Production Assumptions",
+    "text": "Production Assumptions\nJust like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\n\n. . .\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
+  },
+  {
+    "objectID": "Slides/05_Production/051-producer-theory-basics.html#assumption-1-single-output",
+    "href": "Slides/05_Production/051-producer-theory-basics.html#assumption-1-single-output",
+    "title": "EC311 Intermediate Micro",
+    "section": "Assumption 1: Single Output",
+    "text": "Assumption 1: Single Output\nIn our models, each type of firm only produces one type of good.\n\nI.e., Shoe companies just produce generic shoes, we don’t care about different styles"
   },
   {
     "objectID": "Slides/05_Production/051-producer-theory-basics.html#production-functions",
@@ -5947,21 +5954,21 @@
     "href": "Slides/05_Production/053-cost-minimization.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
+    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\n\\text{minimize} & W  \\cdot L + R \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
   },
   {
     "objectID": "Slides/05_Production/053-cost-minimization.html#assumption-3-cost-minimization",
     "href": "Slides/05_Production/053-cost-minimization.html#assumption-3-cost-minimization",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
+    "text": "Instead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\n\\text{minimize} & W  \\cdot L + R \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n. . .\n\nNotice how this is the flip side of the constrained maximization problem?"
   },
   {
-    "objectID": "Slides/05_Production/053-cost-minimization.html#setting-cost-minimization",
-    "href": "Slides/05_Production/053-cost-minimization.html#setting-cost-minimization",
+    "objectID": "Slides/05_Production/053-cost-minimization.html#setting-up-cost-minimization",
+    "href": "Slides/05_Production/053-cost-minimization.html#setting-up-cost-minimization",
     "title": "EC311 Intermediate Micro",
-    "section": "Setting Cost-Minimization",
-    "text": "Setting Cost-Minimization\nWhat are some questions we could ask using the math tools we have learned?\n\n\nWhat combinations of inputs produce the same quantity of output\nHow do firm’s choose to substitute one input for another?\nHow do changes in input costs affect production?"
+    "section": "Setting up Cost-Minimization",
+    "text": "Setting up Cost-Minimization\nWhat are some questions we could ask using the math tools we have learned?\n\n\nWhat combinations of inputs produce the same quantity of output\nHow do firm’s choose to substitute one input for another?\nHow do changes in input costs affect production?"
   },
   {
     "objectID": "Slides/05_Production/053-cost-minimization.html#isoquants",
@@ -6045,28 +6052,7 @@
     "href": "Slides/05_Production/053-cost-minimization.html#lets-give-things-some-values",
     "title": "EC311 Intermediate Micro",
     "section": "Let’s Give Things Some Values",
-    "text": "Let’s Give Things Some Values\nNow let’s say we have the following values:\n\nWages are \\(w = 10\\)\nRental rates are \\(r = 5\\)\nThe factory’s Production Function is \\(F(L,K) = 5L + 2K\\)\n\n. . .\n The problem becomes:\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = 5L + 2K = 20,000\n\\]"
-  },
-  {
-    "objectID": "Slides/05_Production/053-cost-minimization.html#solving-cost-minimization-problems---new-terms",
-    "href": "Slides/05_Production/053-cost-minimization.html#solving-cost-minimization-problems---new-terms",
-    "title": "EC311 Intermediate Micro",
-    "section": "Solving Cost Minimization Problems - New Terms",
-    "text": "Solving Cost Minimization Problems - New Terms\nThe methods to solve these problems are practically the same as we saw in Consumer Theory\nHowever, we need to re-label some things:\n\n\nThe Marginal Rate of Substitution will not be named Marginal Rate of Technological Substitution (MRTS)\n\nThis has a similar interpretation as before:\n\nWhat is the firm’s willingness to trade Labor for Capital\n\n\nNow, instead of using the ratio of marginal utilities, we will use the ratio of marginal productivities\n\n\n. . .\n\\[\n    \\text{MRTS} = \\frac{MP_{L}}{MP_{K}} = \\frac{\\frac{\\partial F}{\\partial L}}{\\frac{\\partial F}{\\partial K}} = \\frac{\\text{Marginal Productivity of Labor}}{\\text{Marginal Productivity of Capital}}\n\\]"
-  },
-  {
-    "objectID": "Slides/05_Production/053-cost-minimization.html#lets-solve-the-jersey-problem",
-    "href": "Slides/05_Production/053-cost-minimization.html#lets-solve-the-jersey-problem",
-    "title": "EC311 Intermediate Micro",
-    "section": "Let’s Solve the Jersey Problem",
-    "text": "Let’s Solve the Jersey Problem\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = 5L + 2K = 20,000\n\\]\nThe solution should look very familiar. We are trying to choose \\(L^{*}\\) and \\(K^{*}\\) that optimizes our productivity.\n. . .\n\n\nWhat type of production function is this?\n\n\nPerfect Substitutes\n\n\n\n. . .\n\n\nFind MRTS and Set Equal to Price Ratio\n\n\\[\\begin{align*}\n    \\text{MRTS} \\;\\; &? \\;\\; \\text{Price Ratio} \\\\\n    \\frac{MP_{L}}{MP_{K}} \\;\\; &? \\;\\; \\frac{w}{r} \\\\\n    \\frac{5}{2} \\;\\; &? \\;\\; \\frac{10}{5} \\\\\n    \n\\end{align*}\\]\n\n\n\nInterpret the MRTS and Price Ratio Relationship\n\\[\n    \\text{MRTS} &gt; \\text{Price Ratio}\n\\]\nUse only Labor \\(\\; \\rightarrow \\; K^{*} = 0\\)\n\n\n\n. . .\nPlug into Production Function\n\\[\n    K^{*} = 0 \\; \\Rightarrow \\; F(L,K) = 20,000 \\; \\rightarrow \\; 5L + 2(0) = 20,000 \\; \\rightarrow \\; L^{*} = \\frac{20,000}{5} = 4,000\n\\]"
-  },
-  {
-    "objectID": "Slides/05_Production/053-cost-minimization.html#jersey-problem-2",
-    "href": "Slides/05_Production/053-cost-minimization.html#jersey-problem-2",
-    "title": "EC311 Intermediate Micro",
-    "section": "Jersey Problem 2",
-    "text": "Jersey Problem 2\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = 5L + 2K = 20,000\n\\]\nWhat if \\(\\; w = 20 \\;\\) and \\(\\; r = 5 \\;\\)?\n. . .\n\n\nFind MRTS and Set Equal to Price Ratio\n\n\\[\\begin{align*}\n    \\text{MRTS} \\;\\; &? \\;\\; \\text{Price Ratio} \\\\\n    \\frac{MP_{L}}{MP_{K}} \\;\\; &? \\;\\; \\frac{w}{r} \\\\\n    \\frac{5}{2} \\;\\; &? \\;\\; \\frac{20}{5} \\\\\n    \n\\end{align*}\\]\n\n\n\nInterpret the MRTS and Price Ratio Relationship\n\\[\n    \\text{MRTS} &lt; \\text{Price Ratio}\n\\]\nUse only Capital \\(\\; \\rightarrow \\; L^{*} = 0\\)\n\n\n\n. . .\nPlug into Production Function\n\\[\n    K^{*} = 0 \\; \\Rightarrow \\; F(L,K) = 20,000 \\; \\rightarrow \\; 5(0) + 2K = 20,000 \\; \\rightarrow \\; K^{*} = \\frac{20,000}{2} = 10,000\n\\]"
+    "text": "Let’s Give Things Some Values\nNow let’s say we have the following values:\n\nWages are \\(w = 10\\)\nRental rates are \\(r = 5\\)\nThe factory’s Production Function is \\(F(L,K) = L \\cdot K\\)\n\n. . .\n The problem becomes:\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = K \\cdot K = 20,000\n\\]"
   },
   {
     "objectID": "Slides/05_Production/053-cost-minimization.html#cost-minimization-example",
@@ -6087,14 +6073,7 @@
     "href": "Slides/05_Production/053-cost-minimization.html#whats-actually-different-then",
     "title": "EC311 Intermediate Micro",
     "section": "What’s Actually Different Then?",
-    "text": "What’s Actually Different Then?\nAlthough the problem we are solving is essentially the same, the levers we are pulling are not\nLet’s introduce some new (but familiar) concepts:\n\n\nProduction Functions have Isoquants instead of Indifference Curves\nIsoquants are all the possible combinations of labor and capital that produce a certain level of output\nFortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced"
-  },
-  {
-    "objectID": "Slides/05_Production/053-cost-minimization.html#isoquants-2",
-    "href": "Slides/05_Production/053-cost-minimization.html#isoquants-2",
-    "title": "EC311 Intermediate Micro",
-    "section": "Isoquants",
-    "text": "Isoquants\nImagine that it takes exactly 20 minutes of labor (1/3 of an hour) AND 10 units of capital to make one Ducks Jersey\n. . .\nWhat form does this Production Function take?\n. . .\nPerfect Complements"
+    "text": "What’s Actually Different Then?\nAlthough the problem we are solving is essentially the same, the levers we are pulling are not\n\n\nProduction Functions have Isoquants instead of Indifference Curves\nFortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced\nUnlike utility, production is a cardinal value, with meaningful units"
   },
   {
     "objectID": "Slides/05_Production/053-cost-minimization.html#whats-actually-different-the-process",
@@ -6153,20 +6132,6 @@
     "text": "Big Picture\nBefore we deal with the more interesting examples of market failures, we’ll need to understand how the market works under optimal conditions:\n\nperfect information\nmany producers\nconsumers internalize all costs/benefits privately (no externalities)"
   },
   {
-    "objectID": "Slides/05_Production/main.html#production-assumptions",
-    "href": "Slides/05_Production/main.html#production-assumptions",
-    "title": "Production",
-    "section": "Production Assumptions",
-    "text": "Production Assumptions\nJust like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\n\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
-  },
-  {
-    "objectID": "Slides/05_Production/main.html#assumption-1-single-output",
-    "href": "Slides/05_Production/main.html#assumption-1-single-output",
-    "title": "Production",
-    "section": "Assumption 1: Single Output",
-    "text": "Assumption 1: Single Output\nIn our models, each type of firm only produces one type of good.\n\nI.e., Shoe companies just produce generic shoes, we don’t care about different styles"
-  },
-  {
     "objectID": "Slides/05_Production/main.html#firms-what-do-they-make-how-do-they-make-it-lets-find-out",
     "href": "Slides/05_Production/main.html#firms-what-do-they-make-how-do-they-make-it-lets-find-out",
     "title": "Production",
@@ -6179,6 +6144,20 @@
     "title": "Production",
     "section": "Firm Productivity",
     "text": "Firm Productivity\nHow firms choose to produce things is guided by a similar principle to how individuals consume things\n\n\nMarginal Productivity\n\n\nThe impact of one additional factor of production on the total amount produced\nRecall that utility is usually diminishing as consumption increases\nProductivity also diminishes as a firm uses more inputs"
+  },
+  {
+    "objectID": "Slides/05_Production/main.html#production-assumptions",
+    "href": "Slides/05_Production/main.html#production-assumptions",
+    "title": "Production",
+    "section": "Production Assumptions",
+    "text": "Production Assumptions\nJust like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\n\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
+  },
+  {
+    "objectID": "Slides/05_Production/main.html#assumption-1-single-output",
+    "href": "Slides/05_Production/main.html#assumption-1-single-output",
+    "title": "Production",
+    "section": "Assumption 1: Single Output",
+    "text": "Assumption 1: Single Output\nIn our models, each type of firm only produces one type of good.\n\nI.e., Shoe companies just produce generic shoes, we don’t care about different styles"
   },
   {
     "objectID": "Slides/05_Production/main.html#production-functions",
@@ -6304,14 +6283,21 @@
     "href": "Slides/05_Production/main.html#average-product-of-labor",
     "title": "Production",
     "section": "Average Product of Labor",
-    "text": "Average Product of Labor\nAverage Product is the quantity of output produced per unit of input.\n\\[AP_L = Q/L\\]\n\nThe average product is related to the marginal product, but not the same\n\n\\[AP_L = Q/L\\]\n\n\n\n\n\n\n\n\n\n\nIrons\nWorkers\nShoes Produced\nMarginal Product\nAverage Product\n\n\n\n\n4\n0\n0\n-\n-\n\n\n4\n1\n2\n2\n2\n\n\n4\n2\n\\(\\sqrt{8} \\approx 2.8\\)\n0.8\n\\(\\approx 1.4\\)\n\n\n4\n3\n\\(\\sqrt{12} \\approx 3.5\\)\n0.7\n\\(\\approx 1.2\\)\n\n\n4\n4\n4\n0.5\n1"
+    "text": "Average Product of Labor\nAverage Product is the quantity of output produced per unit of input.\n\\[AP_L = Q/L\\]\n\nThe average product is related to the marginal product, but not the same\n\n\\[AP_L = Q/L\\]"
+  },
+  {
+    "objectID": "Slides/05_Production/main.html#average-product-of-labor-1",
+    "href": "Slides/05_Production/main.html#average-product-of-labor-1",
+    "title": "Production",
+    "section": "Average Product of Labor",
+    "text": "Average Product of Labor\n\n\n\n\n\n\n\n\n\n\nIrons\nWorkers\nShoes Produced\nMarginal Product\nAverage Product\n\n\n\n\n4\n0\n0\n-\n-\n\n\n4\n1\n2\n2\n2\n\n\n4\n2\n\\(\\sqrt{8} \\approx 2.8\\)\n0.8\n\\(\\approx 1.4\\)\n\n\n4\n3\n\\(\\sqrt{12} \\approx 3.5\\)\n0.7\n\\(\\approx 1.2\\)\n\n\n4\n4\n4\n0.5\n1"
   },
   {
     "objectID": "Slides/05_Production/main.html#assumption-4-capital-is-variable-in-the-long-run",
     "href": "Slides/05_Production/main.html#assumption-4-capital-is-variable-in-the-long-run",
     "title": "Production",
     "section": "Assumption 4: Capital is Variable in the Long-Run",
-    "text": "Assumption 4: Capital is Variable in the Long-Run\nThe flip side of assumption 4: the Long-Run is the time when Capltal is not fixed\n\nOur Long-Run Production Function:\n\n\\[Q = f(K,L)\\]\n\nThe same as the SR version, but now \\(K\\) is treated as a variable, not a constant"
+    "text": "Assumption 4: Capital is Variable in the Long-Run\nThe flip side of assumption 4: the Long-Run is the time when Capital is not fixed\n\nOur Long-Run Production Function:\n\n\\[Q = f(K,L)\\]\n\nThe same as the SR version, but now \\(K\\) is treated as a variable, not a constant"
   },
   {
     "objectID": "Slides/05_Production/main.html#long-run-production-functions",
@@ -6325,14 +6311,14 @@
     "href": "Slides/05_Production/main.html#assumption-3-cost-minimization",
     "title": "Production",
     "section": "Assumption 3: Cost Minimization",
-    "text": "Assumption 3: Cost Minimization\nInstead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\nmin & w \\cdot L + r \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n\n\nNotice how this is the flip side of the constrained maximization problem?"
+    "text": "Assumption 3: Cost Minimization\nInstead of trying to maximize production, firms try to minimize costs while trying to meet a specific level of production.\n\\[\n\\begin{align}\n\\text{minimize} & W  \\cdot L + R \\cdot K \\\\\n\\text{subject to } & f(K,L) = Q \\\\\n\\end{align}\n\\]\n\n\nNotice how this is the flip side of the constrained maximization problem?"
   },
   {
-    "objectID": "Slides/05_Production/main.html#setting-cost-minimization",
-    "href": "Slides/05_Production/main.html#setting-cost-minimization",
+    "objectID": "Slides/05_Production/main.html#setting-up-cost-minimization",
+    "href": "Slides/05_Production/main.html#setting-up-cost-minimization",
     "title": "Production",
-    "section": "Setting Cost-Minimization",
-    "text": "Setting Cost-Minimization\nWhat are some questions we could ask using the math tools we have learned?\n\n\nWhat combinations of inputs produce the same quantity of output\nHow do firm’s choose to substitute one input for another?\nHow do changes in input costs affect production?"
+    "section": "Setting up Cost-Minimization",
+    "text": "Setting up Cost-Minimization\nWhat are some questions we could ask using the math tools we have learned?\n\n\nWhat combinations of inputs produce the same quantity of output\nHow do firm’s choose to substitute one input for another?\nHow do changes in input costs affect production?"
   },
   {
     "objectID": "Slides/05_Production/main.html#isoquants",
@@ -6416,28 +6402,7 @@
     "href": "Slides/05_Production/main.html#lets-give-things-some-values",
     "title": "Production",
     "section": "Let’s Give Things Some Values",
-    "text": "Let’s Give Things Some Values\nNow let’s say we have the following values:\n\nWages are \\(w = 10\\)\nRental rates are \\(r = 5\\)\nThe factory’s Production Function is \\(F(L,K) = 5L + 2K\\)\n\n\n The problem becomes:\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = 5L + 2K = 20,000\n\\]"
-  },
-  {
-    "objectID": "Slides/05_Production/main.html#solving-cost-minimization-problems---new-terms",
-    "href": "Slides/05_Production/main.html#solving-cost-minimization-problems---new-terms",
-    "title": "Production",
-    "section": "Solving Cost Minimization Problems - New Terms",
-    "text": "Solving Cost Minimization Problems - New Terms\nThe methods to solve these problems are practically the same as we saw in Consumer Theory\nHowever, we need to re-label some things:\n\n\nThe Marginal Rate of Substitution will not be named Marginal Rate of Technological Substitution (MRTS)\n\nThis has a similar interpretation as before:\n\nWhat is the firm’s willingness to trade Labor for Capital\n\n\nNow, instead of using the ratio of marginal utilities, we will use the ratio of marginal productivities\n\n\n\n\\[\n    \\text{MRTS} = \\frac{MP_{L}}{MP_{K}} = \\frac{\\frac{\\partial F}{\\partial L}}{\\frac{\\partial F}{\\partial K}} = \\frac{\\text{Marginal Productivity of Labor}}{\\text{Marginal Productivity of Capital}}\n\\]"
-  },
-  {
-    "objectID": "Slides/05_Production/main.html#lets-solve-the-jersey-problem",
-    "href": "Slides/05_Production/main.html#lets-solve-the-jersey-problem",
-    "title": "Production",
-    "section": "Let’s Solve the Jersey Problem",
-    "text": "Let’s Solve the Jersey Problem\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = 5L + 2K = 20,000\n\\]\nThe solution should look very familiar. We are trying to choose \\(L^{*}\\) and \\(K^{*}\\) that optimizes our productivity.\n\n\n\nWhat type of production function is this?\n\n\nPerfect Substitutes\n\n\n\n\n\n\nFind MRTS and Set Equal to Price Ratio\n\n\\[\\begin{align*}\n    \\text{MRTS} \\;\\; &? \\;\\; \\text{Price Ratio} \\\\\n    \\frac{MP_{L}}{MP_{K}} \\;\\; &? \\;\\; \\frac{w}{r} \\\\\n    \\frac{5}{2} \\;\\; &? \\;\\; \\frac{10}{5} \\\\\n    \n\\end{align*}\\]\n\n\n\nInterpret the MRTS and Price Ratio Relationship\n\\[\n    \\text{MRTS} &gt; \\text{Price Ratio}\n\\]\nUse only Labor \\(\\; \\rightarrow \\; K^{*} = 0\\)\n\n\n\n\nPlug into Production Function\n\\[\n    K^{*} = 0 \\; \\Rightarrow \\; F(L,K) = 20,000 \\; \\rightarrow \\; 5L + 2(0) = 20,000 \\; \\rightarrow \\; L^{*} = \\frac{20,000}{5} = 4,000\n\\]"
-  },
-  {
-    "objectID": "Slides/05_Production/main.html#jersey-problem-2",
-    "href": "Slides/05_Production/main.html#jersey-problem-2",
-    "title": "Production",
-    "section": "Jersey Problem 2",
-    "text": "Jersey Problem 2\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = 5L + 2K = 20,000\n\\]\nWhat if \\(\\; w = 20 \\;\\) and \\(\\; r = 5 \\;\\)?\n\n\n\nFind MRTS and Set Equal to Price Ratio\n\n\\[\\begin{align*}\n    \\text{MRTS} \\;\\; &? \\;\\; \\text{Price Ratio} \\\\\n    \\frac{MP_{L}}{MP_{K}} \\;\\; &? \\;\\; \\frac{w}{r} \\\\\n    \\frac{5}{2} \\;\\; &? \\;\\; \\frac{20}{5} \\\\\n    \n\\end{align*}\\]\n\n\n\nInterpret the MRTS and Price Ratio Relationship\n\\[\n    \\text{MRTS} &lt; \\text{Price Ratio}\n\\]\nUse only Capital \\(\\; \\rightarrow \\; L^{*} = 0\\)\n\n\n\n\nPlug into Production Function\n\\[\n    K^{*} = 0 \\; \\Rightarrow \\; F(L,K) = 20,000 \\; \\rightarrow \\; 5(0) + 2K = 20,000 \\; \\rightarrow \\; K^{*} = \\frac{20,000}{2} = 10,000\n\\]"
+    "text": "Let’s Give Things Some Values\nNow let’s say we have the following values:\n\nWages are \\(w = 10\\)\nRental rates are \\(r = 5\\)\nThe factory’s Production Function is \\(F(L,K) = L \\cdot K\\)\n\n\n The problem becomes:\n\\[\n    \\min \\;\\; 10L + 5K \\;\\;\\; s.t. \\;\\;\\; F(L,K) = K \\cdot K = 20,000\n\\]"
   },
   {
     "objectID": "Slides/05_Production/main.html#cost-minimization-example",
@@ -6458,14 +6423,7 @@
     "href": "Slides/05_Production/main.html#whats-actually-different-then",
     "title": "Production",
     "section": "What’s Actually Different Then?",
-    "text": "What’s Actually Different Then?\nAlthough the problem we are solving is essentially the same, the levers we are pulling are not\nLet’s introduce some new (but familiar) concepts:\n\n\nProduction Functions have Isoquants instead of Indifference Curves\nIsoquants are all the possible combinations of labor and capital that produce a certain level of output\nFortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced"
-  },
-  {
-    "objectID": "Slides/05_Production/main.html#isoquants-2",
-    "href": "Slides/05_Production/main.html#isoquants-2",
-    "title": "Production",
-    "section": "Isoquants",
-    "text": "Isoquants\nImagine that it takes exactly 20 minutes of labor (1/3 of an hour) AND 10 units of capital to make one Ducks Jersey\n\nWhat form does this Production Function take?\n\n\nPerfect Complements"
+    "text": "What’s Actually Different Then?\nAlthough the problem we are solving is essentially the same, the levers we are pulling are not\n\n\nProduction Functions have Isoquants instead of Indifference Curves\nFortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced\nUnlike utility, production is a cardinal value, with meaningful units"
   },
   {
     "objectID": "Slides/05_Production/main.html#whats-actually-different-the-process",

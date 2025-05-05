@@ -161,7 +161,7 @@ window.Quarto = {
 <p>Instead of trying to <em>maximize production</em>, firms try to <em>minimize costs</em> while trying to meet a specific level of production.</p>
 <p><span class="math display">\[
 \begin{align}
-min &amp; w \cdot L + r \cdot K \\
+\text{minimize} &amp; W  \cdot L + R \cdot K \\
 \text{subject to } &amp; f(K,L) = Q \\
 \end{align}
 \]</span></p>
@@ -170,8 +170,8 @@ min &amp; w \cdot L + r \cdot K \\
 <li>Notice how this is the flip side of the constrained <em>maximization</em> problem?</li>
 </ul>
 </section>
-<section id="setting-cost-minimization" class="level2">
-<h2 class="anchored" data-anchor-id="setting-cost-minimization">Setting Cost-Minimization</h2>
+<section id="setting-up-cost-minimization" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-cost-minimization">Setting up Cost-Minimization</h2>
 <p>What are some questions we could ask using the math tools we have learned?</p>
 <div class="incremental">
 <ul class="incremental">
@@ -301,114 +301,13 @@ min &amp; w \cdot L + r \cdot K \\
 <ul>
 <li>Wages are <span class="math inline">\(w = 10\)</span></li>
 <li>Rental rates are <span class="math inline">\(r = 5\)</span></li>
-<li>The factory’s Production Function is <span class="math inline">\(F(L,K) = 5L + 2K\)</span></li>
+<li>The factory’s Production Function is <span class="math inline">\(F(L,K) = L \cdot K\)</span></li>
 </ul>
 <p>. . .</p>
 <p><br> The problem becomes:</p>
 <p><span class="math display">\[
-    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
+    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = K \cdot K = 20,000
 \]</span></p>
-</section>
-<section id="solving-cost-minimization-problems---new-terms" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="solving-cost-minimization-problems---new-terms">Solving Cost Minimization Problems - New Terms</h2>
-<p>The methods to solve these problems are practically the same as we saw in Consumer Theory</p>
-<p>However, we need to re-label some things:</p>
-<div class="incremental">
-<ul class="incremental">
-<li>The Marginal Rate of Substitution will not be named <span class="hi">Marginal Rate of Technological Substitution (MRTS)</span>
-<ul class="incremental">
-<li>This has a similar interpretation as before:
-<ul class="incremental">
-<li><span class="hi">What is the firm’s willingness to trade Labor for Capital</span></li>
-</ul></li>
-</ul></li>
-<li>Now, instead of using the ratio of marginal utilities, we will use the <span class="hi">ratio of marginal productivities</span></li>
-</ul>
-</div>
-<p>. . .</p>
-<p><span class="math display">\[
-    \text{MRTS} = \frac{MP_{L}}{MP_{K}} = \frac{\frac{\partial F}{\partial L}}{\frac{\partial F}{\partial K}} = \frac{\text{Marginal Productivity of Labor}}{\text{Marginal Productivity of Capital}}
-\]</span></p>
-</section>
-<section id="lets-solve-the-jersey-problem" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="lets-solve-the-jersey-problem">Let’s Solve the Jersey Problem</h2>
-<p><span class="math display">\[
-    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
-\]</span></p>
-<p>The solution should look very familiar. We are trying to choose <span class="math inline">\(L^{*}\)</span> and <span class="math inline">\(K^{*}\)</span> that optimizes our productivity.</p>
-<p>. . .</p>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><span class="note h">What type of production function is this?</span></p>
-</div><div class="column" style="width:30%;">
-<div class="fragment">
-<p>Perfect Substitutes</p>
-</div>
-</div>
-</div>
-<p>. . .</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi small">Find MRTS and Set Equal to Price Ratio</span></p>
-<div class="fragment">
-<p><span class="math display">\[\begin{align*}
-    \text{MRTS} \;\; &amp;? \;\; \text{Price Ratio} \\
-    \frac{MP_{L}}{MP_{K}} \;\; &amp;? \;\; \frac{w}{r} \\
-    \frac{5}{2} \;\; &amp;? \;\; \frac{10}{5} \\
-    
-\end{align*}\]</span></p>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<p><span class="hi small">Interpret the MRTS and Price Ratio Relationship</span></p>
-<p><span class="math display">\[
-    \text{MRTS} &gt; \text{Price Ratio}
-\]</span></p>
-<p><span class="hi align-center">Use only Labor <span class="math inline">\(\; \rightarrow \; K^{*} = 0\)</span></span></p>
-</div>
-</div>
-</div>
-<p>. . .</p>
-<p><span class="hi align-center">Plug into Production Function</span></p>
-<p><span class="math display">\[
-    K^{*} = 0 \; \Rightarrow \; F(L,K) = 20,000 \; \rightarrow \; 5L + 2(0) = 20,000 \; \rightarrow \; L^{*} = \frac{20,000}{5} = 4,000
-\]</span></p>
-<hr>
-</section>
-<section id="jersey-problem-2" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="jersey-problem-2">Jersey Problem 2</h2>
-<p><span class="math display">\[
-    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
-\]</span></p>
-<p><span class="hi note align-center">What if <span class="math inline">\(\; w = 20 \;\)</span> and <span class="math inline">\(\; r = 5 \;\)</span>?</span></p>
-<p>. . .</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi small">Find MRTS and Set Equal to Price Ratio</span></p>
-<div class="fragment">
-<p><span class="math display">\[\begin{align*}
-    \text{MRTS} \;\; &amp;? \;\; \text{Price Ratio} \\
-    \frac{MP_{L}}{MP_{K}} \;\; &amp;? \;\; \frac{w}{r} \\
-    \frac{5}{2} \;\; &amp;? \;\; \frac{20}{5} \\
-    
-\end{align*}\]</span></p>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<p><span class="hi small">Interpret the MRTS and Price Ratio Relationship</span></p>
-<p><span class="math display">\[
-    \text{MRTS} &lt; \text{Price Ratio}
-\]</span></p>
-<p><span class="hi align-center">Use only Capital <span class="math inline">\(\; \rightarrow \; L^{*} = 0\)</span></span></p>
-</div>
-</div>
-</div>
-<p>. . .</p>
-<p><span class="hi align-center">Plug into Production Function</span></p>
-<p><span class="math display">\[
-    K^{*} = 0 \; \Rightarrow \; F(L,K) = 20,000 \; \rightarrow \; 5(0) + 2K = 20,000 \; \rightarrow \; K^{*} = \frac{20,000}{2} = 10,000
-\]</span></p>
-<hr>
 </section>
 <section id="cost-minimization-example" class="level2 smaller">
 <h2 class="smaller anchored" data-anchor-id="cost-minimization-example">Cost Minimization Example</h2>
@@ -486,27 +385,12 @@ min &amp; w \cdot L + r \cdot K \\
 <section id="whats-actually-different-then" class="level2">
 <h2 class="anchored" data-anchor-id="whats-actually-different-then">What’s Actually Different Then?</h2>
 <p>Although the problem we are solving is essentially the same, the levers we are pulling are not</p>
-<p>Let’s introduce some new (but familiar) concepts:</p>
 <div class="incremental">
 <ul class="incremental">
 <li><p>Production Functions have <span class="hi">Isoquants</span> instead of Indifference Curves</p></li>
-<li><p><span class="hi">Isoquants</span> are all the possible combinations of <span class="h">labor and capital</span> that produce a certain level of output</p></li>
 <li><p>Fortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced</p></li>
+<li><p>Unlike utility, <em>production</em> is a <span class="hi">cardinal</span> value, with meaningful units</p></li>
 </ul>
-</div>
-<hr>
-</section>
-<section id="isoquants-2" class="level2">
-<h2 class="anchored" data-anchor-id="isoquants-2">Isoquants</h2>
-<p>Imagine that it takes exactly 20 minutes of labor (1/3 of an hour) <span class="hi">AND</span> 10 units of capital to make one Ducks Jersey</p>
-<p>. . .</p>
-<p><span class="h note">What form does this Production Function take?</span></p>
-<p>. . .</p>
-<p><span class="hi align-center">Perfect Complements</span></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/isoquant-perfect-comps.png" class="quarto-figure quarto-figure-center figure-img" height="350"></p>
-</figure>
 </div>
 <hr>
 </section>
