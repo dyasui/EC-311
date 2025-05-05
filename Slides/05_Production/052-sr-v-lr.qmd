@@ -84,6 +84,8 @@ but not the same
 
 $$AP_L = Q/L$$
 
+## Average Product of Labor
+
 | Irons  | Workers | Shoes Produced          | Marginal Product | Average Product |
 |--------|---------|-------------------------|------------------|-----------------|
 | 4      | 0       | 0                       | -                | -               |
@@ -94,7 +96,7 @@ $$AP_L = Q/L$$
 
 ## Assumption 4: Capital is Variable in the Long-Run
 
-The flip side of assumption 4: the [Long-Run]{.h} is the time when Capltal is not fixed
+The flip side of assumption 4: the [Long-Run]{.h} is the time when Capital is not fixed
 
 - Our Long-Run Production Function:
 

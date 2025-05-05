@@ -2,36 +2,6 @@
 name: producer theory
 ---
 
-## Production Assumptions
-
-Just like we made simplifying assumptions about *consumers*, we'll need some ground rules for [producers]{.hi}:
-
-::::: {.columns}
-:::: {.incremental}
-::: {.column width="50%"}
-1. Single production good
-2. Product choice is fixed
-3. Cost minimization
-4. Capital is fixed in short-run
-:::
-::: {.column width="50%"}
-5. More inputs $\rightarrow$ more outputs
-6. Diminishing marginal returns
-7. Firm's aren't budget constrained
-:::
-::::
-:::::
-
-. . .
-
-I'll tackle each one in a slightly different order, but this is how they appear in the textbook
-
-## Assumption 1: Single Output
-
-In our models, each type of firm only produces one type of good.
-
-- I.e., Shoe companies just produce generic shoes, we don't care about different styles
-
 ## Firms: What do They Make? How Do They Make It? Let's Find Out!
 
 Let's determine the role of the firm
@@ -65,6 +35,36 @@ How firms choose to produce things is guided by a similar principle to how indiv
 :::
 
 ---
+
+## Production Assumptions
+
+Just like we made simplifying assumptions about *consumers*, we'll need some ground rules for [producers]{.hi}:
+
+::::: {.columns}
+:::: {.incremental}
+::: {.column width="50%"}
+1. Single production good
+2. Product choice is fixed
+3. Cost minimization
+4. Capital is fixed in short-run
+:::
+::: {.column width="50%"}
+5. More inputs $\rightarrow$ more outputs
+6. Diminishing marginal returns
+7. Firm's aren't budget constrained
+:::
+::::
+:::::
+
+. . .
+
+I'll tackle each one in a slightly different order, but this is how they appear in the textbook
+
+## Assumption 1: Single Output
+
+In our models, each type of firm only produces one type of good.
+
+- I.e., Shoe companies just produce generic shoes, we don't care about different styles
 
 
 ## Production Functions

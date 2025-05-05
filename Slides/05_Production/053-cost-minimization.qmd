@@ -8,7 +8,7 @@ Instead of trying to *maximize production*, firms try to *minimize costs* while 
 
 $$
 \begin{align}
-min & w \cdot L + r \cdot K \\
+\text{minimize} & W  \cdot L + R \cdot K \\
 \text{subject to } & f(K,L) = Q \\ 
 \end{align}
 $$
@@ -17,7 +17,7 @@ $$
 
 - Notice how this is the flip side of the constrained *maximization* problem?
 
-## Setting Cost-Minimization
+## Setting up Cost-Minimization
 
 What are some questions we could ask using the math tools we have learned?
 
@@ -175,7 +175,7 @@ Now let's say we have the following values:
 
 - Wages are $w = 10$
 - Rental rates are $r = 5$
-- The factory's Production Function is $F(L,K) = 5L + 2K$
+- The factory's Production Function is $F(L,K) = L \cdot K$
 
 . . .
 
@@ -183,147 +183,8 @@ Now let's say we have the following values:
 The problem becomes:
 
 $$
-    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
+    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = K \cdot K = 20,000
 $$  
-
-## Solving Cost Minimization Problems - New Terms {.smaller}
-
-The methods to solve these problems are practically the same as we saw in Consumer Theory
-
-However, we need to re-label some things:
-
-::: {.incremental}
-- The Marginal Rate of Substitution will not be named [Marginal Rate of Technological Substitution (MRTS)]{.hi}
-    - This has a similar interpretation as before: 
-        - [What is the firm's willingness to trade Labor for Capital]{.hi}
-- Now, instead of using the ratio of marginal utilities, we will use the [ratio of marginal productivities]{.hi}
-:::
-
-. . . 
-
-$$
-    \text{MRTS} = \frac{MP_{L}}{MP_{K}} = \frac{\frac{\partial F}{\partial L}}{\frac{\partial F}{\partial K}} = \frac{\text{Marginal Productivity of Labor}}{\text{Marginal Productivity of Capital}}
-$$
-
-## Let's Solve the Jersey Problem {.smaller}
-
-$$
-    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
-$$  
-
-The solution should look very familiar. We are trying to choose $L^{*}$ and $K^{*}$ that optimizes our productivity.
-
-. . . 
-
-:::: {.columns}
-
-::: {.column width="70%"}
-[What type of production function is this?]{.note .h}
-:::
-
-::: {.column width="30%"}
-
-::: {.fragment}
-Perfect Substitutes
-:::
-:::
-
-::::
-
-. . .
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Find MRTS and Set Equal to Price Ratio]{.hi .small}
-
-::: {.fragment}
-\begin{align*}
-    \text{MRTS} \;\; &? \;\; \text{Price Ratio} \\
-    \frac{MP_{L}}{MP_{K}} \;\; &? \;\; \frac{w}{r} \\ 
-    \frac{5}{2} \;\; &? \;\; \frac{10}{5} \\ 
-    
-\end{align*}
-:::
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment}
-[Interpret the MRTS and Price Ratio Relationship]{.hi .small}
-
-$$
-    \text{MRTS} > \text{Price Ratio}
-$$
-
-[Use only Labor $\; \rightarrow \; K^{*} = 0$]{.hi .align-center}
-:::
-
-:::
-
-::::
-
-. . .
-
-[Plug into Production Function]{.hi .align-center}
-
-$$
-    K^{*} = 0 \; \Rightarrow \; F(L,K) = 20,000 \; \rightarrow \; 5L + 2(0) = 20,000 \; \rightarrow \; L^{*} = \frac{20,000}{5} = 4,000
-$$
-
----
-
-## Jersey Problem 2 {.smaller}
-
-$$
-    \min \;\; 10L + 5K \;\;\; s.t. \;\;\; F(L,K) = 5L + 2K = 20,000
-$$  
-
-[What if $\; w = 20 \;$ and $\; r = 5 \;$?]{.hi .note .align-center}
-
-. . .
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Find MRTS and Set Equal to Price Ratio]{.hi .small}
-
-::: {.fragment}
-\begin{align*}
-    \text{MRTS} \;\; &? \;\; \text{Price Ratio} \\
-    \frac{MP_{L}}{MP_{K}} \;\; &? \;\; \frac{w}{r} \\ 
-    \frac{5}{2} \;\; &? \;\; \frac{20}{5} \\ 
-    
-\end{align*}
-:::
-
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment}
-[Interpret the MRTS and Price Ratio Relationship]{.hi .small}
-
-$$
-    \text{MRTS} < \text{Price Ratio}
-$$
-
-[Use only Capital $\; \rightarrow \; L^{*} = 0$]{.hi .align-center}
-:::
-
-:::
-
-::::
-
-. . .
-
-[Plug into Production Function]{.hi .align-center}
-
-$$
-    K^{*} = 0 \; \Rightarrow \; F(L,K) = 20,000 \; \rightarrow \; 5(0) + 2K = 20,000 \; \rightarrow \; K^{*} = \frac{20,000}{2} = 10,000
-$$
-
----
 
 ## Cost Minimization Example {.smaller}
 
@@ -434,31 +295,13 @@ What are the cost minimizing $L$ and $K$ to produce 100 goods, when they face $w
 
 Although the problem we are solving is essentially the same, the levers we are pulling are not
 
-Let's introduce some new (but familiar) concepts:
-
 ::: {.incremental}
 - Production Functions have [Isoquants]{.hi} instead of Indifference Curves
 
-- [Isoquants]{.hi} are all the possible combinations of [labor and capital]{.h} that produce a certain level of output
-
 - Fortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced
+
+- Unlike utility, *production* is a [cardinal]{.hi} value, with meaningful units
 :::
-
----
-
-## Isoquants
-
-Imagine that it takes exactly 20 minutes of labor (1/3 of an hour) [AND]{.hi} 10 units of capital to make one Ducks Jersey
-
-. . .
-
-[What form does this Production Function take?]{.h .note}
-
-. . .
-
-[Perfect Complements]{.hi .align-center}
-
-![](images/isoquant-perfect-comps.png){fig-align="center" height=350}
 
 ---
 
