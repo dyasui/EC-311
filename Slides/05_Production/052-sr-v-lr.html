@@ -171,24 +171,20 @@ window.Quarto = {
 <li><p>We assume that as long as there is profit to be made, there is a complete credit market that will provide funds</p></li>
 </ul>
 </section>
-<section id="example-dantes-taco-truck" class="level2">
-<h2 class="anchored" data-anchor-id="example-dantes-taco-truck">Example: Dante’s Taco Truck</h2>
-<p>Before we found the <em>demand</em> functions for Tacos (and drinks).</p>
-<ul>
-<li>But now we want to figure out how best I should meet that demand.</li>
-</ul>
-<p>Suppose that we just care about producing Tacos, which require deep fryers <span class="math inline">\(K\)</span>, and workers <span class="math inline">\(L\)</span></p>
-<p><span class="math display">\[Q_s^{\text{tacos}} = f(K,L) = \sqrt{KL}\]</span></p>
+<section id="example-nike-waffle-trainers" class="level2">
+<h2 class="anchored" data-anchor-id="example-nike-waffle-trainers">Example: Nike Waffle Trainers</h2>
+<p><a href="https://www.history.com/this-day-in-history/february-26/nike-patent-waffle-sole-trainers-invented-in-waffle-iron">Nike founding story: Bill Bowerman and Phil Knight</a></p>
+<p><span class="math display">\[Q_s^{\text{shoes}} = f(\text{waffle irons},\text{workers}) = \sqrt{KL}\]</span></p>
 </section>
-<section id="example-dantes-taco-truck-1" class="level2">
-<h2 class="anchored" data-anchor-id="example-dantes-taco-truck-1">Example: Dante’s Taco Truck</h2>
-<p>I only have 4 fryers to start out with <span class="math inline">\(\bar{K}=4\)</span>, but I can hire as many workers as I need.</p>
+<section id="example-nike-waffle-trainers-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-nike-waffle-trainers-1">Example: Nike Waffle Trainers</h2>
+<p>Suppose they only have 4 irons to start out with <span class="math inline">\(\bar{K}=4\)</span>, but can hire as many workers as I need.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Fryers</th>
+<th>Irons</th>
 <th>Workers</th>
-<th>Tacos Produced</th>
+<th>Shoes Produced</th>
 </tr>
 </thead>
 <tbody>
@@ -219,15 +215,15 @@ window.Quarto = {
 <li>What do you notice as the number of workers increases?</li>
 </ul>
 </section>
-<section id="example-dantes-taco-truck-2" class="level2">
-<h2 class="anchored" data-anchor-id="example-dantes-taco-truck-2">Example: Dante’s Taco Truck</h2>
+<section id="example-nike-waffle-trainers-2" class="level2">
+<h2 class="anchored" data-anchor-id="example-nike-waffle-trainers-2">Example: Nike Waffle Trainers</h2>
 <p>The <span class="h">marginal product of labor</span> is decreasing!</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Fryers</th>
+<th>Irons</th>
 <th>Workers</th>
-<th>Tacos Produced</th>
+<th>Shoes Produced</th>
 <th>Marginal Product</th>
 </tr>
 </thead>
@@ -273,12 +269,25 @@ window.Quarto = {
 <ul class="incremental">
 <li><p>Given a production function <span class="math inline">\(f(K,L)\)</span>, how could you find an expression which represents this change <em>for any quantity change</em> of labor?</p></li>
 <li><p>Take the partial derivative <span class="math inline">\(\frac{df}{dL}\)</span> holding capital fixed!</p></li>
+<li><p>This is the slope of our <span class="h">short-run production function</span>!</p></li>
 </ul>
 </div>
 </section>
+<section id="graphing-the-short-run-production-function-and-marginal-product" class="level2">
+<h2 class="anchored" data-anchor-id="graphing-the-short-run-production-function-and-marginal-product">Graphing the Short-Run Production Function and Marginal Product</h2>
+<p><img src="./images/sr-prod-func_plot.png" class="img-fluid"></p>
+</section>
+<section id="graphing-the-short-run-production-function-and-marginal-product-1" class="level2">
+<h2 class="anchored" data-anchor-id="graphing-the-short-run-production-function-and-marginal-product-1">Graphing the Short-Run Production Function and Marginal Product</h2>
+<p><img src="./images/sr-mp-func_plot.png" class="img-fluid"></p>
+</section>
 <section id="average-product-of-labor" class="level2">
 <h2 class="anchored" data-anchor-id="average-product-of-labor">Average Product of Labor</h2>
-<p>The <span class="h">average product</span> is different from the <span class="h">marginal product</span></p>
+<p><span class="h">Average Product</span> is the quantity of output produced <em>per unit of input</em>.</p>
+<p><span class="math display">\[AP_L = Q/L\]</span></p>
+<ul>
+<li>The <span class="h">average product</span> is related to the <span class="h">marginal product</span>, but not the same</li>
+</ul>
 <p><span class="math display">\[AP_L = Q/L\]</span></p>
 <table class="caption-top table">
 <colgroup>
@@ -290,9 +299,9 @@ window.Quarto = {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fryers</th>
+<th>Irons</th>
 <th>Workers</th>
-<th>Tacos Produced</th>
+<th>Shoes Produced</th>
 <th>Marginal Product</th>
 <th>Average Product</th>
 </tr>
@@ -335,6 +344,62 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
+</section>
+<section id="assumption-4-capital-is-variable-in-the-long-run" class="level2">
+<h2 class="anchored" data-anchor-id="assumption-4-capital-is-variable-in-the-long-run">Assumption 4: Capital is Variable in the Long-Run</h2>
+<p>The flip side of assumption 4: the <span class="h">Long-Run</span> is the time when Capltal is not fixed</p>
+<ul>
+<li>Our Long-Run Production Function:</li>
+</ul>
+<p><span class="math display">\[Q = f(K,L)\]</span></p>
+<ul>
+<li>The same as the SR version, but now <span class="math inline">\(K\)</span> is treated as a <em>variable</em>, not a <em>constant</em></li>
+</ul>
+</section>
+<section id="long-run-production-functions" class="level2">
+<h2 class="anchored" data-anchor-id="long-run-production-functions">Long-Run Production Functions</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th><span class="math inline">\(L=1\)</span></th>
+<th><span class="math inline">\(L=2\)</span></th>
+<th><span class="math inline">\(L=3\)</span></th>
+<th><span class="math inline">\(L=4\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(K=1\)</span></td>
+<td>1.00</td>
+<td>1.41</td>
+<td>1.73</td>
+<td>2.00</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(K=2\)</span></td>
+<td>1.41</td>
+<td>2.00</td>
+<td>2.45</td>
+<td>2.83</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(K=3\)</span></td>
+<td>1.73</td>
+<td>2.45</td>
+<td>3.00</td>
+<td>3.46</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(K=4\)</span></td>
+<td>2.00</td>
+<td>2.83</td>
+<td>3.46</td>
+<td>4.00</td>
+</tr>
+</tbody>
+</table>
+<p>What are some tools we have already learned that will help us analyze <em>multi-variable functions</em>?</p>
 
 
 </section>
