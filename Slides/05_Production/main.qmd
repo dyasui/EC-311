@@ -96,9 +96,7 @@ but by relaxing these assumptions we can apply our simple models to tackle big i
 
 ## Why care about industrial production?
 
-```{=html}
-<iframe width="780" height="500" src="https://www.theguardian.com/environment/2025/apr/23/coral-reef-bleaching-worst-global-event-on-record" title="Coral Bleaching News"></iframe>
-```
+![](images/news-coral-bleaching.png)
 
 ## Big Picture
 

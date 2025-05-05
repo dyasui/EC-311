@@ -16,21 +16,17 @@ For the short-run, capital is only constrained by time-frame, not by how much mo
 
 - We assume that as long as there is profit to be made, there is a complete credit market that will provide funds
 
-## Example: Dante's Taco Truck
+## Example: Nike Waffle Trainers
 
-Before we found the *demand* functions for Tacos (and drinks).
+[Nike founding story: Bill Bowerman and Phil Knight](https://www.history.com/this-day-in-history/february-26/nike-patent-waffle-sole-trainers-invented-in-waffle-iron)
 
-- But now we want to figure out how best I should meet that demand.
+$$Q_s^{\text{shoes}} = f(\text{waffle irons},\text{workers}) = \sqrt{KL}$$
 
-Suppose that we just care about producing Tacos, which require deep fryers $K$, and workers $L$
+## Example: Nike Waffle Trainers
 
-$$Q_s^{\text{tacos}} = f(K,L) = \sqrt{KL}$$
+Suppose they only have 4 irons to start out with $\bar{K}=4$, but can hire as many workers as I need.
 
-## Example: Dante's Taco Truck
-
-I only have 4 fryers to start out with $\bar{K}=4$, but I can hire as many workers as I need.
-
-| Fryers | Workers | Tacos Produced          |
+| Irons  | Workers | Shoes Produced          |
 |--------|---------|-------------------------|
 | 4      | 1       | 2                       |
 | 4      | 2       | $\sqrt{8} \approx 2.8$  |
@@ -41,11 +37,11 @@ I only have 4 fryers to start out with $\bar{K}=4$, but I can hire as many worke
 
 - What do you notice as the number of workers increases?
 
-## Example: Dante's Taco Truck
+## Example: Nike Waffle Trainers
 
 The [marginal product of labor]{.h} is decreasing!
 
-| Fryers | Workers | Tacos Produced          | Marginal Product |
+| Irons  | Workers | Shoes Produced          | Marginal Product |
 |--------|---------|-------------------------|------------------|
 | 4      | 0       | 0                       | -                |
 | 4      | 1       | 2                       | 2                |
@@ -65,16 +61,54 @@ The [Marginal Product of Labor]{.h} is the change in the quantity of production 
 
 - Take the partial derivative $\frac{df}{dL}$ holding capital fixed!
 
+- This is the slope of our [short-run production function]{.h}!
+
+:::
+
+## Graphing the Short-Run Production Function and Marginal Product
+
+![](./images/sr-prod-func_plot.png)
+
+## Graphing the Short-Run Production Function and Marginal Product
+
+![](./images/sr-mp-func_plot.png)
+
 ## Average Product of Labor
 
-The [average product]{.h} is different from the [marginal product]{.h}
+[Average Product]{.h} is the quantity of output produced *per unit of input*.
 
 $$AP_L = Q/L$$
 
-| Fryers | Workers | Tacos Produced          | Marginal Product | Average Product |
+- The [average product]{.h} is related to the [marginal product]{.h}, 
+but not the same
+
+$$AP_L = Q/L$$
+
+| Irons  | Workers | Shoes Produced          | Marginal Product | Average Product |
 |--------|---------|-------------------------|------------------|-----------------|
 | 4      | 0       | 0                       | -                | -               |
 | 4      | 1       | 2                       | 2                | 2               |
 | 4      | 2       | $\sqrt{8} \approx 2.8$  | 0.8              | $\approx 1.4$   |
 | 4      | 3       | $\sqrt{12} \approx 3.5$ | 0.7              | $\approx 1.2$   |
 | 4      | 4       | 4                       | 0.5              | 1               |
+
+## Assumption 4: Capital is Variable in the Long-Run
+
+The flip side of assumption 4: the [Long-Run]{.h} is the time when Capltal is not fixed
+
+- Our Long-Run Production Function:
+
+$$Q = f(K,L)$$
+
+- The same as the SR version, but now $K$ is treated as a *variable*, not a *constant*
+
+## Long-Run Production Functions
+
+|       | $L=1$ | $L=2$ | $L=3$ | $L=4$ |
+|-------|-------|-------|-------|-------|
+| $K=1$ | 1.00  | 1.41  | 1.73  | 2.00  |
+| $K=2$ | 1.41  | 2.00  | 2.45  | 2.83  |
+| $K=3$ | 1.73  | 2.45  | 3.00  | 3.46  |
+| $K=4$ | 2.00  | 2.83  | 3.46  | 4.00  |
+
+What are some tools we have already learned that will help us analyze *multi-variable functions*?
