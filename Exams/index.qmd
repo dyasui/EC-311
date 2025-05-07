@@ -37,6 +37,22 @@ title: "Practice Exams"
 </div>
 ```
 
+### Spring 2025 Midterm
+```{=html}
+<a class="btn btn-primary btn-md" href="Midterm/EC311-Sp25-Midterm_v1.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Version1
+</a>
+<a class="btn btn-primary btn-md" href="Midterm/EC311-Sp25-Midterm_v1_KEY.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;V1_Key
+</a>
+<a class="btn btn-primary btn-md" href="Midterm/EC311-Sp25-Midterm_v2.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Version2
+</a>
+<a class="btn btn-primary btn-md" href="Midterm/EC311-Sp25-Midterm_v2_KEY.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;V2_Key
+</a>
+```
+
 # Final
 
 ### Winter 2024 Practice Final
