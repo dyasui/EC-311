@@ -69,6 +69,25 @@ $$
 
 ---
 
+## Fixed and Variable Costs Example as Table
+
+| Q | FC | VC    | TC    | MC | AFC | AVC  | ATC   |
+|---|----|-------|-------|----|-----|------|-------|
+| 0 | 12 | 0     | 12    | 2  | -   | -    | -     |
+| 1 | 12 | 1.33  | 13.33 | 1  | 12  | 1.33 | 13.33 |
+| 2 | 12 | 2.67  | 14.67 | 2  | 6   | 1.33 | 7.33  |
+| 3 | 12 | 6     | 18    | 5  | 4   | 2    | 6     |
+| 4 | 12 | 13.33 | 25.33 | 10 | 3   | 3.33 | 6.33  |
+| 5 | 12 | 26.67 | 38.67 | 17 | 2.2 | 5.33 | 7.73  |
+
+---
+
+## Average Costs Example as a graph
+
+<iframe src="https://www.desmos.com/calculator/ecgbptv7r0?embed" width="800" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+---
+
 ## Graphing Cost Functions
 
 Graphing cost functions is very helpful to understanding what is going on and how optimal choices are made
@@ -301,14 +320,10 @@ At our sweet spot where [MC = ATC]{.hi} at the minimum of the [ATC]{.hi} we can 
 ::: {.incremental}
 - When the [Marginal Cost]{.hi} is less than the [Average Total Cost]{.hi}, the [ATC]{.hi} must be [decreasing]{.hi-red}
 - When the [Marginal Cost]{.hi} is larger than the [Average Total Cost]{.hi}, the [ATC]{.hi} must be [increasing]{.hi-green}
-:::
-
-. . .
 
 Therefore, when [MC = ATC]{.hi}, the [average total cost]{.hi} is switching from [decreasing]{.hi-red} to [increasing]{.hi-green}
-
-. . .
 
 - That is the definition of a minimum
 
 All of this will be useful for our next topic: [Profit Maximization]{.hi}
+:::

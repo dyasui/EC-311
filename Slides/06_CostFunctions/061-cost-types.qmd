@@ -35,31 +35,33 @@ The opportunity cost of something is the value of the next best use of the mater
 
 ## Opportunity Cost
 
-Let's consider of a non-economics example [Kyler Murray]{.hi}
+Does Airbnb drive out residential tenants?
+
+- Imagine you are a landlord who owns a house that you rent for the year
 
 . . .
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-[NFL Quarterback for the AZ Cardinals]{.hi .align-center}
+Before Airbnb:
 
-He has a 5yr/ $230,500,000 contract
+- your [opporunity cost]{.hi} is whatever you could do with the money you would earn by *selling* your house
 
-![](images/kyler-murray-football.jpg){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
+After Airbnb:
 
-::: {.fragment}
-[But he also played baseball in college and nearly went pro]{.hi .align-center}
+- now you could more easily access the lucrative vacation rental business
 
-![](images/kyler-murray-baseball.webp){height="400" fig-align="center"}
-:::
+- your [opportunity cost]{.hi} of long-term renting went up!
 
 :::
 
 ::::
+
+- This logic lead some cities in attractive places like Denver, CO to adopt policies to limit Airbnb adoption for non-primary residences
 
 ---
 

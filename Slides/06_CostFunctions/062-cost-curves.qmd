@@ -167,36 +167,12 @@ We found our optimal [Labor]{.hi} and [Capital]{.hi} choices are in terms of $Q$
 
 ## Why Bother With Cost Functions?
 
-To begin, they are very useful in industry
-
-Let's think back to our Ducks jersey example. 
-Nike wants you to make 20,000 jerseys. 
-All you do is turn around and say it will cost 
-
-\begin{align*}
-    C^{*}(Q) &= 20 \cdot Q^{2} \\ 
-    C^{*}(20,000) &= 20 \cdot 20,000^{2} \\ 
-    C^{*}(20,000) &= 20 \cdot 400,000,000 = 8,000,000,000
-\end{align*}
-
-. . . 
-
-But then with Bo Nix being gone, they only need 1,000 jerseys
-
-So you say: That sucks, I thought we were better than just Bo, but okay. It'll cost:
-
-$$
-    C^{*}(1,000) = 20 \cdot 1,000^{2} = 20,000,000
-$$
-
----
-
-## Why Bother With Cost Functions?
-
-More generally, as the factory manager, you would just share your cost function with Nike and they can:
+With the [Cost Minimization]{.h} problem, we took our level of production, $Q$, as given
+and tried to figure out the most efficient combo of inputs to meet our quota.
 
 ::: {.incremental}
-- Use it to figure out the optimal number of jerseys tor produce, taking costs of production into account
+- But assuming we've already figured out the best way to hit *any* quota, now we can think about what scale of production to target
+- Our investors just care that we can figure out how much it will cost to hit our market demand
 - We will introduce profits later
 - This decision is where [Supply]{.hi} will come from
 :::
@@ -380,6 +356,55 @@ $$
 
 ---
 
+## Decomposing Costs Example
+
+Consider the costs faced by Forever 21:
+
+- Suppose have to pay Valley River Mall \$ 12 million for a fixed 10-year lease
+- To sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.
+
+How can we catogorize the different costs?
+
+::: {.incremental}
+- the lease is a [fixed cost]{.h} that F21 has to treat as a [sunk cost]{.h} in the short-run
+- everything else is [variable]{.h}; it depends on how many clothes they want to sell
+:::
+
+---
+
+## Fixed and Variable Costs Example as Table
+
+| Q | Fixed Cost | Variable Cost | Total Cost | Marginal Cost $\frac{\Delta C}{\Delta Q = 1}$ |
+|---|------------|---------------|------------|---------------|
+| 0 | 12         | 0             | 12         | -             |
+| 1 | 12         | 1.33          | 13.33      | 1.33          |
+| 2 | 12         | 2.67          | 14.67      | 1.33          |
+| 3 | 12         | 6             | 18         | 3.33          |
+| 4 | 12         | 13.33         | 25.33      | 7.33          |
+| 5 | 12         | 26.67         | 38.67      | 13.33         |
+
+
+---
+
+## Fixed vs Variable cost example as graph
+
+<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="800 height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+---
+
+## Fixed and Variable Costs Example as Table
+
+| Q | Fixed Cost | Variable Cost | Total Cost | Marginal Cost $\frac{\delta C}{\delta Q}$ |
+|---|------------|---------------|------------|---------------|
+| 0 | 12         | 0             | 12         | 2             |
+| 1 | 12         | 1.33          | 13.33      | 1             |
+| 2 | 12         | 2.67          | 14.67      | 2             |
+| 3 | 12         | 6             | 18         | 5             |
+| 4 | 12         | 13.33         | 25.33      | 10            |
+| 5 | 12         | 26.67         | 38.67      | 17            |
+
+---
+
 ## Fixed Costs (FC)
 
 These are costs the firm has to pay [even if it produces 0 units of output]{.hi}
@@ -466,20 +491,3 @@ $$
     VC &= \frac{1}{3} Q^{3} - Q^{2} + 2Q \\
     MC &= Q^{2} - 2Q + 2
 \end{align*}]{.tiny}
-
-## Fixed and Variable Costs Example as Table
-
-| Q | Fixed Cost | Variable Cost | Total Cost | Marginal Cost $\frac{\delta C}{\delta Q}|
-|---|------------|---------------|------------|---------------|
-| 0 | 12         | 0             | 12         | 2             |
-| 1 | 12         | 1.33          | 13.33      | 1             |
-| 2 | 12         | 2.67          | 14.67      | 2             |
-| 3 | 12         | 6             | 18         | 5             |
-| 4 | 12         | 13.33         | 25.33      | 10            |
-| 5 | 12         | 26.67         | 38.67      | 17            |
-
----
-
-## Fixed vs Variable cost example as graph
-
-<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
