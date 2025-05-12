@@ -197,4 +197,4 @@ It's okay if you don't follow all the math at first!
 
 But let's try to use these functions to visualize what's going on:
 
-<iframe src="https://www.desmos.com/calculator/l2k67cqwuv?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/btnicgeohl" width="900" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>

@@ -183,20 +183,6 @@ But before we can get into [Profit Maximization]{.h}, we will dive deeper into u
 
 ---
 
-## What Goes Into Cost Functions?
-
-Beyond wages and rental rates, e[con]{.hi-red}omists think about costs in a different way:
-
-. . .
-
-[We consider ALL foregone alternatives that we could have used our resources in]{.hi .align-center} 
-
-We call this [opportunity cost]{.hi}:
-
-- It is the value of inputs when used for their best alternative use
-
----
-
 ## Understanding Cost Functions
 
 Knowing what is considered as costs in economics helps us with the theory part of production
@@ -374,7 +360,7 @@ How can we catogorize the different costs?
 
 ## Fixed and Variable Costs Example as Table
 
-| Q | Fixed Cost | Variable Cost | Total Cost | Marginal Cost $\frac{\Delta C}{\Delta Q = 1}$ |
+| Q | Fixed Cost | Variable Cost | Total Cost | Marginal Cost $(\Delta C | \Delta Q = 1)$ |
 |---|------------|---------------|------------|---------------|
 | 0 | 12         | 0             | 12         | -             |
 | 1 | 12         | 1.33          | 13.33      | 1.33          |
@@ -388,7 +374,7 @@ How can we catogorize the different costs?
 
 ## Fixed vs Variable cost example as graph
 
-<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="800 height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="800" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 ---
 

@@ -321,9 +321,9 @@ At our sweet spot where [MC = ATC]{.hi} at the minimum of the [ATC]{.hi} we can 
 - When the [Marginal Cost]{.hi} is less than the [Average Total Cost]{.hi}, the [ATC]{.hi} must be [decreasing]{.hi-red}
 - When the [Marginal Cost]{.hi} is larger than the [Average Total Cost]{.hi}, the [ATC]{.hi} must be [increasing]{.hi-green}
 
-Therefore, when [MC = ATC]{.hi}, the [average total cost]{.hi} is switching from [decreasing]{.hi-red} to [increasing]{.hi-green}
+- -> Therefore, when [MC = ATC]{.hi}, the [average total cost]{.hi} is switching from [decreasing]{.hi-red} to [increasing]{.hi-green}
 
-- That is the definition of a minimum
+  * That is the definition of a minimum
 
-All of this will be useful for our next topic: [Profit Maximization]{.hi}
+- All of this will be useful for our next topic: [Profit Maximization]{.hi}
 :::
