@@ -1,0 +1,198 @@
+---
+name: cost-types
+---
+
+## Different Types of Costs
+
+So far, we've categorized costs according the *type of input* they go with
+
+- For example, the **wage** is the cost of **labor** inputs
+- and the **rental rate** is the cost of **capital** inputs
+
+. . .
+
+You may also recall the difference between what economists call [accounting costs]{.h} and [opportunity costs]{.h}
+
+## Economic Cost
+
+The [economic costs]{.h} faced by anyone is the sum these two:
+
+:::{.callout-tip}
+### Accounting Cost:
+The costs you most typically think of: the sticker price you physically pay.
+:::
+
+:::{.callout-tip}
+### Opportunity Cost:
+The opportunity cost of something is the value of the next best use of the materials you put into it.
+:::
+
+. . .
+
+- E.g., your [opportunity cost]{.h} of you being in class today might be the lost value of not being out in the sun instead.
+
+---
+
+## Opportunity Cost
+
+Let's consider of a non-economics example [Kyler Murray]{.hi}
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+[NFL Quarterback for the AZ Cardinals]{.hi .align-center}
+
+He has a 5yr/ $230,500,000 contract
+
+![](images/kyler-murray-football.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+[But he also played baseball in college and nearly went pro]{.hi .align-center}
+
+![](images/kyler-murray-baseball.webp){height="400" fig-align="center"}
+:::
+
+:::
+
+::::
+
+---
+
+## Scaling up Production
+
+Last week we looked at the production function for UO Dining:
+
+$$f(K,L) = L\cdot K = 900 \text{ lunches}$$
+
+We solved the [cost-minimzation problem]{.h} when the wage was \$16 and the rental rate was \$25:
+
+$$
+\begin{align}
+L^*(w=16,r=25,Q=900) &= 37.5 \\
+K^*(w=16,r=25,Q=900) &= 24
+\end{align}
+$$
+
+:::{.incremental}
+- What happens if UO dining wants to double its production?
+- Would they need double the amount of $K$ and $L$?
+:::
+
+---
+
+## What Are Returns to Scale?
+
+[Returns to Scale]{.hi} will measure the following:
+
+If I [increase my inputs by equal amounts (such that labor and capital increase by some constant $z$)]{.h}, how much does my [output increase by]{.h}?
+
+. . .
+
+There are three possible outcomes:
+
+::: {.incremental}
+- Decreasing Returns to Scale (DRS)
+- Constant Returns to Scale (CRS)
+- Increasing Returns to Scale (IRS)
+:::
+
+---
+
+## Returns to Scale Example
+
+If UO dining doubles their inputs, how much output would they get?
+
+$$f(2\cdot K^*, 2\cdot L^*) = ?$$
+
+:::{.incremental}
+- $f(2\cdot 24, 2\cdot 37.5) = (48)\cdot(75) = 3600$
+- $f(2\cdot 24, 2\cdot 37.5) = 3600 > 2\cdot f(24,37.5) = 1800$
+- So $f(.)$ experiences [increasing returns to scale]{.h}
+:::
+
+---
+
+## Returns to Scale: Mathematically
+
+As usual, we can show these concepts mathematically
+
+::: {.fragment}
+- [Decreasing Returns to Scale]{.hi .align-center}
+
+$$
+    F(zL,zK) > z \cdot F(L,K)
+$$
+:::
+
+::: {.fragment}
+- [Constant Returns to Scale]{.hi .align-center}
+
+$$
+    F(zL,zK) = z \cdot F(L,K)
+$$
+:::
+
+::: {.fragment}
+- [Increasing Returns to Scale]{.hi .align-center}
+
+$$
+    F(zL,zK) < z \cdot F(L,K)
+$$
+:::
+
+---
+
+## Long-Run Cost Functions
+
+In the long-run, UO Dining could target any level of production and be able to adjust *both* $K$ and $L$.
+
+- Let's think about the LR total cost function as a function of the chosen quota:
+
+$$
+\begin{align}
+C^*(Q) = & \text{min } wL + rK \\
+& s.t. L\cdot K = Q
+\end{align}
+$$
+
+. . .
+
+- Or, equivalently: $C^*(Q) = wL^* + rK^*$
+
+---
+
+## Long-Run Cost Functions
+
+UO's LR cost function can be derived by setting $MRTS_{L,K}$ equal to $\frac{w}{r}$:
+
+$$\frac{K}{L}=\frac{w}{r}$$
+
+And then plugging the ratio of $K=\frac{w}{r}L$ into $f()$:
+
+$$
+\begin{align}
+(\frac{w}{r}L)\cdot L & = Q & \Rightarrow L^* & = \sqrt{\frac{r}{w}Q} \\
+& & \Rightarrow K^* & = \sqrt{\frac{w}{r}Q}
+\end{align}
+$$
+
+So we get the LR total cost function:
+
+$$
+C^*(Q) = 2\sqrt{wrQ}
+$$
+
+---
+
+## Long-Run Cost Functions
+
+It's okay if you don't follow all the math at first!
+
+But let's try to use these functions to visualize what's going on:
+
+<iframe src="https://www.desmos.com/calculator/l2k67cqwuv?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>

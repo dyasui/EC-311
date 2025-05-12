@@ -221,36 +221,6 @@ We call this [opportunity cost]{.hi}:
 
 ---
 
-## Opportunity Cost
-
-Let's consider of a non-economics example [Kyler Murray]{.hi}
-
-. . .
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[NFL Quarterback for the AZ Cardinals]{.hi .align-center}
-
-He has a 5yr/ $230,500,000 contract
-
-![](images/kyler-murray-football.jpg){fig-align="center"}
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment}
-[But he also played baseball in college and nearly went pro]{.hi .align-center}
-
-![](images/kyler-murray-baseball.webp){height="400" fig-align="center"}
-:::
-
-:::
-
-::::
-
----
-
 ## Understanding Cost Functions
 
 Knowing what is considered as costs in economics helps us with the theory part of production
@@ -347,98 +317,6 @@ So this is true, but only up to a point
 ## Initial Decreasing Marginal Costs with Increasing Marginal Costs At High Quantity
 
 ![](images/marginal-cost-4.png){fig-align="center"}
-
----
-
-## Types of Cost Functions - Quadratic
-
-We will be dealing with two types of cost functions: [Quadratic and Cubic]{.hi}: 
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Quadratic]{.hi .align-center}
-
-::: {.fragment }
-[MC is always increasing]{.h .align-center}
-
-\begin{align*}
-    C(Q) &= Q^{2} + 10 \\
-    \frac{\partial C(Q)}{\partial Q} &= MC = 2Q \\  
-\end{align*}
-:::
-
-::: {.fragment}
-\begin{align*}
-    \frac{\partial MC}{\partial Q} &= 2 > 0
-\end{align*}
-:::
-
-:::
-
-::: {.column width="50%"}
-[How Does the Graph Look?]{.hi .align-center}
-
-::: {.fragment}
-![](images/quadratic-cost-function.png){fig-align="center"}
-:::
-
-:::
-
-::::
-
----
-
-## Types of Cost Functions - Cubic
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Cubic]{.hi .align-center}
-
-::: {.fragment}
-[MC is initially decreasing, and eventually increasing]{.h .align-center}
-
-[\begin{align*}
-    C(Q) &= \frac{1}{3}Q^{3} - Q^{2} + 2Q + 12 \\
-    \frac{\partial C(Q)}{\partial Q} &= MC = Q^{2} - 2Q + 2 
-\end{align*}]{.tiny}
-:::
-
-::: {.fragment}
-[\begin{align*}
-    \frac{\partial MC}{\partial Q} &= 2Q - 2
-\end{align*}]{.tiny}
-:::
-
-::: {.fragment}
-[\begin{align*}
-    2Q - 2 &= 0 \\
-    2Q &= 2 \\
-    Q &= 1
-\end{align*}]{.tiny}
-:::
-
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment}
-[When does it switch from (-) to (+)?]{.hi .align-center}
-
-[\begin{align*}
-    Q &< 1 \rightarrow \text{Decreasing} \\
-    Q &> 1 \rightarrow \text{Increasing}
-\end{align*}]{.tiny}
-:::
-
-::: {.fragment}
-![](images/cubic-cost-function.png){fig-align="center"}
-:::
-
-:::
-
-::::
 
 ---
 
@@ -578,7 +456,7 @@ Let's practice:
 [Decompose the following Cost Function into FC, VC, and MC](https://wheelofnames.com/){.hi .align-center .note}
 
 $$
-    C(Q) = \frac{1}{3} Q^{3} - Q^{2} + 2Q - 12
+    C(Q) = \frac{1}{3} Q^{3} - Q^{2} + 2Q + 12
 $$
 
 . . . 
@@ -588,3 +466,20 @@ $$
     VC &= \frac{1}{3} Q^{3} - Q^{2} + 2Q \\
     MC &= Q^{2} - 2Q + 2
 \end{align*}]{.tiny}
+
+## Fixed and Variable Costs Example as Table
+
+| Q | Fixed Cost | Variable Cost | Total Cost | Marginal Cost $\frac{\delta C}{\delta Q}|
+|---|------------|---------------|------------|---------------|
+| 0 | 12         | 0             | 12         | 2             |
+| 1 | 12         | 1.33          | 13.33      | 1             |
+| 2 | 12         | 2.67          | 14.67      | 2             |
+| 3 | 12         | 6             | 18         | 5             |
+| 4 | 12         | 13.33         | 25.33      | 10            |
+| 5 | 12         | 26.67         | 38.67      | 17            |
+
+---
+
+## Fixed vs Variable cost example as graph
+
+<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
