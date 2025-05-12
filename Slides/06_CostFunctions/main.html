@@ -200,27 +200,27 @@
 </section>
 <section id="opportunity-cost-1" class="slide level2">
 <h2>Opportunity Cost</h2>
-<p>Let’s consider of a non-economics example <span class="hi">Kyler Murray</span></p>
+<p>Does Airbnb drive out residential tenants?</p>
+<ul>
+<li>Imagine you are a landlord who owns a house that you rent for the year</li>
+</ul>
 <div class="fragment">
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><span class="hi align-center">NFL Quarterback for the AZ Cardinals</span></p>
-<p>He has a 5yr/ $230,500,000 contract</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/kyler-murray-football.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
+<p>Before Airbnb:</p>
+<ul>
+<li>your <span class="hi">opporunity cost</span> is whatever you could do with the money you would earn by <em>selling</em> your house</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<div class="fragment">
-<p><span class="hi align-center">But he also played baseball in college and nearly went pro</span></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/kyler-murray-baseball.webp" class="quarto-figure quarto-figure-center" height="400"></p>
-</figure>
-</div>
-</div>
+<p>After Airbnb:</p>
+<ul>
+<li><p>now you could more easily access the lucrative vacation rental business</p></li>
+<li><p>your <span class="hi">opportunity cost</span> of long-term renting went up!</p></li>
+</ul>
 </div></div>
+<ul>
+<li>This logic lead some cities in attractive places like Denver, CO to adopt policies to limit Airbnb adoption for non-primary residences</li>
+</ul>
 </div>
 </section>
 <section id="scaling-up-production" class="slide level2">
@@ -475,27 +475,11 @@ C^*(Q) = 2\sqrt{wrQ}
 </section>
 <section id="why-bother-with-cost-functions" class="slide level2">
 <h2>Why Bother With Cost Functions?</h2>
-<p>To begin, they are very useful in industry</p>
-<p>Let’s think back to our Ducks jersey example. Nike wants you to make 20,000 jerseys. All you do is turn around and say it will cost</p>
-<p><span class="math display">\[\begin{align*}
-    C^{*}(Q) &amp;= 20 \cdot Q^{2} \\
-    C^{*}(20,000) &amp;= 20 \cdot 20,000^{2} \\
-    C^{*}(20,000) &amp;= 20 \cdot 400,000,000 = 8,000,000,000
-\end{align*}\]</span></p>
-<div class="fragment">
-<p>But then with Bo Nix being gone, they only need 1,000 jerseys</p>
-<p>So you say: That sucks, I thought we were better than just Bo, but okay. It’ll cost:</p>
-<p><span class="math display">\[
-    C^{*}(1,000) = 20 \cdot 1,000^{2} = 20,000,000
-\]</span></p>
-</div>
-</section>
-<section id="why-bother-with-cost-functions-1" class="slide level2">
-<h2>Why Bother With Cost Functions?</h2>
-<p>More generally, as the factory manager, you would just share your cost function with Nike and they can:</p>
+<p>With the <span class="h">Cost Minimization</span> problem, we took our level of production, <span class="math inline">\(Q\)</span>, as given and tried to figure out the most efficient combo of inputs to meet our quota.</p>
 <div>
 <ul>
-<li class="fragment">Use it to figure out the optimal number of jerseys tor produce, taking costs of production into account</li>
+<li class="fragment">But assuming we’ve already figured out the best way to hit <em>any</em> quota, now we can think about what scale of production to target</li>
+<li class="fragment">Our investors just care that we can figure out how much it will cost to hit our market demand</li>
 <li class="fragment">We will introduce profits later</li>
 <li class="fragment">This decision is where <span class="hi">Supply</span> will come from</li>
 </ul>
@@ -642,6 +626,155 @@ C^*(Q) = 2\sqrt{wrQ}
 \]</span></p>
 </div>
 </section>
+<section id="decomposing-costs-example" class="slide level2">
+<h2>Decomposing Costs Example</h2>
+<p>Consider the costs faced by Forever 21:</p>
+<ul>
+<li>Suppose have to pay Valley River Mall $ 12 million for a fixed 10-year lease</li>
+<li>To sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.</li>
+</ul>
+<p>How can we catogorize the different costs?</p>
+<div>
+<ul>
+<li class="fragment">the lease is a <span class="h">fixed cost</span> that F21 has to treat as a <span class="h">sunk cost</span> in the short-run</li>
+<li class="fragment">everything else is <span class="h">variable</span>; it depends on how many clothes they want to sell</li>
+</ul>
+</div>
+</section>
+<section id="fixed-and-variable-costs-example-as-table" class="slide level2">
+<h2>Fixed and Variable Costs Example as Table</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 21%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Q</th>
+<th>Fixed Cost</th>
+<th>Variable Cost</th>
+<th>Total Cost</th>
+<th>Marginal Cost <span class="math inline">\(\frac{\Delta C}{\Delta Q = 1}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>12</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+<td>1.33</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12</td>
+<td>2.67</td>
+<td>14.67</td>
+<td>1.33</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>12</td>
+<td>6</td>
+<td>18</td>
+<td>3.33</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>12</td>
+<td>13.33</td>
+<td>25.33</td>
+<td>7.33</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>12</td>
+<td>26.67</td>
+<td>38.67</td>
+<td>13.33</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fixed-vs-variable-cost-example-as-graph" class="slide level2">
+<h2>Fixed vs Variable cost example as graph</h2>
+<p>&lt;iframe src=“https://www.desmos.com/calculator/c8wpmvntvr?embed” width=“800 height=”500” style=“border: 1px solid #ccc” frameborder=0&gt;</p>
+</section>
+<section id="fixed-and-variable-costs-example-as-table-1" class="slide level2">
+<h2>Fixed and Variable Costs Example as Table</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 21%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Q</th>
+<th>Fixed Cost</th>
+<th>Variable Cost</th>
+<th>Total Cost</th>
+<th>Marginal Cost <span class="math inline">\(\frac{\delta C}{\delta Q}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12</td>
+<td>2.67</td>
+<td>14.67</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>12</td>
+<td>6</td>
+<td>18</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>12</td>
+<td>13.33</td>
+<td>25.33</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>12</td>
+<td>26.67</td>
+<td>38.67</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="fixed-costs-fc" class="slide level2">
 <h2>Fixed Costs (FC)</h2>
 <p>These are costs the firm has to pay <span class="hi">even if it produces 0 units of output</span></p>
@@ -709,76 +842,6 @@ C^*(Q) = 2\sqrt{wrQ}
     MC &amp;= Q^{2} - 2Q + 2
 \end{align*}\]</span></span></p>
 </div>
-</section>
-<section id="fixed-and-variable-costs-example-as-table" class="slide level2">
-<h2>Fixed and Variable Costs Example as Table</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 21%">
-<col style="width: 26%">
-<col style="width: 21%">
-<col style="width: 26%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Q</th>
-<th>Fixed Cost</th>
-<th>Variable Cost</th>
-<th>Total Cost</th>
-<th>Marginal Cost $</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>12</td>
-<td>0</td>
-<td>12</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>12</td>
-<td>1.33</td>
-<td>13.33</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>12</td>
-<td>2.67</td>
-<td>14.67</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>12</td>
-<td>6</td>
-<td>18</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>12</td>
-<td>13.33</td>
-<td>25.33</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>12</td>
-<td>26.67</td>
-<td>38.67</td>
-<td>17</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="fixed-vs-variable-cost-example-as-graph" class="slide level2">
-<h2>Fixed vs Variable cost example as graph</h2>
-<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder="0">
-</iframe>
 </section></section>
 <section>
 <section id="average-marginal-costs" class="title-slide slide level1 note inverse center">
@@ -828,6 +891,90 @@ C^*(Q) = 2\sqrt{wrQ}
     ATC = Q + \frac{10}{Q} \;\;\;\;\;\;\;\;\;\; AFC = \frac{10}{Q} \;\;\;\;\;\;\;\;\;\; AVC = Q
 \end{align*}\]</span></p>
 </div>
+</section>
+<section id="fixed-and-variable-costs-example-as-table-2" class="slide level2">
+<h2>Fixed and Variable Costs Example as Table</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Q</th>
+<th>FC</th>
+<th>VC</th>
+<th>TC</th>
+<th>MC</th>
+<th>AFC</th>
+<th>AVC</th>
+<th>ATC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>12</td>
+<td>2</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12</td>
+<td>2.67</td>
+<td>14.67</td>
+<td>2</td>
+<td>6</td>
+<td>1.33</td>
+<td>7.33</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>12</td>
+<td>6</td>
+<td>18</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>12</td>
+<td>13.33</td>
+<td>25.33</td>
+<td>10</td>
+<td>3</td>
+<td>3.33</td>
+<td>6.33</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>12</td>
+<td>26.67</td>
+<td>38.67</td>
+<td>17</td>
+<td>2.2</td>
+<td>5.33</td>
+<td>7.73</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="average-costs-example-as-a-graph" class="slide level2">
+<h2>Average Costs Example as a graph</h2>
+<iframe src="https://www.desmos.com/calculator/ecgbptv7r0?embed" width="800" height="500" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
 </section>
 <section id="graphing-cost-functions" class="slide level2">
 <h2>Graphing Cost Functions</h2>
@@ -995,18 +1142,14 @@ C^*(Q) = 2\sqrt{wrQ}
 <li class="fragment">When the <span class="hi">Marginal Cost</span> is less than the <span class="hi">Average Total Cost</span>, the <span class="hi">ATC</span> must be <span class="hi-red">decreasing</span></li>
 <li class="fragment">When the <span class="hi">Marginal Cost</span> is larger than the <span class="hi">Average Total Cost</span>, the <span class="hi">ATC</span> must be <span class="hi-green">increasing</span></li>
 </ul>
-</div>
-<div class="fragment">
 <p>Therefore, when <span class="hi">MC = ATC</span>, the <span class="hi">average total cost</span> is switching from <span class="hi-red">decreasing</span> to <span class="hi-green">increasing</span></p>
-</div>
-<div class="fragment">
 <ul>
-<li>That is the definition of a minimum</li>
+<li class="fragment">That is the definition of a minimum</li>
 </ul>
 <p>All of this will be useful for our next topic: <span class="hi">Profit Maximization</span></p>
-
-
 </div>
+
+
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

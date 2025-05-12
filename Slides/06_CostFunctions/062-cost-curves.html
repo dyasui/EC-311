@@ -281,27 +281,11 @@ window.Quarto = {
 </section>
 <section id="why-bother-with-cost-functions" class="level2">
 <h2 class="anchored" data-anchor-id="why-bother-with-cost-functions">Why Bother With Cost Functions?</h2>
-<p>To begin, they are very useful in industry</p>
-<p>Let’s think back to our Ducks jersey example. Nike wants you to make 20,000 jerseys. All you do is turn around and say it will cost</p>
-<p><span class="math display">\[\begin{align*}
-    C^{*}(Q) &amp;= 20 \cdot Q^{2} \\
-    C^{*}(20,000) &amp;= 20 \cdot 20,000^{2} \\
-    C^{*}(20,000) &amp;= 20 \cdot 400,000,000 = 8,000,000,000
-\end{align*}\]</span></p>
-<p>. . .</p>
-<p>But then with Bo Nix being gone, they only need 1,000 jerseys</p>
-<p>So you say: That sucks, I thought we were better than just Bo, but okay. It’ll cost:</p>
-<p><span class="math display">\[
-    C^{*}(1,000) = 20 \cdot 1,000^{2} = 20,000,000
-\]</span></p>
-<hr>
-</section>
-<section id="why-bother-with-cost-functions-1" class="level2">
-<h2 class="anchored" data-anchor-id="why-bother-with-cost-functions-1">Why Bother With Cost Functions?</h2>
-<p>More generally, as the factory manager, you would just share your cost function with Nike and they can:</p>
+<p>With the <span class="h">Cost Minimization</span> problem, we took our level of production, <span class="math inline">\(Q\)</span>, as given and tried to figure out the most efficient combo of inputs to meet our quota.</p>
 <div class="incremental">
 <ul class="incremental">
-<li>Use it to figure out the optimal number of jerseys tor produce, taking costs of production into account</li>
+<li>But assuming we’ve already figured out the best way to hit <em>any</em> quota, now we can think about what scale of production to target</li>
+<li>Our investors just care that we can figure out how much it will cost to hit our market demand</li>
 <li>We will introduce profits later</li>
 <li>This decision is where <span class="hi">Supply</span> will come from</li>
 </ul>
@@ -465,6 +449,159 @@ window.Quarto = {
 \]</span></p>
 <hr>
 </section>
+<section id="decomposing-costs-example" class="level2">
+<h2 class="anchored" data-anchor-id="decomposing-costs-example">Decomposing Costs Example</h2>
+<p>Consider the costs faced by Forever 21:</p>
+<ul>
+<li>Suppose have to pay Valley River Mall $ 12 million for a fixed 10-year lease</li>
+<li>To sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.</li>
+</ul>
+<p>How can we catogorize the different costs?</p>
+<div class="incremental">
+<ul class="incremental">
+<li>the lease is a <span class="h">fixed cost</span> that F21 has to treat as a <span class="h">sunk cost</span> in the short-run</li>
+<li>everything else is <span class="h">variable</span>; it depends on how many clothes they want to sell</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="fixed-and-variable-costs-example-as-table" class="level2">
+<h2 class="anchored" data-anchor-id="fixed-and-variable-costs-example-as-table">Fixed and Variable Costs Example as Table</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 21%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Q</th>
+<th>Fixed Cost</th>
+<th>Variable Cost</th>
+<th>Total Cost</th>
+<th>Marginal Cost <span class="math inline">\(\frac{\Delta C}{\Delta Q = 1}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>12</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+<td>1.33</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12</td>
+<td>2.67</td>
+<td>14.67</td>
+<td>1.33</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>12</td>
+<td>6</td>
+<td>18</td>
+<td>3.33</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>12</td>
+<td>13.33</td>
+<td>25.33</td>
+<td>7.33</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>12</td>
+<td>26.67</td>
+<td>38.67</td>
+<td>13.33</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="fixed-vs-variable-cost-example-as-graph" class="level2">
+<h2 class="anchored" data-anchor-id="fixed-vs-variable-cost-example-as-graph">Fixed vs Variable cost example as graph</h2>
+<p>&lt;iframe src=“https://www.desmos.com/calculator/c8wpmvntvr?embed” width=“800 height=”500” style=“border: 1px solid #ccc” frameborder=0&gt;</p>
+<hr>
+</section>
+<section id="fixed-and-variable-costs-example-as-table-1" class="level2">
+<h2 class="anchored" data-anchor-id="fixed-and-variable-costs-example-as-table-1">Fixed and Variable Costs Example as Table</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 21%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Q</th>
+<th>Fixed Cost</th>
+<th>Variable Cost</th>
+<th>Total Cost</th>
+<th>Marginal Cost <span class="math inline">\(\frac{\delta C}{\delta Q}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12</td>
+<td>2.67</td>
+<td>14.67</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>12</td>
+<td>6</td>
+<td>18</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>12</td>
+<td>13.33</td>
+<td>25.33</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>12</td>
+<td>26.67</td>
+<td>38.67</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
 <section id="fixed-costs-fc" class="level2">
 <h2 class="anchored" data-anchor-id="fixed-costs-fc">Fixed Costs (FC)</h2>
 <p>These are costs the firm has to pay <span class="hi">even if it produces 0 units of output</span></p>
@@ -527,77 +664,6 @@ window.Quarto = {
     VC &amp;= \frac{1}{3} Q^{3} - Q^{2} + 2Q \\
     MC &amp;= Q^{2} - 2Q + 2
 \end{align*}\]</span></span></p>
-</section>
-<section id="fixed-and-variable-costs-example-as-table" class="level2">
-<h2 class="anchored" data-anchor-id="fixed-and-variable-costs-example-as-table">Fixed and Variable Costs Example as Table</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 21%">
-<col style="width: 26%">
-<col style="width: 21%">
-<col style="width: 26%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Q</th>
-<th>Fixed Cost</th>
-<th>Variable Cost</th>
-<th>Total Cost</th>
-<th>Marginal Cost $</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>12</td>
-<td>0</td>
-<td>12</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>12</td>
-<td>1.33</td>
-<td>13.33</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>12</td>
-<td>2.67</td>
-<td>14.67</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>12</td>
-<td>6</td>
-<td>18</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>12</td>
-<td>13.33</td>
-<td>25.33</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>12</td>
-<td>26.67</td>
-<td>38.67</td>
-<td>17</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="fixed-vs-variable-cost-example-as-graph" class="level2">
-<h2 class="anchored" data-anchor-id="fixed-vs-variable-cost-example-as-graph">Fixed vs Variable cost example as graph</h2>
-<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder="0">
-</iframe>
 
 
 </section>

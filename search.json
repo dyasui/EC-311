@@ -1383,14 +1383,7 @@
     "href": "Slides/06_CostFunctions/062-cost-curves.html#why-bother-with-cost-functions",
     "title": "EC311 Intermediate Micro",
     "section": "Why Bother With Cost Functions?",
-    "text": "Why Bother With Cost Functions?\nTo begin, they are very useful in industry\nLet’s think back to our Ducks jersey example. Nike wants you to make 20,000 jerseys. All you do is turn around and say it will cost\n\\[\\begin{align*}\n    C^{*}(Q) &= 20 \\cdot Q^{2} \\\\\n    C^{*}(20,000) &= 20 \\cdot 20,000^{2} \\\\\n    C^{*}(20,000) &= 20 \\cdot 400,000,000 = 8,000,000,000\n\\end{align*}\\]\n. . .\nBut then with Bo Nix being gone, they only need 1,000 jerseys\nSo you say: That sucks, I thought we were better than just Bo, but okay. It’ll cost:\n\\[\n    C^{*}(1,000) = 20 \\cdot 1,000^{2} = 20,000,000\n\\]"
-  },
-  {
-    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#why-bother-with-cost-functions-1",
-    "href": "Slides/06_CostFunctions/062-cost-curves.html#why-bother-with-cost-functions-1",
-    "title": "EC311 Intermediate Micro",
-    "section": "Why Bother With Cost Functions?",
-    "text": "Why Bother With Cost Functions?\nMore generally, as the factory manager, you would just share your cost function with Nike and they can:\n\n\nUse it to figure out the optimal number of jerseys tor produce, taking costs of production into account\nWe will introduce profits later\nThis decision is where Supply will come from\n\n\n. . .\nBut before we can get into Profit Maximization, we will dive deeper into understanding cost functions"
+    "text": "Why Bother With Cost Functions?\nWith the Cost Minimization problem, we took our level of production, \\(Q\\), as given and tried to figure out the most efficient combo of inputs to meet our quota.\n\n\nBut assuming we’ve already figured out the best way to hit any quota, now we can think about what scale of production to target\nOur investors just care that we can figure out how much it will cost to hit our market demand\nWe will introduce profits later\nThis decision is where Supply will come from\n\n\n. . .\nBut before we can get into Profit Maximization, we will dive deeper into understanding cost functions"
   },
   {
     "objectID": "Slides/06_CostFunctions/062-cost-curves.html#what-goes-into-cost-functions",
@@ -1463,6 +1456,34 @@
     "text": "Decomposing Costs\nCosts will fall into one of two categories:\n\n\nFixed Costs\n\nCosts that are paid even if the firm produces nothing \\(\\rightarrow C(0)\\)\n\n\nVariable Costs\n\nCosts that are increasing in the quantity produced (e.g. materials and labor used to produce each unit)\n\n\n\n. . .\nIn its simplest form, total cost can be written as\n\\[\n    \\text{Total Cost} = \\text{Variable Costs} + \\text{Fixed Costs}\n\\]"
   },
   {
+    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#decomposing-costs-example",
+    "href": "Slides/06_CostFunctions/062-cost-curves.html#decomposing-costs-example",
+    "title": "EC311 Intermediate Micro",
+    "section": "Decomposing Costs Example",
+    "text": "Decomposing Costs Example\nConsider the costs faced by Forever 21:\n\nSuppose have to pay Valley River Mall $ 12 million for a fixed 10-year lease\nTo sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.\n\nHow can we catogorize the different costs?\n\n\nthe lease is a fixed cost that F21 has to treat as a sunk cost in the short-run\neverything else is variable; it depends on how many clothes they want to sell"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table",
+    "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table",
+    "title": "EC311 Intermediate Micro",
+    "section": "Fixed and Variable Costs Example as Table",
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\(\\frac{\\Delta C}{\\Delta Q = 1}\\)\n\n\n\n\n0\n12\n0\n12\n-\n\n\n1\n12\n1.33\n13.33\n1.33\n\n\n2\n12\n2.67\n14.67\n1.33\n\n\n3\n12\n6\n18\n3.33\n\n\n4\n12\n13.33\n25.33\n7.33\n\n\n5\n12\n26.67\n38.67\n13.33"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-vs-variable-cost-example-as-graph",
+    "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-vs-variable-cost-example-as-graph",
+    "title": "EC311 Intermediate Micro",
+    "section": "Fixed vs Variable cost example as graph",
+    "text": "Fixed vs Variable cost example as graph\n&lt;iframe src=“https://www.desmos.com/calculator/c8wpmvntvr?embed” width=“800 height=”500” style=“border: 1px solid #ccc” frameborder=0&gt;"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table-1",
+    "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Fixed and Variable Costs Example as Table",
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\(\\frac{\\delta C}{\\delta Q}\\)\n\n\n\n\n0\n12\n0\n12\n2\n\n\n1\n12\n1.33\n13.33\n1\n\n\n2\n12\n2.67\n14.67\n2\n\n\n3\n12\n6\n18\n5\n\n\n4\n12\n13.33\n25.33\n10\n\n\n5\n12\n26.67\n38.67\n17"
+  },
+  {
     "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-costs-fc",
     "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-costs-fc",
     "title": "EC311 Intermediate Micro",
@@ -1482,20 +1503,6 @@
     "title": "EC311 Intermediate Micro",
     "section": "Decomposing Costs",
     "text": "Decomposing Costs\nIt is always the case that\n\\[\n    C(Q) = VC(Q) + FC\n\\]\nCosts will always be the sum of the variable costs and the fixed cost\n. . .\nLet’s practice:\nDecompose the following Cost Function into FC, VC, and MC\n\\[\n    C(Q) = \\frac{1}{3} Q^{3} - Q^{2} + 2Q + 12\n\\]\n. . .\n\\[\\begin{align*}\n    FC &= 12 \\\\\n    VC &= \\frac{1}{3} Q^{3} - Q^{2} + 2Q \\\\\n    MC &= Q^{2} - 2Q + 2\n\\end{align*}\\]"
-  },
-  {
-    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table",
-    "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table",
-    "title": "EC311 Intermediate Micro",
-    "section": "Fixed and Variable Costs Example as Table",
-    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost $\n\n\n\n\n0\n12\n0\n12\n2\n\n\n1\n12\n1.33\n13.33\n1\n\n\n2\n12\n2.67\n14.67\n2\n\n\n3\n12\n6\n18\n5\n\n\n4\n12\n13.33\n25.33\n10\n\n\n5\n12\n26.67\n38.67\n17"
-  },
-  {
-    "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-vs-variable-cost-example-as-graph",
-    "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-vs-variable-cost-example-as-graph",
-    "title": "EC311 Intermediate Micro",
-    "section": "Fixed vs Variable cost example as graph",
-    "text": "Fixed vs Variable cost example as graph"
   },
   {
     "objectID": "Slides/05_Production/main.html#big-picture",
@@ -6514,7 +6521,7 @@
     "href": "Slides/06_CostFunctions/061-cost-types.html#opportunity-cost-1",
     "title": "EC311 Intermediate Micro",
     "section": "Opportunity Cost",
-    "text": "Opportunity Cost\nLet’s consider of a non-economics example Kyler Murray\n. . .\n\n\nNFL Quarterback for the AZ Cardinals\nHe has a 5yr/ $230,500,000 contract\n\n\n\n\n\n\n\nBut he also played baseball in college and nearly went pro"
+    "text": "Opportunity Cost\nDoes Airbnb drive out residential tenants?\n\nImagine you are a landlord who owns a house that you rent for the year\n\n. . .\n\n\nBefore Airbnb:\n\nyour opporunity cost is whatever you could do with the money you would earn by selling your house\n\n\nAfter Airbnb:\n\nnow you could more easily access the lucrative vacation rental business\nyour opportunity cost of long-term renting went up!\n\n\n\n\nThis logic lead some cities in attractive places like Denver, CO to adopt policies to limit Airbnb adoption for non-primary residences"
   },
   {
     "objectID": "Slides/06_CostFunctions/061-cost-types.html#scaling-up-production",
@@ -6587,6 +6594,20 @@
     "text": "Decomposing Costs: Average Costs\nFor the following Cost Function\n\\[\n    C(Q) = Q^{2} + 10\n\\]\nFind ATC, AFC, and AVC\n. . .\n\\[\\begin{align*}\n    ATC = Q + \\frac{10}{Q} \\;\\;\\;\\;\\;\\;\\;\\;\\;\\; AFC = \\frac{10}{Q} \\;\\;\\;\\;\\;\\;\\;\\;\\;\\; AVC = Q\n\\end{align*}\\]"
   },
   {
+    "objectID": "Slides/06_CostFunctions/063-avg-marginal-costs.html#fixed-and-variable-costs-example-as-table",
+    "href": "Slides/06_CostFunctions/063-avg-marginal-costs.html#fixed-and-variable-costs-example-as-table",
+    "title": "EC311 Intermediate Micro",
+    "section": "Fixed and Variable Costs Example as Table",
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\nQ\nFC\nVC\nTC\nMC\nAFC\nAVC\nATC\n\n\n\n\n0\n12\n0\n12\n2\n-\n-\n-\n\n\n1\n12\n1.33\n13.33\n1\n12\n1.33\n13.33\n\n\n2\n12\n2.67\n14.67\n2\n6\n1.33\n7.33\n\n\n3\n12\n6\n18\n5\n4\n2\n6\n\n\n4\n12\n13.33\n25.33\n10\n3\n3.33\n6.33\n\n\n5\n12\n26.67\n38.67\n17\n2.2\n5.33\n7.73"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/063-avg-marginal-costs.html#average-costs-example-as-a-graph",
+    "href": "Slides/06_CostFunctions/063-avg-marginal-costs.html#average-costs-example-as-a-graph",
+    "title": "EC311 Intermediate Micro",
+    "section": "Average Costs Example as a graph",
+    "text": "Average Costs Example as a graph"
+  },
+  {
     "objectID": "Slides/06_CostFunctions/063-avg-marginal-costs.html#graphing-cost-functions",
     "href": "Slides/06_CostFunctions/063-avg-marginal-costs.html#graphing-cost-functions",
     "title": "EC311 Intermediate Micro",
@@ -6654,7 +6675,7 @@
     "href": "Slides/06_CostFunctions/063-avg-marginal-costs.html#average-total-marginal-cost-relationship-1",
     "title": "EC311 Intermediate Micro",
     "section": "Average Total & Marginal Cost Relationship",
-    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n\n\n. . .\nTherefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n. . .\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
+    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n\nTherefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#different-types-of-costs",
@@ -6675,7 +6696,7 @@
     "href": "Slides/06_CostFunctions/main.html#opportunity-cost-1",
     "title": "Cost Functions",
     "section": "Opportunity Cost",
-    "text": "Opportunity Cost\nLet’s consider of a non-economics example Kyler Murray\n\n\n\nNFL Quarterback for the AZ Cardinals\nHe has a 5yr/ $230,500,000 contract\n\n\n\n\n\n\n\nBut he also played baseball in college and nearly went pro"
+    "text": "Opportunity Cost\nDoes Airbnb drive out residential tenants?\n\nImagine you are a landlord who owns a house that you rent for the year\n\n\n\n\nBefore Airbnb:\n\nyour opporunity cost is whatever you could do with the money you would earn by selling your house\n\n\nAfter Airbnb:\n\nnow you could more easily access the lucrative vacation rental business\nyour opportunity cost of long-term renting went up!\n\n\n\nThis logic lead some cities in attractive places like Denver, CO to adopt policies to limit Airbnb adoption for non-primary residences"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#scaling-up-production",
@@ -6766,14 +6787,7 @@
     "href": "Slides/06_CostFunctions/main.html#why-bother-with-cost-functions",
     "title": "Cost Functions",
     "section": "Why Bother With Cost Functions?",
-    "text": "Why Bother With Cost Functions?\nTo begin, they are very useful in industry\nLet’s think back to our Ducks jersey example. Nike wants you to make 20,000 jerseys. All you do is turn around and say it will cost\n\\[\\begin{align*}\n    C^{*}(Q) &= 20 \\cdot Q^{2} \\\\\n    C^{*}(20,000) &= 20 \\cdot 20,000^{2} \\\\\n    C^{*}(20,000) &= 20 \\cdot 400,000,000 = 8,000,000,000\n\\end{align*}\\]\n\nBut then with Bo Nix being gone, they only need 1,000 jerseys\nSo you say: That sucks, I thought we were better than just Bo, but okay. It’ll cost:\n\\[\n    C^{*}(1,000) = 20 \\cdot 1,000^{2} = 20,000,000\n\\]"
-  },
-  {
-    "objectID": "Slides/06_CostFunctions/main.html#why-bother-with-cost-functions-1",
-    "href": "Slides/06_CostFunctions/main.html#why-bother-with-cost-functions-1",
-    "title": "Cost Functions",
-    "section": "Why Bother With Cost Functions?",
-    "text": "Why Bother With Cost Functions?\nMore generally, as the factory manager, you would just share your cost function with Nike and they can:\n\n\nUse it to figure out the optimal number of jerseys tor produce, taking costs of production into account\nWe will introduce profits later\nThis decision is where Supply will come from\n\n\n\nBut before we can get into Profit Maximization, we will dive deeper into understanding cost functions"
+    "text": "Why Bother With Cost Functions?\nWith the Cost Minimization problem, we took our level of production, \\(Q\\), as given and tried to figure out the most efficient combo of inputs to meet our quota.\n\n\nBut assuming we’ve already figured out the best way to hit any quota, now we can think about what scale of production to target\nOur investors just care that we can figure out how much it will cost to hit our market demand\nWe will introduce profits later\nThis decision is where Supply will come from\n\n\n\nBut before we can get into Profit Maximization, we will dive deeper into understanding cost functions"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#what-goes-into-cost-functions",
@@ -6846,6 +6860,34 @@
     "text": "Decomposing Costs\nCosts will fall into one of two categories:\n\n\nFixed Costs\n\nCosts that are paid even if the firm produces nothing \\(\\rightarrow C(0)\\)\n\n\nVariable Costs\n\nCosts that are increasing in the quantity produced (e.g. materials and labor used to produce each unit)\n\n\n\nIn its simplest form, total cost can be written as\n\\[\n    \\text{Total Cost} = \\text{Variable Costs} + \\text{Fixed Costs}\n\\]"
   },
   {
+    "objectID": "Slides/06_CostFunctions/main.html#decomposing-costs-example",
+    "href": "Slides/06_CostFunctions/main.html#decomposing-costs-example",
+    "title": "Cost Functions",
+    "section": "Decomposing Costs Example",
+    "text": "Decomposing Costs Example\nConsider the costs faced by Forever 21:\n\nSuppose have to pay Valley River Mall $ 12 million for a fixed 10-year lease\nTo sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.\n\nHow can we catogorize the different costs?\n\n\nthe lease is a fixed cost that F21 has to treat as a sunk cost in the short-run\neverything else is variable; it depends on how many clothes they want to sell"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table",
+    "href": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table",
+    "title": "Cost Functions",
+    "section": "Fixed and Variable Costs Example as Table",
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\(\\frac{\\Delta C}{\\Delta Q = 1}\\)\n\n\n\n\n0\n12\n0\n12\n-\n\n\n1\n12\n1.33\n13.33\n1.33\n\n\n2\n12\n2.67\n14.67\n1.33\n\n\n3\n12\n6\n18\n3.33\n\n\n4\n12\n13.33\n25.33\n7.33\n\n\n5\n12\n26.67\n38.67\n13.33"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/main.html#fixed-vs-variable-cost-example-as-graph",
+    "href": "Slides/06_CostFunctions/main.html#fixed-vs-variable-cost-example-as-graph",
+    "title": "Cost Functions",
+    "section": "Fixed vs Variable cost example as graph",
+    "text": "Fixed vs Variable cost example as graph\n&lt;iframe src=“https://www.desmos.com/calculator/c8wpmvntvr?embed” width=“800 height=”500” style=“border: 1px solid #ccc” frameborder=0&gt;"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table-1",
+    "href": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table-1",
+    "title": "Cost Functions",
+    "section": "Fixed and Variable Costs Example as Table",
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\(\\frac{\\delta C}{\\delta Q}\\)\n\n\n\n\n0\n12\n0\n12\n2\n\n\n1\n12\n1.33\n13.33\n1\n\n\n2\n12\n2.67\n14.67\n2\n\n\n3\n12\n6\n18\n5\n\n\n4\n12\n13.33\n25.33\n10\n\n\n5\n12\n26.67\n38.67\n17"
+  },
+  {
     "objectID": "Slides/06_CostFunctions/main.html#fixed-costs-fc",
     "href": "Slides/06_CostFunctions/main.html#fixed-costs-fc",
     "title": "Cost Functions",
@@ -6867,20 +6909,6 @@
     "text": "Decomposing Costs\nIt is always the case that\n\\[\n    C(Q) = VC(Q) + FC\n\\]\nCosts will always be the sum of the variable costs and the fixed cost\n\nLet’s practice:\nDecompose the following Cost Function into FC, VC, and MC\n\\[\n    C(Q) = \\frac{1}{3} Q^{3} - Q^{2} + 2Q + 12\n\\]\n\n\n\\[\\begin{align*}\n    FC &= 12 \\\\\n    VC &= \\frac{1}{3} Q^{3} - Q^{2} + 2Q \\\\\n    MC &= Q^{2} - 2Q + 2\n\\end{align*}\\]"
   },
   {
-    "objectID": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table",
-    "href": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table",
-    "title": "Cost Functions",
-    "section": "Fixed and Variable Costs Example as Table",
-    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost $\n\n\n\n\n0\n12\n0\n12\n2\n\n\n1\n12\n1.33\n13.33\n1\n\n\n2\n12\n2.67\n14.67\n2\n\n\n3\n12\n6\n18\n5\n\n\n4\n12\n13.33\n25.33\n10\n\n\n5\n12\n26.67\n38.67\n17"
-  },
-  {
-    "objectID": "Slides/06_CostFunctions/main.html#fixed-vs-variable-cost-example-as-graph",
-    "href": "Slides/06_CostFunctions/main.html#fixed-vs-variable-cost-example-as-graph",
-    "title": "Cost Functions",
-    "section": "Fixed vs Variable cost example as graph",
-    "text": "Fixed vs Variable cost example as graph"
-  },
-  {
     "objectID": "Slides/06_CostFunctions/main.html#decomposing-costs-average-costs",
     "href": "Slides/06_CostFunctions/main.html#decomposing-costs-average-costs",
     "title": "Cost Functions",
@@ -6893,6 +6921,20 @@
     "title": "Cost Functions",
     "section": "Decomposing Costs: Average Costs",
     "text": "Decomposing Costs: Average Costs\nFor the following Cost Function\n\\[\n    C(Q) = Q^{2} + 10\n\\]\nFind ATC, AFC, and AVC\n\n\\[\\begin{align*}\n    ATC = Q + \\frac{10}{Q} \\;\\;\\;\\;\\;\\;\\;\\;\\;\\; AFC = \\frac{10}{Q} \\;\\;\\;\\;\\;\\;\\;\\;\\;\\; AVC = Q\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table-2",
+    "href": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table-2",
+    "title": "Cost Functions",
+    "section": "Fixed and Variable Costs Example as Table",
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\nQ\nFC\nVC\nTC\nMC\nAFC\nAVC\nATC\n\n\n\n\n0\n12\n0\n12\n2\n-\n-\n-\n\n\n1\n12\n1.33\n13.33\n1\n12\n1.33\n13.33\n\n\n2\n12\n2.67\n14.67\n2\n6\n1.33\n7.33\n\n\n3\n12\n6\n18\n5\n4\n2\n6\n\n\n4\n12\n13.33\n25.33\n10\n3\n3.33\n6.33\n\n\n5\n12\n26.67\n38.67\n17\n2.2\n5.33\n7.73"
+  },
+  {
+    "objectID": "Slides/06_CostFunctions/main.html#average-costs-example-as-a-graph",
+    "href": "Slides/06_CostFunctions/main.html#average-costs-example-as-a-graph",
+    "title": "Cost Functions",
+    "section": "Average Costs Example as a graph",
+    "text": "Average Costs Example as a graph"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#graphing-cost-functions",
@@ -6962,7 +7004,7 @@
     "href": "Slides/06_CostFunctions/main.html#average-total-marginal-cost-relationship-1",
     "title": "Cost Functions",
     "section": "Average Total & Marginal Cost Relationship",
-    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n\n\n\nTherefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\n\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
+    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n\nTherefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/072-profit-max.html",
