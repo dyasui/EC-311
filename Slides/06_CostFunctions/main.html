@@ -9,7 +9,6 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <meta name="author" content="Jose Rojas-Fallas">
   <meta name="dcterms.date" content="2025-01-01">
   <title>EC311 Intermediate Micro – Cost Functions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -132,11 +131,6 @@
   <p class="subtitle">EC 311 - Intermediate Microeconomics</p>
 
 <div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Jose Rojas-Fallas 
-</div>
-</div>
 </div>
 
   <p class="date">2025</p>
@@ -153,6 +147,196 @@ Jose Rojas-Fallas
 </ul></li>
 </ul>
 </section>
+<section>
+<section id="types-of-costs" class="title-slide slide level1 note inverse center">
+<h1>Types of Costs</h1>
+
+</section>
+<section id="different-types-of-costs" class="slide level2">
+<h2>Different Types of Costs</h2>
+<p>So far, we’ve categorized costs according the <em>type of input</em> they go with</p>
+<ul>
+<li>For example, the <strong>wage</strong> is the cost of <strong>labor</strong> inputs</li>
+<li>and the <strong>rental rate</strong> is the cost of <strong>capital</strong> inputs</li>
+</ul>
+<div class="fragment">
+<p>You may also recall the difference between what economists call <span class="h">accounting costs</span> and <span class="h">opportunity costs</span></p>
+</div>
+</section>
+<section id="economic-cost" class="slide level2">
+<h2>Economic Cost</h2>
+<p>The <span class="h">economic costs</span> faced by anyone is the sum these two:</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Accounting Cost:</strong></p>
+</div>
+<div class="callout-content">
+<p>The costs you most typically think of: the sticker price you physically pay.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Opportunity Cost:</strong></p>
+</div>
+<div class="callout-content">
+<p>The opportunity cost of something is the value of the next best use of the materials you put into it.</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<ul>
+<li>E.g., your <span class="h">opportunity cost</span> of you being in class today might be the lost value of not being out in the sun instead.</li>
+</ul>
+</div>
+</section>
+<section id="opportunity-cost-1" class="slide level2">
+<h2>Opportunity Cost</h2>
+<p>Let’s consider of a non-economics example <span class="hi">Kyler Murray</span></p>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="hi align-center">NFL Quarterback for the AZ Cardinals</span></p>
+<p>He has a 5yr/ $230,500,000 contract</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/kyler-murray-football.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><span class="hi align-center">But he also played baseball in college and nearly went pro</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/kyler-murray-baseball.webp" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</div>
+</section>
+<section id="scaling-up-production" class="slide level2">
+<h2>Scaling up Production</h2>
+<p>Last week we looked at the production function for UO Dining:</p>
+<p><span class="math display">\[f(K,L) = L\cdot K = 900 \text{ lunches}\]</span></p>
+<p>We solved the <span class="h">cost-minimzation problem</span> when the wage was $16 and the rental rate was $25:</p>
+<p><span class="math display">\[
+\begin{align}
+L^*(w=16,r=25,Q=900) &amp;= 37.5 \\
+K^*(w=16,r=25,Q=900) &amp;= 24
+\end{align}
+\]</span></p>
+<div>
+<ul>
+<li class="fragment">What happens if UO dining wants to double its production?</li>
+<li class="fragment">Would they need double the amount of <span class="math inline">\(K\)</span> and <span class="math inline">\(L\)</span>?</li>
+</ul>
+</div>
+</section>
+<section id="what-are-returns-to-scale" class="slide level2">
+<h2>What Are Returns to Scale?</h2>
+<p><span class="hi">Returns to Scale</span> will measure the following:</p>
+<p>If I <span class="h">increase my inputs by equal amounts (such that labor and capital increase by some constant <span class="math inline">\(z\)</span>)</span>, how much does my <span class="h">output increase by</span>?</p>
+<div class="fragment">
+<p>There are three possible outcomes:</p>
+<div>
+<ul>
+<li class="fragment">Decreasing Returns to Scale (DRS)</li>
+<li class="fragment">Constant Returns to Scale (CRS)</li>
+<li class="fragment">Increasing Returns to Scale (IRS)</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="returns-to-scale-example" class="slide level2">
+<h2>Returns to Scale Example</h2>
+<p>If UO dining doubles their inputs, how much output would they get?</p>
+<p><span class="math display">\[f(2\cdot K^*, 2\cdot L^*) = ?\]</span></p>
+<div>
+<ul>
+<li class="fragment"><span class="math inline">\(f(2\cdot 24, 2\cdot 37.5) = (48)\cdot(75) = 3600\)</span></li>
+<li class="fragment"><span class="math inline">\(f(2\cdot 24, 2\cdot 37.5) = 3600 &gt; 2\cdot f(24,37.5) = 1800\)</span></li>
+<li class="fragment">So <span class="math inline">\(f(.)\)</span> experiences <span class="h">increasing returns to scale</span></li>
+</ul>
+</div>
+</section>
+<section id="returns-to-scale-mathematically" class="slide level2">
+<h2>Returns to Scale: Mathematically</h2>
+<p>As usual, we can show these concepts mathematically</p>
+<div class="fragment">
+<ul>
+<li><span class="hi align-center">Decreasing Returns to Scale</span></li>
+</ul>
+<p><span class="math display">\[
+    F(zL,zK) &gt; z \cdot F(L,K)
+\]</span></p>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="hi align-center">Constant Returns to Scale</span></li>
+</ul>
+<p><span class="math display">\[
+    F(zL,zK) = z \cdot F(L,K)
+\]</span></p>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="hi align-center">Increasing Returns to Scale</span></li>
+</ul>
+<p><span class="math display">\[
+    F(zL,zK) &lt; z \cdot F(L,K)
+\]</span></p>
+</div>
+</section>
+<section id="long-run-cost-functions" class="slide level2">
+<h2>Long-Run Cost Functions</h2>
+<p>In the long-run, UO Dining could target any level of production and be able to adjust <em>both</em> <span class="math inline">\(K\)</span> and <span class="math inline">\(L\)</span>.</p>
+<ul>
+<li>Let’s think about the LR total cost function as a function of the chosen quota:</li>
+</ul>
+<p><span class="math display">\[
+\begin{align}
+C^*(Q) = &amp; \text{min } wL + rK \\
+&amp; s.t. L\cdot K = Q
+\end{align}
+\]</span></p>
+<div class="fragment">
+<ul>
+<li>Or, equivalently: <span class="math inline">\(C^*(Q) = wL^* + rK^*\)</span></li>
+</ul>
+</div>
+</section>
+<section id="long-run-cost-functions-1" class="slide level2">
+<h2>Long-Run Cost Functions</h2>
+<p>UO’s LR cost function can be derived by setting <span class="math inline">\(MRTS_{L,K}\)</span> equal to <span class="math inline">\(\frac{w}{r}\)</span>:</p>
+<p><span class="math display">\[\frac{K}{L}=\frac{w}{r}\]</span></p>
+<p>And then plugging the ratio of <span class="math inline">\(K=\frac{w}{r}L\)</span> into <span class="math inline">\(f()\)</span>:</p>
+<p><span class="math display">\[
+\begin{align}
+(\frac{w}{r}L)\cdot L &amp; = Q &amp; \Rightarrow L^* &amp; = \sqrt{\frac{r}{w}Q} \\
+&amp; &amp; \Rightarrow K^* &amp; = \sqrt{\frac{w}{r}Q}
+\end{align}
+\]</span></p>
+<p>So we get the LR total cost function:</p>
+<p><span class="math display">\[
+C^*(Q) = 2\sqrt{wrQ}
+\]</span></p>
+</section>
+<section id="long-run-cost-functions-2" class="slide level2">
+<h2>Long-Run Cost Functions</h2>
+<p>It’s okay if you don’t follow all the math at first!</p>
+<p>But let’s try to use these functions to visualize what’s going on:</p>
+<iframe src="https://www.desmos.com/calculator/l2k67cqwuv?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
+</section></section>
 <section>
 <section id="cost-curves" class="title-slide slide level1 note inverse center">
 <h1>Cost Curves</h1>
@@ -331,31 +515,6 @@ Jose Rojas-Fallas
 </ul>
 </div>
 </section>
-<section id="opportunity-cost" class="slide level2">
-<h2>Opportunity Cost</h2>
-<p>Let’s consider of a non-economics example <span class="hi">Kyler Murray</span></p>
-<div class="fragment">
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi align-center">NFL Quarterback for the AZ Cardinals</span></p>
-<p>He has a 5yr/ $230,500,000 contract</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/kyler-murray-football.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<p><span class="hi align-center">But he also played baseball in college and nearly went pro</span></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/kyler-murray-baseball.webp" class="quarto-figure quarto-figure-center" height="400"></p>
-</figure>
-</div>
-</div>
-</div></div>
-</div>
-</section>
 <section id="understanding-cost-functions" class="slide level2">
 <h2>Understanding Cost Functions</h2>
 <p>Knowing what is considered as costs in economics helps us with the theory part of production</p>
@@ -445,76 +604,6 @@ Jose Rojas-Fallas
 <h2>Initial Decreasing Marginal Costs with Increasing Marginal Costs At High Quantity</h2>
 
 <img data-src="images/marginal-cost-4.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="types-of-cost-functions---quadratic" class="slide level2">
-<h2>Types of Cost Functions - Quadratic</h2>
-<p>We will be dealing with two types of cost functions: <span class="hi">Quadratic and Cubic</span>:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi align-center">Quadratic</span></p>
-<div class="fragment">
-<p><span class="h align-center">MC is always increasing</span></p>
-<p><span class="math display">\[\begin{align*}
-    C(Q) &amp;= Q^{2} + 10 \\
-    \frac{\partial C(Q)}{\partial Q} &amp;= MC = 2Q \\  
-\end{align*}\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[\begin{align*}
-    \frac{\partial MC}{\partial Q} &amp;= 2 &gt; 0
-\end{align*}\]</span></p>
-</div>
-</div><div class="column" style="width:50%;">
-<p><span class="hi align-center">How Does the Graph Look?</span></p>
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/quadratic-cost-function.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-</div></div>
-</section>
-<section id="types-of-cost-functions---cubic" class="slide level2">
-<h2>Types of Cost Functions - Cubic</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi align-center">Cubic</span></p>
-<div class="fragment">
-<p><span class="h align-center">MC is initially decreasing, and eventually increasing</span></p>
-<p><span class="tiny"><span class="math display">\[\begin{align*}
-    C(Q) &amp;= \frac{1}{3}Q^{3} - Q^{2} + 2Q + 12 \\
-    \frac{\partial C(Q)}{\partial Q} &amp;= MC = Q^{2} - 2Q + 2
-\end{align*}\]</span></span></p>
-</div>
-<div class="fragment">
-<p><span class="tiny"><span class="math display">\[\begin{align*}
-    \frac{\partial MC}{\partial Q} &amp;= 2Q - 2
-\end{align*}\]</span></span></p>
-</div>
-<div class="fragment">
-<p><span class="tiny"><span class="math display">\[\begin{align*}
-    2Q - 2 &amp;= 0 \\
-    2Q &amp;= 2 \\
-    Q &amp;= 1
-\end{align*}\]</span></span></p>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<p><span class="hi align-center">When does it switch from (-) to (+)?</span></p>
-<p><span class="tiny"><span class="math display">\[\begin{align*}
-    Q &amp;&lt; 1 \rightarrow \text{Decreasing} \\
-    Q &amp;&gt; 1 \rightarrow \text{Increasing}
-\end{align*}\]</span></span></p>
-</div>
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/cubic-cost-function.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-</div></div>
-</section>
 <section id="total-cost" class="slide level2">
 <h2>Total Cost</h2>
 <p>Up to now we have expressed firm’s costs as</p>
@@ -610,7 +699,7 @@ Jose Rojas-Fallas
 <p>Let’s practice:</p>
 <p><a href="https://wheelofnames.com/" class="hi align-center note">Decompose the following Cost Function into FC, VC, and MC</a></p>
 <p><span class="math display">\[
-    C(Q) = \frac{1}{3} Q^{3} - Q^{2} + 2Q - 12
+    C(Q) = \frac{1}{3} Q^{3} - Q^{2} + 2Q + 12
 \]</span></p>
 </div>
 <div class="fragment">
@@ -620,6 +709,76 @@ Jose Rojas-Fallas
     MC &amp;= Q^{2} - 2Q + 2
 \end{align*}\]</span></span></p>
 </div>
+</section>
+<section id="fixed-and-variable-costs-example-as-table" class="slide level2">
+<h2>Fixed and Variable Costs Example as Table</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 21%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Q</th>
+<th>Fixed Cost</th>
+<th>Variable Cost</th>
+<th>Total Cost</th>
+<th>Marginal Cost $</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>12</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12</td>
+<td>1.33</td>
+<td>13.33</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>12</td>
+<td>2.67</td>
+<td>14.67</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>12</td>
+<td>6</td>
+<td>18</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>12</td>
+<td>13.33</td>
+<td>25.33</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>12</td>
+<td>26.67</td>
+<td>38.67</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fixed-vs-variable-cost-example-as-graph" class="slide level2">
+<h2>Fixed vs Variable cost example as graph</h2>
+<iframe src="https://www.desmos.com/calculator/c8wpmvntvr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
 </section></section>
 <section>
 <section id="average-marginal-costs" class="title-slide slide level1 note inverse center">

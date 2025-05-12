@@ -61,23 +61,123 @@
     <lastmod>2025-03-12T21:24:48.304Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/06_CostFunctions/061-cost-curves.html</loc>
-    <lastmod>2025-03-12T21:24:48.277Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/06_CostFunctions/062-cost-curves.html</loc>
+    <lastmod>2025-05-12T06:23:49.067Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/054-returns-to-scale.html</loc>
-    <lastmod>2025-03-12T21:24:48.162Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/main.html</loc>
+    <lastmod>2025-04-28T21:35:39.588Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/052-sr-v-lr.html</loc>
-    <lastmod>2025-05-05T22:04:30.686Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/053-cost-minimization.html</loc>
+    <lastmod>2025-05-05T22:15:36.223Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/main.html</loc>
-    <lastmod>2025-03-12T21:24:48.137Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/051-producer-theory-basics.html</loc>
+    <lastmod>2025-05-05T22:02:02.597Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/044-other-goods-price-change.html</loc>
+    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/045-individual-demand-and-market-demand.html</loc>
+    <lastmod>2025-03-12T21:24:48.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/043-sub-and-inc-effect.html</loc>
+    <lastmod>2025-03-12T21:24:48.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/041-income-changes.html</loc>
+    <lastmod>2025-03-12T21:24:48.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/homework-explanation.html</loc>
+    <lastmod>2025-03-12T21:24:48.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/033-constrained-optimization.html</loc>
+    <lastmod>2025-03-12T21:24:48.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/031-optimal-consumption.html</loc>
+    <lastmod>2025-04-09T21:37:22.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/Main.html</loc>
+    <lastmod>2025-04-02T21:19:21.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/022-indifference_curves.html</loc>
+    <lastmod>2025-03-12T21:24:47.997Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/Main.html</loc>
+    <lastmod>2025-04-02T21:17:35.532Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/013-multivariate.html</loc>
+    <lastmod>2025-04-02T21:17:06.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/011-slopes.html</loc>
+    <lastmod>2025-03-12T21:24:47.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/003-economics.html</loc>
+    <lastmod>2025-03-12T21:24:47.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/001-prologue.html</loc>
+    <lastmod>2025-03-31T07:49:36.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Exams/index.html</loc>
+    <lastmod>2025-05-07T20:36:48.212Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Exams/Midterm/notes.html</loc>
+    <lastmod>2025-03-12T21:24:47.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Labs/index.html</loc>
+    <lastmod>2025-04-16T22:13:15.785Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/002-syllabus.html</loc>
+    <lastmod>2025-04-01T19:59:28.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/Main.html</loc>
+    <lastmod>2025-03-31T06:48:45.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/012-derivatives.html</loc>
+    <lastmod>2025-03-12T21:24:47.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/014-optim.html</loc>
+    <lastmod>2025-04-02T21:16:54.366Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/021-preferences&amp;utility.html</loc>
+    <lastmod>2025-04-07T03:34:59.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/023-budget_constraints.html</loc>
+    <lastmod>2025-03-12T21:24:47.997Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/achieve-explanation.html</loc>
+    <lastmod>2025-03-12T21:24:48.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/032-slope-logic-graph.html</loc>
+    <lastmod>2025-03-12T21:24:48.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/Main.html</loc>
+    <lastmod>2025-04-09T21:32:02.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/040-micro-motivation.html</loc>
     <lastmod>2025-03-12T21:24:48.080Z</lastmod>
   </url>
   <url>
@@ -85,128 +185,32 @@
     <lastmod>2025-03-12T21:24:48.080Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/040-micro-motivation.html</loc>
+    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/044-other-goods-price-change.html</loc>
     <lastmod>2025-03-12T21:24:48.080Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/Main.html</loc>
-    <lastmod>2025-04-09T21:32:02.676Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/main.html</loc>
+    <lastmod>2025-03-12T21:24:48.137Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/032-slope-logic-graph.html</loc>
-    <lastmod>2025-03-12T21:24:48.034Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/052-sr-v-lr.html</loc>
+    <lastmod>2025-05-05T22:04:30.686Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/achieve-explanation.html</loc>
-    <lastmod>2025-03-12T21:24:48.009Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/054-returns-to-scale.html</loc>
+    <lastmod>2025-03-12T21:24:48.162Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/023-budget_constraints.html</loc>
-    <lastmod>2025-03-12T21:24:47.997Z</lastmod>
+    <loc>https://dyasui.github.io/EC-311/Slides/06_CostFunctions/061-cost-types.html</loc>
+    <lastmod>2025-05-12T06:30:11.672Z</lastmod>
   </url>
   <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/021-preferences&amp;utility.html</loc>
-    <lastmod>2025-04-07T03:34:59.043Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/014-optim.html</loc>
-    <lastmod>2025-04-02T21:16:54.366Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/012-derivatives.html</loc>
-    <lastmod>2025-03-12T21:24:47.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/Main.html</loc>
-    <lastmod>2025-03-31T06:48:45.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/002-syllabus.html</loc>
-    <lastmod>2025-04-01T19:59:28.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Labs/index.html</loc>
-    <lastmod>2025-04-16T22:13:15.785Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Exams/Midterm/notes.html</loc>
-    <lastmod>2025-03-12T21:24:47.911Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Exams/index.html</loc>
-    <lastmod>2025-05-07T20:36:48.212Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/001-prologue.html</loc>
-    <lastmod>2025-03-31T07:49:36.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/00_Intro/003-economics.html</loc>
-    <lastmod>2025-03-12T21:24:47.936Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/011-slopes.html</loc>
-    <lastmod>2025-03-12T21:24:47.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/013-multivariate.html</loc>
-    <lastmod>2025-04-02T21:17:06.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/01_CalculusRev/Main.html</loc>
-    <lastmod>2025-04-02T21:17:35.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/022-indifference_curves.html</loc>
-    <lastmod>2025-03-12T21:24:47.997Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/02_ConsumerBehavior/Main.html</loc>
-    <lastmod>2025-04-02T21:19:21.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/031-optimal-consumption.html</loc>
-    <lastmod>2025-04-09T21:37:22.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/033-constrained-optimization.html</loc>
-    <lastmod>2025-03-12T21:24:48.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/03_UtilityMaximization/homework-explanation.html</loc>
-    <lastmod>2025-03-12T21:24:48.063Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/041-income-changes.html</loc>
-    <lastmod>2025-03-12T21:24:48.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/043-sub-and-inc-effect.html</loc>
-    <lastmod>2025-03-12T21:24:48.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/04_Demand/045-individual-demand-and-market-demand.html</loc>
-    <lastmod>2025-03-12T21:24:48.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/051-producer-theory-basics.html</loc>
-    <lastmod>2025-05-05T22:02:02.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/053-cost-minimization.html</loc>
-    <lastmod>2025-05-05T22:15:36.223Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/05_Production/main.html</loc>
-    <lastmod>2025-04-28T21:35:39.588Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dyasui.github.io/EC-311/Slides/06_CostFunctions/062-avg-marginal-costs.html</loc>
+    <loc>https://dyasui.github.io/EC-311/Slides/06_CostFunctions/063-avg-marginal-costs.html</loc>
     <lastmod>2025-03-12T21:24:48.277Z</lastmod>
   </url>
   <url>
     <loc>https://dyasui.github.io/EC-311/Slides/06_CostFunctions/main.html</loc>
-    <lastmod>2025-03-12T21:24:48.330Z</lastmod>
+    <lastmod>2025-05-12T06:30:29.688Z</lastmod>
   </url>
   <url>
     <loc>https://dyasui.github.io/EC-311/Slides/07_ProfitMaximization/072-profit-max.html</loc>
