@@ -1467,7 +1467,7 @@
     "href": "Slides/06_CostFunctions/062-cost-curves.html#fixed-and-variable-costs-example-as-table",
     "title": "EC311 Intermediate Micro",
     "section": "Fixed and Variable Costs Example as Table",
-    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\(\\frac{\\Delta C}{\\Delta Q = 1}\\)\n\n\n\n\n0\n12\n0\n12\n-\n\n\n1\n12\n1.33\n13.33\n1.33\n\n\n2\n12\n2.67\n14.67\n1.33\n\n\n3\n12\n6\n18\n3.33\n\n\n4\n12\n13.33\n25.33\n7.33\n\n\n5\n12\n26.67\n38.67\n13.33"
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\((\\Delta C | \\Delta Q = 1)\\)\n\n\n\n\n0\n12\n0\n12\n-\n\n\n1\n12\n1.33\n13.33\n1.33\n\n\n2\n12\n2.67\n14.67\n1.33\n\n\n3\n12\n6\n18\n3.33\n\n\n4\n12\n13.33\n25.33\n7.33\n\n\n5\n12\n26.67\n38.67\n13.33"
   },
   {
     "objectID": "Slides/06_CostFunctions/062-cost-curves.html#fixed-vs-variable-cost-example-as-graph",
@@ -6675,7 +6675,7 @@
     "href": "Slides/06_CostFunctions/063-avg-marginal-costs.html#average-total-marginal-cost-relationship-1",
     "title": "EC311 Intermediate Micro",
     "section": "Average Total & Marginal Cost Relationship",
-    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n\nTherefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
+    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n-&gt; Therefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#different-types-of-costs",
@@ -6871,7 +6871,7 @@
     "href": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table",
     "title": "Cost Functions",
     "section": "Fixed and Variable Costs Example as Table",
-    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\(\\frac{\\Delta C}{\\Delta Q = 1}\\)\n\n\n\n\n0\n12\n0\n12\n-\n\n\n1\n12\n1.33\n13.33\n1.33\n\n\n2\n12\n2.67\n14.67\n1.33\n\n\n3\n12\n6\n18\n3.33\n\n\n4\n12\n13.33\n25.33\n7.33\n\n\n5\n12\n26.67\n38.67\n13.33"
+    "text": "Fixed and Variable Costs Example as Table\n\n\n\n\n\n\n\n\n\n\nQ\nFixed Cost\nVariable Cost\nTotal Cost\nMarginal Cost \\((\\Delta C | \\Delta Q = 1)\\)\n\n\n\n\n0\n12\n0\n12\n-\n\n\n1\n12\n1.33\n13.33\n1.33\n\n\n2\n12\n2.67\n14.67\n1.33\n\n\n3\n12\n6\n18\n3.33\n\n\n4\n12\n13.33\n25.33\n7.33\n\n\n5\n12\n26.67\n38.67\n13.33"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#fixed-vs-variable-cost-example-as-graph",
@@ -7004,7 +7004,7 @@
     "href": "Slides/06_CostFunctions/main.html#average-total-marginal-cost-relationship-1",
     "title": "Cost Functions",
     "section": "Average Total & Marginal Cost Relationship",
-    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n\nTherefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
+    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n-&gt; Therefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/072-profit-max.html",
