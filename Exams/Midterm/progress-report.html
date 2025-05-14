@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>profit-max – EC311 Intermediate Micro</title>
+<title>progress-report – EC311 Intermediate Micro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,311 +156,66 @@ window.Quarto = {
 
 
 
-<section id="what-we-have-done-so-far" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-have-done-so-far">What We Have Done So Far</h2>
-<p>We learned where the <span class="hi">Cost Function <span class="math inline">\(C(Q)\)</span></span> comes from</p>
-<p>. . .</p>
-<p>We also learned about properties of the <span class="hi">Cost Function</span>:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="midterm-exam-score-distribution" class="level1">
+<h1>Midterm Exam Score Distribution</h1>
+<p><img src="images/midterm_scores.png" class="img-fluid"></p>
+</section>
+<section id="class-grade-distribution" class="level1">
+<h1>Class Grade Distribution</h1>
+<p>As of week 7, here is what the range of grades in the Canvas gradebook look like:</p>
+<p><img src="images/midterm_grades.png" class="img-fluid"></p>
+<p>Based on department guidelines and experiences of previous instructors, I have chosen the 5th, 35th, and 80th percentiles of the gradebook percentage distribution to determine the cutoffs for ranges of scores that will earn a C, B, or A at the end of the term.</p>
+<p>As of week 7, for example, if your grade in Canvas is 75, you are in the upper 65% of the class and on track to earn a B- (depending on final exam performance). If you currently have a 85% or higher in Canvas, you are on track to earn at least an A-.</p>
+<section id="predicted-final-grade" class="level3">
+<h3 class="anchored" data-anchor-id="predicted-final-grade">Predicted Final Grade</h3>
+<p>Of course this is only a prediction of your final grade, because there is about 45% of the gradebook which is still incomplete, much of which depends on the final exam (30% of the total grade).</p>
+<p>If you want an idea of what you need to score on the final exam to be on track for a certain grade, I have calculated the cutoffs for each letter based on the assumption that everyone stays at the same quiz, participation, and homework grade, and also that everyone receives the same score on the final exam that they did on the midterm. Based on this simple simulation, here are the approximate predicted cutoffs for the final Canvas scores:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Score in Canvas at the end of class (%)</th>
+<th style="text-align: center;">Letter Grade Expected</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">&gt;80</td>
+<td style="text-align: center;">A</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">70-80</td>
+<td style="text-align: center;">B</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">55-70</td>
+<td style="text-align: center;">C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">&lt;55</td>
+<td style="text-align: center;">D/F</td>
+</tr>
+</tbody>
+</table>
+<p>Based on this, you can get a good idea of what score you should be targeting on the final exam, remaining homework, etc. using the gradebook formula:</p>
+<p><span class="math display">\[
+\text{Final Score} = 5\% \text{wheel} + 15\% \text{quiz} + 20\% \text{HW} + 30\% \text{exam1} + 30\% \text{exam2}
+\]</span></p>
+<p>and rearrange to see what score you need on <span class="math inline">\(\text{exam2}\)</span> to be on track to earn one of the final score cutoffs above:</p>
+<p><span class="math display">\[
+\text{exam2 score needed} = \frac{ \color{red}{T} \color{black}{ - .05W + .15Q + .20 H + .3E}}{.3}
+\]</span></p>
+<p>where,</p>
 <ul>
-<li>Total Costs</li>
-<li>Variable Costs</li>
-<li>Fixed Costs</li>
-<li>Marginal Costs</li>
+<li><span class="math inline">\(W\)</span> is your participation grade on the wheel,</li>
+<li><span class="math inline">\(Q\)</span> is your quiz grade,</li>
+<li><span class="math inline">\(H\)</span> is your homework grade,</li>
+<li><span class="math inline">\(E\)</span> is your grade on the midterm,</li>
+<li>and <span class="math inline">\(\color{red}{T}\)</span> is the gradebook percent grade you are targeting.</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<ul>
-<li>Average Total Costs</li>
-<li>Average Fixed Costs</li>
-<li>Average Variable Costs</li>
-</ul>
-</div>
-</div>
-<p>. . .</p>
-<p>Now we will put the <span class="hi">Cost Function</span> to work in order to find a firm’s <span class="hi-orange">Supply Function</span></p>
-<hr>
-</section>
-<section id="lets-first-ask-what-are-profits" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="lets-first-ask-what-are-profits">Let’s First Ask: What Are Profits?</h2>
-<p>In Economics, we use the Greek letter <span class="math inline">\(\pi\)</span> (pi) to represent profits</p>
-<p>And they follow an intuitive formula:</p>
-<p><span class="math display">\[
-    \pi = \text{Revenue} - \text{Costs}
-\]</span></p>
-<p>We will also make an important distinction between <span class="hi">Accounting Profits</span> and <span class="hi">Economic Profits</span> where the difference comes in the costs</p>
-<p>. . .</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi align-center">Accounting Profits</span></p>
-<p><span class="h">Accounting Costs</span> are the direct costs of operatin a business</p>
-<p>These are what we think about when we talk about profits in accounting, finance, etc.</p>
-</div><div class="column" style="width:50%;">
-<p><span class="hi align-center">Economic Profits</span></p>
-<p><span class="hi-red">Economic Costs</span> will include <span class="h">Accounting Costs</span> and <span class="hi">Opportunity Costs</span></p>
-<div class="fragment">
-<ul>
-<li><span class="hi">Opportunity Costs</span> are all foregone benefits from other possible choices once we do make a choice. We don’t necessarily observe this in the data</li>
-</ul>
-</div>
-</div>
-</div>
-<p>. . .</p>
-<p><span class="hi note align-center big">This is important concept once we consider the firm’s optimal profits</span></p>
-<hr>
-</section>
-<section id="profits" class="level2">
-<h2 class="anchored" data-anchor-id="profits">Profits</h2>
-<p>In simpler words, if I sell <span class="hi">Revenue (R)</span> worth of goods and I had <span class="hi">Costs (C)</span>, the profits are:</p>
-<p><span class="math display">\[
-    \pi = R - C
-\]</span></p>
-<p>. . .</p>
-<p>Continuing our trend of putting things in terms of <span class="math inline">\(Q\)</span>, we get:</p>
-<p><span class="math display">\[
-    \pi(Q) = R(Q) - C(Q)
-\]</span></p>
-<p>. . .</p>
-<ul>
-<li><p>We have already dealt with <span class="hi">Costs as a function of <span class="math inline">\(Q\)</span></span>, that was our <span class="hi">Cost Function <span class="math inline">\(C(Q)\)</span></span></p></li>
-<li><p>Now we will figure out what <span class="hi">Revenue as a function of <span class="math inline">\(Q\)</span></span> is</p></li>
-</ul>
-<hr>
-</section>
-<section id="revenue" class="level2">
-<h2 class="anchored" data-anchor-id="revenue">Revenue</h2>
-<p>We define <span class="hi">Revenue</span> as:</p>
-<p><span class="math display">\[
-    \text{Revenue} = P \cdot Q
-\]</span></p>
-<p>. . .</p>
-<p>Plugging this into our Profit function gives us:</p>
-<p><span class="math display">\[\begin{align*}
-    \pi &amp;= \color{red}{\text{Revenue}} - \text{Cost} \\
-    \pi &amp;= \color{red}{P \cdot Q} - \text{Cost}
-\end{align*}\]</span></p>
-<p>This is where Production is simpler:</p>
-<div class="incremental">
-<ul class="incremental">
-<li>Profits are a single-variable function</li>
-<li>This means that the math to maximize profits is straightforward</li>
-<li>We will just take the derivative and set it equal to zero</li>
-</ul>
-</div>
-<hr>
-</section>
-<section id="maximizing-profit" class="level2">
-<h2 class="anchored" data-anchor-id="maximizing-profit">Maximizing Profit</h2>
-<p>Let’s solve this profit maximizing problem in the most general form:</p>
-<p><span class="math display">\[
-    \pi = R(Q) - C(Q)
-\]</span></p>
-<p>. . .</p>
-<p><span class="hi align-center">We take the derivative w.r.t. Q and set it equal to zero</span></p>
-<p><span class="math display">\[
-    \frac{\partial \pi}{\partial Q} = \frac{\partial R(Q)}{\partial Q} - \frac{\partial C(Q)}{\partial Q} = 0
-\]</span></p>
-<p><span class="hi align-center">These derivatives have their own name</span></p>
-<p>. . .</p>
-<p><span class="math display">\[
-    \text{Marginal Revenue} - \text{Marginal Cost} = 0
-\]</span></p>
-<p>. . .</p>
-<p><span class="math display">\[
-    \text{Marginal Revenue} = \text{Marginal Cost}
-\]</span></p>
-<hr>
-</section>
-<section id="maximizing-profits" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="maximizing-profits">Maximizing Profits</h2>
-<p><span class="hi note align-center">A firm maximizes its profits by finding the Quantity that makes Marginal Revenue equal to Marginal Cost</span></p>
-<p><span class="math display">\[
-    MR(Q) = MC(Q)
-\]</span></p>
-<p>. . .</p>
-<p>We can push this a bit further. We had just found the formula for <span class="hi">Revenue</span>: <span class="math display">\[
-    R(Q) = P \cdot Q
-\]</span></p>
-<p>So if we take the derivative of this w.r.t. <span class="math inline">\(Q\)</span> we will find the <span class="hi">Marginal Revenue</span></p>
-<p>. . .</p>
-<p><span class="math display">\[
-    \frac{\partial R(Q)}{\partial Q} = MR(Q) = P
-\]</span></p>
-<p>. . .</p>
-<p><span class="hi align-center">Putting it all together gives us the key to finding maximum profits for a perfectly competitive firm:</span></p>
-<p><span class="math display">\[
-    P = MC(Q)
-\]</span></p>
-<hr>
-</section>
-<section id="profit-maximizing-condition" class="level2">
-<h2 class="anchored" data-anchor-id="profit-maximizing-condition">Profit Maximizing Condition</h2>
-<p><span class="hi align-center">The firm will be at its maximum profit when they meet the condition</span> <span class="math display">\[
-    P = MC(Q)
-\]</span></p>
-<p>. . .</p>
-<p>From the firm’s perspective, this means they sould produce exactly the level of <span class="math inline">\(Q\)</span> at which the <span class="hi">Marginal Cost</span> of producing another unit is equal to the price it is sold at</p>
-<p>. . .</p>
-<p>Here’s an intuitive example. Let’s say you earn $5 per unit you produce:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="incremental">
-<ul class="incremental">
-<li>The first unit costs $1 to make
-<ul class="incremental">
-<li><span class="hi">You would make it!</span></li>
-</ul></li>
-<li>The second unit costs $2 to make
-<ul class="incremental">
-<li><span class="hi">You make it!</span></li>
-</ul></li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="incremental">
-<ul class="incremental">
-<li>The third unit costs $4 to make
-<ul class="incremental">
-<li><span class="hi">You make it!</span></li>
-</ul></li>
-<li>The fourth one costs $5.01 to make
-<ul class="incremental">
-<li><span class="hi">You don’t make it!</span></li>
-</ul></li>
-</ul>
-</div>
-</div>
-</div>
-<hr>
-</section>
-<section id="producing-to-maximize-profits" class="level2">
-<h2 class="anchored" data-anchor-id="producing-to-maximize-profits">Producing to Maximize Profits</h2>
-<p>So the production decision follows the rules:</p>
-<div class="incremental align-center">
-<ul class="incremental">
-<li>When <span class="math inline">\(P &gt; MC\)</span>, the firm <span class="hi">Produces More</span>!</li>
-<li>When <span class="math inline">\(P &lt; MC\)</span>, the firm <span class="hi">Does Not Produce</span></li>
-<li>When <span class="math inline">\(P = MC\)</span>, the firm <span class="hi">is Maximizing Profit</span></li>
-</ul>
-</div>
-<hr>
-</section>
-<section id="quick-math-note" class="level2">
-<h2 class="anchored" data-anchor-id="quick-math-note">Quick Math Note</h2>
-<p><span class="h note align-center">When the Cost Function is Cubic, the MC Function is Quadratic</span></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/mc-price-intersection.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<ul>
-<li><p>This means that <span class="hi">Marginal Revenue</span> will equal <span class="hi">Price</span> at 2 pionts</p></li>
-<li><p>The firm will always choose the point of intersection when the <span class="h">Marginal Curve</span> slopes upwards!</p></li>
-</ul>
-<hr>
-</section>
-<section id="profit-maximization-problem" class="level2">
-<h2 class="anchored" data-anchor-id="profit-maximization-problem">Profit Maximization Problem</h2>
-<p>Let the Cost Function be</p>
-<p><span class="math display">\[
-    C(Q) = Q^{2} + 4Q + 20 \;\;\;\;\; \&amp; \;\;\;\;\; P = 8
-\]</span></p>
-<p><a href="https://wheelofnames.com/" class="hi note align-center">1 - Find the Profit Function: <span class="math inline">\(\;\; \pi(Q) = R(Q) - C(Q)\)</span></a></p>
-<p>. . .</p>
-<p><span class="math display">\[\begin{align*}
-    \pi(Q) &amp;= R(Q) - C(Q) \\
-    \pi(Q) &amp;= P \cdot Q - C(Q) \\
-    \pi(Q) &amp;= 8 \cdot Q - (Q^{2} + 4Q + 20) \\
-    \pi(Q) &amp;= 8Q - Q^{2} - 4Q - 20
-\end{align*}\]</span></p>
-<hr>
-</section>
-<section id="profit-maximization-problem-1" class="level2">
-<h2 class="anchored" data-anchor-id="profit-maximization-problem-1">Profit Maximization Problem</h2>
-<p><span class="math display">\[
-    \pi(Q) = 8Q - Q^{2} - 4Q - 20
-\]</span></p>
-<p><a href="https://wheelofnames.com/" class="hi note align-center">2 - Find the optimal <span class="math inline">\(\; Q \;\)</span> to produce for maximum profits: <span class="math inline">\(\;\; \frac{\partial \pi(Q)}{\partial Q} = 0\)</span></a></p>
-<p>. . .</p>
-<p><span class="math display">\[\begin{align*}
-    \frac{\partial \pi(Q)}{\partial Q} &amp;= 0 \\
-    8 - 2Q - 4 &amp;= 0 \\
-    2Q &amp;= 4 \\
-    Q^{*} &amp;= 2
-\end{align*}\]</span></p>
-<hr>
-</section>
-<section id="another-way-to-maximize-profits" class="level2">
-<h2 class="anchored" data-anchor-id="another-way-to-maximize-profits">Another Way to Maximize Profits</h2>
-<p>Use the fact that <span class="hi">Marginal Cost must equal Price</span></p>
-<p><span class="math display">\[
-    C(Q) = Q^{2} + 4Q + 20 \;\;\;\;\; \&amp; \;\;\;\;\; P = 8
-\]</span></p>
-<p><a href="https://wheelofnames.com/" class="hi note align-center">1 - Find the Marginal Cost</a></p>
-<p>. . .</p>
-<p><span class="math display">\[\begin{align*}
-    MC(Q) = \frac{\partial C(Q)}{\partial Q} = 2Q + 4
-\end{align*}\]</span></p>
-<p>. . .</p>
-<p><a href="https://wheelofnames.com/" class="hi note align-center">2 - Set <span class="math inline">\(\; MC(Q) = MR(Q) = P \;\)</span></a></p>
-<p>. . .</p>
-<p><span class="small"><span class="math display">\[\begin{align*}
-    MC(Q) &amp;= P \\
-    2Q + 4 &amp;= 8 \\
-    2Q &amp;= 4 \\
-    Q^{*} &amp;= 2
-\end{align*}\]</span></span></p>
-<hr>
-</section>
-<section id="maximizing-profit-1" class="level2">
-<h2 class="anchored" data-anchor-id="maximizing-profit-1">Maximizing Profit</h2>
-<p>The firm can then use the found optimal quantity, <span class="math inline">\(Q^{*} = 2\)</span>, to figure out how much is their maximum profit given their costs and market price</p>
-<p><span class="math display">\[
-    \pi(Q) = P \cdot Q - C(Q) \;\;\;\;\; ; \;\;\;\;\; C(Q) = Q^{2} + 4Q + 20 \;\; ; \;\; P = 8
-\]</span></p>
-<p><a href="https://wheelofnames.com/" class="hi note align-center">Find the Profit of this firm</a></p>
-<p>. . .</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="hi align-center">Profits</span></p>
-<div class="fragment small">
-<p><span class="math display">\[\begin{align*}
-    \pi &amp;= P \cdot Q - C(Q) \\
-    \pi &amp;= P \cdot Q - Q^{2} + 4Q + 20 \\
-    \pi &amp;= 8 \cdot 2 - \left( (2)^{2} + 4(2) + 20 \right) \\
-    \pi &amp;= 16 - \left( 4 + 8 + 20 \right) \\
-    \pi &amp;= 16 - 4 - 8 - 20 \\
-    \pi &amp;= -16
-\end{align*}\]</span></p>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<p><span class="hi align-center">Profits can be Negative and the optimal choice!</span></p>
-<p>Note the profits that producing 0 goods yields:</p>
-<p><span class="math display">\[\begin{align*}
-    \pi(0) &amp;= 8(0) - (0)^{2} - 4(0) - 20 \\
-    \pi(0) &amp;= -20
-\end{align*}\]</span></p>
-</div>
-</div>
-</div>
-<hr>
-</section>
-<section id="negative-profits" class="level2">
-<h2 class="anchored" data-anchor-id="negative-profits">Negative Profits</h2>
-<p>The previous firm’s maximum profit is a loss of $16</p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><span class="hi">Negative Profits</span> can sometimes be the optimal choice</p>
-<ul class="incremental">
-<li>The firm would have lost more if they had produced zero <span class="math inline">\((\pi(0) = 20)\)</span></li>
-</ul></li>
-<li><p>So even though they lost money, producing something was still better than not producing at all!</p></li>
-<li><p>Now that we know how profits work, we can begin to find the supply curve</p></li>
-</ul>
-</div>
+<p>For example, let’s say you are currently getting a 75% in Canvas between your midterm, homework, etc. and you want to know how well you should do on the final to expect a B in the course. You could then find the exam score needed by taking <span class="math inline">\(\frac{\color{red}{70} \color{black}{- .7 (75)}}{.3} \approx 59\)</span>. If you wanted to know if you could go up from a B to an A, you could instead calculate <span class="math inline">\(\frac{\color{red}{80} \color{black}{- .7 (75)}}{.3} \approx 92\)</span>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1030,4 +785,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://gituhub.com/dyasui/EC-311/edit/main/Slides/07_ProfitMaximization/072-profit-max.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://gituhub.com/dyasui/EC-311/blob/main/Slides/07_ProfitMaximization/072-profit-max.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://gituhub.com/dyasui/EC-311/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://gituhub.com/dyasui/EC-311/edit/main/Exams/Midterm/progress-report.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://gituhub.com/dyasui/EC-311/blob/main/Exams/Midterm/progress-report.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://gituhub.com/dyasui/EC-311/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

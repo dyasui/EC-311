@@ -4111,9 +4111,9 @@
   {
     "objectID": "Exams/index.html",
     "href": "Exams/index.html",
-    "title": "Practice Exams",
+    "title": "Exams",
     "section": "",
-    "text": "Policies:\nAllowed Materials:\n\none 3-inch by 5-inch handwritten notecard\na scientific (non-graphing) calculator\nstudent ID card\npencils, erasers, rulers, etc. recommended for graphing\n\n\n\nMidterm\n\nTopics Handout\n\n  \n\n\n\nWinter 2024 Practice Midterm\n\n  \n\n\n   Solutions\n\n\n\nWinter 2024 Midterm\n\n  \n\n\n\nSpring 2025 Midterm\n\n   Version1\n\n\n   V1_Key\n\n\n   Version2\n\n\n   V2_Key\n\n\n\n\nFinal\n\nWinter 2024 Practice Final\n\n  \n\n\n   Solutions\n\n\n\nWinter 2024 Final"
+    "text": "Policies:\nAllowed Materials:\n\none 3-inch by 5-inch handwritten notecard\na scientific (non-graphing) calculator\nstudent ID card\npencils, erasers, rulers, etc. recommended for graphing\n\n\n\nMidterm\n\n   Topics\n\n\nPractice Midterm\n\n    PDF\n\n\n   Solutions\n\n\n\nWinter 2024 Midterm\n\n   PDF\n\n\n\nSpring 2025 Midterm\n\n   Version1\n\n\n   V1_Key\n\n\n   Version2\n\n\n   V2_Key\n\n\n\nMidterm Progress Report\nSpring 2025 Class performance\n\n\n\nFinal\n\nWinter 2024 Practice Final\n\n   PDF\n\n\n   Solutions\n\n\n\nWinter 2024 Final\n\n   Solutions"
   },
   {
     "objectID": "Exams/Midterm/notes.html#exam-notes-corrections",
@@ -4128,6 +4128,13 @@
     "title": "EC311 Intermediate Micro",
     "section": "Exam Notes & Corrections",
     "text": "Exam Notes & Corrections\nMulti-Part Analysis\nQuestion 15\n\nPart A: Remember to label minimum bundle points for each indifference curve\n\nQuestion 16\nShould be price decrease in sushi rice, not increase ​ \nHelp yourself to a lollipop once you turn in your exam"
+  },
+  {
+    "objectID": "Exams/Midterm/progress-report.html",
+    "href": "Exams/Midterm/progress-report.html",
+    "title": "Midterm Exam Score Distribution",
+    "section": "",
+    "text": "Midterm Exam Score Distribution\n\n\n\nClass Grade Distribution\nAs of week 7, here is what the range of grades in the Canvas gradebook look like:\n\nBased on department guidelines and experiences of previous instructors, I have chosen the 5th, 35th, and 80th percentiles of the gradebook percentage distribution to determine the cutoffs for ranges of scores that will earn a C, B, or A at the end of the term.\nAs of week 7, for example, if your grade in Canvas is 75, you are in the upper 65% of the class and on track to earn a B- (depending on final exam performance). If you currently have a 85% or higher in Canvas, you are on track to earn at least an A-.\n\nPredicted Final Grade\nOf course this is only a prediction of your final grade, because there is about 45% of the gradebook which is still incomplete, much of which depends on the final exam (30% of the total grade).\nIf you want an idea of what you need to score on the final exam to be on track for a certain grade, I have calculated the cutoffs for each letter based on the assumption that everyone stays at the same quiz, participation, and homework grade, and also that everyone receives the same score on the final exam that they did on the midterm. Based on this simple simulation, here are the approximate predicted cutoffs for the final Canvas scores:\n\n\n\nScore in Canvas at the end of class (%)\nLetter Grade Expected\n\n\n\n\n&gt;80\nA\n\n\n70-80\nB\n\n\n55-70\nC\n\n\n&lt;55\nD/F\n\n\n\nBased on this, you can get a good idea of what score you should be targeting on the final exam, remaining homework, etc. using the gradebook formula:\n\\[\n\\text{Final Score} = 5\\% \\text{wheel} + 15\\% \\text{quiz} + 20\\% \\text{HW} + 30\\% \\text{exam1} + 30\\% \\text{exam2}\n\\]\nand rearrange to see what score you need on \\(\\text{exam2}\\) to be on track to earn one of the final score cutoffs above:\n\\[\n\\text{exam2 score needed} = \\frac{ \\color{red}{T} \\color{black}{ - .05W + .15Q + .20 H + .3E}}{.3}\n\\]\nwhere,\n\n\\(W\\) is your participation grade on the wheel,\n\\(Q\\) is your quiz grade,\n\\(H\\) is your homework grade,\n\\(E\\) is your grade on the midterm,\nand \\(\\color{red}{T}\\) is the gradebook percent grade you are targeting.\n\nFor example, let’s say you are currently getting a 75% in Canvas between your midterm, homework, etc. and you want to know how well you should do on the final to expect a B in the course. You could then find the exam score needed by taking \\(\\frac{\\color{red}{70} \\color{black}{- .7 (75)}}{.3} \\approx 59\\). If you wanted to know if you could go up from a B to an A, you could instead calculate \\(\\frac{\\color{red}{80} \\color{black}{- .7 (75)}}{.3} \\approx 92\\)."
   },
   {
     "objectID": "Labs/index.html",
