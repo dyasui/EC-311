@@ -1,5 +1,5 @@
 ---
-title: "Practice Exams"
+title: "Exams"
 ---
 
 # Policies:
@@ -13,18 +13,17 @@ title: "Practice Exams"
 
 # Midterm
 
-### Topics Handout
 ```{=html}
-<div class="embed-container">
-  <iframe src="Handout-Midterm-Topics.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-</div>
+<a class="btn btn-primary btn-md" href="Handout-Midterm-Topics.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Topics
+</a>
 ```
 
-### Winter 2024 Practice Midterm
+### Practice Midterm
 ```{=html}
-<div class="embed-container">
-  <iframe src="Midterm/EC-311-Winter-24-Practice-Midterm.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-</div>
+<a class="btn btn-primary btn-md" href="Midterm/EC311-Winter-24-Practice-Midterm.pdf">
+   <i class="fa-solid fa-window-restore"></i>&ensp;PDF
+</a>
 <a class="btn btn-primary btn-md" href="Midterm/Answers-EC-311-Winter-24-Practice-Midterm.pdf" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Solutions
 </a>
@@ -32,9 +31,9 @@ title: "Practice Exams"
 
 ### Winter 2024 Midterm
 ```{=html}
-<div class="embed-container">
-  <iframe src="Midterm/EC-311-Winter-24-Midterm-v2.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-</div>
+<a class="btn btn-primary btn-md" href="Midterm/EC-311-Winter-24-Midterm-v2.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;PDF
+</a>
 ```
 
 ### Spring 2025 Midterm
@@ -53,13 +52,17 @@ title: "Practice Exams"
 </a>
 ```
 
+### Midterm Progress Report
+
+[Spring 2025 Class performance](Midterm/progress-report.html)
+
 # Final
 
 ### Winter 2024 Practice Final
 ```{=html}
-<div class="embed-container">
-  <iframe src="Final/EC-311-Winter-24-Practice-Final.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-</div>
+<a class="btn btn-primary btn-md" href="Final/EC-311-Winter-24-Practice-Final.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;PDF
+</a>
 <a class="btn btn-primary btn-md" href="Final/[Answers]EC-311-Winter-24-Practice-Final.pdf" target="_blank">
   <i class="fa-solid fa-window-restore"></i>&ensp;Solutions
 </a>
@@ -67,7 +70,7 @@ title: "Practice Exams"
 
 ### Winter 2024 Final
 ```{=html}
-<div class="embed-container">
-  <iframe src="Final/EC-311-Winter-24-Final.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-</div>
+<a class="btn btn-primary btn-md" href="Final/EC-311-Winter-24-Final.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Solutions
+</a>
 ```

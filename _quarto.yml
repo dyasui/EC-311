@@ -26,11 +26,11 @@ website:
         href: Slides/index.qmd
       - text: "Labs"
         href: Labs/index.qmd
-      - text: "Practice Exams"
+      - text: "Exams"
         href: "Exams/index.qmd"
   announcement: 
     icon: clipboard2-check-fill
     dismissable: true
-    content: "Please fill out the Midterm Course Survey on Canvas!"
+    content: "Friday office hour now at 10:15am"
     type: warning
     position: below-navbar

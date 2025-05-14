@@ -1,0 +1,58 @@
+---
+name: midterm progress report
+---
+
+# Midterm Exam Score Distribution
+
+![](images/midterm_scores.png)
+
+# Class Grade Distribution
+
+As of week 7, here is what the range of grades in the Canvas gradebook look like:
+
+![](images/midterm_grades.png)
+
+Based on department guidelines and experiences of previous instructors, I have chosen the 5th, 35th, and 80th percentiles of the gradebook percentage distribution to determine the cutoffs for ranges of scores that will earn a C, B, or A at the end of the term.
+
+As of week 7, for example, if your grade in Canvas is 75, you are in the upper 65% of the class and on track to earn a B- (depending on final exam performance).
+If you currently have a 85% or higher in Canvas, you are on track to earn at least an A-.
+
+### Predicted Final Grade
+
+Of course this is only a prediction of your final grade, because there is about 45% of the gradebook which is still incomplete, much of which depends on the final exam (30% of the total grade).
+
+If you want an idea of what you need to score on the final exam to be on track for a certain grade, I have calculated the cutoffs for each letter based on the assumption that everyone stays at the same quiz, participation, and homework grade, and also that everyone receives the same score on the final exam that they did on the midterm.
+Based on this simple simulation, here are the approximate predicted cutoffs for the final Canvas scores:
+
+| Score in Canvas at the end of class (%) | Letter Grade Expected |
+|:---------------:|:------------:|
+| >80             | A            |
+| 70-80           | B            |
+| 55-70           | C            |
+| <55             | D/F          |
+
+Based on this, you can get a good idea of what score you should be targeting on the final exam, remaining homework, etc. using the gradebook formula:
+
+$$
+\text{Final Score} = 5\% \text{wheel} + 15\% \text{quiz} + 20\% \text{HW} + 30\% \text{exam1} + 30\% \text{exam2}
+$$
+
+and rearrange to see what score you need on $\text{exam2}$ to be on track to earn one of the final score cutoffs above:
+
+$$
+\text{exam2 score needed} = \frac{ \color{red}{T} \color{black}{ - .05W + .15Q + .20 H + .3E}}{.3}
+$$
+
+where,
+
+  - $W$ is your participation grade on the wheel,
+  - $Q$ is your quiz grade,
+  - $H$ is your homework grade,
+  - $E$ is your grade on the midterm,
+  - and $\color{red}{T}$ is the gradebook percent grade you are targeting.
+
+For example, let's say you are currently getting a 75\% in Canvas between your midterm, homework, etc. and you want to know how well you should do on the final to expect a B in the course.
+You could then find the exam score needed by taking
+$\frac{\color{red}{70} \color{black}{- .7 (75)}}{.3} \approx 59$.
+If you wanted to know if you could go up from a B to an A, you could instead calculate
+$\frac{\color{red}{80} \color{black}{- .7 (75)}}{.3} \approx 92$.
