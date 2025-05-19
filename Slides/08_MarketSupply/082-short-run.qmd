@@ -210,7 +210,7 @@ Firms [exit]{.hi-red} the market
 What happens when we have 
 
 $$
-    
+PS > 0    
 $$
 
 . . .
