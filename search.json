@@ -809,7 +809,7 @@
     "href": "Slides/08_MarketSupply/082-short-run.html#short-run-to-long-run-entry-condition",
     "title": "EC311 Intermediate Micro",
     "section": "Short-Run to Long-Run: Entry Condition?",
-    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n$$\n$$\n. . .\n\nAKA \\(P &gt; \\min \\{ ATC(Q^{*}) \\}\\)\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
+    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n\\[\nPS &gt; 0    \n\\]\n. . .\n\nAKA \\(P &gt; \\min \\{ ATC(Q^{*}) \\}\\)\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#market-structures",
@@ -7669,7 +7669,7 @@
     "href": "Slides/08_MarketSupply/main.html#short-run-to-long-run-entry-condition",
     "title": "Market Supply",
     "section": "Short-Run to Long-Run: Entry Condition?",
-    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n$$\n$$\n\n\nAKA \\(P &gt; \\min \\{ ATC(Q^{*}) \\}\\)\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
+    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n\\[\nPS &gt; 0    \n\\]\n\n\nAKA \\(P &gt; \\min \\{ ATC(Q^{*}) \\}\\)\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#profits-and-market-feedback",
