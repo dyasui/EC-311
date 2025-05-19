@@ -44,8 +44,8 @@ title: "Home"
 |    5     | **MIDTERM** | **Wednesday, April 30th** |
 |    6     | Ch 6: [Production](Slides/#production) | Ch 6 HW |
 |    7     | Ch 7: [Cost Functions](Slides/#cost-functions) | [Quiz 5](https://canvas.uoregon.edu/courses/260984/quizzes/387477) & Ch 7 HW |
-|    8     | **Monday: no class** (Memorial Day), Ch 8: [Supply](Slides/#market-supply) | [Quiz 6](https://canvas.uoregon.edu/courses/260984/quizzes/387479) & Ch 8 HW |
-|    9     | Ch 9: [Monopoly](Slides/#monopoly) | Ch 9 HW |
+|    8     | Ch 8: [Supply](Slides/#market-supply) | [Quiz 6](https://canvas.uoregon.edu/courses/260984/quizzes/387479) & Ch 8 HW |
+|    9     | **Monday: no class** (Memorial Day), Ch 9: [Monopoly](Slides/#monopoly) | Ch 9 HW |
 |   10     | Ch 11: [Imperfect Competition](Slides/#imperfect-competition) | [Quiz 7](https://canvas.uoregon.edu/courses/260984/quizzes/387473) & Ch 11 HW |
 | Finals | **Wednesday, June 11, 2:45pm** | Exam |
 
