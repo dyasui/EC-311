@@ -68,7 +68,7 @@ $$PS = TR - VC$$
 
 What does it look like?
 
-<iframe src="https://www.desmos.com/calculator/raveldhgsd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/puj0ofyzhw?embed" width="900" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 ## Firm Supply -> Market Supply
 
@@ -111,8 +111,10 @@ And it is obtained in the exact same way as market demand
 - If you know the $q_i^S$ of one firm, and there are 10 identical firms, then we get
 
 $$
-    Q^{S} = 10 \cdot Q^{*}
+    Q^{S} = 10 \cdot q_i^S
 $$
+
+---
 
 ## Market Supply Example
 
@@ -120,7 +122,35 @@ Consider up to 10 firms all with $MC=q_i^2 - 20q + 100$
 
 - Then $Q^S = 10 \cdot (\sqrt{P} +10)$
 
-<iframe src="https://www.desmos.com/calculator/orup4yjmml?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+---
+
+## Market Supply Example
+
+<iframe src="https://www.desmos.com/calculator/euo68ct7ja?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+---
+
+## Market Supply
+
+If each firm has a different marginal cost function:
+
+- (and thers are $N$ number of firms)
+
+$$Q^S = \sum_{i=1}^N q_i^S$$
+
+---
+
+## Producer Surplus vs Profit
+
+<u>Producer Surplus</u>:
+
+$$PS = TR - VC$$
+
+<u>Profit</u>:
+
+$$\pi = TR - VC - FC$$
+
+- The difference is [fixed costs]{.hi}
 
 ## Long-Run Market Supply
 
@@ -128,12 +158,13 @@ Consider up to 10 firms all with $MC=q_i^2 - 20q + 100$
 
 . . .
 
-[PROFITS]{.hi .align-center}
+[Producer Surplus]{.hi .align-center}
 
 ::: {.incremental}
-- We saw how the perfectly competitive firm can be operating optimally and still have negative profits
-    - Some firms will operate at a loss as long as it is less than their Fixed Costs
-- There are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits 
+- A firm may operate with negative profit
+    - they will operate at a loss as long as it is less than their Fixed Costs
+- But they won't operate with negative [producer surplus]{.hi}
+    - because that means it costs more to produce each unit than it sells for
 ::: 
 
 . . .
@@ -145,10 +176,12 @@ Consider up to 10 firms all with $MC=q_i^2 - 20q + 100$
 ## Short-Run to Long-Run: Exit Condition
 
 $$
-    P < \min \{ ATC(Q^{*}) \}
+PS < 0
 $$
 
 . . .
+
+- AKA $TR < VC$, or $P < min \{ ATC \}$
 
 :::: {.columns}
 
@@ -177,10 +210,12 @@ Firms [exit]{.hi-red} the market
 What happens when we have 
 
 $$
-    P > \min \{ ATC(Q^{*}) \}
+    
 $$
 
 . . .
+
+- AKA $P > \min \{ ATC(Q^{*}) \}$
 
 :::: {.columns}
 
