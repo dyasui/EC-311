@@ -1,0 +1,41 @@
+---
+name: pop-quiz
+---
+
+## Costs Question
+Currently, a firm with a cost function of $C(Q) = \frac{1}{2}Q^2$,
+is producing 30 units in a perfectly competitive market.
+
+If the price they sell their goods for were $30, how
+would you describe their short-run situation?
+
+a) They are producing too much
+b) They aren't producing enough
+c) They are maximizing profit
+d) Impossible to tell
+
+---
+
+## Costs Question (Answer)
+Currently, a firm with a cost function of $C(Q) = \frac{1}{2}Q^2$,
+is producing 30 units in a perfectly competitive market.
+
+If the price they sell their goods for were $30, how
+would you describe their short-run situation?
+
+a) They are producing too much
+b) They aren't producing enough
+c) [They are maximizing profit]{.h}
+d) Impossible to tell
+
+## Costs Question (Answer)
+
+Recall that profit maximization happens when $MR=MC$.
+
+::: {.incremental}
+- ${\color{red} MC = \frac{\delta C}{\delta Q} = 2\frac{1}{2}Q^{2-1} = Q}$
+- ${\color{green} MR = \$30}$
+- $Q^s = 30$
+- ${\color{green} MR = 30} = {\color{red}30 = MC}$
+- So profit is maximized
+:::
