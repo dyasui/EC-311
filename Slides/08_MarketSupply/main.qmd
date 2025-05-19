@@ -28,9 +28,6 @@ title-slide-attributes:
 
 {{< include 080-quiz.qmd >}}
 
-# Markets {.inverse .note}
-
-{{< include 081-markets.qmd >}}
 
 # Perfect Competition: Short-Run {.inverse .note}
 

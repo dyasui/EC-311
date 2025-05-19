@@ -33,9 +33,9 @@ d) Impossible to tell
 Recall that profit maximization happens when $MR=MC$.
 
 ::: {.incremental}
-- ${\color{red} MC = \frac{\delta C}{\delta Q} = 2\frac{1}{2}Q^{2-1} = Q}$
-- ${\color{green} MR = \$30}$
+- $\color{red}{ MC = \frac{\delta C}{\delta Q} = 2\frac{1}{2}Q^{2-1} = Q}$
+- $\color{green}{MR = \$30}$
 - $Q^s = 30$
-- ${\color{green} MR = 30} = {\color{red}30 = MC}$
+- $\color{green}{MR = 30} = \color{red}{30 = MC}$
 - So profit is maximized
 :::

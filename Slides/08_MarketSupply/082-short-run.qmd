@@ -2,28 +2,129 @@
 name: short-run supply
 ---
 
-## Short-Run vs Long-Run
+## Short-Run Supply
 
-Previously, we referred to the [Short-Run Supply Curve]{.hi} as the curved created by [P = MC]{.hi}
+Previously, we graphed the supply curve to include the firm's [shut-down decision]{.hi}:
 
-- We are able to say this is the [short-run]{.h} because over a longer time horizon:
-
-    - Firms will [enter]{.hi-green} or [exit]{.hi-red} the market
+![](./images/new-supply-curve.png)
 
 . . .
 
-In other words, in the [Long-Run]{.hi}:
+Because the firm has to either produce something or nothing in the short term, this is the [Short-Run Supply Curve]{.hi}
+
+---
+
+## Short-Run vs Long-Run Supply
+
+- This is the [short-run]{.h} because the firm can't operate on the margin of their [fixed costs]{.hi}
+
+    - Eventually firms can [enter]{.hi-green} by choosing to paying the startup costs
+    - or [exit]{.hi-red} the market by recouping their fixed costs
+
+---
+
+## What Affects Short-Term Supply?
+
+What could change how much **quantity** firms are willing to produce in the [short-run]{.hi}?
 
 ::: {.incremental}
-- Firms that are already in the market can choose to [exit the market]{.hi-red} and stop paying the Fixed Costs
-- Additionally, new firms can [enter the market]{.hi-green} and begin to pay the Fixed Costs
+
+Anything that affects their [marginal costs]{.h}!
+
+- Technology (more productive inputs $\downarrow$ MC $\rightarrow$ $\uparrow Q^s$)
+
+- Input prices (more expensive labor $\uparrow MC \rightarrow \downarrow Q^s$
+:::
+
+## What Does Not Affect Short-Term Supply?
+
+Any [fixed costs]{.hi} have to be treated as *sunk costs* in the short run, and do factor into MC
+
+::: {.incremental}
+This includes:
+
+- Factory space
+
+- Contracted costs (annual, multi-year, etc.)
+
+- R&D costs
 :::
 
 ---
 
-## What Makes a Firm Enter or Exit?
+## Producer Surplus
 
-[What could determines whether a firm enters or exists the market?]{.hi .note .align-center}
+In the short run, a firm can earn a [markup]{.hi} over their costs.
+
+Another way of measuring this markup is the [producer surplus]{.hi}
+
+$$PS = TR - VC$$
+
+- How much more does the firm gain in revenue compared to its costs
+
+---
+
+## Producer Surplus
+
+What does it look like?
+
+<iframe src="https://www.desmos.com/calculator/raveldhgsd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+## Firm Supply -> Market Supply
+
+A single firm $i$'s supply decision: pick $q_i$ quantity to maximize profit
+
+$$ MC_i(q_i) \bigg\rvert_{q_i\geq 0} = MR_i = P$$
+
+::: {.incremental}
+
+- $MC_i$ is firm $i$'s supply curve, or [willingness to sell]{.hi}
+
+- If we wanted the [supply function]{.hi} we could rerrange: $q_i^S = MC_i^{-1}(P)$
+
+:::
+
+---
+
+## Firm Supply -> Market Supply
+
+An example:
+
+$$ MC_i(q_i) = q_i^2 -20q_i +100 $$
+
+::: {.incremental}
+
+- Can be rewritten as $MC = (q_i - 10)^2$
+
+- $q_i^S = MC_i^{-1}(P) = \sqrt{P} + 10$
+
+:::
+
+## Market Supply
+
+We will label [Market Supply]{.hi} as $Q^{S}$
+
+And it is obtained in the exact same way as market demand 
+
+. . .
+
+- If you know the $q_i^S$ of one firm, and there are 10 identical firms, then we get
+
+$$
+    Q^{S} = 10 \cdot Q^{*}
+$$
+
+## Market Supply Example
+
+Consider up to 10 firms all with $MC=q_i^2 - 20q + 100$
+
+- Then $Q^S = 10 \cdot (\sqrt{P} +10)$
+
+<iframe src="https://www.desmos.com/calculator/orup4yjmml?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+## Long-Run Market Supply
+
+[What could determine whether a firm enters or exists the market?]{.hi .note .align-center}
 
 . . .
 
