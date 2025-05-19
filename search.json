@@ -760,7 +760,7 @@
     "href": "Slides/08_MarketSupply/082-short-run.html#market-supply",
     "title": "EC311 Intermediate Micro",
     "section": "Market Supply",
-    "text": "Market Supply\nWe will label Market Supply as \\(Q^{S}\\)\nAnd it is obtained in the exact same way as market demand\n. . .\n\nIf you know the \\(q_i^S\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q^{S} = 10 \\cdot Q^{*}\n\\]"
+    "text": "Market Supply\nWe will label Market Supply as \\(Q^{S}\\)\nAnd it is obtained in the exact same way as market demand\n. . .\n\nIf you know the \\(q_i^S\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q^{S} = 10 \\cdot q_i^S\n\\]"
   },
   {
     "objectID": "Slides/08_MarketSupply/082-short-run.html#market-supply-example",
@@ -770,25 +770,46 @@
     "text": "Market Supply Example\nConsider up to 10 firms all with \\(MC=q_i^2 - 20q + 100\\)\n\nThen \\(Q^S = 10 \\cdot (\\sqrt{P} +10)\\)"
   },
   {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#market-supply-example-1",
+    "href": "Slides/08_MarketSupply/082-short-run.html#market-supply-example-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Market Supply Example",
+    "text": "Market Supply Example"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#market-supply-1",
+    "href": "Slides/08_MarketSupply/082-short-run.html#market-supply-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Market Supply",
+    "text": "Market Supply\nIf each firm has a different marginal cost function:\n\n(and thers are \\(N\\) number of firms)\n\n\\[Q^S = \\sum_{i=1}^N q_i^S\\]"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#producer-surplus-vs-profit",
+    "href": "Slides/08_MarketSupply/082-short-run.html#producer-surplus-vs-profit",
+    "title": "EC311 Intermediate Micro",
+    "section": "Producer Surplus vs Profit",
+    "text": "Producer Surplus vs Profit\nProducer Surplus:\n\\[PS = TR - VC\\]\nProfit:\n\\[\\pi = TR - VC - FC\\]\n\nThe difference is fixed costs"
+  },
+  {
     "objectID": "Slides/08_MarketSupply/082-short-run.html#long-run-market-supply",
     "href": "Slides/08_MarketSupply/082-short-run.html#long-run-market-supply",
     "title": "EC311 Intermediate Micro",
     "section": "Long-Run Market Supply",
-    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n. . .\nPROFITS\n\n\nWe saw how the perfectly competitive firm can be operating optimally and still have negative profits\n\nSome firms will operate at a loss as long as it is less than their Fixed Costs\n\nThere are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits\n\n\n. . .\nIn either case, the fact that profits are not zero has implications for the Long-Run"
+    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n. . .\nProducer Surplus\n\n\nA firm may operate with negative profit\n\nthey will operate at a loss as long as it is less than their Fixed Costs\n\nBut they won’t operate with negative producer surplus\n\nbecause that means it costs more to produce each unit than it sells for\n\n\n\n. . .\nIn either case, the fact that profits are not zero has implications for the Long-Run"
   },
   {
     "objectID": "Slides/08_MarketSupply/082-short-run.html#short-run-to-long-run-exit-condition",
     "href": "Slides/08_MarketSupply/082-short-run.html#short-run-to-long-run-exit-condition",
     "title": "EC311 Intermediate Micro",
     "section": "Short-Run to Long-Run: Exit Condition",
-    "text": "Short-Run to Long-Run: Exit Condition\n\\[\n    P &lt; \\min \\{ ATC(Q^{*}) \\}\n\\]\n. . .\n\n\nShort-Run\n\nFirms operate at a loss in order to offset some of their FC\n\n\nLong-Run\n\nFirms exit the market"
+    "text": "Short-Run to Long-Run: Exit Condition\n\\[\nPS &lt; 0\n\\]\n. . .\n\nAKA \\(TR &lt; VC\\), or \\(P &lt; min \\{ ATC \\}\\)\n\n\n\nShort-Run\n\nFirms operate at a loss in order to offset some of their FC\n\n\nLong-Run\n\nFirms exit the market"
   },
   {
     "objectID": "Slides/08_MarketSupply/082-short-run.html#short-run-to-long-run-entry-condition",
     "href": "Slides/08_MarketSupply/082-short-run.html#short-run-to-long-run-entry-condition",
     "title": "EC311 Intermediate Micro",
     "section": "Short-Run to Long-Run: Entry Condition?",
-    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n\\[\n    P &gt; \\min \\{ ATC(Q^{*}) \\}\n\\]\n. . .\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
+    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n$$\n$$\n. . .\n\nAKA \\(P &gt; \\min \\{ ATC(Q^{*}) \\}\\)\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#market-structures",
@@ -7599,7 +7620,7 @@
     "href": "Slides/08_MarketSupply/main.html#market-supply",
     "title": "Market Supply",
     "section": "Market Supply",
-    "text": "Market Supply\nWe will label Market Supply as \\(Q^{S}\\)\nAnd it is obtained in the exact same way as market demand\n\n\nIf you know the \\(q_i^S\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q^{S} = 10 \\cdot Q^{*}\n\\]"
+    "text": "Market Supply\nWe will label Market Supply as \\(Q^{S}\\)\nAnd it is obtained in the exact same way as market demand\n\n\nIf you know the \\(q_i^S\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q^{S} = 10 \\cdot q_i^S\n\\]"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#market-supply-example",
@@ -7609,25 +7630,46 @@
     "text": "Market Supply Example\nConsider up to 10 firms all with \\(MC=q_i^2 - 20q + 100\\)\n\nThen \\(Q^S = 10 \\cdot (\\sqrt{P} +10)\\)"
   },
   {
+    "objectID": "Slides/08_MarketSupply/main.html#market-supply-example-1",
+    "href": "Slides/08_MarketSupply/main.html#market-supply-example-1",
+    "title": "Market Supply",
+    "section": "Market Supply Example",
+    "text": "Market Supply Example"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#market-supply-1",
+    "href": "Slides/08_MarketSupply/main.html#market-supply-1",
+    "title": "Market Supply",
+    "section": "Market Supply",
+    "text": "Market Supply\nIf each firm has a different marginal cost function:\n\n(and thers are \\(N\\) number of firms)\n\n\\[Q^S = \\sum_{i=1}^N q_i^S\\]"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#producer-surplus-vs-profit",
+    "href": "Slides/08_MarketSupply/main.html#producer-surplus-vs-profit",
+    "title": "Market Supply",
+    "section": "Producer Surplus vs Profit",
+    "text": "Producer Surplus vs Profit\nProducer Surplus:\n\\[PS = TR - VC\\]\nProfit:\n\\[\\pi = TR - VC - FC\\]\n\nThe difference is fixed costs"
+  },
+  {
     "objectID": "Slides/08_MarketSupply/main.html#long-run-market-supply",
     "href": "Slides/08_MarketSupply/main.html#long-run-market-supply",
     "title": "Market Supply",
     "section": "Long-Run Market Supply",
-    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n\nPROFITS\n\n\nWe saw how the perfectly competitive firm can be operating optimally and still have negative profits\n\nSome firms will operate at a loss as long as it is less than their Fixed Costs\n\nThere are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits\n\n\n\n\nIn either case, the fact that profits are not zero has implications for the Long-Run"
+    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n\nProducer Surplus\n\n\nA firm may operate with negative profit\n\nthey will operate at a loss as long as it is less than their Fixed Costs\n\nBut they won’t operate with negative producer surplus\n\nbecause that means it costs more to produce each unit than it sells for\n\n\n\n\n\nIn either case, the fact that profits are not zero has implications for the Long-Run"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#short-run-to-long-run-exit-condition",
     "href": "Slides/08_MarketSupply/main.html#short-run-to-long-run-exit-condition",
     "title": "Market Supply",
     "section": "Short-Run to Long-Run: Exit Condition",
-    "text": "Short-Run to Long-Run: Exit Condition\n\\[\n    P &lt; \\min \\{ ATC(Q^{*}) \\}\n\\]\n\n\n\nShort-Run\n\nFirms operate at a loss in order to offset some of their FC\n\n\nLong-Run\n\nFirms exit the market"
+    "text": "Short-Run to Long-Run: Exit Condition\n\\[\nPS &lt; 0\n\\]\n\n\nAKA \\(TR &lt; VC\\), or \\(P &lt; min \\{ ATC \\}\\)\n\n\n\nShort-Run\n\nFirms operate at a loss in order to offset some of their FC\n\n\nLong-Run\n\nFirms exit the market"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#short-run-to-long-run-entry-condition",
     "href": "Slides/08_MarketSupply/main.html#short-run-to-long-run-entry-condition",
     "title": "Market Supply",
     "section": "Short-Run to Long-Run: Entry Condition?",
-    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n\\[\n    P &gt; \\min \\{ ATC(Q^{*}) \\}\n\\]\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
+    "text": "Short-Run to Long-Run: Entry Condition?\nWhat happens when we have\n$$\n$$\n\n\nAKA \\(P &gt; \\min \\{ ATC(Q^{*}) \\}\\)\n\n\n\nShort-Run\n\nFirms will produce and earn a positive economic profit\n\n\nLong-Run\n\nNew firms (Firms outside the market) see these positive profits, and enter the industry to collect these profits themselves"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#profits-and-market-feedback",
