@@ -697,21 +697,84 @@
     "href": "Slides/08_MarketSupply/082-short-run.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Previously, we referred to the Short-Run Supply Curve as the curved created by P = MC\n\nWe are able to say this is the short-run because over a longer time horizon:\n\nFirms will enter or exit the market\n\n\n. . .\nIn other words, in the Long-Run:\n\n\nFirms that are already in the market can choose to exit the market and stop paying the Fixed Costs\nAdditionally, new firms can enter the market and begin to pay the Fixed Costs"
+    "text": "Previously, we graphed the supply curve to include the firm’s shut-down decision:\n\n. . .\nBecause the firm has to either produce something or nothing in the short term, this is the Short-Run Supply Curve"
   },
   {
-    "objectID": "Slides/08_MarketSupply/082-short-run.html#short-run-vs-long-run",
-    "href": "Slides/08_MarketSupply/082-short-run.html#short-run-vs-long-run",
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#short-run-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#short-run-supply",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Previously, we referred to the Short-Run Supply Curve as the curved created by P = MC\n\nWe are able to say this is the short-run because over a longer time horizon:\n\nFirms will enter or exit the market\n\n\n. . .\nIn other words, in the Long-Run:\n\n\nFirms that are already in the market can choose to exit the market and stop paying the Fixed Costs\nAdditionally, new firms can enter the market and begin to pay the Fixed Costs"
+    "text": "Previously, we graphed the supply curve to include the firm’s shut-down decision:\n\n. . .\nBecause the firm has to either produce something or nothing in the short term, this is the Short-Run Supply Curve"
   },
   {
-    "objectID": "Slides/08_MarketSupply/082-short-run.html#what-makes-a-firm-enter-or-exit",
-    "href": "Slides/08_MarketSupply/082-short-run.html#what-makes-a-firm-enter-or-exit",
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#short-run-vs-long-run-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#short-run-vs-long-run-supply",
     "title": "EC311 Intermediate Micro",
-    "section": "What Makes a Firm Enter or Exit?",
-    "text": "What Makes a Firm Enter or Exit?\nWhat could determines whether a firm enters or exists the market?\n. . .\nPROFITS\n\n\nWe saw how the perfectly competitive firm can be operating optimally and still have negative profits\n\nSome firms will operate at a loss as long as it is less than their Fixed Costs\n\nThere are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits\n\n\n. . .\nIn either case, the fact that profits are not zero has implications for the Long-Run"
+    "section": "Short-Run vs Long-Run Supply",
+    "text": "Short-Run vs Long-Run Supply\n\nThis is the short-run because the firm can’t operate on the margin of their fixed costs\n\nEventually firms can enter by choosing to paying the startup costs\nor exit the market by recouping their fixed costs"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#what-affects-short-term-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#what-affects-short-term-supply",
+    "title": "EC311 Intermediate Micro",
+    "section": "What Affects Short-Term Supply?",
+    "text": "What Affects Short-Term Supply?\nWhat could change how much quantity firms are willing to produce in the short-run?\n\nAnything that affects their marginal costs!\n\nTechnology (more productive inputs \\(\\downarrow\\) MC \\(\\rightarrow\\) \\(\\uparrow Q^s\\))\nInput prices (more expensive labor \\(\\uparrow MC \\rightarrow \\downarrow Q^s\\)"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#what-does-not-affect-short-term-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#what-does-not-affect-short-term-supply",
+    "title": "EC311 Intermediate Micro",
+    "section": "What Does Not Affect Short-Term Supply?",
+    "text": "What Does Not Affect Short-Term Supply?\nAny fixed costs have to be treated as sunk costs in the short run, and do factor into MC\n\nThis includes:\n\nFactory space\nContracted costs (annual, multi-year, etc.)\nR&D costs"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#producer-surplus",
+    "href": "Slides/08_MarketSupply/082-short-run.html#producer-surplus",
+    "title": "EC311 Intermediate Micro",
+    "section": "Producer Surplus",
+    "text": "Producer Surplus\nIn the short run, a firm can earn a markup over their costs.\nAnother way of measuring this markup is the producer surplus\n\\[PS = TR - VC\\]\n\nHow much more does the firm gain in revenue compared to its costs"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#producer-surplus-1",
+    "href": "Slides/08_MarketSupply/082-short-run.html#producer-surplus-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Producer Surplus",
+    "text": "Producer Surplus\nWhat does it look like?"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#firm-supply---market-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#firm-supply---market-supply",
+    "title": "EC311 Intermediate Micro",
+    "section": "Firm Supply -> Market Supply",
+    "text": "Firm Supply -&gt; Market Supply\nA single firm \\(i\\)’s supply decision: pick \\(q_i\\) quantity to maximize profit\n\\[ MC_i(q_i) \\bigg\\rvert_{q_i\\geq 0} = MR_i = P\\]\n\n\n\\(MC_i\\) is firm \\(i\\)’s supply curve, or willingness to sell\nIf we wanted the supply function we could rerrange: \\(q_i^S = MC_i^{-1}(P)\\)"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#firm-supply---market-supply-1",
+    "href": "Slides/08_MarketSupply/082-short-run.html#firm-supply---market-supply-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Firm Supply -> Market Supply",
+    "text": "Firm Supply -&gt; Market Supply\nAn example:\n\\[ MC_i(q_i) = q_i^2 -20q_i +100 \\]\n\n\nCan be rewritten as \\(MC = (q_i - 10)^2\\)\n\\(q_i^S = MC_i^{-1}(P) = \\sqrt{P} + 10\\)"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#market-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#market-supply",
+    "title": "EC311 Intermediate Micro",
+    "section": "Market Supply",
+    "text": "Market Supply\nWe will label Market Supply as \\(Q^{S}\\)\nAnd it is obtained in the exact same way as market demand\n. . .\n\nIf you know the \\(q_i^S\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q^{S} = 10 \\cdot Q^{*}\n\\]"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#market-supply-example",
+    "href": "Slides/08_MarketSupply/082-short-run.html#market-supply-example",
+    "title": "EC311 Intermediate Micro",
+    "section": "Market Supply Example",
+    "text": "Market Supply Example\nConsider up to 10 firms all with \\(MC=q_i^2 - 20q + 100\\)\n\nThen \\(Q^S = 10 \\cdot (\\sqrt{P} +10)\\)"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/082-short-run.html#long-run-market-supply",
+    "href": "Slides/08_MarketSupply/082-short-run.html#long-run-market-supply",
+    "title": "EC311 Intermediate Micro",
+    "section": "Long-Run Market Supply",
+    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n. . .\nPROFITS\n\n\nWe saw how the perfectly competitive firm can be operating optimally and still have negative profits\n\nSome firms will operate at a loss as long as it is less than their Fixed Costs\n\nThere are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits\n\n\n. . .\nIn either case, the fact that profits are not zero has implications for the Long-Run"
   },
   {
     "objectID": "Slides/08_MarketSupply/082-short-run.html#short-run-to-long-run-exit-condition",
@@ -7238,18 +7301,32 @@
     "text": "Function of Factors Example\nIf we leave \\(w\\) unspecified, these results can have some useful interpretations:\n\n\n\\[\n    w = 5 \\cdot 8L^{-1/2} \\;\\;\\; \\Rightarrow \\;\\;\\; \\text{Labor Demand Curve}\n\\]\n\n\n\n\\[\n    L^{*} = \\frac{1600}{w^{2}} \\;\\;\\; \\Rightarrow \\;\\;\\; \\text{Labor Demand Function}\n\\]"
   },
   {
-    "objectID": "Slides/08_MarketSupply/081-markets.html",
-    "href": "Slides/08_MarketSupply/081-markets.html",
+    "objectID": "Slides/08_MarketSupply/080-quiz.html",
+    "href": "Slides/08_MarketSupply/080-quiz.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "We will label Market Supply as \\(Q_{S}\\)\nAnd it is obtained in the exact same way as market demand\n. . .\n\nIf you know the \\(Q^{*}\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q_{S} = 10 \\cdot Q^{*}\n\\]\n. . .\nBut finding market supply is not as interesting as the dynamics between the Short-Run & Long-Run"
+    "text": "Currently, a firm with a cost function of \\(C(Q) = \\frac{1}{2}Q^2\\), is producing 30 units in a perfectly competitive market.\nIf the price they sell their goods for were $30, how would you describe their short-run situation?\n\nThey are producing too much\nThey aren’t producing enough\nThey are maximizing profit\nImpossible to tell"
   },
   {
-    "objectID": "Slides/08_MarketSupply/081-markets.html#market-supply",
-    "href": "Slides/08_MarketSupply/081-markets.html#market-supply",
+    "objectID": "Slides/08_MarketSupply/080-quiz.html#costs-question",
+    "href": "Slides/08_MarketSupply/080-quiz.html#costs-question",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "We will label Market Supply as \\(Q_{S}\\)\nAnd it is obtained in the exact same way as market demand\n. . .\n\nIf you know the \\(Q^{*}\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q_{S} = 10 \\cdot Q^{*}\n\\]\n. . .\nBut finding market supply is not as interesting as the dynamics between the Short-Run & Long-Run"
+    "text": "Currently, a firm with a cost function of \\(C(Q) = \\frac{1}{2}Q^2\\), is producing 30 units in a perfectly competitive market.\nIf the price they sell their goods for were $30, how would you describe their short-run situation?\n\nThey are producing too much\nThey aren’t producing enough\nThey are maximizing profit\nImpossible to tell"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/080-quiz.html#costs-question-answer",
+    "href": "Slides/08_MarketSupply/080-quiz.html#costs-question-answer",
+    "title": "EC311 Intermediate Micro",
+    "section": "Costs Question (Answer)",
+    "text": "Costs Question (Answer)\nCurrently, a firm with a cost function of \\(C(Q) = \\frac{1}{2}Q^2\\), is producing 30 units in a perfectly competitive market.\nIf the price they sell their goods for were $30, how would you describe their short-run situation?\n\nThey are producing too much\nThey aren’t producing enough\nThey are maximizing profit\nImpossible to tell"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/080-quiz.html#costs-question-answer-1",
+    "href": "Slides/08_MarketSupply/080-quiz.html#costs-question-answer-1",
+    "title": "EC311 Intermediate Micro",
+    "section": "Costs Question (Answer)",
+    "text": "Costs Question (Answer)\nRecall that profit maximization happens when \\(MR=MC\\).\n\n\n\\(\\color{red}{ MC = \\frac{\\delta C}{\\delta Q} = 2\\frac{1}{2}Q^{2-1} = Q}\\)\n\\(\\color{green}{MR = \\$30}\\)\n\\(Q^s = 30\\)\n\\(\\color{green}{MR = 30} = \\color{red}{30 = MC}\\)\nSo profit is maximized"
   },
   {
     "objectID": "Slides/08_MarketSupply/083-long-run.html",
@@ -7441,25 +7518,102 @@
     "text": "A Sudden Long-Run Graph!!!"
   },
   {
+    "objectID": "Slides/08_MarketSupply/main.html#costs-question",
+    "href": "Slides/08_MarketSupply/main.html#costs-question",
+    "title": "Market Supply",
+    "section": "Costs Question",
+    "text": "Costs Question\nCurrently, a firm with a cost function of \\(C(Q) = \\frac{1}{2}Q^2\\), is producing 30 units in a perfectly competitive market.\nIf the price they sell their goods for were $30, how would you describe their short-run situation?\n\nThey are producing too much\nThey aren’t producing enough\nThey are maximizing profit\nImpossible to tell"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#costs-question-answer",
+    "href": "Slides/08_MarketSupply/main.html#costs-question-answer",
+    "title": "Market Supply",
+    "section": "Costs Question (Answer)",
+    "text": "Costs Question (Answer)\nCurrently, a firm with a cost function of \\(C(Q) = \\frac{1}{2}Q^2\\), is producing 30 units in a perfectly competitive market.\nIf the price they sell their goods for were $30, how would you describe their short-run situation?\n\nThey are producing too much\nThey aren’t producing enough\nThey are maximizing profit\nImpossible to tell"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#costs-question-answer-1",
+    "href": "Slides/08_MarketSupply/main.html#costs-question-answer-1",
+    "title": "Market Supply",
+    "section": "Costs Question (Answer)",
+    "text": "Costs Question (Answer)\nRecall that profit maximization happens when \\(MR=MC\\).\n\n\n\\(\\color{red}{ MC = \\frac{\\delta C}{\\delta Q} = 2\\frac{1}{2}Q^{2-1} = Q}\\)\n\\(\\color{green}{MR = \\$30}\\)\n\\(Q^s = 30\\)\n\\(\\color{green}{MR = 30} = \\color{red}{30 = MC}\\)\nSo profit is maximized"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#short-run-supply",
+    "href": "Slides/08_MarketSupply/main.html#short-run-supply",
+    "title": "Market Supply",
+    "section": "Short-Run Supply",
+    "text": "Short-Run Supply\nPreviously, we graphed the supply curve to include the firm’s shut-down decision:\n\n\nBecause the firm has to either produce something or nothing in the short term, this is the Short-Run Supply Curve"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#short-run-vs-long-run-supply",
+    "href": "Slides/08_MarketSupply/main.html#short-run-vs-long-run-supply",
+    "title": "Market Supply",
+    "section": "Short-Run vs Long-Run Supply",
+    "text": "Short-Run vs Long-Run Supply\n\nThis is the short-run because the firm can’t operate on the margin of their fixed costs\n\nEventually firms can enter by choosing to paying the startup costs\nor exit the market by recouping their fixed costs"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#what-affects-short-term-supply",
+    "href": "Slides/08_MarketSupply/main.html#what-affects-short-term-supply",
+    "title": "Market Supply",
+    "section": "What Affects Short-Term Supply?",
+    "text": "What Affects Short-Term Supply?\nWhat could change how much quantity firms are willing to produce in the short-run?\n\nAnything that affects their marginal costs!\n\nTechnology (more productive inputs \\(\\downarrow\\) MC \\(\\rightarrow\\) \\(\\uparrow Q^s\\))\nInput prices (more expensive labor \\(\\uparrow MC \\rightarrow \\downarrow Q^s\\)"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#what-does-not-affect-short-term-supply",
+    "href": "Slides/08_MarketSupply/main.html#what-does-not-affect-short-term-supply",
+    "title": "Market Supply",
+    "section": "What Does Not Affect Short-Term Supply?",
+    "text": "What Does Not Affect Short-Term Supply?\nAny fixed costs have to be treated as sunk costs in the short run, and do factor into MC\n\nThis includes:\n\nFactory space\nContracted costs (annual, multi-year, etc.)\nR&D costs"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#producer-surplus",
+    "href": "Slides/08_MarketSupply/main.html#producer-surplus",
+    "title": "Market Supply",
+    "section": "Producer Surplus",
+    "text": "Producer Surplus\nIn the short run, a firm can earn a markup over their costs.\nAnother way of measuring this markup is the producer surplus\n\\[PS = TR - VC\\]\n\nHow much more does the firm gain in revenue compared to its costs"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#producer-surplus-1",
+    "href": "Slides/08_MarketSupply/main.html#producer-surplus-1",
+    "title": "Market Supply",
+    "section": "Producer Surplus",
+    "text": "Producer Surplus\nWhat does it look like?"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#firm-supply---market-supply",
+    "href": "Slides/08_MarketSupply/main.html#firm-supply---market-supply",
+    "title": "Market Supply",
+    "section": "Firm Supply -> Market Supply",
+    "text": "Firm Supply -&gt; Market Supply\nA single firm \\(i\\)’s supply decision: pick \\(q_i\\) quantity to maximize profit\n\\[ MC_i(q_i) \\bigg\\rvert_{q_i\\geq 0} = MR_i = P\\]\n\n\n\\(MC_i\\) is firm \\(i\\)’s supply curve, or willingness to sell\nIf we wanted the supply function we could rerrange: \\(q_i^S = MC_i^{-1}(P)\\)"
+  },
+  {
+    "objectID": "Slides/08_MarketSupply/main.html#firm-supply---market-supply-1",
+    "href": "Slides/08_MarketSupply/main.html#firm-supply---market-supply-1",
+    "title": "Market Supply",
+    "section": "Firm Supply -> Market Supply",
+    "text": "Firm Supply -&gt; Market Supply\nAn example:\n\\[ MC_i(q_i) = q_i^2 -20q_i +100 \\]\n\n\nCan be rewritten as \\(MC = (q_i - 10)^2\\)\n\\(q_i^S = MC_i^{-1}(P) = \\sqrt{P} + 10\\)"
+  },
+  {
     "objectID": "Slides/08_MarketSupply/main.html#market-supply",
     "href": "Slides/08_MarketSupply/main.html#market-supply",
     "title": "Market Supply",
     "section": "Market Supply",
-    "text": "Market Supply\nWe will label Market Supply as \\(Q_{S}\\)\nAnd it is obtained in the exact same way as market demand\n\n\nIf you know the \\(Q^{*}\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q_{S} = 10 \\cdot Q^{*}\n\\]\n\n\nBut finding market supply is not as interesting as the dynamics between the Short-Run & Long-Run"
+    "text": "Market Supply\nWe will label Market Supply as \\(Q^{S}\\)\nAnd it is obtained in the exact same way as market demand\n\n\nIf you know the \\(q_i^S\\) of one firm, and there are 10 identical firms, then we get\n\n\\[\n    Q^{S} = 10 \\cdot Q^{*}\n\\]"
   },
   {
-    "objectID": "Slides/08_MarketSupply/main.html#short-run-vs-long-run",
-    "href": "Slides/08_MarketSupply/main.html#short-run-vs-long-run",
+    "objectID": "Slides/08_MarketSupply/main.html#market-supply-example",
+    "href": "Slides/08_MarketSupply/main.html#market-supply-example",
     "title": "Market Supply",
-    "section": "Short-Run vs Long-Run",
-    "text": "Short-Run vs Long-Run\nPreviously, we referred to the Short-Run Supply Curve as the curved created by P = MC\n\nWe are able to say this is the short-run because over a longer time horizon:\n\nFirms will enter or exit the market\n\n\n\nIn other words, in the Long-Run:\n\n\nFirms that are already in the market can choose to exit the market and stop paying the Fixed Costs\nAdditionally, new firms can enter the market and begin to pay the Fixed Costs"
+    "section": "Market Supply Example",
+    "text": "Market Supply Example\nConsider up to 10 firms all with \\(MC=q_i^2 - 20q + 100\\)\n\nThen \\(Q^S = 10 \\cdot (\\sqrt{P} +10)\\)"
   },
   {
-    "objectID": "Slides/08_MarketSupply/main.html#what-makes-a-firm-enter-or-exit",
-    "href": "Slides/08_MarketSupply/main.html#what-makes-a-firm-enter-or-exit",
+    "objectID": "Slides/08_MarketSupply/main.html#long-run-market-supply",
+    "href": "Slides/08_MarketSupply/main.html#long-run-market-supply",
     "title": "Market Supply",
-    "section": "What Makes a Firm Enter or Exit?",
-    "text": "What Makes a Firm Enter or Exit?\nWhat could determines whether a firm enters or exists the market?\n\nPROFITS\n\n\nWe saw how the perfectly competitive firm can be operating optimally and still have negative profits\n\nSome firms will operate at a loss as long as it is less than their Fixed Costs\n\nThere are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits\n\n\n\n\nIn either case, the fact that profits are not zero has implications for the Long-Run"
+    "section": "Long-Run Market Supply",
+    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n\nPROFITS\n\n\nWe saw how the perfectly competitive firm can be operating optimally and still have negative profits\n\nSome firms will operate at a loss as long as it is less than their Fixed Costs\n\nThere are also circumstances in which the perfectly competitive firm can behave optimally and make positive profits\n\n\n\n\nIn either case, the fact that profits are not zero has implications for the Long-Run"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#short-run-to-long-run-exit-condition",
@@ -8747,7 +8901,7 @@
     "href": "index.html#tentative-schedule",
     "title": "Home",
     "section": "Tentative Schedule",
-    "text": "Tentative Schedule\n\n\n\nWeek\nTopic\nAssignments\n\n\n\n\n1\nCh 2: Intro & Review\nQuiz 1 & Ch 2 HW\n\n\n2\nCh 4: Utility & Indifference\nQuiz 2\n\n\n3\nCh 4: Budgets & Optimization\nQuiz 3 & Ch 4 HW\n\n\n4\nCh 5: Demand\nQuiz 4 & Ch 5 HW\n\n\n5\nMIDTERM\nWednesday, April 30th\n\n\n6\nCh 6: Production\nCh 6 HW\n\n\n7\nCh 7: Cost Functions\nQuiz 5 & Ch 7 HW\n\n\n8\nMonday: no class (Memorial Day), Ch 8: Supply\nQuiz 6 & Ch 8 HW\n\n\n9\nCh 9: Monopoly\nCh 9 HW\n\n\n10\nCh 11: Imperfect Competition\nQuiz 7 & Ch 11 HW\n\n\nFinals\nWednesday, June 11, 2:45pm\nExam\n\n\n\n\nCourse Grade Breakdown\nFor more details, read the Syllabus below\n\n\n\nAssignment\nGrade Weight\n\n\n\n\nParticipation\n5%\n\n\nAchieve Homework\n20%\n\n\nCanvas Quizzes\n15%\n\n\nMidterm Exam\n30%\n\n\nFinal Exam\n30%\n\n\n\n\n\nAchieve Access\nFollow this link to register for our course in Achieve once you have purchased an access code.\nThe course code is fm6j5k."
+    "text": "Tentative Schedule\n\n\n\nWeek\nTopic\nAssignments\n\n\n\n\n1\nCh 2: Intro & Review\nQuiz 1 & Ch 2 HW\n\n\n2\nCh 4: Utility & Indifference\nQuiz 2\n\n\n3\nCh 4: Budgets & Optimization\nQuiz 3 & Ch 4 HW\n\n\n4\nCh 5: Demand\nQuiz 4 & Ch 5 HW\n\n\n5\nMIDTERM\nWednesday, April 30th\n\n\n6\nCh 6: Production\nCh 6 HW\n\n\n7\nCh 7: Cost Functions\nQuiz 5 & Ch 7 HW\n\n\n8\nCh 8: Supply\nQuiz 6 & Ch 8 HW\n\n\n9\nMonday: no class (Memorial Day), Ch 9: Monopoly\nCh 9 HW\n\n\n10\nCh 11: Imperfect Competition\nQuiz 7 & Ch 11 HW\n\n\nFinals\nWednesday, June 11, 2:45pm\nExam\n\n\n\n\nCourse Grade Breakdown\nFor more details, read the Syllabus below\n\n\n\nAssignment\nGrade Weight\n\n\n\n\nParticipation\n5%\n\n\nAchieve Homework\n20%\n\n\nCanvas Quizzes\n15%\n\n\nMidterm Exam\n30%\n\n\nFinal Exam\n30%\n\n\n\n\n\nAchieve Access\nFollow this link to register for our course in Achieve once you have purchased an access code.\nThe course code is fm6j5k."
   },
   {
     "objectID": "index.html#syllabus",
