@@ -1,0 +1,202 @@
+#+begin_src R :session *R*
+library(shiny)
+library(ggplot2)
+
+demand_intercept <- 1000
+demand_slope <- 0.5
+
+# Demand curve parameters
+# User interface
+
+ui <- fluidPage(
+  titlePanel("Market Simulation Activity"),
+    
+  sidebarLayout(
+    sidebarPanel(
+      numericInput("numGroups", "Number of Participants (up to 100):", value = 12, min = 1, max = 100),
+      uiOutput("groupInputs")
+    ),
+        
+    mainPanel(
+      plotOutput("demandPlot"),
+      textOutput("marketPriceText"),
+      tableOutput("profitTable")
+    )
+  )
+)
+
+# Server logic
+server <- function(input, output, session) {
+
+  demand_params <- reactive({
+    demand_slope <- 0.5
+    demand_intercept <-  10 * input$numGroups
+    list(intercept = demand_intercept, slope = demand_slope)
+  })
+
+  # Function to generate cost coefficients
+  generateCostCoefficients <- reactive({
+    lapply(1:input$numGroups, function(i) {
+      a <- sample(c(1, 6), 1)
+      b <- sample(c(-2:4), 1)
+      c <- sample(c(-2:6), 1)
+      d <- runif(1, 0.1, 2)
+      list(a = a, b = b, c = c, d = d)
+    })
+  })
+
+  # Generate UI for group quantities dynamically based on number of groups
+  output$groupInputs <- renderUI({
+    coefficients <- generateCostCoefficients()
+    lapply(1:input$numGroups, function(i) {
+      firm_coeffs <- coefficients[[i]]
+      fluidRow(
+        column(9, numericInput(paste0("individual", i), paste("Firm", i, "Quantity:"), value = 0, min = 0)),
+        column(3, 
+          textOutput(paste0("costFunction", i)))
+      )   
+    })
+  })
+
+  # Output each firm's cost function as text
+  observe({
+    coefficients <- generateCostCoefficients()
+    lapply(1:input$numGroups, function(i) {
+      firm_coeffs <- coefficients[[i]]
+      output[[paste0("costFunction", i)]] <- renderText({
+        paste("C(q) =", round(firm_coeffs$a, 2), "q^3 +", 
+              round(firm_coeffs$b, 2), "q^2 +", 
+              round(firm_coeffs$c, 2), "q +", 
+              round(firm_coeffs$d, 2))
+      })
+    })
+  })
+    
+  # Reactive calculation of total quantity from all groups
+  totalQuantity <- reactive({
+    sum(sapply(1:input$numGroups, function(i) input[[paste0("individual", i)]]), na.rm = TRUE)
+  })
+
+  # Reactive calculation of market price based on total quantity and adjusted demand curve
+  marketPrice <- reactive({
+    params <- demand_params()
+    params$intercept - params$slope * totalQuantity()
+  })
+
+  # Output the profit table
+  output$profitTable <- renderTable({
+  req(input$numGroups)  # Ensure numGroups is set
+
+  group_quantities <- sapply(1:input$numGroups, function(i) input[[paste0("individual", i)]])
+
+  coefficients <- generateCostCoefficients()  # Get coefficient values
+  price <- marketPrice()  # Get current market price
+
+  group_revenues <- group_quantities * price  # Calculate revenue for each firm
+  group_costs <- mapply(function(q, coeffs) {
+    # Calculate total cost using the cost function
+    a <- coeffs$a
+    b <- coeffs$b
+    c <- coeffs$c
+    d <- coeffs$d
+    total_cost <- a * q^3 + b * q^2 + c * q + d
+    return(total_cost)
+  }, group_quantities, coefficients)
+
+  group_profits <- group_revenues - group_costs  # Calculate profit
+
+  # Create a data frame for group profits
+  data.frame(
+    Group = paste("Firm", 1:input$numGroups),
+    Quantity = group_quantities,
+    Revenue = round(group_revenues, 2),
+    Total_Cost = round(group_costs, 2),
+    Profit = round(group_profits, 2)
+  )
+  })
+   
+  # Plotting the demand curve with the intersection point for market price
+  output$demandPlot <- renderPlot({
+    params <- demand_params()
+    Q_values <- 0:(params$intercept / params$slope)
+    demand_curve <- params$intercept - params$slope * Q_values
+    
+    ggplot(data = data.frame(Q = Q_values, Demand = demand_curve), aes(x = Q, y = Demand)) +
+      geom_line(color = "blue") +
+      geom_vline(xintercept = totalQuantity(), color = "red") +
+      geom_point(aes(x = totalQuantity(), y = marketPrice()), color = "red", size = 3) +
+      labs(
+        title = "Market Demand and Supply",
+        x = "Total Quantity",
+        y = "Price"
+      ) +
+      theme_minimal()
+  })
+  
+  # Displaying the market price as text
+  output$marketPriceText <- renderText({
+    paste("Market Price $", round(marketPrice(), 2))
+  })
+}
+
+# Run the app
+shinyApp(ui, server)
+#+end_src
+
+Instead of setting the demand_intercept and demand_slope globally, I want to change the demand_intercept based on the number of firms. So I want demand_slope = 10 times the number of firms
+
+To modify the =demand_intercept= based on the number of firms and set =demand_slope= to 10 times the number of firms, you can update the server function in your Shiny app. Here's how to do it:
+
+1. Remove the global definitions of =demand_intercept= and =demand_slope=.
+2. Define =demand_intercept= and =demand_slope= inside the server function, based on the =input$numGroups=.
+
+Here’s the updated server logic:
+
+#+begin_src r
+server <- function(input, output, session) {
+  
+  # ... [previous code]
+
+  # Reactive demand parameters based on the number of firms
+  demand_params <- reactive({
+    demand_slope <- 10 * input$numGroups
+    demand_intercept <- 1000  # Set this as needed or make it dynamic
+    list(intercept = demand_intercept, slope = demand_slope)
+  })
+
+  # Reactive calculation of market price based on total quantity and adjusted demand curve
+  marketPrice <- reactive({
+    params <- demand_params()
+    params$intercept - params$slope * totalQuantity()
+  })
+
+  # Update the plot to use new demand parameters
+  output$demandPlot <- renderPlot({
+    params <- demand_params()
+    Q_values <- 0:(params$intercept / params$slope)
+    demand_curve <- params$intercept - params$slope * Q_values
+    
+    ggplot(data = data.frame(Q = Q_values, Demand = demand_curve), aes(x = Q, y = Demand)) +
+      geom_line(color = "blue") +
+      geom_vline(xintercept = totalQuantity(), color = "red") +
+      geom_point(aes(x = totalQuantity(), y = marketPrice()), color = "red", size = 3) +
+      labs(
+        title = "Market Demand and Supply",
+        x = "Total Quantity",
+        y = "Price"
+      ) +
+      theme_minimal()
+  })
+  
+  # Displaying the market price as text
+  output$marketPriceText <- renderText({
+    paste("Market Price $", round(marketPrice(), 2))
+  })
+
+}
+
+# Run the app
+shinyApp(ui, server)
+#+end_src
+
+This modification ensures that the demand curve parameters are computed dynamically based on the number of firms, refining the behavior of your simulation accordingly.
