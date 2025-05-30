@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.43">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.31">
 
   <meta name="dcterms.date" content="2025-01-01">
   <title>EC311 Intermediate Micro – Cost Functions</title>
@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-c33b7b69d8c732ec0f33ed130da4fbd9.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-7d7b2e01514a43f980efb5cc4484c757.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -234,12 +234,10 @@ L^*(w=16,r=25,Q=900) &amp;= 37.5 \\
 K^*(w=16,r=25,Q=900) &amp;= 24
 \end{align}
 \]</span></p>
-<div>
 <ul>
 <li class="fragment">What happens if UO dining wants to double its production?</li>
 <li class="fragment">Would they need double the amount of <span class="math inline">\(K\)</span> and <span class="math inline">\(L\)</span>?</li>
 </ul>
-</div>
 </section>
 <section id="what-are-returns-to-scale" class="slide level2">
 <h2>What Are Returns to Scale?</h2>
@@ -247,26 +245,22 @@ K^*(w=16,r=25,Q=900) &amp;= 24
 <p>If I <span class="h">increase my inputs by equal amounts (such that labor and capital increase by some constant <span class="math inline">\(z\)</span>)</span>, how much does my <span class="h">output increase by</span>?</p>
 <div class="fragment">
 <p>There are three possible outcomes:</p>
-<div>
 <ul>
 <li class="fragment">Decreasing Returns to Scale (DRS)</li>
 <li class="fragment">Constant Returns to Scale (CRS)</li>
 <li class="fragment">Increasing Returns to Scale (IRS)</li>
 </ul>
 </div>
-</div>
 </section>
 <section id="returns-to-scale-example" class="slide level2">
 <h2>Returns to Scale Example</h2>
 <p>If UO dining doubles their inputs, how much output would they get?</p>
 <p><span class="math display">\[f(2\cdot K^*, 2\cdot L^*) = ?\]</span></p>
-<div>
 <ul>
 <li class="fragment"><span class="math inline">\(f(2\cdot 24, 2\cdot 37.5) = (48)\cdot(75) = 3600\)</span></li>
 <li class="fragment"><span class="math inline">\(f(2\cdot 24, 2\cdot 37.5) = 3600 &gt; 2\cdot f(24,37.5) = 1800\)</span></li>
 <li class="fragment">So <span class="math inline">\(f(.)\)</span> experiences <span class="h">increasing returns to scale</span></li>
 </ul>
-</div>
 </section>
 <section id="returns-to-scale-mathematically" class="slide level2">
 <h2>Returns to Scale: Mathematically</h2>
@@ -347,14 +341,12 @@ C^*(Q) = 2\sqrt{wrQ}
 <p>Our goal for the second half of the class is to minimize costs.</p>
 <p>We will do this by deriving a <span class="hi">minimzed cost function</span> but what even is it?</p>
 <p>Let’s begin by introducing some useful notation:</p>
-<div>
 <ul>
 <li class="fragment">The <span class="hi-red">minimized cost function</span> will be <span class="hi-red"><span class="math inline">\(C^{*}(Q)\)</span></span>
 <ul>
 <li class="fragment">This function tells us that for any given quantity <span class="math inline">\((Q)\)</span>, <span class="hi-red"><span class="math inline">\(C^{*}(Q)\)</span></span> represents the cheapest way possible to produce <span class="math inline">\(Q\)</span></li>
 </ul></li>
 </ul>
-</div>
 <div class="fragment">
 <p>We will leverage this information:</p>
 <blockquote>
@@ -368,14 +360,12 @@ C^*(Q) = 2\sqrt{wrQ}
 <p><span class="math display">\[
     C^{*}(Q) = wL^{*}(Q) + rK^{*}(Q)
 \]</span></p>
-<div>
 <p>To find this we will</p>
 <ul>
 <li class="fragment">Find the MRST and set it equal to the price ratio</li>
 <li class="fragment">Plug into our Q constraint and find a <span class="math inline">\(L^{*}\)</span> and <span class="math inline">\(K^{*}\)</span> in terms of <span class="math inline">\(Q\)</span></li>
 <li class="fragment">Find the cost of the optimal <span class="math inline">\(L^{*}\)</span> and <span class="math inline">\(K^{*}\)</span></li>
 </ul>
-</div>
 <div class="fragment">
 <p>Last lecture we found levels of <span class="math inline">\(L^{*}\)</span> and <span class="math inline">\(K^{*}\)</span> when we knew <span class="math inline">\(Q\)</span>. Now we will keep <span class="math inline">\(Q\)</span> as a variable so we can find costs for any possible quantity.</p>
 </div>
@@ -476,14 +466,12 @@ C^*(Q) = 2\sqrt{wrQ}
 <section id="why-bother-with-cost-functions" class="slide level2">
 <h2>Why Bother With Cost Functions?</h2>
 <p>With the <span class="h">Cost Minimization</span> problem, we took our level of production, <span class="math inline">\(Q\)</span>, as given and tried to figure out the most efficient combo of inputs to meet our quota.</p>
-<div>
 <ul>
 <li class="fragment">But assuming we’ve already figured out the best way to hit <em>any</em> quota, now we can think about what scale of production to target</li>
 <li class="fragment">Our investors just care that we can figure out how much it will cost to hit our market demand</li>
 <li class="fragment">We will introduce profits later</li>
 <li class="fragment">This decision is where <span class="hi">Supply</span> will come from</li>
 </ul>
-</div>
 <div class="fragment">
 <p>But before we can get into <span class="h">Profit Maximization</span>, we will dive deeper into understanding cost functions</p>
 </div>
@@ -497,7 +485,6 @@ C^*(Q) = 2\sqrt{wrQ}
 <div class="fragment">
 <p>For now, we can figure out how we expect cost functions to behave:</p>
 <p>Assume a generic cost function such that <span class="math inline">\(C = F(Q)\)</span></p>
-<div>
 <ul>
 <li class="fragment"><p>When <span class="math inline">\(Q\)</span> <span class="hi">increases</span> what do we expect to happen to <span class="math inline">\(C\)</span>?</p>
 <ul>
@@ -510,7 +497,6 @@ C^*(Q) = 2\sqrt{wrQ}
 </ul></li>
 </ul>
 </div>
-</div>
 </section>
 <section id="derivative-of-cq" class="slide level2">
 <h2>Derivative of <span class="math inline">\(C(Q)\)</span></h2>
@@ -522,7 +508,6 @@ C^*(Q) = 2\sqrt{wrQ}
 <h2>Marginal Costs</h2>
 <p>We will add an additional assumption to make our lives easier</p>
 <p><span class="h note align-center">Assume that firms production functions exhibit decreasing returns</span></p>
-<div>
 <ul>
 <li class="fragment">This has a direct implication on our <span class="hi">Marginal Cost curve</span>
 <ul>
@@ -531,7 +516,6 @@ C^*(Q) = 2\sqrt{wrQ}
 </ul></li>
 <li class="fragment">So <span class="hi">Decreasing Returns to Scale (DRS)</span> = <span class="hi">Increasing Marginal Costs</span></li>
 </ul>
-</div>
 </section>
 <section id="marginal-cost-curves" class="slide level2">
 <h2>Marginal Cost Curves</h2>
@@ -541,12 +525,10 @@ C^*(Q) = 2\sqrt{wrQ}
 <h2>Cost of Producing Nothing?</h2>
 <p>Does it actually cost nothing to make nothing?</p>
 <p>We will assume that there exists some form of overhead or <span class="hi">fixed costs</span> associated with producing goods</p>
-<div>
 <ul>
 <li class="fragment">A business pays rent on their warehouse no matter how empty or full it is</li>
 <li class="fragment">A restaurant has to purchase a license in order to serve food/alcohol</li>
 </ul>
-</div>
 <div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -565,12 +547,10 @@ C^*(Q) = 2\sqrt{wrQ}
 </ul>
 </div>
 <div class="fragment">
-<div>
 <p>So this is true, but only up to a point</p>
 <ul>
 <li class="fragment">We are perfectly comforable modeling firms that <span class="hi">initially experience decreasing marginal costs</span> but at a high-enough quantity produced, they <span class="hi">must experience increasing marginal costs</span></li>
 </ul>
-</div>
 </div>
 </section>
 <section id="initial-decreasing-marginal-costs-with-increasing-marginal-costs-at-high-quantity" class="slide level2">
@@ -623,12 +603,10 @@ C^*(Q) = 2\sqrt{wrQ}
 <li>To sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.</li>
 </ul>
 <p>How can we catogorize the different costs?</p>
-<div>
 <ul>
 <li class="fragment">the lease is a <span class="h">fixed cost</span> that F21 has to treat as a <span class="h">sunk cost</span> in the short-run</li>
 <li class="fragment">everything else is <span class="h">variable</span>; it depends on how many clothes they want to sell</li>
 </ul>
-</div>
 </section>
 <section id="fixed-and-variable-costs-example-as-table" class="slide level2">
 <h2>Fixed and Variable Costs Example as Table</h2>
@@ -1076,7 +1054,6 @@ C^*(Q) = 2\sqrt{wrQ}
 <h2>Key Things About Graphing Costs</h2>
 <p>As always, the scale is not very important</p>
 <p>But be sure to get the <span class="hi">most important facts down</span>:</p>
-<div>
 <ul>
 <li class="fragment">They are all convex (open upwards)</li>
 <li class="fragment"><span class="hi">AVC</span> is always below the <span class="hi">ATC</span></li>
@@ -1086,7 +1063,6 @@ C^*(Q) = 2\sqrt{wrQ}
 </ul></li>
 <li class="fragment">As always, label your curves and axis!</li>
 </ul>
-</div>
 </section>
 <section id="importance-of-average-total-marginal-cost-relationship" class="slide level2 smaller">
 <h2>Importance of Average Total &amp; Marginal Cost Relationship</h2>
@@ -1096,7 +1072,6 @@ C^*(Q) = 2\sqrt{wrQ}
 </figure>
 </div>
 <p>What is so special about the point where <span class="hi">MC</span> and <span class="hi">ATC</span> cross?</p>
-<div>
 <ul>
 <li class="fragment">It is where the <span class="hi">ATC</span> is at it’s minimum value</li>
 <li class="fragment">Mathematically, this is where the derivative of <span class="hi">ATC <span class="math inline">\(= 0\)</span></span>
@@ -1104,7 +1079,6 @@ C^*(Q) = 2\sqrt{wrQ}
 <li class="fragment">This implies that the <span class="hi">MC = ATC</span></li>
 </ul></li>
 </ul>
-</div>
 <div class="fragment">
 <p>Let’s look at an example that will show us what I mean intuitively</p>
 </div>
@@ -1115,19 +1089,16 @@ C^*(Q) = 2\sqrt{wrQ}
 <p>Then someone new joins the class</p>
 <div class="fragment">
 <p>What happens to the <span class="hi">average height</span> if the new person is <a href="https://wheelofnames.com/" class="hi">shorter than the average</a>?</p>
-<div>
 <ul>
 <li class="fragment"><p>It <span class="hi">decreases</span></p></li>
 <li class="fragment"><p>When the <span class="h">Marginal Person</span> is <span class="hi">shorter than the average</span>, the <span class="hi">average</span> <span class="hi-red">decreases</span></p></li>
 <li class="fragment"><p>When the <span class="h">Marginal Person</span> is <span class="hi">taller than the average</span>, the <span class="hi">average</span> <span class="hi-green">increases</span></p></li>
 </ul>
 </div>
-</div>
 </section>
 <section id="average-total-marginal-cost-relationship-1" class="slide level2">
 <h2>Average Total &amp; Marginal Cost Relationship</h2>
 <p>At our sweet spot where <span class="hi">MC = ATC</span> at the minimum of the <span class="hi">ATC</span> we can say:</p>
-<div>
 <ul>
 <li class="fragment"><p>When the <span class="hi">Marginal Cost</span> is less than the <span class="hi">Average Total Cost</span>, the <span class="hi">ATC</span> must be <span class="hi-red">decreasing</span></p></li>
 <li class="fragment"><p>When the <span class="hi">Marginal Cost</span> is larger than the <span class="hi">Average Total Cost</span>, the <span class="hi">ATC</span> must be <span class="hi-green">increasing</span></p></li>
@@ -1137,7 +1108,6 @@ C^*(Q) = 2\sqrt{wrQ}
 </ul></li>
 <li class="fragment"><p>All of this will be useful for our next topic: <span class="hi">Profit Maximization</span></p></li>
 </ul>
-</div>
 
 
 </section></section>
@@ -1357,190 +1327,172 @@ C^*(Q) = 2\sqrt{wrQ}
       });
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
-        } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
-        }
-      }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
-        }
-      }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
-          }
-        }
-        return false;
-      }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
-          }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/dyasui\.github\.io\/EC-311\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          return false;
         }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
             }
-          }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
         }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
               }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/dyasui\.github\.io\/EC-311\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      }
-    });
-    </script>
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
     
 
 </body></html>

@@ -543,7 +543,7 @@
     "href": "Slides/09_Monopoly/091-market-power.html#maximizing-monopoly-profits",
     "title": "EC311 Intermediate Micro",
     "section": "Maximizing Monopoly Profits",
-    "text": "Maximizing Monopoly Profits\nLuckily, we maximize their profits the exact same way as before\nBy finding \\(Q^{*}\\) from \\(\\frac{\\partial \\pi}{\\partial Q} = 0\\)\n\\[\n    \\pi = 100Q - 2Q^{2} \\;\\;\\;\\; \\& \\;\\;\\;\\; P = 100 - Q\n\\]\nFind the Profit Maximizing Quantity and the Market Price\n\n\nFinding Profit Maximizing Quantity\n\n\\[\\begin{align*}\n    \\frac{\\partial \\pi}{\\partial Q} &= 0 \\\\ \\\\\n    100 - 4Q &= 0 \\\\ \\\\\n    40Q &= 100 \\\\ \\\\\n    Q^{*}_{M} &= 25\n\\end{align*}\\]\n\n\nFinding Market Price\n\n\n\\[\\begin{align*}\n    P &= 100 - Q^{*}_{M} \\\\ \\\\\n    P^{*}_{M} &= 100 - 25 \\\\ \\\\\n    P^{*}_{M} &= 75\n\\end{align*}\\]"
+    "text": "Maximizing Monopoly Profits\nLuckily, we maximize their profits the exact same way as before\nBy finding \\(Q^{*}\\) from \\(\\frac{\\partial \\pi}{\\partial Q} = 0\\)\n\\[\n    \\pi = 100Q - 2Q^{2} \\;\\;\\;\\; \\& \\;\\;\\;\\; P = 100 - Q\n\\]\nFind the Profit Maximizing Quantity and the Market Price\n\n\nFinding Profit Maximizing Quantity\n\n\\[\\begin{align*}\n    \\frac{\\partial \\pi}{\\partial Q} &= 0 \\\\ \\\\\n    100 - 4Q &= 0 \\\\ \\\\\n    4Q &= 100 \\\\ \\\\\n    Q^{*}_{M} &= 25\n\\end{align*}\\]\n\n\nFinding Market Price\n\n\n\\[\\begin{align*}\n    P &= 100 - Q^{*}_{M} \\\\ \\\\\n    P^{*}_{M} &= 100 - 25 \\\\ \\\\\n    P^{*}_{M} &= 75\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/09_Monopoly/091-market-power.html#how-does-this-compare-to-our-perfectly-competitive-market",
@@ -830,7 +830,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#perfect-competition-assumptions",
     "title": "Profit Maximization",
     "section": "Perfect Competition Assumptions",
-    "text": "Perfect Competition Assumptions\nWe will begin with Perfectly Competitive Markets\nAnd we will set some key assumptions\n\n\n\n\nNumber of Firms: There are a large number of firms in the market\n\nAny single firm’s decisions has no impact on the market equilibrium.\n\n\n\n\n\n\nProducts Sold: All firms make identical products\n\nThis means that consumers will treat all goods produced as perfect substitutes.\n\n\n\n\n\n\n\nBarriers to Entry: There are no barriers to entry/exit\n\nThis means that any new firm is free to enter the market and start producing/selling without any obstacles. Similarly, any firm that wants to exit the market can do so freely.\n\n\n\n\n\n\nThe key implication from these assumptions is that firms do not have a choice on what price to charge"
+    "text": "Perfect Competition Assumptions\nWe will begin with Perfectly Competitive Markets\nAnd we will set some key assumptions\n\n\n\nNumber of Firms: There are a large number of firms in the market\n\nAny single firm’s decisions has no impact on the market equilibrium.\n\n\n\n\nProducts Sold: All firms make identical products\n\nThis means that consumers will treat all goods produced as perfect substitutes.\n\n\n\n\n\nBarriers to Entry: There are no barriers to entry/exit\n\nThis means that any new firm is free to enter the market and start producing/selling without any obstacles. Similarly, any firm that wants to exit the market can do so freely.\n\n\n\n\n\nThe key implication from these assumptions is that firms do not have a choice on what price to charge"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#what-we-have-done-so-far",
@@ -858,7 +858,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#revenue",
     "title": "Profit Maximization",
     "section": "Revenue",
-    "text": "Revenue\nWe define Revenue as:\n\\[\n    \\text{Revenue} = P \\cdot Q\n\\]\n\nPlugging this into our Profit function gives us:\n\\[\\begin{align*}\n    \\pi &= \\color{red}{\\text{Revenue}} - \\text{Cost} \\\\\n    \\pi &= \\color{red}{P \\cdot Q} - \\text{Cost}\n\\end{align*}\\]\nThis is where Production is simpler:\n\n\nProfits are a single-variable function\nThis means that the math to maximize profits is straightforward\nWe will just take the derivative and set it equal to zero"
+    "text": "Revenue\nWe define Revenue as:\n\\[\n    \\text{Revenue} = P \\cdot Q\n\\]\n\nPlugging this into our Profit function gives us:\n\\[\\begin{align*}\n    \\pi &= \\color{red}{\\text{Revenue}} - \\text{Cost} \\\\\n    \\pi &= \\color{red}{P \\cdot Q} - \\text{Cost}\n\\end{align*}\\]\nThis is where Production is simpler:\n\nProfits are a single-variable function\nThis means that the math to maximize profits is straightforward\nWe will just take the derivative and set it equal to zero"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#maximizing-profit",
@@ -879,7 +879,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#profit-maximizing-condition",
     "title": "Profit Maximization",
     "section": "Profit Maximizing Condition",
-    "text": "Profit Maximizing Condition\nThe firm will be at its maximum profit when they meet the condition \\[\n    P = MC(Q)\n\\]\n\nFrom the firm’s perspective, this means they sould produce exactly the level of \\(Q\\) at which the Marginal Cost of producing another unit is equal to the price it is sold at\n\n\nHere’s an intuitive example. Let’s say you earn $5 per unit you produce:\n\n\n\n\nThe first unit costs $1 to make\n\nYou would make it!\n\nThe second unit costs $2 to make\n\nYou make it!\n\n\n\n\n\n\nThe third unit costs $4 to make\n\nYou make it!\n\nThe fourth one costs $5.01 to make\n\nYou don’t make it!"
+    "text": "Profit Maximizing Condition\nThe firm will be at its maximum profit when they meet the condition \\[\n    P = MC(Q)\n\\]\n\nFrom the firm’s perspective, this means they sould produce exactly the level of \\(Q\\) at which the Marginal Cost of producing another unit is equal to the price it is sold at\n\n\nHere’s an intuitive example. Let’s say you earn $5 per unit you produce:\n\n\n\nThe first unit costs $1 to make\n\nYou would make it!\n\nThe second unit costs $2 to make\n\nYou make it!\n\n\n\n\nThe third unit costs $4 to make\n\nYou make it!\n\nThe fourth one costs $5.01 to make\n\nYou don’t make it!"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#producing-to-maximize-profits",
@@ -928,7 +928,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#negative-profits",
     "title": "Profit Maximization",
     "section": "Negative Profits",
-    "text": "Negative Profits\nThe previous firm’s maximum profit is a loss of $16\n\n\nNegative Profits can sometimes be the optimal choice\n\nThe firm would have lost more if they had produced zero \\((\\pi(0) = 20)\\)\n\nSo even though they lost money, producing something was still better than not producing at all!\nNow that we know how profits work, we can begin to find the supply curve"
+    "text": "Negative Profits\nThe previous firm’s maximum profit is a loss of $16\n\nNegative Profits can sometimes be the optimal choice\n\nThe firm would have lost more if they had produced zero \\((\\pi(0) = 20)\\)\n\nSo even though they lost money, producing something was still better than not producing at all!\nNow that we know how profits work, we can begin to find the supply curve"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#finding-the-firms-supply-function",
@@ -970,14 +970,14 @@
     "href": "Slides/07_ProfitMaximization/main.html#where-is-supply-2",
     "title": "Profit Maximization",
     "section": "Where is Supply?",
-    "text": "Where is Supply?\n\n\n\n\n\n\n\n\n\nThe Marginal Cost Curve maps the market price to the profit maximizing \\(Q^{*}\\)\n\n\n\nThe MC Curve IS the Supply Curve for a perfectly competitive firm \\[\n  P = MC = Q + 10\n\\]"
+    "text": "Where is Supply?\n\n\n\n\n\n\n\n\n\nThe Marginal Cost Curve maps the market price to the profit maximizing \\(Q^{*}\\)\n\n\nThe MC Curve IS the Supply Curve for a perfectly competitive firm \\[\n  P = MC = Q + 10\n\\]"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#finding-profit-from-a-graph",
     "href": "Slides/07_ProfitMaximization/main.html#finding-profit-from-a-graph",
     "title": "Profit Maximization",
     "section": "Finding Profit from a Graph",
-    "text": "Finding Profit from a Graph\nWe can also use this graph to find a firm’s profits\nWe will do this in steps:\n\n\nFind revenue (Recall \\(\\text{Revenue} = P \\cdot Q\\))\nFind the firm’s total cost using Average Total Costs\nUse the fact that profit is just the difference between Revenue and Cost"
+    "text": "Finding Profit from a Graph\nWe can also use this graph to find a firm’s profits\nWe will do this in steps:\n\nFind revenue (Recall \\(\\text{Revenue} = P \\cdot Q\\))\nFind the firm’s total cost using Average Total Costs\nUse the fact that profit is just the difference between Revenue and Cost"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#finding-revenue",
@@ -1005,7 +1005,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#finding-profit-1",
     "title": "Profit Maximization",
     "section": "Finding Profit",
-    "text": "Finding Profit\nSomething imoprtant that we have already mentioned is tha profits can be Positive, Negative, or Zero\nIn math terms, this is determined if:\n\n\nWhen \\(P &gt; ATC\\), the firm has Positive Profits\nWhen \\(P &lt; ATC\\), the firm has Negative Profits\nWhen \\(P = ATC\\), the firm has Zero Profits"
+    "text": "Finding Profit\nSomething imoprtant that we have already mentioned is tha profits can be Positive, Negative, or Zero\nIn math terms, this is determined if:\n\nWhen \\(P &gt; ATC\\), the firm has Positive Profits\nWhen \\(P &lt; ATC\\), the firm has Negative Profits\nWhen \\(P = ATC\\), the firm has Zero Profits"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#why-would-a-firm-ever-want-zero-profits",
@@ -1033,7 +1033,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#zero-profit-condition-equalities",
     "title": "Profit Maximization",
     "section": "Zero-Profit Condition Equalities",
-    "text": "Zero-Profit Condition Equalities\nFrom all the work we’ve done so far, we know that this point is the intersection of many different things\n\n\nWe begin with \\(P = ATC(Q^{*})\\)\nRecall we found that \\(P = MC(Q^{*})\\) at that intersection \\[\n  P = ATC(Q^{*}) = MC(Q^{*})\n\\]\nLastly, remember that the Marginal Cost Curve and the Average Cost Curve cross at the minimum of the ATC Curve \\[\n  P = ATC(Q^{*}) = MC(Q^{*}) = \\min\\{ATC(Q^{*})\\}\n\\]"
+    "text": "Zero-Profit Condition Equalities\nFrom all the work we’ve done so far, we know that this point is the intersection of many different things\n\nWe begin with \\(P = ATC(Q^{*})\\)\nRecall we found that \\(P = MC(Q^{*})\\) at that intersection \\[\n  P = ATC(Q^{*}) = MC(Q^{*})\n\\]\nLastly, remember that the Marginal Cost Curve and the Average Cost Curve cross at the minimum of the ATC Curve \\[\n  P = ATC(Q^{*}) = MC(Q^{*}) = \\min\\{ATC(Q^{*})\\}\n\\]"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#zero-profit-condition-1",
@@ -1047,7 +1047,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#zero-profit-condition-example",
     "title": "Profit Maximization",
     "section": "Zero-Profit Condition Example",
-    "text": "Zero-Profit Condition Example\nFrom just the Cost Function we can find the Supply Curve for the firm, and the Price at which it achieves zero profits\nWe will do this by:\n\n\nFinding the Supply Curve\nFinding the Optimal Quantity \\((Q^{*})\\) to produce\nFinding the \\(\\pi = 0\\) price"
+    "text": "Zero-Profit Condition Example\nFrom just the Cost Function we can find the Supply Curve for the firm, and the Price at which it achieves zero profits\nWe will do this by:\n\nFinding the Supply Curve\nFinding the Optimal Quantity \\((Q^{*})\\) to produce\nFinding the \\(\\pi = 0\\) price"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#find-supply-curve",
@@ -1089,7 +1089,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#negative-profits-1",
     "title": "Profit Maximization",
     "section": "Negative Profits",
-    "text": "Negative Profits\nHow can we tell whether a firm should produce or shut down?\n\n\nThe Average Total Cost tells us whether a firm makes profits or losses\n\n\\(P = ATC\\) means that \\(P \\cdot Q = ATC(Q^{*}) = C(Q^{*})\\)\n\nThe Average Variable Cost tells us whether a firm makes profits or losses, ignoring fixed costs\n\n\\(P = AVC\\) means that \\(P \\cdot Q = AVC(Q^{*}) \\cdot Q = VC(Q^{*})\\)\n\n\n\n\n\nIf \\(P = AVC(Q^{*}) \\rightarrow\\) The firm makes no gains from producing!"
+    "text": "Negative Profits\nHow can we tell whether a firm should produce or shut down?\n\nThe Average Total Cost tells us whether a firm makes profits or losses\n\n\\(P = ATC\\) means that \\(P \\cdot Q = ATC(Q^{*}) = C(Q^{*})\\)\n\nThe Average Variable Cost tells us whether a firm makes profits or losses, ignoring fixed costs\n\n\\(P = AVC\\) means that \\(P \\cdot Q = AVC(Q^{*}) \\cdot Q = VC(Q^{*})\\)\n\n\n\n\nIf \\(P = AVC(Q^{*}) \\rightarrow\\) The firm makes no gains from producing!"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#when-do-firms-shut-down",
@@ -1103,7 +1103,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#perfectly-competitive-firm-shutdown-condition",
     "title": "Profit Maximization",
     "section": "Perfectly Competitive Firm Shutdown Condition",
-    "text": "Perfectly Competitive Firm Shutdown Condition\nWe have the following conditions:\n\n\nIf \\(P = AVC(Q^{*})\\), the firm is indifferent between producing and shutting down\nIf \\(P &lt; AVC(Q^{*})\\), the firm shuts down\nIf \\(P &gt; AVC(Q^{*})\\), the firm will produce\n\n\n\nRecall that MC = AVC at min{AVC} so it is equivalent to say:\n\n\n\\(P = \\min\\{AVC\\} \\rightarrow\\) firm is indifferent\n\\(P &lt; \\min\\{AVC\\} \\rightarrow\\) firm shuts down\n\\(P &gt; \\min\\{AVC\\} \\rightarrow\\) firm produces"
+    "text": "Perfectly Competitive Firm Shutdown Condition\nWe have the following conditions:\n\nIf \\(P = AVC(Q^{*})\\), the firm is indifferent between producing and shutting down\nIf \\(P &lt; AVC(Q^{*})\\), the firm shuts down\nIf \\(P &gt; AVC(Q^{*})\\), the firm will produce\n\n\nRecall that MC = AVC at min{AVC} so it is equivalent to say:\n\n\n\\(P = \\min\\{AVC\\} \\rightarrow\\) firm is indifferent\n\\(P &lt; \\min\\{AVC\\} \\rightarrow\\) firm shuts down\n\\(P &gt; \\min\\{AVC\\} \\rightarrow\\) firm produces"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#two-important-conditions",
@@ -1124,7 +1124,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#effects-on-the-supply-curve",
     "title": "Profit Maximization",
     "section": "Effects on the Supply Curve",
-    "text": "Effects on the Supply Curve\nThe Shut-Down Condition will impact what the Supply Curve looks like\n\n\nBecause the firm will shut down if \\(P &lt; \\min\\{AVC\\}\\), we need to adjust our Supply Curve\nRemember we found that the Supply Curve was the Marginal Cost Curve\nThis is still true, but we are adding our Shut-Down Condition"
+    "text": "Effects on the Supply Curve\nThe Shut-Down Condition will impact what the Supply Curve looks like\n\nBecause the firm will shut down if \\(P &lt; \\min\\{AVC\\}\\), we need to adjust our Supply Curve\nRemember we found that the Supply Curve was the Marginal Cost Curve\nThis is still true, but we are adding our Shut-Down Condition"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#supply-curve-with-shut-down-condition",
@@ -1152,7 +1152,7 @@
     "href": "Slides/07_ProfitMaximization/main.html#rewriting-profit-using-inputs",
     "title": "Profit Maximization",
     "section": "Rewriting Profit Using Inputs",
-    "text": "Rewriting Profit Using Inputs\nIf things are simplified when only thinking about quantity, why do this at all?\nRemember our jersey example, by doing this we can put both the factory’s and Nike’s decision together in one step\n\n\n\nOur factors of production are Labor and Capital\nCosts look like: \\(wL + rK\\)\nRevenue is: \\(P \\cdot Q\\)\nQuantity is determined by: \\(Q = F(L,K)\\)\n\n\n\n\nAll put together we get:\n\\[\\begin{align*}\n    \\pi &= \\text{Revenue} - \\text{Cost} \\\\\n    \\pi &= P \\cdot \\color{red}{Q} - \\left( wL + rK \\right) \\\\\n    \\pi &= P \\cdot \\color{red}{F(L,K)} - \\left( wL + rK \\right)\n\\end{align*}\\]"
+    "text": "Rewriting Profit Using Inputs\nIf things are simplified when only thinking about quantity, why do this at all?\nRemember our jersey example, by doing this we can put both the factory’s and Nike’s decision together in one step\n\n\nOur factors of production are Labor and Capital\nCosts look like: \\(wL + rK\\)\nRevenue is: \\(P \\cdot Q\\)\nQuantity is determined by: \\(Q = F(L,K)\\)\n\n\n\nAll put together we get:\n\\[\\begin{align*}\n    \\pi &= \\text{Revenue} - \\text{Cost} \\\\\n    \\pi &= P \\cdot \\color{red}{Q} - \\left( wL + rK \\right) \\\\\n    \\pi &= P \\cdot \\color{red}{F(L,K)} - \\left( wL + rK \\right)\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/main.html#profit-as-a-function-of-factors-1",
@@ -1586,28 +1586,28 @@
     "href": "Slides/05_Production/main.html#big-picture",
     "title": "Production",
     "section": "Big Picture",
-    "text": "Big Picture\nAs economists, we want a model of market economies based in rational choice theory.\n\nWhy?\n\n\nMake positive predictions about economics consequences of future world-events\nGuide efficient production of market goods. I.e., how to make the most of the limited resources we have\nGuide policy makers to craft socially-efficient policies. E.g., How to make public funds benefit the maximum amount of people in need?"
+    "text": "Big Picture\nAs economists, we want a model of market economies based in rational choice theory.\n\nWhy?\n\nMake positive predictions about economics consequences of future world-events\nGuide efficient production of market goods. I.e., how to make the most of the limited resources we have\nGuide policy makers to craft socially-efficient policies. E.g., How to make public funds benefit the maximum amount of people in need?"
   },
   {
     "objectID": "Slides/05_Production/main.html#big-picture-1",
     "href": "Slides/05_Production/main.html#big-picture-1",
     "title": "Production",
     "section": "Big Picture",
-    "text": "Big Picture\nOur first step was to construct a model of a rational consumer.\n\n\nThis allows us to predict what will people do when things change:\n\nhow income changes affect consumption\nhow price changes affect consumption and substitution\n\n…without telling making judgements about what they should do"
+    "text": "Big Picture\nOur first step was to construct a model of a rational consumer.\n\nThis allows us to predict what will people do when things change:\n\nhow income changes affect consumption\nhow price changes affect consumption and substitution\n\n…without telling making judgements about what they should do"
   },
   {
     "objectID": "Slides/05_Production/main.html#big-picture-2",
     "href": "Slides/05_Production/main.html#big-picture-2",
     "title": "Production",
     "section": "Big Picture",
-    "text": "Big Picture\nBut markets are not only influenced by consumers, so now we will consider the other side; firms, or producers of goods.\n\n\nIf consumers care about maximising their happines, what do we think producers care about?\n\nProfit! 💰💰💰\nMeeting the needs of their consumers\n\ncould apply even to non-profits like government agencies or NGO’s"
+    "text": "Big Picture\nBut markets are not only influenced by consumers, so now we will consider the other side; firms, or producers of goods.\n\nIf consumers care about maximising their happines, what do we think producers care about?\n\nProfit! 💰💰💰\nMeeting the needs of their consumers\n\ncould apply even to non-profits like government agencies or NGO’s"
   },
   {
     "objectID": "Slides/05_Production/main.html#big-picture-3",
     "href": "Slides/05_Production/main.html#big-picture-3",
     "title": "Production",
     "section": "Big Picture",
-    "text": "Big Picture\nWhy should we care about what big corporations do with their inputs?\n\n\nBecause as consumers we are affected by the choices they make\nOur models here can be applied to sujects like anti-trust policy, environmental regulations, and other consumer welfare issues!\nWe’ll start off with assuming perfect competition, full information, no externalities, etc. but by relaxing these assumptions we can apply our simple models to tackle big issues"
+    "text": "Big Picture\nWhy should we care about what big corporations do with their inputs?\n\nBecause as consumers we are affected by the choices they make\nOur models here can be applied to sujects like anti-trust policy, environmental regulations, and other consumer welfare issues!\nWe’ll start off with assuming perfect competition, full information, no externalities, etc. but by relaxing these assumptions we can apply our simple models to tackle big issues"
   },
   {
     "objectID": "Slides/05_Production/main.html#why-care-about-industrial-production",
@@ -1628,21 +1628,21 @@
     "href": "Slides/05_Production/main.html#firms-what-do-they-make-how-do-they-make-it-lets-find-out",
     "title": "Production",
     "section": "Firms: What do They Make? How Do They Make It? Let’s Find Out!",
-    "text": "Firms: What do They Make? How Do They Make It? Let’s Find Out!\nLet’s determine the role of the firm\n\n\nFirms produce goods (output) to sell consumers\nTo produce output, firms need factors of production (inputs) such as labor and capital\nFirms use a production process (technology) to transform inputs into output"
+    "text": "Firms: What do They Make? How Do They Make It? Let’s Find Out!\nLet’s determine the role of the firm\n\nFirms produce goods (output) to sell consumers\nTo produce output, firms need factors of production (inputs) such as labor and capital\nFirms use a production process (technology) to transform inputs into output"
   },
   {
     "objectID": "Slides/05_Production/main.html#firm-productivity",
     "href": "Slides/05_Production/main.html#firm-productivity",
     "title": "Production",
     "section": "Firm Productivity",
-    "text": "Firm Productivity\nHow firms choose to produce things is guided by a similar principle to how individuals consume things\n\n\nMarginal Productivity\n\n\nThe impact of one additional factor of production on the total amount produced\nRecall that utility is usually diminishing as consumption increases\nProductivity also diminishes as a firm uses more inputs"
+    "text": "Firm Productivity\nHow firms choose to produce things is guided by a similar principle to how individuals consume things\n\n\nMarginal Productivity\n\nThe impact of one additional factor of production on the total amount produced\nRecall that utility is usually diminishing as consumption increases\nProductivity also diminishes as a firm uses more inputs"
   },
   {
     "objectID": "Slides/05_Production/main.html#production-assumptions",
     "href": "Slides/05_Production/main.html#production-assumptions",
     "title": "Production",
     "section": "Production Assumptions",
-    "text": "Production Assumptions\nJust like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\n\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
+    "text": "Production Assumptions\nJust like we made simplifying assumptions about consumers, we’ll need some ground rules for producers:\n\n\n\nSingle production good\nProduct choice is fixed\nCost minimization\nCapital is fixed in short-run\n\n\n\nMore inputs \\(\\rightarrow\\) more outputs\nDiminishing marginal returns\nFirm’s aren’t budget constrained\n\n\n\nI’ll tackle each one in a slightly different order, but this is how they appear in the textbook"
   },
   {
     "objectID": "Slides/05_Production/main.html#assumption-1-single-output",
@@ -1656,7 +1656,7 @@
     "href": "Slides/05_Production/main.html#production-functions",
     "title": "Production",
     "section": "Production Functions",
-    "text": "Production Functions\nIn mathematical language: a production function takes inputs to create a quantity of output:\n\\[f(x_1,...,x_n) : \\mathbb{R}^n \\rightarrow \\mathbb{R}\\]\n\n\nJust like utility functions, production functions can take multiple inputs"
+    "text": "Production Functions\nIn mathematical language: a production function takes inputs to create a quantity of output:\n\\[f(x_1,...,x_n) : \\mathbb{R}^n \\rightarrow \\mathbb{R}\\]\n\nJust like utility functions, production functions can take multiple inputs"
   },
   {
     "objectID": "Slides/05_Production/main.html#production-functions-1",
@@ -1691,7 +1691,7 @@
     "href": "Slides/05_Production/main.html#the-production-problem",
     "title": "Production",
     "section": "The Production Problem",
-    "text": "The Production Problem\nWe will begin by making a simplifying assumption to make our lives easier\n\nFirms will have 2 typical inputs\n\n\nLabor (L) \\(\\Rightarrow\\) Workers\n\nThe cost of a unit of labor is the wage \\((w)\\) paid\n\nCapital (K) \\(\\Rightarrow\\) Factory space, equipment, hardware, etc.\n\nThe cost of a unit of capital is the rental rate or interest rate \\((r)\\)"
+    "text": "The Production Problem\nWe will begin by making a simplifying assumption to make our lives easier\n\nFirms will have 2 typical inputs\n\nLabor (L) \\(\\Rightarrow\\) Workers\n\nThe cost of a unit of labor is the wage \\((w)\\) paid\n\nCapital (K) \\(\\Rightarrow\\) Factory space, equipment, hardware, etc.\n\nThe cost of a unit of capital is the rental rate or interest rate \\((r)\\)"
   },
   {
     "objectID": "Slides/05_Production/main.html#labor-inputs-for-an-office",
@@ -1754,7 +1754,7 @@
     "href": "Slides/05_Production/main.html#marginal-product-of-labor",
     "title": "Production",
     "section": "Marginal Product of Labor",
-    "text": "Marginal Product of Labor\nThe Marginal Product of Labor is the change in the quantity of production caused by a change in the quantity of labor as an input.\n\n\nGiven a production function \\(f(K,L)\\), how could you find an expression which represents this change for any quantity change of labor?\nTake the partial derivative \\(\\frac{df}{dL}\\) holding capital fixed!\nThis is the slope of our short-run production function!"
+    "text": "Marginal Product of Labor\nThe Marginal Product of Labor is the change in the quantity of production caused by a change in the quantity of labor as an input.\n\nGiven a production function \\(f(K,L)\\), how could you find an expression which represents this change for any quantity change of labor?\nTake the partial derivative \\(\\frac{df}{dL}\\) holding capital fixed!\nThis is the slope of our short-run production function!"
   },
   {
     "objectID": "Slides/05_Production/main.html#graphing-the-short-run-production-function-and-marginal-product",
@@ -1810,7 +1810,7 @@
     "href": "Slides/05_Production/main.html#setting-up-cost-minimization",
     "title": "Production",
     "section": "Setting up Cost-Minimization",
-    "text": "Setting up Cost-Minimization\nWhat are some questions we could ask using the math tools we have learned?\n\n\nWhat combinations of inputs produce the same quantity of output\nHow do firm’s choose to substitute one input for another?\nHow do changes in input costs affect production?"
+    "text": "Setting up Cost-Minimization\nWhat are some questions we could ask using the math tools we have learned?\n\nWhat combinations of inputs produce the same quantity of output\nHow do firm’s choose to substitute one input for another?\nHow do changes in input costs affect production?"
   },
   {
     "objectID": "Slides/05_Production/main.html#isoquants",
@@ -1915,7 +1915,7 @@
     "href": "Slides/05_Production/main.html#whats-actually-different-then",
     "title": "Production",
     "section": "What’s Actually Different Then?",
-    "text": "What’s Actually Different Then?\nAlthough the problem we are solving is essentially the same, the levers we are pulling are not\n\n\nProduction Functions have Isoquants instead of Indifference Curves\nFortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced\nUnlike utility, production is a cardinal value, with meaningful units"
+    "text": "What’s Actually Different Then?\nAlthough the problem we are solving is essentially the same, the levers we are pulling are not\n\nProduction Functions have Isoquants instead of Indifference Curves\nFortunately, they have the same shape as their Indifference Curves but instead of a level of Utility, they represent a level of quantity produced\nUnlike utility, production is a cardinal value, with meaningful units"
   },
   {
     "objectID": "Slides/05_Production/main.html#whats-actually-different-the-process",
@@ -1929,7 +1929,7 @@
     "href": "Slides/05_Production/main.html#what-is-the-same",
     "title": "Production",
     "section": "What is the Same?",
-    "text": "What is the Same?\nSome things have not changed\n\n\nThe slope of the isoquant is the negative MRTS (-MRTS)\nThe MRTS tells us the firm’s willingness to trade away capital to get another unit of labor\nWe still have a price ratio: \\(\\frac{w}{r}\\)"
+    "text": "What is the Same?\nSome things have not changed\n\nThe slope of the isoquant is the negative MRTS (-MRTS)\nThe MRTS tells us the firm’s willingness to trade away capital to get another unit of labor\nWe still have a price ratio: \\(\\frac{w}{r}\\)"
   },
   {
     "objectID": "Slides/05_Production/main.html#extra-property-of-the-production-function",
@@ -1943,14 +1943,14 @@
     "href": "Slides/05_Production/main.html#what-are-returns-to-scale",
     "title": "Production",
     "section": "What Are Returns to Scale?",
-    "text": "What Are Returns to Scale?\nReturns to Scale will measure the following:\nIf I increase my inputs by equal amounts (such that labor and capital increase by some constant \\(z\\)), how much does my output increase by?\n\nThere are three possible outcomes:\n\n\nDecreasing Returns to Scale (DRS)\nConstant Returns to Scale (CRS)\nIncreasing Returns to Scale (IRS)"
+    "text": "What Are Returns to Scale?\nReturns to Scale will measure the following:\nIf I increase my inputs by equal amounts (such that labor and capital increase by some constant \\(z\\)), how much does my output increase by?\n\nThere are three possible outcomes:\n\nDecreasing Returns to Scale (DRS)\nConstant Returns to Scale (CRS)\nIncreasing Returns to Scale (IRS)"
   },
   {
     "objectID": "Slides/05_Production/main.html#returns-to-scale-example",
     "href": "Slides/05_Production/main.html#returns-to-scale-example",
     "title": "Production",
     "section": "Returns to Scale Example",
-    "text": "Returns to Scale Example\nLet’s say you run a small business where you make corndogs. You are currently employing 10 labor hours and 100 units of capital\nAll together, these inputs help you produce 20 Corndogs\n\nNow you double your inputs, such that:\n\n\nLabor Hours \\(10 \\Rightarrow 20\\)\nUnits of Capital \\(100 \\Rightarrow 200\\)\n\nNow you produce 30 Corndogs\n\n\n\n\n\nWhat type of Returns to Scale do you experience?\n\n\nDecreasing Returns to Scale\n\nWheel link on question"
+    "text": "Returns to Scale Example\nLet’s say you run a small business where you make corndogs. You are currently employing 10 labor hours and 100 units of capital\nAll together, these inputs help you produce 20 Corndogs\n\nNow you double your inputs, such that:\n\nLabor Hours \\(10 \\Rightarrow 20\\)\nUnits of Capital \\(100 \\Rightarrow 200\\)\n\nNow you produce 30 Corndogs\n\n\n\n\nWhat type of Returns to Scale do you experience?\n\n\nDecreasing Returns to Scale\n\nWheel link on question"
   },
   {
     "objectID": "Slides/05_Production/main.html#returns-to-scale-mathematically",
@@ -2846,7 +2846,7 @@
     "href": "Slides/03_UtilityMaximization/031-optimal-consumption.html#bc-ic-graph",
     "title": "EC311 Intermediate Micro",
     "section": "BC + IC Graph",
-    "text": "BC + IC Graph\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese are our two ingredients to solving a utility maximization problem"
+    "text": "BC + IC Graph\n\n\n\n\n\n\n\n\n\n\nThese are our two ingredients to solving a utility maximization problem"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/031-optimal-consumption.html#putting-it-together",
@@ -2895,7 +2895,7 @@
     "href": "Slides/02_ConsumerBehavior/Main.html#preferences",
     "title": "Consumer Behavior",
     "section": "Preferences",
-    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n\n\n\nWhat do you notice about the way I represented my preferences here?\n\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\nThe ranking includes an outside option: No boba\nIs it complete? Is there any place I’m missing?"
+    "text": "Preferences\nPreferences describe the subjective ranking that we put on different alternatives.\nFor example, my preference ranking of Eugene boba stores could go:\n\n\n\nTea 4\nBobahead\nDay & Night\nNo boba\nRabbit Hole\n\n\n\nWhat do you notice about the way I represented my preferences here?\n\n\nThis ranking is ordinal; I didn’t say how much more I like each thing, only which I like better\nThe ranking includes an outside option: No boba\nIs it complete? Is there any place I’m missing?"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#axioms-of-preferences",
@@ -2909,7 +2909,7 @@
     "href": "Slides/02_ConsumerBehavior/Main.html#rational-preferences",
     "title": "Consumer Behavior",
     "section": "Rational Preferences",
-    "text": "Rational Preferences\nThe rational model of choice is the foundation of all economics.\nIts axioms are that:\n\n\nPeople have complete preferences\nThose preferences are transitive\nFor convenience, we also usually add other assumptions, such as assuming “More is Better”"
+    "text": "Rational Preferences\nThe rational model of choice is the foundation of all economics.\nIts axioms are that:\n\nPeople have complete preferences\nThose preferences are transitive\nFor convenience, we also usually add other assumptions, such as assuming “More is Better”"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#completeness",
@@ -3028,14 +3028,14 @@
     "href": "Slides/02_ConsumerBehavior/Main.html#rationality-utility",
     "title": "Consumer Behavior",
     "section": "Rationality & Utility",
-    "text": "Rationality & Utility\nOne key proposition of rationality is that we can represent preferences by real numbers.\n\nA utility function maps a choice to a single number.\nFor example, let \\(u(.)\\) be the utility function from emoji to utils\n\nI can have \\(u(🍺) =5\\), \\(u(🌯)=10\\), \\(u(🤸)=25\\)\nI can also have \\(u(🍺 \\ , 🌯) = 20\\), \\(u(🍺 \\ , 🌯 \\ , 🤸) = 15\\)"
+    "text": "Rationality & Utility\nOne key proposition of rationality is that we can represent preferences by real numbers.\nA utility function maps a choice to a single number.\nFor example, let \\(u(.)\\) be the utility function from emoji to utils\n\nI can have \\(u(🍺) =5\\), \\(u(🌯)=10\\), \\(u(🤸)=25\\)\nI can also have \\(u(🍺 \\ , 🌯) = 20\\), \\(u(🍺 \\ , 🌯 \\ , 🤸) = 15\\)"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#ordinal-vs.-cardinal-numbers",
     "href": "Slides/02_ConsumerBehavior/Main.html#ordinal-vs.-cardinal-numbers",
     "title": "Consumer Behavior",
     "section": "Ordinal vs. Cardinal numbers",
-    "text": "Ordinal vs. Cardinal numbers\n\n\nCardinal: amounts which can be measured in meaningful units are cardinal numbers\n\nexamples: $9.99, 80 students, 50:50 odds\n\nOrdinal: all that matters is the relative ranking\n\nexamples: utility; what does 100 utility mean? (it’s less than 200)"
+    "text": "Ordinal vs. Cardinal numbers\n\nCardinal: amounts which can be measured in meaningful units are cardinal numbers\n\nexamples: $9.99, 80 students, 50:50 odds\n\nOrdinal: all that matters is the relative ranking\n\nexamples: utility; what does 100 utility mean? (it’s less than 200)"
   },
   {
     "objectID": "Slides/02_ConsumerBehavior/Main.html#a-two-good-problem",
@@ -3763,7 +3763,7 @@
     "href": "Slides/01_CalculusRev/Main.html#bringing-the-math-to-economics",
     "title": "Calculus Review",
     "section": "Bringing the Math to Economics",
-    "text": "Bringing the Math to Economics\nThink about profits.\nAs a firm, we want to maximize profits so we:\n\n\nWrite down profits as a function of quantity produced\nTake its derivative\nSet that derivative (remember it is a function) equal to zero\nKnow how much quantity to produce\n\n\n\nOnce we know what we are doing, the math is extremely simple.\nThe hard part is understanding what we are doing, and then interpreting what a result of \\(x^{*} = 6\\) means."
+    "text": "Bringing the Math to Economics\nThink about profits.\nAs a firm, we want to maximize profits so we:\n\nWrite down profits as a function of quantity produced\nTake its derivative\nSet that derivative (remember it is a function) equal to zero\nKnow how much quantity to produce\n\n\nOnce we know what we are doing, the math is extremely simple.\nThe hard part is understanding what we are doing, and then interpreting what a result of \\(x^{*} = 6\\) means."
   },
   {
     "objectID": "Slides/01_CalculusRev/Main.html#how-do-we-calculate-derivatives",
@@ -4225,7 +4225,7 @@
     "href": "Labs/index.html",
     "title": "Lab Assignments",
     "section": "",
-    "text": "lab 1 : math review\n\n  pdf\n  \n    \n  \n\n\n\nlab 2 : equilibria and utility functions\n\n  pdf\n  \n    \n  \n\n\n\nlab 3 : utility maximization\n\n  pdf\n  \n    \n  \n\n\n\nlab 4 : demand elasticity\n\n  pdf\n  \n    \n  \n\n\n\nlab 5 : midterm practice\n\n  pdf\n  \n    \n  \n\n\n\nlab 6 : production\n\n  pdf\n  \n    \n  \n\n\n\nlab 7 : costs\n\n  pdf\n  \n    \n  \n\n\n\nlab 8 : costs\n\n  pdf\n  \n    \n  \n\n\n\n\nSolutions\n\nlab 1 : math review\n\n  pdf\n  \n    \n  \n\n\n\nlab 2 : equilibria and utility functions\n\n  pdf\n  \n    \n  \n\n\n\nlab 3 : utility maximization\n\n  pdf\n  \n    \n  \n\n\n\nlab 4 : demand elasticity\n\n  pdf\n  \n    \n  \n\n\n\nlab 5 : midterm practice\n\n  pdf\n  \n    \n  \n\n\n\nlab 6 : production\n\n  pdf\n  \n    \n  \n\n\n\nlab 7 : costs\n\n  pdf\n  \n    \n  \n\n\n\nlab 8 : costs\n\n  pdf"
+    "text": "lab 1 : math review\n\n  pdf\n  \n    \n  \n\n\n\nlab 2 : equilibria and utility functions\n\n  pdf\n  \n    \n  \n\n\n\nlab 3 : utility maximization\n\n  pdf\n  \n    \n  \n\n\n\nlab 4 : demand elasticity\n\n  pdf\n  \n    \n  \n\n\n\nlab 5 : midterm practice\n\n  pdf\n  \n    \n  \n\n\n\nlab 6 : production\n\n  pdf\n  \n    \n  \n\n\n\nlab 7 : costs\n\n  pdf\n  \n    \n  \n\n\n\nlab 8 : costs\n\n  pdf\n  \n    \n  \n\n\n\n\nSolutions\n\nlab 1 : math review\n\n  pdf\n  \n    \n  \n\n\n\nlab 2 : equilibria and utility functions\n\n  pdf\n  \n    \n  \n\n\n\nlab 3 : utility maximization\n\n  pdf\n  \n    \n  \n\n\n\nlab 4 : demand elasticity\n\n  pdf\n  \n    \n  \n\n\n\nlab 5 : midterm practice\n\n  pdf\n  \n    \n  \n\n\n\nlab 6 : production\n\n  pdf\n  \n    \n  \n\n\n\nlab 7 : costs\n\n  pdf\n  \n    \n  \n\n\n\nlab 8 : costs\n\n  pdf\n  \n    \n  \n\n\n\nPerfect Competition Handouts\n\n  pdf\n  \n    \n  \n\n\n  pdf\n  \n    \n  \n\n\n\nImperfect Competition Handouts\n\n  pdf"
   },
   {
     "objectID": "Slides/00_Intro/002-syllabus.html",
@@ -4330,7 +4330,7 @@
     "href": "Slides/00_Intro/Main.html#about-me-an-economist-in-training",
     "title": "Introduction and Overview",
     "section": "About Me (An Economist in Training)",
-    "text": "About Me (An Economist in Training)\n\n\n\n\nI’m from Davis, California\n\n\n\nI’m a 4th year PhD Student\n\nI have taught Game Theory and Econometrics before, but this is my first time teaching 311!\n\nMy current research is focused on historical migration patterns in the US.\nI like roller skating around Eugene, reading science fiction, and listening to music from the former Yugoslavia"
+    "text": "About Me (An Economist in Training)\n\n\n\n\nI’m from Davis, California\n\n\nI’m a 4th year PhD Student\n\nI have taught Game Theory and Econometrics before, but this is my first time teaching 311!\n\nMy current research is focused on historical migration patterns in the US.\nI like roller skating around Eugene, reading science fiction, and listening to music from the former Yugoslavia"
   },
   {
     "objectID": "Slides/00_Intro/Main.html#class-information",
@@ -4358,21 +4358,21 @@
     "href": "Slides/00_Intro/Main.html#assignments",
     "title": "Introduction and Overview",
     "section": "Assignments",
-    "text": "Assignments\nAchieve Online Learning\n\n\nYou MUST register for the course through Achieve\nThis is where you will complete your homework\nIt also gives you access to the digital version of the textbook\nThe course code is fm6j5k\nYour lowest homework grade will be dropped\n1 day grace period (with 5% penalty) \\(\\rightarrow\\) no submissions allowed after that\n\n\nCanvas Quizzes\n\n\nWeekly quizzes that will help you get accustomed to how test questions will look\nRoughly 10 questions with only one attempt allowed\nYour lowest homework grade will be dropped\nNo late submissions allowed"
+    "text": "Assignments\nAchieve Online Learning\n\nYou MUST register for the course through Achieve\nThis is where you will complete your homework\nIt also gives you access to the digital version of the textbook\nThe course code is fm6j5k\nYour lowest homework grade will be dropped\n1 day grace period (with 5% penalty) \\(\\rightarrow\\) no submissions allowed after that\n\nCanvas Quizzes\n\nWeekly quizzes that will help you get accustomed to how test questions will look\nRoughly 10 questions with only one attempt allowed\nYour lowest homework grade will be dropped\nNo late submissions allowed"
   },
   {
     "objectID": "Slides/00_Intro/Main.html#grades",
     "href": "Slides/00_Intro/Main.html#grades",
     "title": "Introduction and Overview",
     "section": "Grades",
-    "text": "Grades\n\n\nHomework\n\n\nAchieve Homework (20%)\n\n8 Assignments\nDue on Mondays of week after they are assigned at 11:59 pm\n\nThe last assignments will be due on the Saturday before Finals week\n\n\nCanvas Quizzes (15%)\n\n7 Quizzes\nDue on Mondays of week after they are assigned at 11:59 pm\n\n\n\n\nExams\n\n\nMidterm (30%)\n\nWeek 5 - Wednesday at 4:00\n\nFinal (30%)\n\nJune 11 - Wednesday at 2:45"
+    "text": "Grades\n\n\nHomework\n\nAchieve Homework (20%)\n\n8 Assignments\nDue on Mondays of week after they are assigned at 11:59 pm\n\nThe last assignments will be due on the Saturday before Finals week\n\n\nCanvas Quizzes (15%)\n\n7 Quizzes\nDue on Mondays of week after they are assigned at 11:59 pm\n\n\n\nExams\n\nMidterm (30%)\n\nWeek 5 - Wednesday at 4:00\n\nFinal (30%)\n\nJune 11 - Wednesday at 2:45"
   },
   {
     "objectID": "Slides/00_Intro/Main.html#grades-1",
     "href": "Slides/00_Intro/Main.html#grades-1",
     "title": "Introduction and Overview",
     "section": "Grades",
-    "text": "Grades\nParticipation\n\n\nI’ll randomly select someone to share their answer to lecture problems\n\nBeing correct is not important, but rather that you attempted it\n\nEveryone will eventually be called upon so you cannot escape it"
+    "text": "Grades\nParticipation\n\nI’ll randomly select someone to share their answer to lecture problems\n\nBeing correct is not important, but rather that you attempted it\n\nEveryone will eventually be called upon so you cannot escape it"
   },
   {
     "objectID": "Slides/00_Intro/Main.html#attendance-wheel",
@@ -5310,7 +5310,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#bc-ic-graph",
     "title": "Utility Maximization",
     "section": "BC + IC Graph",
-    "text": "BC + IC Graph\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese are our two ingredients to solving a utility maximization problem"
+    "text": "BC + IC Graph\n\n\n\n\n\n\n\n\n\n\nThese are our two ingredients to solving a utility maximization problem"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#putting-it-together",
@@ -5366,7 +5366,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#why-does-this-work-1",
     "title": "Utility Maximization",
     "section": "Why Does This Work?",
-    "text": "Why Does This Work?\nImagine what it would it mean if these two slopes were not equal\n\nYou are consuming Bundle A where:\nThe Negative MRS is \\(-4\\)\n\n\nWhat does this mean?\n\nYou are WILLING to give up 4 units of \\(y\\) for 1 unit of \\(x\\)\n\n\n\n\n\nLet’s also say that the Negative Price Ratio is \\(-3\\)\n\n\nWhat does this mean?\n\nYou HAVE to give up 3 units of \\(y\\) for 1 unit of \\(x\\)\n\n\n\n\n\nBecause it is “cheaper” to trade \\(y\\) for \\(x\\) than you are willing to, you will make the trade\n\n\n\nIs this a utility maximizing bundle? Why or Why not?\n\n\nLots of non-rhetorical questions at each pause"
+    "text": "Why Does This Work?\nImagine what it would it mean if these two slopes were not equal\n\nYou are consuming Bundle A where:\nThe Negative MRS is \\(-4\\)\n\nWhat does this mean?\n\nYou are WILLING to give up 4 units of \\(y\\) for 1 unit of \\(x\\)\n\n\n\n\nLet’s also say that the Negative Price Ratio is \\(-3\\)\n\nWhat does this mean?\n\nYou HAVE to give up 3 units of \\(y\\) for 1 unit of \\(x\\)\n\n\n\n\nBecause it is “cheaper” to trade \\(y\\) for \\(x\\) than you are willing to, you will make the trade\n\n\n\nIs this a utility maximizing bundle? Why or Why not?\n\n\nLots of non-rhetorical questions at each pause"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#why-does-this-work-2",
@@ -5387,21 +5387,21 @@
     "href": "Slides/03_UtilityMaximization/Main.html#graph-takeaway---part-ii",
     "title": "Utility Maximization",
     "section": "Graph Takeaway - Part II",
-    "text": "Graph Takeaway - Part II\nThe graph implicitly says:\n\n\nThere are an infinite number of ICs that all correspond to different levels of utility\nThere is only one BC\nUtility maximization happens only when you find the point on the BC that touches the highest possible IC (once)"
+    "text": "Graph Takeaway - Part II\nThe graph implicitly says:\n\nThere are an infinite number of ICs that all correspond to different levels of utility\nThere is only one BC\nUtility maximization happens only when you find the point on the BC that touches the highest possible IC (once)"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#slope-logic-summary",
     "href": "Slides/03_UtilityMaximization/Main.html#slope-logic-summary",
     "title": "Utility Maximization",
     "section": "Slope Logic Summary",
-    "text": "Slope Logic Summary\nThe logic takaways here are:\n\n\nWhen you have a curved IC, you have to set the slope of the IC equal to the slope of the BC to find the utility-maximizing bundle\nIf they are not equal, you would be willing to make some trade to a different bundle\nThe magical point of maximization only occurs if the ICs are Non-Crossing, Monotonic, and Convex\n\nThe weakly monotonic and weakly convex arguments we saw satisfy this\n\nMost importantly, there is only one magical point"
+    "text": "Slope Logic Summary\nThe logic takaways here are:\n\nWhen you have a curved IC, you have to set the slope of the IC equal to the slope of the BC to find the utility-maximizing bundle\nIf they are not equal, you would be willing to make some trade to a different bundle\nThe magical point of maximization only occurs if the ICs are Non-Crossing, Monotonic, and Convex\n\nThe weakly monotonic and weakly convex arguments we saw satisfy this\n\nMost importantly, there is only one magical point"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#how-to-tackle-this-mathematically",
     "href": "Slides/03_UtilityMaximization/Main.html#how-to-tackle-this-mathematically",
     "title": "Utility Maximization",
     "section": "How to Tackle This Mathematically",
-    "text": "How to Tackle This Mathematically\nWe know the steps:\n\n\nCalculate the MRS of a given utility function\nCalculate the Price Ratio using the Budget Constraint\nSet them equal to each other\n\n\n\n\nIt really is this simple, but the math makes it look more complicated"
+    "text": "How to Tackle This Mathematically\nWe know the steps:\n\nCalculate the MRS of a given utility function\nCalculate the Price Ratio using the Budget Constraint\nSet them equal to each other\n\n\n\nIt really is this simple, but the math makes it look more complicated"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#defining-the-problem",
@@ -5471,7 +5471,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#quasi-linear-utility-constrained-optimization",
     "title": "Utility Maximization",
     "section": "Quasi-linear Utility Constrained Optimization",
-    "text": "Quasi-linear Utility Constrained Optimization\nTo solve problems with this utility functional form we repeat the same steps as C-D but we skip step 3\n\n\nFind the MRS and set it equal to the Price Ratio\nSolve the equality for the non-linear good (usually inside the \\(ln()\\))\nUse the BC to find the demand of the other good"
+    "text": "Quasi-linear Utility Constrained Optimization\nTo solve problems with this utility functional form we repeat the same steps as C-D but we skip step 3\n\nFind the MRS and set it equal to the Price Ratio\nSolve the equality for the non-linear good (usually inside the \\(ln()\\))\nUse the BC to find the demand of the other good"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#find-the-mrs-and-set-it-equal-to-the-price-ratio",
@@ -5499,7 +5499,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#perfect-substitutes-constrained-optimization",
     "title": "Utility Maximization",
     "section": "Perfect Substitutes Constrained Optimization",
-    "text": "Perfect Substitutes Constrained Optimization\nRecall the functional form\n\\[U(x,y) = ax + by\\]\n\n\nMathematically, the MRS will just equal a constant \\(\\left(\\dfrac{a}{b} \\right)\\) so setting it equal to the price ratio doesn’t really do much\nIt will either be larger than, smaller than, or equal\nSo what do we do? A graph will help us see"
+    "text": "Perfect Substitutes Constrained Optimization\nRecall the functional form\n\\[U(x,y) = ax + by\\]\n\nMathematically, the MRS will just equal a constant \\(\\left(\\dfrac{a}{b} \\right)\\) so setting it equal to the price ratio doesn’t really do much\nIt will either be larger than, smaller than, or equal\nSo what do we do? A graph will help us see"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#perfect-substitutes-optimization-graph",
@@ -5513,7 +5513,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#perfect-substitutes-optimization-graph-1",
     "title": "Utility Maximization",
     "section": "Perfect Substitutes Optimization Graph",
-    "text": "Perfect Substitutes Optimization Graph\n\nHere, the individual chooses to only consume good \\(x\\) and no \\(y\\). Why?\n\n\nThe ICs are steeper than the BC\nThe intuition is saying that the willingness to trade \\(y\\) for \\(x\\) is always larger than the ability to trade\nThis individual will get all the \\(x\\) they can!"
+    "text": "Perfect Substitutes Optimization Graph\n\nHere, the individual chooses to only consume good \\(x\\) and no \\(y\\). Why?\n\nThe ICs are steeper than the BC\nThe intuition is saying that the willingness to trade \\(y\\) for \\(x\\) is always larger than the ability to trade\nThis individual will get all the \\(x\\) they can!"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#perfect-substitutes-optimization---example",
@@ -5534,7 +5534,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#perfect-substitutes-utility-constrained-optimization",
     "title": "Utility Maximization",
     "section": "Perfect Substitutes Utility Constrained Optimization",
-    "text": "Perfect Substitutes Utility Constrained Optimization\nThe graphs we just saw tell us how to do the math:\n\n\nFind the MRS and Price Ratio\nCompare the MRS to the Price Ratio\n\nIf \\(\\text{MRS} &gt; \\text{Price Ratio}\\), consume all \\(x\\) and \\(y\\) = 0\nIf \\(\\text{MRS} &lt; \\text{Price Ratio}\\), consume all \\(y\\) and \\(x\\) = 0\n\nFigure out how much \\(x\\) and \\(y\\) to consume using the BC"
+    "text": "Perfect Substitutes Utility Constrained Optimization\nThe graphs we just saw tell us how to do the math:\n\nFind the MRS and Price Ratio\nCompare the MRS to the Price Ratio\n\nIf \\(\\text{MRS} &gt; \\text{Price Ratio}\\), consume all \\(x\\) and \\(y\\) = 0\nIf \\(\\text{MRS} &lt; \\text{Price Ratio}\\), consume all \\(y\\) and \\(x\\) = 0\n\nFigure out how much \\(x\\) and \\(y\\) to consume using the BC"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#p-subs-example-mathematically",
@@ -5555,7 +5555,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#perfect-complements-utility-constrained-optimization",
     "title": "Utility Maximization",
     "section": "Perfect Complements Utility Constrained Optimization",
-    "text": "Perfect Complements Utility Constrained Optimization\nRecall: We cannot solve this utility form like the others because there is no MRS\n\nSo let’s see what a graph can tell us\n\\[U(x,y) = \\min \\{2x,3y\\}, \\; P_{x} = 2, \\; P_{y} = 2, \\; M = 40 \\]\n\n\n\n\n\n\n\n\n\n\nPoint C is the minimum point of this indifference curve but is it maximizing?\n\n\nWhy not choose Point A or Point B if they are on the BC & IC?\nBecause there is a higher IC that exists!"
+    "text": "Perfect Complements Utility Constrained Optimization\nRecall: We cannot solve this utility form like the others because there is no MRS\n\nSo let’s see what a graph can tell us\n\\[U(x,y) = \\min \\{2x,3y\\}, \\; P_{x} = 2, \\; P_{y} = 2, \\; M = 40 \\]\n\n\n\n\n\n\n\n\n\n\nPoint C is the minimum point of this indifference curve but is it maximizing?\n\nWhy not choose Point A or Point B if they are on the BC & IC?\nBecause there is a higher IC that exists!"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#perfect-complements-utility-constrained-optimization---graph",
@@ -5576,7 +5576,7 @@
     "href": "Slides/03_UtilityMaximization/Main.html#perfect-complements-contrained-optimization",
     "title": "Utility Maximization",
     "section": "Perfect Complements Contrained Optimization",
-    "text": "Perfect Complements Contrained Optimization\nI will be bold and say that this is one of the simpler utility functions to maximize\nJust be sure to follow the steps:\n\n\nSolve the “No-Waste Condition” for one of the goods (Does not matter which one)\nPlug the optimality condition into the budget constraint and find the demand of one Good\nUse either the BC or the “No-Waste Condition” to solve for the demand of the other good"
+    "text": "Perfect Complements Contrained Optimization\nI will be bold and say that this is one of the simpler utility functions to maximize\nJust be sure to follow the steps:\n\nSolve the “No-Waste Condition” for one of the goods (Does not matter which one)\nPlug the optimality condition into the budget constraint and find the demand of one Good\nUse either the BC or the “No-Waste Condition” to solve for the demand of the other good"
   },
   {
     "objectID": "Slides/03_UtilityMaximization/Main.html#solve-the-no-waste-condition-for-one-of-the-goods",
@@ -5870,14 +5870,14 @@
     "href": "Slides/04_Demand/main.html#applications",
     "title": "Demand",
     "section": "Applications",
-    "text": "Applications\nThe models used to estimate demand responses are derived from utility maximization\nFor example, Dutch Bros sets up a utility that they think represents preferences for their coffee and related goods\n\nThey can derive and estimate the associated demand function from their sales data\n\n\nUp to now, we have only solved utility maximization problems with the goal of finding the level of demand (aka we found numbers)\n\n\nNow we will solve these problems without specifying either price or income\nThis makes it more general, which has its advantages:\n\n\nIt allows us to analyze how demand responds when prices or income change\nThe math stays the same, just that we have more unknowns now"
+    "text": "Applications\nThe models used to estimate demand responses are derived from utility maximization\nFor example, Dutch Bros sets up a utility that they think represents preferences for their coffee and related goods\n\nThey can derive and estimate the associated demand function from their sales data\n\n\nUp to now, we have only solved utility maximization problems with the goal of finding the level of demand (aka we found numbers)\n\n\nNow we will solve these problems without specifying either price or income\nThis makes it more general, which has its advantages:\n\nIt allows us to analyze how demand responds when prices or income change\nThe math stays the same, just that we have more unknowns now"
   },
   {
     "objectID": "Slides/04_Demand/main.html#how-do-we-find-demand-functions",
     "href": "Slides/04_Demand/main.html#how-do-we-find-demand-functions",
     "title": "Demand",
     "section": "How Do We Find Demand Functions?",
-    "text": "How Do We Find Demand Functions?\nLet’s begin with the workhorse of this course: Cobb-Douglas\n\\[\\max U(x,y) = x^{\\alpha}y^{\\beta} \\;\\; \\text{s.t.} \\;\\; P_{x} \\cdot x + P_{y} \\cdot y = M\\]\nRecall how we solve this problem:\n\n\nFind the MRS and set it equal to the Price Ratio\nSolve this equality for one of the goods \\(\\rightarrow\\) Optimality Condition\nPlug the Optimality Condition into the Budget Constraint\nUse the found demand for one good and plug it into the Optimality Condition or Budget Constraint to find demand for the other good"
+    "text": "How Do We Find Demand Functions?\nLet’s begin with the workhorse of this course: Cobb-Douglas\n\\[\\max U(x,y) = x^{\\alpha}y^{\\beta} \\;\\; \\text{s.t.} \\;\\; P_{x} \\cdot x + P_{y} \\cdot y = M\\]\nRecall how we solve this problem:\n\nFind the MRS and set it equal to the Price Ratio\nSolve this equality for one of the goods \\(\\rightarrow\\) Optimality Condition\nPlug the Optimality Condition into the Budget Constraint\nUse the found demand for one good and plug it into the Optimality Condition or Budget Constraint to find demand for the other good"
   },
   {
     "objectID": "Slides/04_Demand/main.html#cobb-douglas-general-solution---step-1",
@@ -5912,14 +5912,14 @@
     "href": "Slides/04_Demand/main.html#cobb-douglas-general-solution---trick",
     "title": "Demand",
     "section": "Cobb-Douglas General Solution - Trick",
-    "text": "Cobb-Douglas General Solution - Trick\nWhen \\(x^{*}\\) and \\(y^{*}\\) are functions, we call them Demand Functions\n\\[x^{*} = \\dfrac{\\alpha}{\\alpha + \\beta} \\cdot \\dfrac{M}{P_{x}}\\;\\;\\;\\;\\;\\; \\& \\;\\;\\;\\;\\;\\; y^{*} = \\dfrac{\\beta}{\\alpha + \\beta} \\cdot \\dfrac{M}{P_{y}} \\]\n\nKnowing a C-D utility looks like \\(U(x,y) = x^{\\alpha} y^{\\beta}\\) what do you notice about these functions?\n\n\nLet me show you a trick for Cobb-Douglas utility functions\n\n\nThey are a constant share of how much I can afford of each individual good\nThis will always be true so you can use this to check your math in later problems\n\n\n\nIf you ever use this in an exam, be sure to explain why this shortcut works (bullet point 1)"
+    "text": "Cobb-Douglas General Solution - Trick\nWhen \\(x^{*}\\) and \\(y^{*}\\) are functions, we call them Demand Functions\n\\[x^{*} = \\dfrac{\\alpha}{\\alpha + \\beta} \\cdot \\dfrac{M}{P_{x}}\\;\\;\\;\\;\\;\\; \\& \\;\\;\\;\\;\\;\\; y^{*} = \\dfrac{\\beta}{\\alpha + \\beta} \\cdot \\dfrac{M}{P_{y}} \\]\n\nKnowing a C-D utility looks like \\(U(x,y) = x^{\\alpha} y^{\\beta}\\) what do you notice about these functions?\n\n\nLet me show you a trick for Cobb-Douglas utility functions\n\nThey are a constant share of how much I can afford of each individual good\nThis will always be true so you can use this to check your math in later problems\n\n\nIf you ever use this in an exam, be sure to explain why this shortcut works (bullet point 1)"
   },
   {
     "objectID": "Slides/04_Demand/main.html#demand-functions",
     "href": "Slides/04_Demand/main.html#demand-functions",
     "title": "Demand",
     "section": "Demand Functions",
-    "text": "Demand Functions\nIn general, the demand for \\(x\\) and \\(y\\) are functions of three variables:\n\n\n\n\\(P_{x}\\), \\(P_{y}\\), and \\(M\\)\nThis allows us to write demand functions as:\n\n\\(x^{*} = f(P_{x}, P_{y}, M)\\)\n\\(y^{*} = f(P_{x}, P_{y}, M)\\)\n\nWe are interested in how demand responds to changes to all three arguments"
+    "text": "Demand Functions\nIn general, the demand for \\(x\\) and \\(y\\) are functions of three variables:\n\n\n\\(P_{x}\\), \\(P_{y}\\), and \\(M\\)\nThis allows us to write demand functions as:\n\n\\(x^{*} = f(P_{x}, P_{y}, M)\\)\n\\(y^{*} = f(P_{x}, P_{y}, M)\\)\n\nWe are interested in how demand responds to changes to all three arguments"
   },
   {
     "objectID": "Slides/04_Demand/main.html#techniques-to-find-demand-functions",
@@ -5947,14 +5947,14 @@
     "href": "Slides/04_Demand/main.html#more-goods",
     "title": "Demand",
     "section": "More Goods",
-    "text": "More Goods\nThe previous graphs tell us\n\nWhen income \\((M)\\) goes up, you can now reach a higher IC and be better off (relatively)\nThis graph also makes an important assumption\n\n\n\nBoth goods ,\\(x\\) and \\(y\\), are desirable\n\nWe call these Normal Goods\n\n\n\n\nNormal Goods are desirable, which simply means that if we have more income we will consume more of them"
+    "text": "More Goods\nThe previous graphs tell us\n\nWhen income \\((M)\\) goes up, you can now reach a higher IC and be better off (relatively)\nThis graph also makes an important assumption\n\n\nBoth goods ,\\(x\\) and \\(y\\), are desirable\n\nWe call these Normal Goods\n\n\n\nNormal Goods are desirable, which simply means that if we have more income we will consume more of them"
   },
   {
     "objectID": "Slides/04_Demand/main.html#other-types-of-goods",
     "href": "Slides/04_Demand/main.html#other-types-of-goods",
     "title": "Demand",
     "section": "Other Types of Goods?",
-    "text": "Other Types of Goods?\nDoes it always have to be the case that consumpution of both \\(x\\) and \\(y\\) has to increase in response to an increase in income?\n\nNo! There are goods we call Inferior Goods\n\n\nThese goods are consumed less when income increases\nA classic example of this is Maruchan ramen noodles"
+    "text": "Other Types of Goods?\nDoes it always have to be the case that consumpution of both \\(x\\) and \\(y\\) has to increase in response to an increase in income?\n\nNo! There are goods we call Inferior Goods\n\nThese goods are consumed less when income increases\nA classic example of this is Maruchan ramen noodles"
   },
   {
     "objectID": "Slides/04_Demand/main.html#inferior-goods---graph",
@@ -5975,7 +5975,7 @@
     "href": "Slides/04_Demand/main.html#can-both-goods-be-inferior",
     "title": "Demand",
     "section": "Can Both Goods Be Inferior?",
-    "text": "Can Both Goods Be Inferior?\nAs your income increases, can you buy less of both goods?\n\n\nNo! Why Not?\nThe Budget Constraint does not allow it\nRecall that the BC looks like: \\(P_{x} \\cdot x + P_{y} \\cdot y = M\\)\n\n\n\nIf your income increases, and you decrease the amount of \\(x\\) you consume (\\(x\\) is an inferior good), then there is a lot of income leftover that is required to be spent\nThe only other option is to increase your consumption of \\(y\\)\n\n\n\nIn fact, if increasing your income has no effect on how much \\(x\\) you consume, you would still have to increase your consumption of \\(y\\)"
+    "text": "Can Both Goods Be Inferior?\nAs your income increases, can you buy less of both goods?\n\nNo! Why Not?\nThe Budget Constraint does not allow it\nRecall that the BC looks like: \\(P_{x} \\cdot x + P_{y} \\cdot y = M\\)\n\n\nIf your income increases, and you decrease the amount of \\(x\\) you consume (\\(x\\) is an inferior good), then there is a lot of income leftover that is required to be spent\nThe only other option is to increase your consumption of \\(y\\)\n\n\n\nIn fact, if increasing your income has no effect on how much \\(x\\) you consume, you would still have to increase your consumption of \\(y\\)"
   },
   {
     "objectID": "Slides/04_Demand/main.html#engel-curves",
@@ -5996,14 +5996,14 @@
     "href": "Slides/04_Demand/main.html#engel-curves-2",
     "title": "Demand",
     "section": "Engel Curves",
-    "text": "Engel Curves\nThe important thing to consider about Engel Curves is the sign of the slope \\(\\rightarrow\\) It tells us if a good is normal or inferior\n\n\nA Positive Slope means that when Income goes up, \\(y^{*}\\) increases and we say \\(y\\) is a normal good\nA Negative Slope means that when Income goes up, \\(y^{*}\\) decreases and we say \\(y\\) is an inferior good\n\n\n\n We’ve seen that curves slopes can change, so we can ask ourselves:\n\nCan a good be an inferior good over all income levels?"
+    "text": "Engel Curves\nThe important thing to consider about Engel Curves is the sign of the slope \\(\\rightarrow\\) It tells us if a good is normal or inferior\n\nA Positive Slope means that when Income goes up, \\(y^{*}\\) increases and we say \\(y\\) is a normal good\nA Negative Slope means that when Income goes up, \\(y^{*}\\) decreases and we say \\(y\\) is an inferior good\n\n\n We’ve seen that curves slopes can change, so we can ask ourselves:\n\nCan a good be an inferior good over all income levels?"
   },
   {
     "objectID": "Slides/04_Demand/main.html#engel-curves---inferior-goods-always",
     "href": "Slides/04_Demand/main.html#engel-curves---inferior-goods-always",
     "title": "Demand",
     "section": "Engel Curves - Inferior Goods Always?",
-    "text": "Engel Curves - Inferior Goods Always?\nCan in be the case that no matter what my current income is, an increase in income will decrease my consumption of a good?\n\nIt is impossible!\n\n\nEven a good that is usually inferior, or better said, inferior over common income levels must be a normal good over low enough levels of income\n\nI’ll show you an example of an Engel Curve with a negative slope and we’ll see why"
+    "text": "Engel Curves - Inferior Goods Always?\nCan in be the case that no matter what my current income is, an increase in income will decrease my consumption of a good?\n\nIt is impossible!\n\nEven a good that is usually inferior, or better said, inferior over common income levels must be a normal good over low enough levels of income\n\nI’ll show you an example of an Engel Curve with a negative slope and we’ll see why"
   },
   {
     "objectID": "Slides/04_Demand/main.html#engel-curves---inferior-goods-always-1",
@@ -6017,7 +6017,7 @@
     "href": "Slides/04_Demand/main.html#engel-curves---mathematically",
     "title": "Demand",
     "section": "Engel Curves - Mathematically",
-    "text": "Engel Curves - Mathematically\nWe can formalize Engel Curves as:\n\n\nEngel Curves are graphs of the Demand Function\n\n\\(x^{*} = f(P_{x},P_{y},M)\\)\n\nWhere we hold prices fixed and flip the axis"
+    "text": "Engel Curves - Mathematically\nWe can formalize Engel Curves as:\n\nEngel Curves are graphs of the Demand Function\n\n\\(x^{*} = f(P_{x},P_{y},M)\\)\n\nWhere we hold prices fixed and flip the axis"
   },
   {
     "objectID": "Slides/04_Demand/main.html#engel-curves---mathematically-1",
@@ -6080,7 +6080,7 @@
     "href": "Slides/04_Demand/main.html#elasticities-responsiveness",
     "title": "Demand",
     "section": "Elasticities: Responsiveness",
-    "text": "Elasticities: Responsiveness\nWe can describe how responsive goods are in terms of elasiticity\n\n\nIf the absolute value of an elasticity is greater than 1 \\((&gt; 1)\\) we say that there is an elastic response\n\n\\(E_{x,M} = 2 \\rightarrow M \\uparrow 10\\%, \\; x \\uparrow 20\\%\\)\n\nIf the absolute value of an elasticity is less than 1 \\((&lt;1)\\) we say that there is an inelastic response\n\n\\(E_{x,M} = 0.5 \\rightarrow M \\uparrow 10\\%, \\; x \\uparrow 5\\%\\)\n\nIf the absolute value of an elasticity is equal to 1 \\((=1)\\) we say that the response is unit elastic\nIf the elastiscity is exactly equal to 0 we call this perfectly inelastic\nIf the elasticity is infinite \\((\\infty)\\) we call this perfectly elastic\n\n\n\nMake drawing of perfectly inelastic and perfectly elastic on whiteboard"
+    "text": "Elasticities: Responsiveness\nWe can describe how responsive goods are in terms of elasiticity\n\nIf the absolute value of an elasticity is greater than 1 \\((&gt; 1)\\) we say that there is an elastic response\n\n\\(E_{x,M} = 2 \\rightarrow M \\uparrow 10\\%, \\; x \\uparrow 20\\%\\)\n\nIf the absolute value of an elasticity is less than 1 \\((&lt;1)\\) we say that there is an inelastic response\n\n\\(E_{x,M} = 0.5 \\rightarrow M \\uparrow 10\\%, \\; x \\uparrow 5\\%\\)\n\nIf the absolute value of an elasticity is equal to 1 \\((=1)\\) we say that the response is unit elastic\nIf the elastiscity is exactly equal to 0 we call this perfectly inelastic\nIf the elasticity is infinite \\((\\infty)\\) we call this perfectly elastic\n\n\nMake drawing of perfectly inelastic and perfectly elastic on whiteboard"
   },
   {
     "objectID": "Slides/04_Demand/main.html#price-changes-are-important",
@@ -6206,14 +6206,14 @@
     "href": "Slides/04_Demand/main.html#changes-in-quantity-demanded",
     "title": "Demand",
     "section": "Changes in Quantity Demanded",
-    "text": "Changes in Quantity Demanded\nThere are two major driving factors in changes in quantity when price changes:\n\n\nChange that results from a change in the relative price of the two goods \\(\\rightarrow\\) Substitution Effect\nChange that results from a change in the purchasing power of the consumer’s income \\(\\rightarrow\\) Income Effect\n\n\n\nHowever, we cannot observe both of these in the real world\nWe observed the combined effect of these two\nSo we have:\n\n\n\\[\n    \\text{Total Effect} = \\text{Substitution Effect} + \\text{Income Effect}\n\\]"
+    "text": "Changes in Quantity Demanded\nThere are two major driving factors in changes in quantity when price changes:\n\nChange that results from a change in the relative price of the two goods \\(\\rightarrow\\) Substitution Effect\nChange that results from a change in the purchasing power of the consumer’s income \\(\\rightarrow\\) Income Effect\n\n\nHowever, we cannot observe both of these in the real world\nWe observed the combined effect of these two\nSo we have:\n\n\n\\[\n    \\text{Total Effect} = \\text{Substitution Effect} + \\text{Income Effect}\n\\]"
   },
   {
     "objectID": "Slides/04_Demand/main.html#substitution-effect",
     "href": "Slides/04_Demand/main.html#substitution-effect",
     "title": "Demand",
     "section": "Substitution effect",
-    "text": "Substitution effect\nIt is the change in bundle resulting from a change in the relative price of two goods\nThe relative price of both goods is simply the slope of the Budget Constraint\n\n\nSuppose that \\(P_{y}\\) decreases by some \\(\\epsilon\\) so that \\(\\hat{P_{y}} = P_{y} - \\epsilon\\)\n\nHow would this change the Budget Constraint?\n\\(\\text{Slope: } \\dfrac{-P_{x}}{P_{y}} \\;\\; \\rightarrow \\;\\;\\downarrow P_{y} \\;\\; \\rightarrow \\;\\; \\text{Slope gets Steeper}\\)"
+    "text": "Substitution effect\nIt is the change in bundle resulting from a change in the relative price of two goods\nThe relative price of both goods is simply the slope of the Budget Constraint\n\nSuppose that \\(P_{y}\\) decreases by some \\(\\epsilon\\) so that \\(\\hat{P_{y}} = P_{y} - \\epsilon\\)\n\nHow would this change the Budget Constraint?\n\\(\\text{Slope: } \\dfrac{-P_{x}}{P_{y}} \\;\\; \\rightarrow \\;\\;\\downarrow P_{y} \\;\\; \\rightarrow \\;\\; \\text{Slope gets Steeper}\\)"
   },
   {
     "objectID": "Slides/04_Demand/main.html#forcing-no-change-in-relative-income",
@@ -6283,7 +6283,7 @@
     "href": "Slides/04_Demand/main.html#finding-the-income-effect",
     "title": "Demand",
     "section": "Finding the Income Effect",
-    "text": "Finding the Income Effect\n\n\nFind the New Budget Constraint & the Optimal Bundle\nFind the Hypothetical Budget Constraint\nFind the Optimal Bundle under Original Utility and Hypothetical Budget Constraint\nFind the Difference between Hypothetical and New Bundle\n\n\n\n\n\nLuckily it is a lot of the same steps so it is not a lot of extra work"
+    "text": "Finding the Income Effect\n\nFind the New Budget Constraint & the Optimal Bundle\nFind the Hypothetical Budget Constraint\nFind the Optimal Bundle under Original Utility and Hypothetical Budget Constraint\nFind the Difference between Hypothetical and New Bundle\n\n\n\n\nLuckily it is a lot of the same steps so it is not a lot of extra work"
   },
   {
     "objectID": "Slides/04_Demand/main.html#finding-the-income-effect---step-1",
@@ -6332,21 +6332,21 @@
     "href": "Slides/04_Demand/main.html#other-price-changes",
     "title": "Demand",
     "section": "Other Price Changes",
-    "text": "Other Price Changes\nLet’s begin by recalling some important points\n\n\nWe started by noting that Demand Functions can be functions of own price, other price, and income \\[\n  y^{*} = f(P_{x}, P_{y}, M)\n\\]\nWe have covered own price and income, so now we deal with what happens when the price of the other good changes\n\nTo do this, we will consider goods that are Substitutes and Complements"
+    "text": "Other Price Changes\nLet’s begin by recalling some important points\n\nWe started by noting that Demand Functions can be functions of own price, other price, and income \\[\n  y^{*} = f(P_{x}, P_{y}, M)\n\\]\nWe have covered own price and income, so now we deal with what happens when the price of the other good changes\n\nTo do this, we will consider goods that are Substitutes and Complements"
   },
   {
     "objectID": "Slides/04_Demand/main.html#substitutes",
     "href": "Slides/04_Demand/main.html#substitutes",
     "title": "Demand",
     "section": "Substitutes",
-    "text": "Substitutes\nLet’s review\n\n\nAn example of substitute goods are Coke & Pepsi\nIf the price of a substitute increases, quantity demanded of the other good will ???\n\nIncrease\n\nNow let’s think about derivatives. We say that \\(x\\) is a substitute for \\(y\\) if:\n\n\n\n\n\\[\n\\dfrac{\\partial y^{*}}{\\partial P_{x}} \\gtreqless 0\n\\]\n\n\n\n\\[\n    \\dfrac{\\partial y^{*}}{\\partial P_{x}} &gt; 0\n\\]"
+    "text": "Substitutes\nLet’s review\n\nAn example of substitute goods are Coke & Pepsi\nIf the price of a substitute increases, quantity demanded of the other good will ???\n\nIncrease\n\nNow let’s think about derivatives. We say that \\(x\\) is a substitute for \\(y\\) if:\n\n\n\n\n\\[\n\\dfrac{\\partial y^{*}}{\\partial P_{x}} \\gtreqless 0\n\\]\n\n\n\n\\[\n    \\dfrac{\\partial y^{*}}{\\partial P_{x}} &gt; 0\n\\]"
   },
   {
     "objectID": "Slides/04_Demand/main.html#complements",
     "href": "Slides/04_Demand/main.html#complements",
     "title": "Demand",
     "section": "Complements",
-    "text": "Complements\nLet’s review\n\n\nAn example of complement goods are Coffee Beans & Coffee Creamer\nIf the price of a complement increases, quantity demanded of the other good will ???\n\nDecrease\n\nNow let’s think about derivatives. We say that \\(x\\) is a complement for \\(y\\) if:\n\n\n\n\n\\[\n\\dfrac{\\partial y^{*}}{\\partial P_{x}} \\gtreqless 0\n\\]\n\n\n\n\\[\n    \\dfrac{\\partial y^{*}}{\\partial P_{x}} &lt; 0\n\\]"
+    "text": "Complements\nLet’s review\n\nAn example of complement goods are Coffee Beans & Coffee Creamer\nIf the price of a complement increases, quantity demanded of the other good will ???\n\nDecrease\n\nNow let’s think about derivatives. We say that \\(x\\) is a complement for \\(y\\) if:\n\n\n\n\n\\[\n\\dfrac{\\partial y^{*}}{\\partial P_{x}} \\gtreqless 0\n\\]\n\n\n\n\\[\n    \\dfrac{\\partial y^{*}}{\\partial P_{x}} &lt; 0\n\\]"
   },
   {
     "objectID": "Slides/04_Demand/main.html#do-all-goods-need-to-be-perfect-subs.-or-complements",
@@ -6423,7 +6423,7 @@
     "href": "Slides/04_Demand/main.html#consumer-theory",
     "title": "Demand",
     "section": "Consumer Theory",
-    "text": "Consumer Theory\nAll we have seen up to now is the basics of Consumer Theory\nA quick example of an application can be:\n\n\nLet’s say you are interested in the demand for energy drinks\nYou build utility functions for a couple different groups in the market that you believe represent their preferences for energy drinks and other consumption\nYou solve the maximization problem and understand how the optimal solutions change when inputs change\nThen you add up the solutions across groups in the market to measure the relationsihp between price and demand"
+    "text": "Consumer Theory\nAll we have seen up to now is the basics of Consumer Theory\nA quick example of an application can be:\n\nLet’s say you are interested in the demand for energy drinks\nYou build utility functions for a couple different groups in the market that you believe represent their preferences for energy drinks and other consumption\nYou solve the maximization problem and understand how the optimal solutions change when inputs change\nThen you add up the solutions across groups in the market to measure the relationsihp between price and demand"
   },
   {
     "objectID": "Slides/05_Production/052-sr-v-lr.html",
@@ -6787,21 +6787,21 @@
     "href": "Slides/06_CostFunctions/main.html#scaling-up-production",
     "title": "Cost Functions",
     "section": "Scaling up Production",
-    "text": "Scaling up Production\nLast week we looked at the production function for UO Dining:\n\\[f(K,L) = L\\cdot K = 900 \\text{ lunches}\\]\nWe solved the cost-minimzation problem when the wage was $16 and the rental rate was $25:\n\\[\n\\begin{align}\nL^*(w=16,r=25,Q=900) &= 37.5 \\\\\nK^*(w=16,r=25,Q=900) &= 24\n\\end{align}\n\\]\n\n\nWhat happens if UO dining wants to double its production?\nWould they need double the amount of \\(K\\) and \\(L\\)?"
+    "text": "Scaling up Production\nLast week we looked at the production function for UO Dining:\n\\[f(K,L) = L\\cdot K = 900 \\text{ lunches}\\]\nWe solved the cost-minimzation problem when the wage was $16 and the rental rate was $25:\n\\[\n\\begin{align}\nL^*(w=16,r=25,Q=900) &= 37.5 \\\\\nK^*(w=16,r=25,Q=900) &= 24\n\\end{align}\n\\]\n\nWhat happens if UO dining wants to double its production?\nWould they need double the amount of \\(K\\) and \\(L\\)?"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#what-are-returns-to-scale",
     "href": "Slides/06_CostFunctions/main.html#what-are-returns-to-scale",
     "title": "Cost Functions",
     "section": "What Are Returns to Scale?",
-    "text": "What Are Returns to Scale?\nReturns to Scale will measure the following:\nIf I increase my inputs by equal amounts (such that labor and capital increase by some constant \\(z\\)), how much does my output increase by?\n\nThere are three possible outcomes:\n\n\nDecreasing Returns to Scale (DRS)\nConstant Returns to Scale (CRS)\nIncreasing Returns to Scale (IRS)"
+    "text": "What Are Returns to Scale?\nReturns to Scale will measure the following:\nIf I increase my inputs by equal amounts (such that labor and capital increase by some constant \\(z\\)), how much does my output increase by?\n\nThere are three possible outcomes:\n\nDecreasing Returns to Scale (DRS)\nConstant Returns to Scale (CRS)\nIncreasing Returns to Scale (IRS)"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#returns-to-scale-example",
     "href": "Slides/06_CostFunctions/main.html#returns-to-scale-example",
     "title": "Cost Functions",
     "section": "Returns to Scale Example",
-    "text": "Returns to Scale Example\nIf UO dining doubles their inputs, how much output would they get?\n\\[f(2\\cdot K^*, 2\\cdot L^*) = ?\\]\n\n\n\\(f(2\\cdot 24, 2\\cdot 37.5) = (48)\\cdot(75) = 3600\\)\n\\(f(2\\cdot 24, 2\\cdot 37.5) = 3600 &gt; 2\\cdot f(24,37.5) = 1800\\)\nSo \\(f(.)\\) experiences increasing returns to scale"
+    "text": "Returns to Scale Example\nIf UO dining doubles their inputs, how much output would they get?\n\\[f(2\\cdot K^*, 2\\cdot L^*) = ?\\]\n\n\\(f(2\\cdot 24, 2\\cdot 37.5) = (48)\\cdot(75) = 3600\\)\n\\(f(2\\cdot 24, 2\\cdot 37.5) = 3600 &gt; 2\\cdot f(24,37.5) = 1800\\)\nSo \\(f(.)\\) experiences increasing returns to scale"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#returns-to-scale-mathematically",
@@ -6836,14 +6836,14 @@
     "href": "Slides/06_CostFunctions/main.html#what-the-hell-is-a-cost-function",
     "title": "Cost Functions",
     "section": "What The Hell Is A Cost Function?",
-    "text": "What The Hell Is A Cost Function?\nOur goal for the second half of the class is to minimize costs.\nWe will do this by deriving a minimzed cost function but what even is it?\nLet’s begin by introducing some useful notation:\n\n\nThe minimized cost function will be \\(C^{*}(Q)\\)\n\nThis function tells us that for any given quantity \\((Q)\\), \\(C^{*}(Q)\\) represents the cheapest way possible to produce \\(Q\\)\n\n\n\n\nWe will leverage this information:\n\nKnowing \\(C^{*}(Q)\\) means that we do not have to solve the cost minimization problem to figure out how much it will cost you to produce a target quantity"
+    "text": "What The Hell Is A Cost Function?\nOur goal for the second half of the class is to minimize costs.\nWe will do this by deriving a minimzed cost function but what even is it?\nLet’s begin by introducing some useful notation:\n\nThe minimized cost function will be \\(C^{*}(Q)\\)\n\nThis function tells us that for any given quantity \\((Q)\\), \\(C^{*}(Q)\\) represents the cheapest way possible to produce \\(Q\\)\n\n\n\nWe will leverage this information:\n\nKnowing \\(C^{*}(Q)\\) means that we do not have to solve the cost minimization problem to figure out how much it will cost you to produce a target quantity"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#cost-functions",
     "href": "Slides/06_CostFunctions/main.html#cost-functions",
     "title": "Cost Functions",
     "section": "Cost Functions",
-    "text": "Cost Functions\nThe general formula for a cost function is:\n\\[\n    C^{*}(Q) = wL^{*}(Q) + rK^{*}(Q)\n\\]\n\nTo find this we will\n\nFind the MRST and set it equal to the price ratio\nPlug into our Q constraint and find a \\(L^{*}\\) and \\(K^{*}\\) in terms of \\(Q\\)\nFind the cost of the optimal \\(L^{*}\\) and \\(K^{*}\\)\n\n\n\nLast lecture we found levels of \\(L^{*}\\) and \\(K^{*}\\) when we knew \\(Q\\). Now we will keep \\(Q\\) as a variable so we can find costs for any possible quantity."
+    "text": "Cost Functions\nThe general formula for a cost function is:\n\\[\n    C^{*}(Q) = wL^{*}(Q) + rK^{*}(Q)\n\\]\nTo find this we will\n\nFind the MRST and set it equal to the price ratio\nPlug into our Q constraint and find a \\(L^{*}\\) and \\(K^{*}\\) in terms of \\(Q\\)\nFind the cost of the optimal \\(L^{*}\\) and \\(K^{*}\\)\n\n\nLast lecture we found levels of \\(L^{*}\\) and \\(K^{*}\\) when we knew \\(Q\\). Now we will keep \\(Q\\) as a variable so we can find costs for any possible quantity."
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#cost-function-example---step-1",
@@ -6871,14 +6871,14 @@
     "href": "Slides/06_CostFunctions/main.html#why-bother-with-cost-functions",
     "title": "Cost Functions",
     "section": "Why Bother With Cost Functions?",
-    "text": "Why Bother With Cost Functions?\nWith the Cost Minimization problem, we took our level of production, \\(Q\\), as given and tried to figure out the most efficient combo of inputs to meet our quota.\n\n\nBut assuming we’ve already figured out the best way to hit any quota, now we can think about what scale of production to target\nOur investors just care that we can figure out how much it will cost to hit our market demand\nWe will introduce profits later\nThis decision is where Supply will come from\n\n\n\nBut before we can get into Profit Maximization, we will dive deeper into understanding cost functions"
+    "text": "Why Bother With Cost Functions?\nWith the Cost Minimization problem, we took our level of production, \\(Q\\), as given and tried to figure out the most efficient combo of inputs to meet our quota.\n\nBut assuming we’ve already figured out the best way to hit any quota, now we can think about what scale of production to target\nOur investors just care that we can figure out how much it will cost to hit our market demand\nWe will introduce profits later\nThis decision is where Supply will come from\n\n\nBut before we can get into Profit Maximization, we will dive deeper into understanding cost functions"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#understanding-cost-functions",
     "href": "Slides/06_CostFunctions/main.html#understanding-cost-functions",
     "title": "Cost Functions",
     "section": "Understanding Cost Functions",
-    "text": "Understanding Cost Functions\nKnowing what is considered as costs in economics helps us with the theory part of production\n\nIt will play a larger role when we deal with profit maximization\n\n\nFor now, we can figure out how we expect cost functions to behave:\nAssume a generic cost function such that \\(C = F(Q)\\)\n\n\nWhen \\(Q\\) increases what do we expect to happen to \\(C\\)?\n\nThey should INCREASE\n\nIt usually costs more to make more goods\nThis means that the first derivative \\((C'(Q))\\) should be?\n\nPositive \\(\\; \\rightarrow C'(Q) &gt; 0\\)"
+    "text": "Understanding Cost Functions\nKnowing what is considered as costs in economics helps us with the theory part of production\n\nIt will play a larger role when we deal with profit maximization\n\n\nFor now, we can figure out how we expect cost functions to behave:\nAssume a generic cost function such that \\(C = F(Q)\\)\n\nWhen \\(Q\\) increases what do we expect to happen to \\(C\\)?\n\nThey should INCREASE\n\nIt usually costs more to make more goods\nThis means that the first derivative \\((C'(Q))\\) should be?\n\nPositive \\(\\; \\rightarrow C'(Q) &gt; 0\\)"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#derivative-of-cq",
@@ -6892,7 +6892,7 @@
     "href": "Slides/06_CostFunctions/main.html#marginal-costs",
     "title": "Cost Functions",
     "section": "Marginal Costs",
-    "text": "Marginal Costs\nWe will add an additional assumption to make our lives easier\nAssume that firms production functions exhibit decreasing returns\n\n\nThis has a direct implication on our Marginal Cost curve\n\n\\(MC(Q)\\) will increase as \\(Q\\) increases\nIt becomes more expensive to make an additional unit as you make more and more\n\nSo Decreasing Returns to Scale (DRS) = Increasing Marginal Costs"
+    "text": "Marginal Costs\nWe will add an additional assumption to make our lives easier\nAssume that firms production functions exhibit decreasing returns\n\nThis has a direct implication on our Marginal Cost curve\n\n\\(MC(Q)\\) will increase as \\(Q\\) increases\nIt becomes more expensive to make an additional unit as you make more and more\n\nSo Decreasing Returns to Scale (DRS) = Increasing Marginal Costs"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#marginal-cost-curves",
@@ -6906,14 +6906,14 @@
     "href": "Slides/06_CostFunctions/main.html#cost-of-producing-nothing",
     "title": "Cost Functions",
     "section": "Cost of Producing Nothing?",
-    "text": "Cost of Producing Nothing?\nDoes it actually cost nothing to make nothing?\nWe will assume that there exists some form of overhead or fixed costs associated with producing goods\n\n\nA business pays rent on their warehouse no matter how empty or full it is\nA restaurant has to purchase a license in order to serve food/alcohol"
+    "text": "Cost of Producing Nothing?\nDoes it actually cost nothing to make nothing?\nWe will assume that there exists some form of overhead or fixed costs associated with producing goods\n\nA business pays rent on their warehouse no matter how empty or full it is\nA restaurant has to purchase a license in order to serve food/alcohol"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#how-realistic-are-cost-functions",
     "href": "Slides/06_CostFunctions/main.html#how-realistic-are-cost-functions",
     "title": "Cost Functions",
     "section": "How Realistic are Cost Functions?",
-    "text": "How Realistic are Cost Functions?\nA good thinker is initially skeptical. So let’s cast some doubt on our Increasing Marginal Cost assumption\n\nIsn’t producing in bulk sometimes much easier than producing small quantities?\n\nThe existence of Costco tells us yes\n\n\n\n\nSo this is true, but only up to a point\n\nWe are perfectly comforable modeling firms that initially experience decreasing marginal costs but at a high-enough quantity produced, they must experience increasing marginal costs"
+    "text": "How Realistic are Cost Functions?\nA good thinker is initially skeptical. So let’s cast some doubt on our Increasing Marginal Cost assumption\n\nIsn’t producing in bulk sometimes much easier than producing small quantities?\n\nThe existence of Costco tells us yes\n\n\n\nSo this is true, but only up to a point\n\nWe are perfectly comforable modeling firms that initially experience decreasing marginal costs but at a high-enough quantity produced, they must experience increasing marginal costs"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#initial-decreasing-marginal-costs-with-increasing-marginal-costs-at-high-quantity",
@@ -6941,7 +6941,7 @@
     "href": "Slides/06_CostFunctions/main.html#decomposing-costs-example",
     "title": "Cost Functions",
     "section": "Decomposing Costs Example",
-    "text": "Decomposing Costs Example\nConsider the costs faced by Forever 21:\n\nSuppose have to pay Valley River Mall $ 12 million for a fixed 10-year lease\nTo sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.\n\nHow can we catogorize the different costs?\n\n\nthe lease is a fixed cost that F21 has to treat as a sunk cost in the short-run\neverything else is variable; it depends on how many clothes they want to sell"
+    "text": "Decomposing Costs Example\nConsider the costs faced by Forever 21:\n\nSuppose have to pay Valley River Mall $ 12 million for a fixed 10-year lease\nTo sell clothes they also need to purchase from the distributor, hire workers, keep lights on, etc.\n\nHow can we catogorize the different costs?\n\nthe lease is a fixed cost that F21 has to treat as a sunk cost in the short-run\neverything else is variable; it depends on how many clothes they want to sell"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#fixed-and-variable-costs-example-as-table",
@@ -7060,28 +7060,28 @@
     "href": "Slides/06_CostFunctions/main.html#key-things-about-graphing-costs",
     "title": "Cost Functions",
     "section": "Key Things About Graphing Costs",
-    "text": "Key Things About Graphing Costs\nAs always, the scale is not very important\nBut be sure to get the most important facts down:\n\n\nThey are all convex (open upwards)\nAVC is always below the ATC\nWhere the curves cross is crucial\n\nThe MC crosses the AVC and ATC at their minimum values\n\nAs always, label your curves and axis!"
+    "text": "Key Things About Graphing Costs\nAs always, the scale is not very important\nBut be sure to get the most important facts down:\n\nThey are all convex (open upwards)\nAVC is always below the ATC\nWhere the curves cross is crucial\n\nThe MC crosses the AVC and ATC at their minimum values\n\nAs always, label your curves and axis!"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#importance-of-average-total-marginal-cost-relationship",
     "href": "Slides/06_CostFunctions/main.html#importance-of-average-total-marginal-cost-relationship",
     "title": "Cost Functions",
     "section": "Importance of Average Total & Marginal Cost Relationship",
-    "text": "Importance of Average Total & Marginal Cost Relationship\n\n\n\n\n\nWhat is so special about the point where MC and ATC cross?\n\n\nIt is where the ATC is at it’s minimum value\nMathematically, this is where the derivative of ATC \\(= 0\\)\n\nThis implies that the MC = ATC\n\n\n\n\nLet’s look at an example that will show us what I mean intuitively"
+    "text": "Importance of Average Total & Marginal Cost Relationship\n\n\n\n\n\nWhat is so special about the point where MC and ATC cross?\n\nIt is where the ATC is at it’s minimum value\nMathematically, this is where the derivative of ATC \\(= 0\\)\n\nThis implies that the MC = ATC\n\n\n\nLet’s look at an example that will show us what I mean intuitively"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#average-total-marginal-cost-relationship",
     "href": "Slides/06_CostFunctions/main.html#average-total-marginal-cost-relationship",
     "title": "Cost Functions",
     "section": "Average Total & Marginal Cost Relationship",
-    "text": "Average Total & Marginal Cost Relationship\nImagine we measure the height of everyone in class and find the average height\nThen someone new joins the class\n\nWhat happens to the average height if the new person is shorter than the average?\n\n\nIt decreases\nWhen the Marginal Person is shorter than the average, the average decreases\nWhen the Marginal Person is taller than the average, the average increases"
+    "text": "Average Total & Marginal Cost Relationship\nImagine we measure the height of everyone in class and find the average height\nThen someone new joins the class\n\nWhat happens to the average height if the new person is shorter than the average?\n\nIt decreases\nWhen the Marginal Person is shorter than the average, the average decreases\nWhen the Marginal Person is taller than the average, the average increases"
   },
   {
     "objectID": "Slides/06_CostFunctions/main.html#average-total-marginal-cost-relationship-1",
     "href": "Slides/06_CostFunctions/main.html#average-total-marginal-cost-relationship-1",
     "title": "Cost Functions",
     "section": "Average Total & Marginal Cost Relationship",
-    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n-&gt; Therefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
+    "text": "Average Total & Marginal Cost Relationship\nAt our sweet spot where MC = ATC at the minimum of the ATC we can say:\n\nWhen the Marginal Cost is less than the Average Total Cost, the ATC must be decreasing\nWhen the Marginal Cost is larger than the Average Total Cost, the ATC must be increasing\n-&gt; Therefore, when MC = ATC, the average total cost is switching from decreasing to increasing\n\nThat is the definition of a minimum\n\nAll of this will be useful for our next topic: Profit Maximization"
   },
   {
     "objectID": "Slides/07_ProfitMaximization/072-profit-max.html",
@@ -7557,7 +7557,7 @@
     "href": "Slides/08_MarketSupply/main.html#costs-question-answer-1",
     "title": "Market Supply",
     "section": "Costs Question (Answer)",
-    "text": "Costs Question (Answer)\nRecall that profit maximization happens when \\(MR=MC\\).\n\n\n\\(\\color{red}{ MC = \\frac{\\delta C}{\\delta Q} = 2\\frac{1}{2}Q^{2-1} = Q}\\)\n\\(\\color{green}{MR = \\$30}\\)\n\\(Q^s = 30\\)\n\\(\\color{green}{MR = 30} = \\color{red}{30 = MC}\\)\nSo profit is maximized"
+    "text": "Costs Question (Answer)\nRecall that profit maximization happens when \\(MR=MC\\).\n\n\\(\\color{red}{ MC = \\frac{\\delta C}{\\delta Q} = 2\\frac{1}{2}Q^{2-1} = Q}\\)\n\\(\\color{green}{MR = \\$30}\\)\n\\(Q^s = 30\\)\n\\(\\color{green}{MR = 30} = \\color{red}{30 = MC}\\)\nSo profit is maximized"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#short-run-supply",
@@ -7578,14 +7578,14 @@
     "href": "Slides/08_MarketSupply/main.html#what-affects-short-term-supply",
     "title": "Market Supply",
     "section": "What Affects Short-Term Supply?",
-    "text": "What Affects Short-Term Supply?\nWhat could change how much quantity firms are willing to produce in the short-run?\n\nAnything that affects their marginal costs!\n\nTechnology (more productive inputs \\(\\downarrow\\) MC \\(\\rightarrow\\) \\(\\uparrow Q^s\\))\nInput prices (more expensive labor \\(\\uparrow MC \\rightarrow \\downarrow Q^s\\)"
+    "text": "What Affects Short-Term Supply?\nWhat could change how much quantity firms are willing to produce in the short-run?\nAnything that affects their marginal costs!\n\nTechnology (more productive inputs \\(\\downarrow\\) MC \\(\\rightarrow\\) \\(\\uparrow Q^s\\))\nInput prices (more expensive labor \\(\\uparrow MC \\rightarrow \\downarrow Q^s\\)"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#what-does-not-affect-short-term-supply",
     "href": "Slides/08_MarketSupply/main.html#what-does-not-affect-short-term-supply",
     "title": "Market Supply",
     "section": "What Does Not Affect Short-Term Supply?",
-    "text": "What Does Not Affect Short-Term Supply?\nAny fixed costs have to be treated as sunk costs in the short run, and do factor into MC\n\nThis includes:\n\nFactory space\nContracted costs (annual, multi-year, etc.)\nR&D costs"
+    "text": "What Does Not Affect Short-Term Supply?\nAny fixed costs have to be treated as sunk costs in the short run, and do factor into MC\nThis includes:\n\nFactory space\nContracted costs (annual, multi-year, etc.)\nR&D costs"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#producer-surplus",
@@ -7606,14 +7606,14 @@
     "href": "Slides/08_MarketSupply/main.html#firm-supply---market-supply",
     "title": "Market Supply",
     "section": "Firm Supply -> Market Supply",
-    "text": "Firm Supply -&gt; Market Supply\nA single firm \\(i\\)’s supply decision: pick \\(q_i\\) quantity to maximize profit\n\\[ MC_i(q_i) \\bigg\\rvert_{q_i\\geq 0} = MR_i = P\\]\n\n\n\\(MC_i\\) is firm \\(i\\)’s supply curve, or willingness to sell\nIf we wanted the supply function we could rerrange: \\(q_i^S = MC_i^{-1}(P)\\)"
+    "text": "Firm Supply -&gt; Market Supply\nA single firm \\(i\\)’s supply decision: pick \\(q_i\\) quantity to maximize profit\n\\[ MC_i(q_i) \\bigg\\rvert_{q_i\\geq 0} = MR_i = P\\]\n\n\\(MC_i\\) is firm \\(i\\)’s supply curve, or willingness to sell\nIf we wanted the supply function we could rerrange: \\(q_i^S = MC_i^{-1}(P)\\)"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#firm-supply---market-supply-1",
     "href": "Slides/08_MarketSupply/main.html#firm-supply---market-supply-1",
     "title": "Market Supply",
     "section": "Firm Supply -> Market Supply",
-    "text": "Firm Supply -&gt; Market Supply\nAn example:\n\\[ MC_i(q_i) = q_i^2 -20q_i +100 \\]\n\n\nCan be rewritten as \\(MC = (q_i - 10)^2\\)\n\\(q_i^S = MC_i^{-1}(P) = \\sqrt{P} + 10\\)"
+    "text": "Firm Supply -&gt; Market Supply\nAn example:\n\\[ MC_i(q_i) = q_i^2 -20q_i +100 \\]\n\nCan be rewritten as \\(MC = (q_i - 10)^2\\)\n\\(q_i^S = MC_i^{-1}(P) = \\sqrt{P} + 10\\)"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#market-supply",
@@ -7655,7 +7655,7 @@
     "href": "Slides/08_MarketSupply/main.html#long-run-market-supply",
     "title": "Market Supply",
     "section": "Long-Run Market Supply",
-    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n\nProducer Surplus\n\n\nA firm may operate with negative profit\n\nthey will operate at a loss as long as it is less than their Fixed Costs\n\nBut they won’t operate with negative producer surplus\n\nbecause that means it costs more to produce each unit than it sells for\n\n\n\n\n\nIn either case, the fact that profits are not zero has implications for the Long-Run"
+    "text": "Long-Run Market Supply\nWhat could determine whether a firm enters or exists the market?\n\nProducer Surplus\n\nA firm may operate with negative profit\n\nthey will operate at a loss as long as it is less than their Fixed Costs\n\nBut they won’t operate with negative producer surplus\n\nbecause that means it costs more to produce each unit than it sells for\n\n\n\n\nIn either case, the fact that profits are not zero has implications for the Long-Run"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#short-run-to-long-run-exit-condition",
@@ -7711,14 +7711,14 @@
     "href": "Slides/08_MarketSupply/main.html#profits-in-the-long-run",
     "title": "Market Supply",
     "section": "Profits in the Long-Run",
-    "text": "Profits in the Long-Run\nSaying there are zero economic profits can be a tricky phrase so let’s dive in:\n\n\nIt does not mean that the firm is making zero money\nThey have already paid their Labor (wages) and Capital (or shareholders if they financed capital through equity, for example)\nAfter all responsibilities are dealt with, there are zero profits above and beyond that"
+    "text": "Profits in the Long-Run\nSaying there are zero economic profits can be a tricky phrase so let’s dive in:\n\nIt does not mean that the firm is making zero money\nThey have already paid their Labor (wages) and Capital (or shareholders if they financed capital through equity, for example)\nAfter all responsibilities are dealt with, there are zero profits above and beyond that"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#why-care-about-the-short-run",
     "href": "Slides/08_MarketSupply/main.html#why-care-about-the-short-run",
     "title": "Market Supply",
     "section": "Why Care About the Short-Run?",
-    "text": "Why Care About the Short-Run?\nIf we know what happens in the Long-Run, then why care about the Short-Run?\n\nThe Short-Run is where interesting things happen\n\n\nIt is where firms make big money, before competitors can catch up (Think early Tesla days and the EV market)\nIt is where firms lose a lot of money because they are stuck operating at a loss (any restaurant ever)\nIt is where demand shifts can cause major price distortions\n\nThis is an interesting dynamic that we will use to transition to thinking about the market"
+    "text": "Why Care About the Short-Run?\nIf we know what happens in the Long-Run, then why care about the Short-Run?\n\nThe Short-Run is where interesting things happen\n\nIt is where firms make big money, before competitors can catch up (Think early Tesla days and the EV market)\nIt is where firms lose a lot of money because they are stuck operating at a loss (any restaurant ever)\nIt is where demand shifts can cause major price distortions\n\nThis is an interesting dynamic that we will use to transition to thinking about the market"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#demand-shift-dynamics",
@@ -7746,7 +7746,7 @@
     "href": "Slides/08_MarketSupply/main.html#demand-shift-dynamics-2",
     "title": "Market Supply",
     "section": "Demand Shift Dynamics",
-    "text": "Demand Shift Dynamics\nWith an increase in Demand, we see that prices have also increased\n\n\nIn the Short-Run, the same number of firms produce more and earn positive profits\nIn the Long-Run, new firms enter the market\n\nThis increases supply"
+    "text": "Demand Shift Dynamics\nWith an increase in Demand, we see that prices have also increased\n\nIn the Short-Run, the same number of firms produce more and earn positive profits\nIn the Long-Run, new firms enter the market\n\nThis increases supply"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#demand-shift-dynamics---entry-of-new-firms",
@@ -7760,7 +7760,7 @@
     "href": "Slides/08_MarketSupply/main.html#demand-shift-dynamics-3",
     "title": "Market Supply",
     "section": "Demand Shift Dynamics",
-    "text": "Demand Shift Dynamics\nWith a Supply increase:\n\n\nThe shift of supply counteracts the increase in Demand and the price returns to \\(\\min\\{ATC(Q)\\}\\)\nHowever, a lot more good are supplied overall\n\nIn the Long-Run, each firm is supplying the same amount at \\(Q_{3}\\) as they were in the initial equilibrium\n\nThere are just more firms now"
+    "text": "Demand Shift Dynamics\nWith a Supply increase:\n\nThe shift of supply counteracts the increase in Demand and the price returns to \\(\\min\\{ATC(Q)\\}\\)\nHowever, a lot more good are supplied overall\n\nIn the Long-Run, each firm is supplying the same amount at \\(Q_{3}\\) as they were in the initial equilibrium\n\nThere are just more firms now"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#long-run-market-supply-curve",
@@ -7781,7 +7781,7 @@
     "href": "Slides/08_MarketSupply/main.html#lets-look-at-an-example",
     "title": "Market Supply",
     "section": "Let’s Look at an Example",
-    "text": "Let’s Look at an Example\nIn this example we will:\n\n\nFind the Short-Run supply cure of the firm\nFind the market Short-Run Supply Curve when there are 20 identical firms\nFind the market Long-Run Supply Curve\nGraph both market supply curves, add demand and quantity, assuming the Long-Run Equilibrium\n\n\n\nThe Cost Function of a firm is\n\\[\n    C(Q) = Q^{2} + 8Q + 100\n\\]"
+    "text": "Let’s Look at an Example\nIn this example we will:\n\nFind the Short-Run supply cure of the firm\nFind the market Short-Run Supply Curve when there are 20 identical firms\nFind the market Long-Run Supply Curve\nGraph both market supply curves, add demand and quantity, assuming the Long-Run Equilibrium\n\n\nThe Cost Function of a firm is\n\\[\n    C(Q) = Q^{2} + 8Q + 100\n\\]"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#short-run-supply-curve",
@@ -7816,7 +7816,7 @@
     "href": "Slides/08_MarketSupply/main.html#a-sudden-shock",
     "title": "Market Supply",
     "section": "A Sudden Shock!!!",
-    "text": "A Sudden Shock!!!\nNow let’s throw a curveball\nThe market does not exist in isolation, it is affected by the world\nImagine that there is a sudden event that decreases the Market Price to 20\nThis raises the following questions:\n\n\nWhat is the Short-Run Effect on \\(Q^{*} \\; \\Rightarrow \\;\\) Individual Firm Supply\nWhat is the Short-Run Effect on \\(Q_{S} \\; \\Rightarrow \\;\\) Market Supply"
+    "text": "A Sudden Shock!!!\nNow let’s throw a curveball\nThe market does not exist in isolation, it is affected by the world\nImagine that there is a sudden event that decreases the Market Price to 20\nThis raises the following questions:\n\nWhat is the Short-Run Effect on \\(Q^{*} \\; \\Rightarrow \\;\\) Individual Firm Supply\nWhat is the Short-Run Effect on \\(Q_{S} \\; \\Rightarrow \\;\\) Market Supply"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#a-sudden-shock-rightarrow-p-20",
@@ -7837,7 +7837,7 @@
     "href": "Slides/08_MarketSupply/main.html#shock-implications-on-the-long-run",
     "title": "Market Supply",
     "section": "Shock Implications on the Long-Run",
-    "text": "Shock Implications on the Long-Run\nWe can also ask questions about the Long-Run\n\n\n\nWhat is the Long-Run Effect on \\(Q^{*} \\; \\Rightarrow \\;\\) Individual Firm Supply \nIf we assume that the Long-Run Effect on \\(Q_{S}\\) means that Market Supply will be equal to 100. How many firms remain in the Long-Run?"
+    "text": "Shock Implications on the Long-Run\nWe can also ask questions about the Long-Run\n\n\nWhat is the Long-Run Effect on \\(Q^{*} \\; \\Rightarrow \\;\\) Individual Firm Supply \nIf we assume that the Long-Run Effect on \\(Q_{S}\\) means that Market Supply will be equal to 100. How many firms remain in the Long-Run?"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#long-run-effects-of-the-shock",
@@ -7865,14 +7865,14 @@
     "href": "Slides/08_MarketSupply/main.html#distortion-example---oil-industry",
     "title": "Market Supply",
     "section": "Distortion Example - Oil Industry",
-    "text": "Distortion Example - Oil Industry\nWhat effect will the invention of more fuel-efficient cars have on the price of oil?\n\nNone! This is a shock to demand and thus the minimum ATC is unaffected\n\n\nWhat effect will the invention of more fuel-efficient cars have generally?\n\n\nWe will see a decrease in price and quantity in the Short-Run\nFirms in the oil industry will make negative profits\nFirms will begin to leave the industry\nThe Supply Curve shifts to the left and re-establishes the Long-Run Price with a lower quantity produced"
+    "text": "Distortion Example - Oil Industry\nWhat effect will the invention of more fuel-efficient cars have on the price of oil?\n\nNone! This is a shock to demand and thus the minimum ATC is unaffected\n\n\nWhat effect will the invention of more fuel-efficient cars have generally?\n\nWe will see a decrease in price and quantity in the Short-Run\nFirms in the oil industry will make negative profits\nFirms will begin to leave the industry\nThe Supply Curve shifts to the left and re-establishes the Long-Run Price with a lower quantity produced"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#distortion-example---oil-industry-1",
     "href": "Slides/08_MarketSupply/main.html#distortion-example---oil-industry-1",
     "title": "Market Supply",
     "section": "Distortion Example - Oil Industry",
-    "text": "Distortion Example - Oil Industry\nWhat effect will the invention of more efficient drilling technology have on the Long-Run Price of oil?\n\n\nThis should lower the Long-Run Price. Why?\n\nBecause this should lower the Average Total Cost\n\nThis will increase quantity supplied and decrease the market price"
+    "text": "Distortion Example - Oil Industry\nWhat effect will the invention of more efficient drilling technology have on the Long-Run Price of oil?\n\nThis should lower the Long-Run Price. Why?\n\nBecause this should lower the Average Total Cost\n\nThis will increase quantity supplied and decrease the market price"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#efficient-drilling-technology-effects-on-oil-industry",
@@ -7907,14 +7907,14 @@
     "href": "Slides/08_MarketSupply/main.html#lump-sum-taxes",
     "title": "Market Supply",
     "section": "Lump-Sum Taxes",
-    "text": "Lump-Sum Taxes\nUnder this tax structure firms have to pay a One-Time Fee to participate in the market\n\n\nThink licenses, permits, inspections, etc.\nThese will affect a firm’s fixed costs\n\nIncreasing fixed costs will increase the Minimum ATC\nDecreasing fixed costs will decrease the Minumum ATC"
+    "text": "Lump-Sum Taxes\nUnder this tax structure firms have to pay a One-Time Fee to participate in the market\n\nThink licenses, permits, inspections, etc.\nThese will affect a firm’s fixed costs\n\nIncreasing fixed costs will increase the Minimum ATC\nDecreasing fixed costs will decrease the Minumum ATC"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#lump-sum-taxes-1",
     "href": "Slides/08_MarketSupply/main.html#lump-sum-taxes-1",
     "title": "Market Supply",
     "section": "Lump-Sum Taxes",
-    "text": "Lump-Sum Taxes\nThese form of taxes will NOT affect the firm’s Marginal Costs\n\nThe Short-Run Supply Curve is completely unnafected\n\n\nImposing a Lump-sum Tax will have no Short-Run Effect\nIn the Long-Run, firms will leave the industry as it converges to its new Long-Run Equilibrium"
+    "text": "Lump-Sum Taxes\nThese form of taxes will NOT affect the firm’s Marginal Costs\n\nThe Short-Run Supply Curve is completely unnafected\n\nImposing a Lump-sum Tax will have no Short-Run Effect\nIn the Long-Run, firms will leave the industry as it converges to its new Long-Run Equilibrium"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#per-unit-taxes",
@@ -7942,7 +7942,7 @@
     "href": "Slides/08_MarketSupply/main.html#per-unit-taxes-3",
     "title": "Market Supply",
     "section": "Per-Unit Taxes",
-    "text": "Per-Unit Taxes\nThe Marginal Cost (and then the Supply Curve) is shifted up by the exact amount of the tax, so:\n\n\nThe New Price \\(\\; (P_{\\tau}^{*}) \\;\\) is the price that consumers pay to the firm\nThe New Price \\(\\; (P_{\\tau}^{*}) \\;\\) minus the tax is the price received by the producers after they pay the tax\nSo even though the shift in the Supply Curve looks like it increased the price, it brings down the price earned by the firm"
+    "text": "Per-Unit Taxes\nThe Marginal Cost (and then the Supply Curve) is shifted up by the exact amount of the tax, so:\n\nThe New Price \\(\\; (P_{\\tau}^{*}) \\;\\) is the price that consumers pay to the firm\nThe New Price \\(\\; (P_{\\tau}^{*}) \\;\\) minus the tax is the price received by the producers after they pay the tax\nSo even though the shift in the Supply Curve looks like it increased the price, it brings down the price earned by the firm"
   },
   {
     "objectID": "Slides/08_MarketSupply/main.html#per-unit-taxes-4",
@@ -8054,14 +8054,14 @@
     "href": "Slides/09_Monopoly/main.html#how-perfect-is-perfect",
     "title": "Monopoly",
     "section": "How Perfect is Perfect?",
-    "text": "How Perfect is Perfect?\nUp to now, we have assumed that the market is operating under Perfect Competition, but how reasonable of an assumption is this?\n\n\nIn some contexts, producers do have to worry about how much they produce because it will direclty impact the market price\n\nProfessional Sport Leagues\n\nIf they add more games to their seasons, it will likely decrease ticket prices due to higher quantity supplied\n\nActors/Actresses\n\nIf they are selective in the roles they take, they are able to demand higher pay for each one\n\n\n\n\n\nWe call this Imperfect Competition"
+    "text": "How Perfect is Perfect?\nUp to now, we have assumed that the market is operating under Perfect Competition, but how reasonable of an assumption is this?\n\nIn some contexts, producers do have to worry about how much they produce because it will direclty impact the market price\n\nProfessional Sport Leagues\n\nIf they add more games to their seasons, it will likely decrease ticket prices due to higher quantity supplied\n\nActors/Actresses\n\nIf they are selective in the roles they take, they are able to demand higher pay for each one\n\n\n\n\nWe call this Imperfect Competition"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#imperfect-competition",
     "href": "Slides/09_Monopoly/main.html#imperfect-competition",
     "title": "Monopoly",
     "section": "Imperfect Competition",
-    "text": "Imperfect Competition\nAll firms that have to worry about their quantity produced share something in common:\n\n\nThey make something unique (or at elast “locally unique”)\nBecause their goods cannot be easily obtained elsewhere, one firm’s production will impact the price of the market\n\nWe are no longer assuming they are perfect substitutes\n\n\n\n\nIn the extreme case, where a single firm is the sole producer of a unique good, they are called a Monopoly"
+    "text": "Imperfect Competition\nAll firms that have to worry about their quantity produced share something in common:\n\nThey make something unique (or at elast “locally unique”)\nBecause their goods cannot be easily obtained elsewhere, one firm’s production will impact the price of the market\n\nWe are no longer assuming they are perfect substitutes\n\n\n\nIn the extreme case, where a single firm is the sole producer of a unique good, they are called a Monopoly"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#monopoly",
@@ -8117,7 +8117,7 @@
     "href": "Slides/09_Monopoly/main.html#maximizing-monopoly-profits",
     "title": "Monopoly",
     "section": "Maximizing Monopoly Profits",
-    "text": "Maximizing Monopoly Profits\nLuckily, we maximize their profits the exact same way as before\nBy finding \\(Q^{*}\\) from \\(\\frac{\\partial \\pi}{\\partial Q} = 0\\)\n\\[\n    \\pi = 100Q - 2Q^{2} \\;\\;\\;\\; \\& \\;\\;\\;\\; P = 100 - Q\n\\]\nFind the Profit Maximizing Quantity and the Market Price\n\n\nFinding Profit Maximizing Quantity\n\n\\[\\begin{align*}\n    \\frac{\\partial \\pi}{\\partial Q} &= 0 \\\\ \\\\\n    100 - 4Q &= 0 \\\\ \\\\\n    40Q &= 100 \\\\ \\\\\n    Q^{*}_{M} &= 25\n\\end{align*}\\]\n\n\nFinding Market Price\n\n\n\\[\\begin{align*}\n    P &= 100 - Q^{*}_{M} \\\\ \\\\\n    P^{*}_{M} &= 100 - 25 \\\\ \\\\\n    P^{*}_{M} &= 75\n\\end{align*}\\]"
+    "text": "Maximizing Monopoly Profits\nLuckily, we maximize their profits the exact same way as before\nBy finding \\(Q^{*}\\) from \\(\\frac{\\partial \\pi}{\\partial Q} = 0\\)\n\\[\n    \\pi = 100Q - 2Q^{2} \\;\\;\\;\\; \\& \\;\\;\\;\\; P = 100 - Q\n\\]\nFind the Profit Maximizing Quantity and the Market Price\n\n\nFinding Profit Maximizing Quantity\n\n\\[\\begin{align*}\n    \\frac{\\partial \\pi}{\\partial Q} &= 0 \\\\ \\\\\n    100 - 4Q &= 0 \\\\ \\\\\n    4Q &= 100 \\\\ \\\\\n    Q^{*}_{M} &= 25\n\\end{align*}\\]\n\n\nFinding Market Price\n\n\n\\[\\begin{align*}\n    P &= 100 - Q^{*}_{M} \\\\ \\\\\n    P^{*}_{M} &= 100 - 25 \\\\ \\\\\n    P^{*}_{M} &= 75\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#how-does-this-compare-to-our-perfectly-competitive-market",
@@ -8131,7 +8131,7 @@
     "href": "Slides/09_Monopoly/main.html#monopoly-vs-perfect-competition",
     "title": "Monopoly",
     "section": "Monopoly vs Perfect Competition",
-    "text": "Monopoly vs Perfect Competition\n\n\nMonopoly Equilibrium \\[\\begin{align*}\n    Q^{*}_{M} &= 25 \\\\ \\\\\n    P^{*}_{M} &= 75\n\\end{align*}\\]\n\nPerfect Competition Equilibrium \\[\\begin{align*}\n    Q^{*}_{PC} &= 33.3 \\\\ \\\\\n    P^{*}_{PC} &= 66.7\n\\end{align*}\\]\n\n\n\nA Monopoly will always charge a higher price and produce less than the Perfectly Competitive Market\nThis will be a recurring trend as we deal with market power\n\nWhen firms have market power, the equilibrium will always be less than “ideal”"
+    "text": "Monopoly vs Perfect Competition\n\n\nMonopoly Equilibrium \\[\\begin{align*}\n    Q^{*}_{M} &= 25 \\\\ \\\\\n    P^{*}_{M} &= 75\n\\end{align*}\\]\n\nPerfect Competition Equilibrium \\[\\begin{align*}\n    Q^{*}_{PC} &= 33.3 \\\\ \\\\\n    P^{*}_{PC} &= 66.7\n\\end{align*}\\]\n\n\nA Monopoly will always charge a higher price and produce less than the Perfectly Competitive Market\nThis will be a recurring trend as we deal with market power\n\nWhen firms have market power, the equilibrium will always be less than “ideal”"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#monopoly-1",
@@ -8166,7 +8166,7 @@
     "href": "Slides/09_Monopoly/main.html#how-monopolists-make-their-choices-1",
     "title": "Monopoly",
     "section": "How Monopolists Make Their Choices",
-    "text": "How Monopolists Make Their Choices\nTo find the price \\(P_{M}^{*}\\) they demand at \\(Q_{M}^{*}\\), we have to take one additional step\nWe will use the Demand Curve\n\n\nThe Monopolist chose their quantity while knowing that their choice determines market price through the Demand Curve"
+    "text": "How Monopolists Make Their Choices\nTo find the price \\(P_{M}^{*}\\) they demand at \\(Q_{M}^{*}\\), we have to take one additional step\nWe will use the Demand Curve\n\nThe Monopolist chose their quantity while knowing that their choice determines market price through the Demand Curve"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#how-monopolists-determine-their-market-price",
@@ -8180,14 +8180,14 @@
     "href": "Slides/09_Monopoly/main.html#monopoly-market-equilibrium",
     "title": "Monopoly",
     "section": "Monopoly Market Equilibrium",
-    "text": "Monopoly Market Equilibrium\nTo summarize:\n\n\nWe use the Demand Curve to find the Marginal Revenue Curve\nThe Monopolist produces the quantity determined by setting MR = MC\nThe Monopolist Price is determined by the Demand Curve at \\(Q_{M}^{*}\\)"
+    "text": "Monopoly Market Equilibrium\nTo summarize:\n\nWe use the Demand Curve to find the Marginal Revenue Curve\nThe Monopolist produces the quantity determined by setting MR = MC\nThe Monopolist Price is determined by the Demand Curve at \\(Q_{M}^{*}\\)"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#how-does-this-compare-to-perfect-competition",
     "href": "Slides/09_Monopoly/main.html#how-does-this-compare-to-perfect-competition",
     "title": "Monopoly",
     "section": "How Does This Compare to Perfect Competition?",
-    "text": "How Does This Compare to Perfect Competition?\nWe already showed that the Monopolists will produce less and demand a higher price\nWe can also show this on the same graph, which is useful to visualize what is happening\n\n\nRecall that the Marginal Cost Curve is the same thing as the Supply Curve in Perfect Competition\nThe Perfect Competition Price & Quantity is where Demand equals Supply"
+    "text": "How Does This Compare to Perfect Competition?\nWe already showed that the Monopolists will produce less and demand a higher price\nWe can also show this on the same graph, which is useful to visualize what is happening\n\nRecall that the Marginal Cost Curve is the same thing as the Supply Curve in Perfect Competition\nThe Perfect Competition Price & Quantity is where Demand equals Supply"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#monopoly-perfect-competition",
@@ -8201,7 +8201,7 @@
     "href": "Slides/09_Monopoly/main.html#why-restrict-quantity",
     "title": "Monopoly",
     "section": "Why Restrict Quantity?",
-    "text": "Why Restrict Quantity?\nMonopolists make an active choice to restrict quantity supplied, but why?\n\n\nIt makes them higher profits\n\n\n\nWhat about the nice tale of “all firms make zero economic profit in the Long-Run”?\nLet’s address it"
+    "text": "Why Restrict Quantity?\nMonopolists make an active choice to restrict quantity supplied, but why?\n\nIt makes them higher profits\n\n\nWhat about the nice tale of “all firms make zero economic profit in the Long-Run”?\nLet’s address it"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#monopoly-long-run-profits",
@@ -8215,7 +8215,7 @@
     "href": "Slides/09_Monopoly/main.html#monopoly-perfect-competition-example",
     "title": "Monopoly",
     "section": "Monopoly & Perfect Competition Example",
-    "text": "Monopoly & Perfect Competition Example\nNo better way to learn than by doing. Let a firm have the following cost function and face the following Demand Curve\n\\[\n    C(Q) = 2Q^{2} + 2Q \\;\\;\\;\\;\\; \\& \\;\\;\\;\\;\\; P = 26 - 2Q_{D}\n\\]\nWe will:\n\n\nFind the Supply Curve, Market Equilibrium Price, and Quantity assuming the firm is a Price Taker\nFind Monopoly Price & Quantity\nShow Profits are higher in the Monopoly Market\nGraph the found Curves\nAdd the Price, Quantities, & Profits"
+    "text": "Monopoly & Perfect Competition Example\nNo better way to learn than by doing. Let a firm have the following cost function and face the following Demand Curve\n\\[\n    C(Q) = 2Q^{2} + 2Q \\;\\;\\;\\;\\; \\& \\;\\;\\;\\;\\; P = 26 - 2Q_{D}\n\\]\nWe will:\n\nFind the Supply Curve, Market Equilibrium Price, and Quantity assuming the firm is a Price Taker\nFind Monopoly Price & Quantity\nShow Profits are higher in the Monopoly Market\nGraph the found Curves\nAdd the Price, Quantities, & Profits"
   },
   {
     "objectID": "Slides/09_Monopoly/main.html#finding-perfect-competition-equilibrium",
@@ -8467,14 +8467,14 @@
     "href": "Slides/10_ImperfectCompetition/main.html#up-to-now",
     "title": "Imperfect Competition",
     "section": "Up To Now",
-    "text": "Up To Now\nSo far we have talked about Perfect Competition and Monopoly\n\n\nThese firms are either complete price takers or complete price setters\nBut these are the extremes, the real world is more nuanced\n\nNeither of our models are likely to be truly realistic, but they do a good job at showing us the ends of our Competitive Spectrum"
+    "text": "Up To Now\nSo far we have talked about Perfect Competition and Monopoly\n\nThese firms are either complete price takers or complete price setters\nBut these are the extremes, the real world is more nuanced\n\nNeither of our models are likely to be truly realistic, but they do a good job at showing us the ends of our Competitive Spectrum"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#markets",
     "href": "Slides/10_ImperfectCompetition/main.html#markets",
     "title": "Imperfect Competition",
     "section": "Markets",
-    "text": "Markets\nMost markets are somewhere in-between\n\n\nFirms cannot set market prices by themselves\nBut there are circumstances where there are large firms and are few enough that one single firms choice can impact market prices\n\n\n\nThis is the basics of Imperfect Competition and what we will be tackling until the end"
+    "text": "Markets\nMost markets are somewhere in-between\n\nFirms cannot set market prices by themselves\nBut there are circumstances where there are large firms and are few enough that one single firms choice can impact market prices\n\n\nThis is the basics of Imperfect Competition and what we will be tackling until the end"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#imperfect-competition",
@@ -8488,7 +8488,7 @@
     "href": "Slides/10_ImperfectCompetition/main.html#decision-making-until-now",
     "title": "Imperfect Competition",
     "section": "Decision-Making Until Now",
-    "text": "Decision-Making Until Now\nWe have only studied decisions where one person or one firm were making decisions “in a vacuum”\n\nWe specifically addressed what is best for the individual or the firm, but it never depended on what other people or firms do\n\n\nMonopolies were slightly different\n\n\nThey maximized porfits, while taking into account the behavior of the consumers in their market\n\nOur models of Imperfect Competition are going to look similarly, with some modifications"
+    "text": "Decision-Making Until Now\nWe have only studied decisions where one person or one firm were making decisions “in a vacuum”\n\nWe specifically addressed what is best for the individual or the firm, but it never depended on what other people or firms do\n\n\nMonopolies were slightly different\n\nThey maximized porfits, while taking into account the behavior of the consumers in their market\n\nOur models of Imperfect Competition are going to look similarly, with some modifications"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#game-theory-basics",
@@ -8509,35 +8509,35 @@
     "href": "Slides/10_ImperfectCompetition/main.html#game-theory---nash-equilibrium",
     "title": "Imperfect Competition",
     "section": "Game Theory - Nash Equilibrium",
-    "text": "Game Theory - Nash Equilibrium\nLet’s formalize the thought process Game Theory indicates\nImagine that your competitor chooses to set a High Price. How should you respond?\n\n\nYou can take the entire market and earn 20 by setting a Low Price\nThis is clearly better than setting a High Price and sharing the market earning 15\n\n\n\nNow imagine the competitor chose to set a Low Price. How should you respond?\n\n\nIf you do not set a Low Price, your competitor will take the entire market and you will earn 0\nYour best response is to also set a Low Price and earn 10"
+    "text": "Game Theory - Nash Equilibrium\nLet’s formalize the thought process Game Theory indicates\nImagine that your competitor chooses to set a High Price. How should you respond?\n\nYou can take the entire market and earn 20 by setting a Low Price\nThis is clearly better than setting a High Price and sharing the market earning 15\n\n\nNow imagine the competitor chose to set a Low Price. How should you respond?\n\nIf you do not set a Low Price, your competitor will take the entire market and you will earn 0\nYour best response is to also set a Low Price and earn 10"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#game-theory---nash-equilibrium-1",
     "href": "Slides/10_ImperfectCompetition/main.html#game-theory---nash-equilibrium-1",
     "title": "Imperfect Competition",
     "section": "Game Theory - Nash Equilibrium",
-    "text": "Game Theory - Nash Equilibrium\nRegardless of what your competitor does, the best thing for you to do is to set a Low Price\n\n\nNow if you switch perspectives and answer the same questions from your competitor’s point of view You will get the same answer\nSo both of you are responding as you best could, to each other’s best decision\n\n\n\nThis outcome is called a\nNash Equilibrium"
+    "text": "Game Theory - Nash Equilibrium\nRegardless of what your competitor does, the best thing for you to do is to set a Low Price\n\nNow if you switch perspectives and answer the same questions from your competitor’s point of view You will get the same answer\nSo both of you are responding as you best could, to each other’s best decision\n\n\nThis outcome is called a\nNash Equilibrium"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#nash-equilibrium",
     "href": "Slides/10_ImperfectCompetition/main.html#nash-equilibrium",
     "title": "Imperfect Competition",
     "section": "Nash Equilibrium",
-    "text": "Nash Equilibrium\nI will abbreviate Nash Equilibrium as NE Let’s define it formally\nA set of choices (one for each player) is a NE if:\n\n\nEach player’s choice maximized their payoff given the choice of the other player\nNote that the NE is not the outcome that maximizes the total payoffs earned by each player\n\nIf both gas stations had set a High Price they would have each earned 15 for a total of 30\nWith the outcome we get, both set a Low Price and earn 10 each for a total of 20"
+    "text": "Nash Equilibrium\nI will abbreviate Nash Equilibrium as NE Let’s define it formally\nA set of choices (one for each player) is a NE if:\n\nEach player’s choice maximized their payoff given the choice of the other player\nNote that the NE is not the outcome that maximizes the total payoffs earned by each player\n\nIf both gas stations had set a High Price they would have each earned 15 for a total of 30\nWith the outcome we get, both set a Low Price and earn 10 each for a total of 20"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#nash-equilibrium-1",
     "href": "Slides/10_ImperfectCompetition/main.html#nash-equilibrium-1",
     "title": "Imperfect Competition",
     "section": "Nash Equilibrium",
-    "text": "Nash Equilibrium\nThe term Best Responding is a grat way of thinking about NE because it sets us up well for integrating it into our model of firm behavior\n\n\nFirm A an come up with a Best Response to any price that their competitor might set\nIn turn, their competitor, Firm B can also come up with a Best Response strategy to any price that Firm A might set\nThe prices at which Both Firms are simultaneously best responding to one another are the Nash Equilibrium Prices"
+    "text": "Nash Equilibrium\nThe term Best Responding is a grat way of thinking about NE because it sets us up well for integrating it into our model of firm behavior\n\nFirm A an come up with a Best Response to any price that their competitor might set\nIn turn, their competitor, Firm B can also come up with a Best Response strategy to any price that Firm A might set\nThe prices at which Both Firms are simultaneously best responding to one another are the Nash Equilibrium Prices"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#nash-equilibrium-in-producer-markets",
     "href": "Slides/10_ImperfectCompetition/main.html#nash-equilibrium-in-producer-markets",
     "title": "Imperfect Competition",
     "section": "Nash Equilibrium in Producer Markets",
-    "text": "Nash Equilibrium in Producer Markets\nTo put this in terms of our models where firms maximize profit based on their choice of Quantity \\(Q\\):\n\n\nThe quantities at which both firms are simultaneously best responding to one another are the Nash Equilibrium quantities\nThe Market Price is determined by the Sum of the Quantitites\n\n\n\nWe are going to be dealing with several models of imperfect competition\n\n\n\nCornout Competition\nCartels\n\n\n\nStackelberg Competition\nBertrand Competition"
+    "text": "Nash Equilibrium in Producer Markets\nTo put this in terms of our models where firms maximize profit based on their choice of Quantity \\(Q\\):\n\nThe quantities at which both firms are simultaneously best responding to one another are the Nash Equilibrium quantities\nThe Market Price is determined by the Sum of the Quantitites\n\n\nWe are going to be dealing with several models of imperfect competition\n\n\n\nCornout Competition\nCartels\n\n\n\nStackelberg Competition\nBertrand Competition"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#cournot-competition-simultaneous-decisions",
@@ -8635,7 +8635,7 @@
     "href": "Slides/10_ImperfectCompetition/main.html#cournot-equilibrium-vs-monopoly",
     "title": "Imperfect Competition",
     "section": "Cournot Equilibrium vs Monopoly",
-    "text": "Cournot Equilibrium vs Monopoly\nHow does Cournot Competition compare to Monopoly?\nThere are now two firms so it is not a Monopoly by definition\nBut we can do some work to make it one\n\n\nImagine that both firms collude. In other words, they cooperatively agree on how much to produce\nWe call this a Cartel\nWe can find how much they produce by “combining” the firms and maximizing profit"
+    "text": "Cournot Equilibrium vs Monopoly\nHow does Cournot Competition compare to Monopoly?\nThere are now two firms so it is not a Monopoly by definition\nBut we can do some work to make it one\n\nImagine that both firms collude. In other words, they cooperatively agree on how much to produce\nWe call this a Cartel\nWe can find how much they produce by “combining” the firms and maximizing profit"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#forming-a-cartel",
@@ -8670,21 +8670,21 @@
     "href": "Slides/10_ImperfectCompetition/main.html#cartel---joining-both-firms",
     "title": "Imperfect Competition",
     "section": "Cartel - Joining Both Firms",
-    "text": "Cartel - Joining Both Firms\nThere is an exception to this approach of combining two firms when we model Cartel Profits\n\nImagine two firms with the following Cost Functions\n\\[\\begin{align*}\n    \\text{Firm A: } C(Q_{A}) = 10 \\cdot Q_{A} \\;\\;\\;\\; ; \\;\\;\\;\\; \\text{Firm B: } C(Q_{B}) = 5 \\cdot Q_{B}\n\\end{align*}\\]\nIf these firms combine, should we just add their costs together?\nThink about their Marginal Costs\n\n\n\\[\\begin{align*}\n    \\text{Firm A Marginal Costs: } MC = 10 \\\\ \\\\\n    \\text{Firm B Marginal Costs: } MC = 5\n\\end{align*}\\]\nThey have different constant marignal costs\n\n\nSo it will always be cheaper to produce goods using only Firm B"
+    "text": "Cartel - Joining Both Firms\nThere is an exception to this approach of combining two firms when we model Cartel Profits\n\nImagine two firms with the following Cost Functions\n\\[\\begin{align*}\n    \\text{Firm A: } C(Q_{A}) = 10 \\cdot Q_{A} \\;\\;\\;\\; ; \\;\\;\\;\\; \\text{Firm B: } C(Q_{B}) = 5 \\cdot Q_{B}\n\\end{align*}\\]\nIf these firms combine, should we just add their costs together?\nThink about their Marginal Costs\n\n\n\\[\\begin{align*}\n    \\text{Firm A Marginal Costs: } MC = 10 \\\\ \\\\\n    \\text{Firm B Marginal Costs: } MC = 5\n\\end{align*}\\]\nThey have different constant marignal costs\n\nSo it will always be cheaper to produce goods using only Firm B"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#cartel---the-exception",
     "href": "Slides/10_ImperfectCompetition/main.html#cartel---the-exception",
     "title": "Imperfect Competition",
     "section": "Cartel - The Exception",
-    "text": "Cartel - The Exception\nIf we have two firms, both with Constant Marginal Costs that are Different:\n\n\nTo form a Cartel, they will simply shut down the firm with the Higher Marginal Costs and the other firm will become a Monopolist\nIf you were to find profits for both firms in the Cartel you would see that they are higher for both firms than in Cournot Competition\n\n\n\nSo why not form Cartels then?\n\n\nThey are usually illegal\nAnd more importantly, they are not stable!"
+    "text": "Cartel - The Exception\nIf we have two firms, both with Constant Marginal Costs that are Different:\n\nTo form a Cartel, they will simply shut down the firm with the Higher Marginal Costs and the other firm will become a Monopolist\nIf you were to find profits for both firms in the Cartel you would see that they are higher for both firms than in Cournot Competition\n\n\nSo why not form Cartels then?\n\nThey are usually illegal\nAnd more importantly, they are not stable!"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#cartels-are-unstable",
     "href": "Slides/10_ImperfectCompetition/main.html#cartels-are-unstable",
     "title": "Imperfect Competition",
     "section": "Cartels Are Unstable",
-    "text": "Cartels Are Unstable\nLet’s jump back to our gas station example\n\n\nYou and your competitor have a backroom agreement to sell your gas at $5.00/gallon\nThe next day you see your “new business partner” posting a price of $5.00/gallon, what are you tempted to do?\nPost a price of $4.99/gallon!\n\n\n\nIn other words, if you follow through with your Cartel Agreement\n\nIt is not your best response for you to follow through also!"
+    "text": "Cartels Are Unstable\nLet’s jump back to our gas station example\n\nYou and your competitor have a backroom agreement to sell your gas at $5.00/gallon\nThe next day you see your “new business partner” posting a price of $5.00/gallon, what are you tempted to do?\nPost a price of $4.99/gallon!\n\n\nIn other words, if you follow through with your Cartel Agreement\n\nIt is not your best response for you to follow through also!"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#cartels---showing-instability",
@@ -8712,21 +8712,21 @@
     "href": "Slides/10_ImperfectCompetition/main.html#competing-by-quantity-timing",
     "title": "Imperfect Competition",
     "section": "Competing by Quantity & Timing",
-    "text": "Competing by Quantity & Timing\nImagine a Farmer’s Market. Here you have a stand that sells flowers\n\n\nThe competing flower stand next to you always shows up 30 minutes before you do\nBy the time you arrive, they have already got their flower displays set up\n\nTheir choice can vary on whether they display a large amount of flowers (which depresses market price) or put up a small display (which keeps market price high)\n\n\n\n\nThis dynamic introduces timing"
+    "text": "Competing by Quantity & Timing\nImagine a Farmer’s Market. Here you have a stand that sells flowers\n\nThe competing flower stand next to you always shows up 30 minutes before you do\nBy the time you arrive, they have already got their flower displays set up\n\nTheir choice can vary on whether they display a large amount of flowers (which depresses market price) or put up a small display (which keeps market price high)\n\n\n\nThis dynamic introduces timing"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#stackelberg-competition---structure",
     "href": "Slides/10_ImperfectCompetition/main.html#stackelberg-competition---structure",
     "title": "Imperfect Competition",
     "section": "Stackelberg Competition - Structure",
-    "text": "Stackelberg Competition - Structure\nWe remain with only two firms\n\n\nWe now have a “Leader” and a “Follower”\nWe call this a Sequential Game\nTo solve a Sequential Game, we first figure out how the Follower will behave\nWe use that information to figure out what the Leader does"
+    "text": "Stackelberg Competition - Structure\nWe remain with only two firms\n\nWe now have a “Leader” and a “Follower”\nWe call this a Sequential Game\nTo solve a Sequential Game, we first figure out how the Follower will behave\nWe use that information to figure out what the Leader does"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#game-theory-concept---backwards-induction",
     "href": "Slides/10_ImperfectCompetition/main.html#game-theory-concept---backwards-induction",
     "title": "Imperfect Competition",
     "section": "Game Theory Concept - Backwards Induction",
-    "text": "Game Theory Concept - Backwards Induction\nThis process of working backwards is called Backwards Induction\nBut why solve the Stackelberg Model this way?\n\n\nWhen the Leader is considering how much quantity to produce, they are trying to predict how the Follower will respond\nThe Follower is just reacting to an observed choice\nSo we start by figuring out how a Follower reacts to any choice and then let the Leader make a choice in anticipation of this reaction"
+    "text": "Game Theory Concept - Backwards Induction\nThis process of working backwards is called Backwards Induction\nBut why solve the Stackelberg Model this way?\n\nWhen the Leader is considering how much quantity to produce, they are trying to predict how the Follower will respond\nThe Follower is just reacting to an observed choice\nSo we start by figuring out how a Follower reacts to any choice and then let the Leader make a choice in anticipation of this reaction"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#backwards-induction-in-stackelberg",
@@ -8754,7 +8754,7 @@
     "href": "Slides/10_ImperfectCompetition/main.html#the-leader",
     "title": "Imperfect Competition",
     "section": "The Leader",
-    "text": "The Leader\nIf the Follower just reacts to what the Leader does, then what does the Leader do?\n\n\nThey will maximize their profit with full knowledge of the follower’s Best Response Function\n\nWe assume they know it exactly. There are no tricks the Follower can pull\n\nThey behave similar to a Monopoly, they will plug in this knowledge into their profit function before maximizing"
+    "text": "The Leader\nIf the Follower just reacts to what the Leader does, then what does the Leader do?\n\nThey will maximize their profit with full knowledge of the follower’s Best Response Function\n\nWe assume they know it exactly. There are no tricks the Follower can pull\n\nThey behave similar to a Monopoly, they will plug in this knowledge into their profit function before maximizing"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#stackelberg-competition---example",
@@ -8782,7 +8782,7 @@
     "href": "Slides/10_ImperfectCompetition/main.html#stackelberg---outcomes",
     "title": "Imperfect Competition",
     "section": "Stackelberg - Outcomes",
-    "text": "Stackelberg - Outcomes\nThere is a predictable outcome, we can say that relative to the Cournot Competition:\n\n\nThe Leader will earn higher profits because they produce more\nThe Follower will earn lower profits because they produce less\n\n\n\nThis leads us to the conclusion that\n\nStackelberg Competition features a First-Mover Advantage\nBeing able to go first implies that you can set a higher quantity produced and crowd-out your competition from the market"
+    "text": "Stackelberg - Outcomes\nThere is a predictable outcome, we can say that relative to the Cournot Competition:\n\nThe Leader will earn higher profits because they produce more\nThe Follower will earn lower profits because they produce less\n\n\nThis leads us to the conclusion that\n\nStackelberg Competition features a First-Mover Advantage\nBeing able to go first implies that you can set a higher quantity produced and crowd-out your competition from the market"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#competition-up-to-now",
@@ -8796,21 +8796,21 @@
     "href": "Slides/10_ImperfectCompetition/main.html#competing-by-prices",
     "title": "Imperfect Competition",
     "section": "Competing by Prices",
-    "text": "Competing by Prices\nForget quantities\nIn Bertrand Competition firms will compete by setting prices before they begin production\n\n\nImagine that the competing firms are bidding on quantities to be delivered later\n\nThink of like an auction with bids for work being submitted\n\nThis changes the nature of competition substantially\n\nThe firm that announces a Lower Price gets 100% of the market"
+    "text": "Competing by Prices\nForget quantities\nIn Bertrand Competition firms will compete by setting prices before they begin production\n\nImagine that the competing firms are bidding on quantities to be delivered later\n\nThink of like an auction with bids for work being submitted\n\nThis changes the nature of competition substantially\n\nThe firm that announces a Lower Price gets 100% of the market"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#back-to-the-gas-station",
     "href": "Slides/10_ImperfectCompetition/main.html#back-to-the-gas-station",
     "title": "Imperfect Competition",
     "section": "Back to the Gas Station",
-    "text": "Back to the Gas Station\nThe story we have been telling about the gas station is a perfect example of this\nInstead of you running one, let’s just call them Gas Station A and Gas Station B\n\n\nIf Gas Station A advertises a price of $4.00/gallon, what should the manager of Gas Station B do?\n\nAdvertise a price of $3.99/gallon\n\nBut Gas Station A knows this, so how should they respond?\n\nAdvertise a price of $3.98/gallon\n\nAnd the cycle continues"
+    "text": "Back to the Gas Station\nThe story we have been telling about the gas station is a perfect example of this\nInstead of you running one, let’s just call them Gas Station A and Gas Station B\n\nIf Gas Station A advertises a price of $4.00/gallon, what should the manager of Gas Station B do?\n\nAdvertise a price of $3.99/gallon\n\nBut Gas Station A knows this, so how should they respond?\n\nAdvertise a price of $3.98/gallon\n\nAnd the cycle continues"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#is-bertrand-a-race-to-the-bottom",
     "href": "Slides/10_ImperfectCompetition/main.html#is-bertrand-a-race-to-the-bottom",
     "title": "Imperfect Competition",
     "section": "Is Bertrand a Race to the Bottom?",
-    "text": "Is Bertrand a Race to the Bottom?\nWhen duopolies compete through price-bidding, both firms have an incentive to slightly undercut one another\nBut how low will the price go?\n\n\nThe Zero-Profit condition tells us\n\nIf the Price ever falls below the MC of the winning firm, they win but would not want to fulfill it\n\n\n\n\nThe Price War continues until P = MC"
+    "text": "Is Bertrand a Race to the Bottom?\nWhen duopolies compete through price-bidding, both firms have an incentive to slightly undercut one another\nBut how low will the price go?\n\nThe Zero-Profit condition tells us\n\nIf the Price ever falls below the MC of the winning firm, they win but would not want to fulfill it\n\n\n\nThe Price War continues until P = MC"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition---price-wars",
@@ -8908,21 +8908,21 @@
     "href": "Slides/10_ImperfectCompetition/main.html#summary-of-models",
     "title": "Imperfect Competition",
     "section": "Summary of Models",
-    "text": "Summary of Models\nAll of the models we have seen are\n\n\nPerfect Competition (Price Taking)\nMonopoly (Determines Price Through Quantity Choice - 1 Firm)\nCournot (Simultaneous Competition By Setting Quantity)\nCartels (2 Firms unite and behave like a Monopoly)\nStackelberg (Sequential Competition By Setting Quantity)\nBertrand (Competing By Setting Price)"
+    "text": "Summary of Models\nAll of the models we have seen are\n\nPerfect Competition (Price Taking)\nMonopoly (Determines Price Through Quantity Choice - 1 Firm)\nCournot (Simultaneous Competition By Setting Quantity)\nCartels (2 Firms unite and behave like a Monopoly)\nStackelberg (Sequential Competition By Setting Quantity)\nBertrand (Competing By Setting Price)"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#consumer-perception-of-markets",
     "href": "Slides/10_ImperfectCompetition/main.html#consumer-perception-of-markets",
     "title": "Imperfect Competition",
     "section": "Consumer Perception of Markets",
-    "text": "Consumer Perception of Markets\nWe can think how these markets affect consumers\n\n\nBertrand and Perfect Competition yield the same outcome and are the best for consumers\n\nLowest price, highest quantity\n\nMonopoly and Cartel are the worst for consumers\n\nHighest price, lowest quantity\n\nCournot and Stackelberg are somewhere in-between\n\nStackelberg has slightly better outcomes for consumers"
+    "text": "Consumer Perception of Markets\nWe can think how these markets affect consumers\n\nBertrand and Perfect Competition yield the same outcome and are the best for consumers\n\nLowest price, highest quantity\n\nMonopoly and Cartel are the worst for consumers\n\nHighest price, lowest quantity\n\nCournot and Stackelberg are somewhere in-between\n\nStackelberg has slightly better outcomes for consumers"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#long-run-in-markets",
     "href": "Slides/10_ImperfectCompetition/main.html#long-run-in-markets",
     "title": "Imperfect Competition",
     "section": "Long-Run in Markets",
-    "text": "Long-Run in Markets\nWe care about the Long-Run Equilibriums\n\n\nFirms will only make Zero-Profits in the Long-Run Equilibrium under Perfect Competition\n\nWe saw that Bertrand can also produce Zero-Profits under the correct conditions\n\nIn all forms of Imperfect Competition, firms manage to prevent entry of other firms in the Long-Run"
+    "text": "Long-Run in Markets\nWe care about the Long-Run Equilibriums\n\nFirms will only make Zero-Profits in the Long-Run Equilibrium under Perfect Competition\n\nWe saw that Bertrand can also produce Zero-Profits under the correct conditions\n\nIn all forms of Imperfect Competition, firms manage to prevent entry of other firms in the Long-Run"
   },
   {
     "objectID": "index.html",
