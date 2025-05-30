@@ -82,6 +82,34 @@ title: "Lab Assignments"
 </details>
 ```
 
+### Perfect Competition Handouts
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="EC_311_S23_Supply.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="EC_311_S23_Profits.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
+### Imperfect Competition Handouts
+```{=html}
+<details>
+  <summary>pdf</summary>
+  <div class="embed-container">
+    <iframe src="ec311-w10-imperfect-comp.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
+  </div>
+</details>
+```
+
 ---
 
 # Solutions
@@ -162,34 +190,6 @@ title: "Lab Assignments"
   <summary>pdf</summary>
   <div class="embed-container">
     <iframe src="ec311-w8-costs-solutions.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-  </div>
-</details>
-```
-
-### Perfect Competition Handouts
-```{=html}
-<details>
-  <summary>pdf</summary>
-  <div class="embed-container">
-    <iframe src="EC_311_S23_Supply.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-  </div>
-</details>
-```
-```{=html}
-<details>
-  <summary>pdf</summary>
-  <div class="embed-container">
-    <iframe src="EC_311_S23_Profits.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
-  </div>
-</details>
-```
-
-### Imperfect Competition Handouts
-```{=html}
-<details>
-  <summary>pdf</summary>
-  <div class="embed-container">
-    <iframe src="ec311-w10-imperfect-comp.pdf" style="border: 0.5px" height="1000" width="800"></iframe>
   </div>
 </details>
 ```
