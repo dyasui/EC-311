@@ -35,6 +35,10 @@ title-slide-attributes:
 
 {{< include 102-game-theory.qmd >}}
 
+# Bertrand Competition {.inverse .note}
+
+{{< include 106-bertrand-competition.qmd >}}
+
 # Cournot Competition {.inverse .note}
 
 {{< include 103-cournot-competition.qmd >}}
@@ -47,9 +51,7 @@ title-slide-attributes:
 
 {{< include 105-stackelberg-competition.qmd >}}
 
-# Bertrand Competition {.inverse .note}
-
-{{< include 106-bertrand-competition.qmd >}}
+# Comparing Duopoly Models {.inverse .note}
 
 {{< include 107-constant-marginal-costs.qmd >}}
 

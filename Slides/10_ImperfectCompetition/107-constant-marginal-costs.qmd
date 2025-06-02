@@ -4,13 +4,9 @@ name: constant marginal costs
 
 ## Duopoly Example
 
-For duopolies, we are going to take a step that will simplify our lives
+Let's compare the different outcomes of each of these new imperfect competition models.
 
-We are going to introduce [Cosntant Marginal Cost (Linear) Functions]{.hi}
-
-Let's practice what we have learned!
-
-Let there be two firms (A & B) with the following [Cost Functions]{.hi} and facing the [Demand Curve]{.hi}
+let there be two firms (A & B) with the following [Cost Functions]{.hi} and facing the [Demand Curve]{.hi}
 
 <br><br>
 
