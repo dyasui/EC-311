@@ -11,7 +11,7 @@ let there be two firms (A & B) with the following [Cost Functions]{.hi} and faci
 <br><br>
 
 $$
-    P = 64 - Q \;\;\;\; ; \;\;\;\; C(Q_{B}) = 10Q_{B} \;\; ; \;\; C(Q_{B}) = 4Q_{B}
+    P = 64 - Q \;\;\;\; ; \;\;\;\; C(Q_{A}) = 10Q_{A} \;\; ; \;\; C(Q_{B}) = 4Q_{B}
 $$
 
 ---
@@ -20,7 +20,7 @@ $$
 
 ::: {.incremental .small}
 $$
-    P = 64 - Q \;\;\;\; ; \;\;\;\; C(Q_{B}) = 10Q_{B} \;\; ; \;\; C(Q_{B}) = 4Q_{B}
+    P = 64 - Q \;\;\;\; ; \;\;\;\; C(Q_{A}) = 10Q_{A} \;\; ; \;\; C(Q_{B}) = 4Q_{B}
 $$
 ::: 
 
@@ -34,8 +34,8 @@ $$
 
 ::: {.column width="50%" .tiny}
 \begin{align*}
-    \pi_{B} &= P \cdot Q_{B} - C(Q_{B}) \\
-    \pi_{B} &= (64 - Q_{B} - Q_{B}) Q_{B} - 10Q_{B} 
+    \pi_{A} &= P \cdot Q_{A} - C(Q_{A}) \\
+    \pi_{A} &= (64 - Q_{A} - Q_{B}) Q_{A} - 10Q_{A} 
 \end{align*}
 
 [Find $\; \frac{\partial \pi_{A}}{\partial Q_{A}}$]{.align-center}
