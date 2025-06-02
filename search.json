@@ -95,14 +95,14 @@
     "href": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "For duopolies, we are going to take a step that will simplify our lives\nWe are going to introduce Cosntant Marginal Cost (Linear) Functions\nLet’s practice what we have learned!\nLet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
+    "text": "Let’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example",
     "href": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "For duopolies, we are going to take a step that will simplify our lives\nWe are going to introduce Cosntant Marginal Cost (Linear) Functions\nLet’s practice what we have learned!\nLet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
+    "text": "Let’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example---cournot-competition",
@@ -8540,6 +8540,55 @@
     "text": "Nash Equilibrium in Producer Markets\nTo put this in terms of our models where firms maximize profit based on their choice of Quantity \\(Q\\):\n\nThe quantities at which both firms are simultaneously best responding to one another are the Nash Equilibrium quantities\nThe Market Price is determined by the Sum of the Quantitites\n\n\nWe are going to be dealing with several models of imperfect competition\n\n\n\nCornout Competition\nCartels\n\n\n\nStackelberg Competition\nBertrand Competition"
   },
   {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#competing-by-prices",
+    "href": "Slides/10_ImperfectCompetition/main.html#competing-by-prices",
+    "title": "Imperfect Competition",
+    "section": "Competing by Prices",
+    "text": "Competing by Prices\nForget quantities\nIn Bertrand Competition firms will compete by setting prices before they begin production\n\nImagine that the competing firms are bidding on quantities to be delivered later\n\nThink of like an auction with bids for work being submitted\n\nThis changes the nature of competition substantially\n\nThe firm that announces a Lower Price gets 100% of the market"
+  },
+  {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#back-to-the-gas-station",
+    "href": "Slides/10_ImperfectCompetition/main.html#back-to-the-gas-station",
+    "title": "Imperfect Competition",
+    "section": "Back to the Gas Station",
+    "text": "Back to the Gas Station\nThe story we have been telling about the gas station is a perfect example of this\nInstead of you running one, let’s just call them Gas Station A and Gas Station B\n\nIf Gas Station A advertises a price of $4.00/gallon, what should the manager of Gas Station B do?\n\nAdvertise a price of $3.99/gallon\n\nBut Gas Station A knows this, so how should they respond?\n\nAdvertise a price of $3.98/gallon\n\nAnd the cycle continues"
+  },
+  {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#is-bertrand-a-race-to-the-bottom",
+    "href": "Slides/10_ImperfectCompetition/main.html#is-bertrand-a-race-to-the-bottom",
+    "title": "Imperfect Competition",
+    "section": "Is Bertrand a Race to the Bottom?",
+    "text": "Is Bertrand a Race to the Bottom?\nWhen duopolies compete through price-bidding, both firms have an incentive to slightly undercut one another\nBut how low will the price go?\n\nThe Zero-Profit condition tells us\n\nIf the Price ever falls below the MC of the winning firm, they win but would not want to fulfill it\n\n\n\nThe Price War continues until P = MC"
+  },
+  {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition---price-wars",
+    "href": "Slides/10_ImperfectCompetition/main.html#bertrand-competition---price-wars",
+    "title": "Imperfect Competition",
+    "section": "Bertrand Competition - Price Wars",
+    "text": "Bertrand Competition - Price Wars\nA Firm’s Limit is P = MC\nUnder Bertrand Competition, firms that compete will both set price equal to their respective Marginal Cost\n\nThis is the Nash Equilibrium\n\n\nThis gives us two possibilities\n\n\nOne Firm has a lower MC\n\nThe firm with the lower Marginal Costs will obtain the entire market by setting a price just lower than their competitor’s MC\n\n\nBoth Firms have the same MC\n\nWe will see both firms produce in the market and we will get Price, Quantity and Profit the same as under Perfect Competition"
+  },
+  {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#how-does-this-work",
+    "href": "Slides/10_ImperfectCompetition/main.html#how-does-this-work",
+    "title": "Imperfect Competition",
+    "section": "How Does This Work?",
+    "text": "How Does This Work?\nIt is the proverbial outrun your friend not the bear\nIf both Firms have different marginal costs, the most efficient will undercut their competition\nThere is No Need for the winner to go any lower than that:\n\nRecall they also want to make as much profit as possible"
+  },
+  {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example",
+    "href": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example",
+    "title": "Imperfect Competition",
+    "section": "Bertrand Competition Example",
+    "text": "Bertrand Competition Example\nLet’s look at an example that illustrate the previous slide\nLet there be two firms in the market. Firm A has cost function \\(C(Q_{A}) = 20 Q_{A}\\) and Firm B has cost function \\((CQ_{B}) = Q_{B}^{2}\\). Demand in the industry is given by the Demand Curve \\(P = 120 - Q\\)\nWe say that Firm A will be able to price Firm B out of the market.\n\n\nIf Firm A would like to supply 40 units by themselves, what price should they set? What are profits at that point?"
+  },
+  {
+    "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example-1",
+    "href": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example-1",
+    "title": "Imperfect Competition",
+    "section": "Bertrand Competition Example",
+    "text": "Bertrand Competition Example\nIf Firm A would like to supply 40 units by themselves, what price should they set? What are profits at that point?\n\n\\[\\begin{align*}\n    \\text{From the Demand Curve: } P = 120 - Q = 120 - \\color{red}{40} = 80\n\\end{align*}\\]\n\n\nFinding Price to Set\n\nFirm B has \\(MC = 2Q_{B}\\)\nThey are willing to to supply 40 units at:\n\\[\\begin{align*}\n    MC(Q_{B}) &= 2Q_{B} \\\\\n    MC(40) &= 2(40) = 80 \\\\\n\\end{align*}\\]\nUse fact that P = MC\n\\[\\begin{align*}\n    P = MC(40) = 80\n\\end{align*}\\]\n\n\n\nFirm A’s Choice\nFirm A knows Firm B can only lower their price to $80.\nFirm A can set Price equal to $79.99 and Firm B becomes unwilling to supply 40 units due to \\(P &lt; MC\\)\n\n\n\\[\\begin{align*}\n    \\pi_{A} = 79.99 \\cdot 40 - 40 \\cdot 20 \\approx 2400\n\\end{align*}\\]"
+  },
+  {
     "objectID": "Slides/10_ImperfectCompetition/main.html#cournot-competition-simultaneous-decisions",
     "href": "Slides/10_ImperfectCompetition/main.html#cournot-competition-simultaneous-decisions",
     "title": "Imperfect Competition",
@@ -8792,60 +8841,11 @@
     "text": "Competition Up To Now\nAll of these previous forms of competition have modeled firms competing on choosing quantities\n\nWhere the sum of the quantities produced determines the Market Quantity which determines the Market Price\n\n\nBut what if firms can set prices before they have to produce anything?\n\nWhat if firms can compete based on their choice of Price?\nWe call these Bertrand Competition"
   },
   {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#competing-by-prices",
-    "href": "Slides/10_ImperfectCompetition/main.html#competing-by-prices",
-    "title": "Imperfect Competition",
-    "section": "Competing by Prices",
-    "text": "Competing by Prices\nForget quantities\nIn Bertrand Competition firms will compete by setting prices before they begin production\n\nImagine that the competing firms are bidding on quantities to be delivered later\n\nThink of like an auction with bids for work being submitted\n\nThis changes the nature of competition substantially\n\nThe firm that announces a Lower Price gets 100% of the market"
-  },
-  {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#back-to-the-gas-station",
-    "href": "Slides/10_ImperfectCompetition/main.html#back-to-the-gas-station",
-    "title": "Imperfect Competition",
-    "section": "Back to the Gas Station",
-    "text": "Back to the Gas Station\nThe story we have been telling about the gas station is a perfect example of this\nInstead of you running one, let’s just call them Gas Station A and Gas Station B\n\nIf Gas Station A advertises a price of $4.00/gallon, what should the manager of Gas Station B do?\n\nAdvertise a price of $3.99/gallon\n\nBut Gas Station A knows this, so how should they respond?\n\nAdvertise a price of $3.98/gallon\n\nAnd the cycle continues"
-  },
-  {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#is-bertrand-a-race-to-the-bottom",
-    "href": "Slides/10_ImperfectCompetition/main.html#is-bertrand-a-race-to-the-bottom",
-    "title": "Imperfect Competition",
-    "section": "Is Bertrand a Race to the Bottom?",
-    "text": "Is Bertrand a Race to the Bottom?\nWhen duopolies compete through price-bidding, both firms have an incentive to slightly undercut one another\nBut how low will the price go?\n\nThe Zero-Profit condition tells us\n\nIf the Price ever falls below the MC of the winning firm, they win but would not want to fulfill it\n\n\n\nThe Price War continues until P = MC"
-  },
-  {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition---price-wars",
-    "href": "Slides/10_ImperfectCompetition/main.html#bertrand-competition---price-wars",
-    "title": "Imperfect Competition",
-    "section": "Bertrand Competition - Price Wars",
-    "text": "Bertrand Competition - Price Wars\nA Firm’s Limit is P = MC\nUnder Bertrand Competition, firms that compete will both set price equal to their respective Marginal Cost\n\nThis is the Nash Equilibrium\n\n\nThis gives us two possibilities\n\n\nOne Firm has a lower MC\n\nThe firm with the lower Marginal Costs will obtain the entire market by setting a price just lower than their competitor’s MC\n\n\nBoth Firms have the same MC\n\nWe will see both firms produce in the market and we will get Price, Quantity and Profit the same as under Perfect Competition"
-  },
-  {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#how-does-this-work",
-    "href": "Slides/10_ImperfectCompetition/main.html#how-does-this-work",
-    "title": "Imperfect Competition",
-    "section": "How Does This Work?",
-    "text": "How Does This Work?\nIt is the proverbial outrun your friend not the bear\nIf both Firms have different marginal costs, the most efficient will undercut their competition\nThere is No Need for the winner to go any lower than that:\n\nRecall they also want to make as much profit as possible"
-  },
-  {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example",
-    "href": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example",
-    "title": "Imperfect Competition",
-    "section": "Bertrand Competition Example",
-    "text": "Bertrand Competition Example\nLet’s look at an example that illustrate the previous slide\nLet there be two firms in the market. Firm A has cost function \\(C(Q_{A}) = 20 Q_{A}\\) and Firm B has cost function \\((CQ_{B}) = Q_{B}^{2}\\). Demand in the industry is given by the Demand Curve \\(P = 120 - Q\\)\nWe say that Firm A will be able to price Firm B out of the market.\n\n\nIf Firm A would like to supply 40 units by themselves, what price should they set? What are profits at that point?"
-  },
-  {
-    "objectID": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example-1",
-    "href": "Slides/10_ImperfectCompetition/main.html#bertrand-competition-example-1",
-    "title": "Imperfect Competition",
-    "section": "Bertrand Competition Example",
-    "text": "Bertrand Competition Example\nIf Firm A would like to supply 40 units by themselves, what price should they set? What are profits at that point?\n\n\\[\\begin{align*}\n    \\text{From the Demand Curve: } P = 120 - Q = 120 - \\color{red}{40} = 80\n\\end{align*}\\]\n\n\nFinding Price to Set\n\nFirm B has \\(MC = 2Q_{B}\\)\nThey are willing to to supply 40 units at:\n\\[\\begin{align*}\n    MC(Q_{B}) &= 2Q_{B} \\\\\n    MC(40) &= 2(40) = 80 \\\\\n\\end{align*}\\]\nUse fact that P = MC\n\\[\\begin{align*}\n    P = MC(40) = 80\n\\end{align*}\\]\n\n\n\nFirm A’s Choice\nFirm A knows Firm B can only lower their price to $80.\nFirm A can set Price equal to $79.99 and Firm B becomes unwilling to supply 40 units due to \\(P &lt; MC\\)\n\n\n\\[\\begin{align*}\n    \\pi_{A} = 79.99 \\cdot 40 - 40 \\cdot 20 \\approx 2400\n\\end{align*}\\]"
-  },
-  {
     "objectID": "Slides/10_ImperfectCompetition/main.html#duopoly-example",
     "href": "Slides/10_ImperfectCompetition/main.html#duopoly-example",
     "title": "Imperfect Competition",
     "section": "Duopoly Example",
-    "text": "Duopoly Example\nFor duopolies, we are going to take a step that will simplify our lives\nWe are going to introduce Cosntant Marginal Cost (Linear) Functions\nLet’s practice what we have learned!\nLet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
+    "text": "Duopoly Example\nLet’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#duopoly-example---cournot-competition",
