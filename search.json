@@ -95,21 +95,21 @@
     "href": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Let’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
+    "text": "Let’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{A}) = 10Q_{A} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example",
     "href": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example",
     "title": "EC311 Intermediate Micro",
     "section": "",
-    "text": "Let’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
+    "text": "Let’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{A}) = 10Q_{A} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example---cournot-competition",
     "href": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example---cournot-competition",
     "title": "EC311 Intermediate Micro",
     "section": "Duopoly Example - Cournot Competition",
-    "text": "Duopoly Example - Cournot Competition\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]\n\nFind the Best Response Functions for both firms\nRecall you find this by finding the profit maximizing quantity\n. . .\n\n\n\\[\\begin{align*}\n    \\pi_{B} &= P \\cdot Q_{B} - C(Q_{B}) \\\\\n    \\pi_{B} &= (64 - Q_{B} - Q_{B}) Q_{B} - 10Q_{B}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{A}}{\\partial Q_{A}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{A}}{\\partial Q_{A}} &= 0 \\\\\n    64 - 2Q_{A} - Q_{B} - 10 &= 0 \\\\\n    2Q_{A} &= 54 - Q_{B} \\\\\n    Q^{*}_{A} &= 27 - \\frac{Q_{B}}{2}\n\\end{align*}\\]\n\n\\[\\begin{align*}\n    \\pi_{B} &= P \\cdot Q_{B} - C(Q_{B}) \\\\\n    \\pi_{B} &= (64 - Q_{A} - Q_{B}) Q_{B} - 4Q_{B}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{B}}{\\partial Q_{B}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{B}}{\\partial Q_{B}} &= 0 \\\\\n    64 - Q_{A} - 2Q_{B} - 4 &= 0 \\\\\n    2Q_{B} &= 60 - Q_{A} \\\\\n    Q^{*}_{B} &= 30 - \\frac{Q_{A}}{2}\n\\end{align*}\\]"
+    "text": "Duopoly Example - Cournot Competition\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{A}) = 10Q_{A} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]\n\nFind the Best Response Functions for both firms\nRecall you find this by finding the profit maximizing quantity\n. . .\n\n\n\\[\\begin{align*}\n    \\pi_{A} &= P \\cdot Q_{A} - C(Q_{A}) \\\\\n    \\pi_{A} &= (64 - Q_{A} - Q_{B}) Q_{A} - 10Q_{A}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{A}}{\\partial Q_{A}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{A}}{\\partial Q_{A}} &= 0 \\\\\n    64 - 2Q_{A} - Q_{B} - 10 &= 0 \\\\\n    2Q_{A} &= 54 - Q_{B} \\\\\n    Q^{*}_{A} &= 27 - \\frac{Q_{B}}{2}\n\\end{align*}\\]\n\n\\[\\begin{align*}\n    \\pi_{B} &= P \\cdot Q_{B} - C(Q_{B}) \\\\\n    \\pi_{B} &= (64 - Q_{A} - Q_{B}) Q_{B} - 4Q_{B}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{B}}{\\partial Q_{B}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{B}}{\\partial Q_{B}} &= 0 \\\\\n    64 - Q_{A} - 2Q_{B} - 4 &= 0 \\\\\n    2Q_{B} &= 60 - Q_{A} \\\\\n    Q^{*}_{B} &= 30 - \\frac{Q_{A}}{2}\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/107-constant-marginal-costs.html#duopoly-example---cournot-competition-1",
@@ -8845,14 +8845,14 @@
     "href": "Slides/10_ImperfectCompetition/main.html#duopoly-example",
     "title": "Imperfect Competition",
     "section": "Duopoly Example",
-    "text": "Duopoly Example\nLet’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
+    "text": "Duopoly Example\nLet’s compare the different outcomes of each of these new imperfect competition models.\nlet there be two firms (A & B) with the following Cost Functions and facing the Demand Curve\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{A}) = 10Q_{A} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#duopoly-example---cournot-competition",
     "href": "Slides/10_ImperfectCompetition/main.html#duopoly-example---cournot-competition",
     "title": "Imperfect Competition",
     "section": "Duopoly Example - Cournot Competition",
-    "text": "Duopoly Example - Cournot Competition\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{B}) = 10Q_{B} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]\n\nFind the Best Response Functions for both firms\nRecall you find this by finding the profit maximizing quantity\n\n\n\n\\[\\begin{align*}\n    \\pi_{B} &= P \\cdot Q_{B} - C(Q_{B}) \\\\\n    \\pi_{B} &= (64 - Q_{B} - Q_{B}) Q_{B} - 10Q_{B}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{A}}{\\partial Q_{A}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{A}}{\\partial Q_{A}} &= 0 \\\\\n    64 - 2Q_{A} - Q_{B} - 10 &= 0 \\\\\n    2Q_{A} &= 54 - Q_{B} \\\\\n    Q^{*}_{A} &= 27 - \\frac{Q_{B}}{2}\n\\end{align*}\\]\n\n\\[\\begin{align*}\n    \\pi_{B} &= P \\cdot Q_{B} - C(Q_{B}) \\\\\n    \\pi_{B} &= (64 - Q_{A} - Q_{B}) Q_{B} - 4Q_{B}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{B}}{\\partial Q_{B}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{B}}{\\partial Q_{B}} &= 0 \\\\\n    64 - Q_{A} - 2Q_{B} - 4 &= 0 \\\\\n    2Q_{B} &= 60 - Q_{A} \\\\\n    Q^{*}_{B} &= 30 - \\frac{Q_{A}}{2}\n\\end{align*}\\]"
+    "text": "Duopoly Example - Cournot Competition\n\n\\[\n    P = 64 - Q \\;\\;\\;\\; ; \\;\\;\\;\\; C(Q_{A}) = 10Q_{A} \\;\\; ; \\;\\; C(Q_{B}) = 4Q_{B}\n\\]\n\nFind the Best Response Functions for both firms\nRecall you find this by finding the profit maximizing quantity\n\n\n\n\\[\\begin{align*}\n    \\pi_{A} &= P \\cdot Q_{A} - C(Q_{A}) \\\\\n    \\pi_{A} &= (64 - Q_{A} - Q_{B}) Q_{A} - 10Q_{A}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{A}}{\\partial Q_{A}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{A}}{\\partial Q_{A}} &= 0 \\\\\n    64 - 2Q_{A} - Q_{B} - 10 &= 0 \\\\\n    2Q_{A} &= 54 - Q_{B} \\\\\n    Q^{*}_{A} &= 27 - \\frac{Q_{B}}{2}\n\\end{align*}\\]\n\n\\[\\begin{align*}\n    \\pi_{B} &= P \\cdot Q_{B} - C(Q_{B}) \\\\\n    \\pi_{B} &= (64 - Q_{A} - Q_{B}) Q_{B} - 4Q_{B}\n\\end{align*}\\]\nFind \\(\\; \\frac{\\partial \\pi_{B}}{\\partial Q_{B}}\\) \\[\\begin{align*}\n    \\frac{\\partial \\pi_{B}}{\\partial Q_{B}} &= 0 \\\\\n    64 - Q_{A} - 2Q_{B} - 4 &= 0 \\\\\n    2Q_{B} &= 60 - Q_{A} \\\\\n    Q^{*}_{B} &= 30 - \\frac{Q_{A}}{2}\n\\end{align*}\\]"
   },
   {
     "objectID": "Slides/10_ImperfectCompetition/main.html#duopoly-example---cournot-competition-1",
