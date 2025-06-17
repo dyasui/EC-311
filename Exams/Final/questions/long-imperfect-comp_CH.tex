@@ -1,0 +1,145 @@
+\begin{question}[type=exam]{30}
+  在本题中，我们将探讨当两家公司相互竞争时可能出现的不同结果。
+  有公司1和公司2，它们具有相同的边际成本函数：
+  $MC_1(q)=MC_2(q)=\vary{4}{3}q + \vary{16}{9}$。
+  假设这两家公司生产的商品是完全相同的，并且面临相同的市场需求曲线：
+  $P=\vary{136}{59} - Q^D$。
+  市场总供给量等于公司1和公司2的产量总和：
+  $Q^S = q_1+q_2$
+
+  \begin{enumerate}[label=(\alph*)]
+
+    \item (\points{8})
+    首先，求解当两家公司都作为\textbf{价格接受者}时市场上会发生什么。
+    在这一假设下求出总市场供给曲线，并据此找出“完全竞争”均衡下的 $P^*$ 和 $Q^*$。
+
+    \PrintSolutionsTF{
+      \fbox{\parbox{\linewidth}{
+
+      如果两家公司都不能影响价格，它们将价格视为其边际收益中的一个常数：
+      \begin{align*}
+        P &= \vary{4}{3}q + \vary{16}{9} \\
+        \Rightarrow \frac{P - \vary{16}{9}}{\vary{4}{3}} & = q
+      \end{align*}
+      总供给量取决于价格，可用于求供给曲线：
+      \begin{align*}
+        Q^S & = \frac{P - \vary{16}{9}}{\vary{4}{3}} +  \frac{P - \vary{16}{9}}{\vary{4}{3}} \\
+        Q^S + \vary{8}{6} & = \frac{2P}{\vary{4}{3}} \\
+        P & = \vary{2}{1.5} Q^S + \vary{16}{9}
+      \end{align*}
+      因此，均衡数量可以通过供给曲线和需求曲线的交点来求得：
+      \begin{align*}
+        \vary{136}{59} - Q^D & = \vary{2}{1.5} Q^S + \vary{16}{9} \\
+        \vary{136}{59} - \vary{16}{9} & = \vary{3}{2.5}Q \\
+        Q_{PC}^* & = \underline{\vary{40}{20}} \\
+        P_{PC}^* & = \underline{\vary{96}{39}}
+      \end{align*}
+      }
+      }
+    }{
+      \vspace{7cm}
+    }
+    
+    \item (\points{4})
+    如果这个市场中只有这两家公司，而且存在很高的固定成本阻止其他公司进入，你认为上述预测的市场价格和数量出现的可能性有多大？
+
+    请根据本课程后半部分讨论的内容解释你的答案。
+
+    \PrintSolutionsTF{
+      \fbox{\parbox{\linewidth}{
+        答案可能有所不同，但应包括关于课堂上讨论的某个不完全竞争模型的分析。
+
+        例如，如果公司需要通过出价竞争价格（Bertrand模型），那么价格接受者均衡可能更有可能发生。
+        在该模型中，如果两家公司在边际成本方面没有优势，那么它们可能会达成一个纳什均衡，即出价等于其边际成本，
+        因为它们知道任何高于边际成本的出价都会被对方压价。
+
+        或者，如果公司像在Cournot或Stackelberg模型中那样按产量竞争，则价格接受者均衡可能不太可能出现。
+
+        这些公司也可能会勾结，像垄断者那样共同设定产量，
+        但这取决于它们彼此之间的信任程度以及它们对维持未来合作结果的重视程度。
+      }
+      }
+    }{}
+    \newpage
+
+    现在考虑一个Cournot双头垄断模型，这两家公司基于产量进行竞争。
+
+    \item (\points{3})
+    写出公司1的利润函数，基于其自身的产量策略 $q_1$ 和对手公司产量 $q_2$。
+    假设公司1和公司2在同一时间选择各自的产量。
+
+    \PrintSolutionsTF{
+      \fbox{\parbox{\linewidth}{
+      \begin{align*}
+        \pi_1(q_1,q_2)  & = (\vary{136}{59} - q_1 - q_2) q_1 - (\vary{4}{3}q_1 + \vary{16}{9}) \\
+      \end{align*}
+      }
+      }
+    }{\vspace{4cm}}
+
+    \item (\points{4})
+    利用你在(c)中得到的利润函数，推导出一个最佳反应函数，
+    告诉公司1在给定 $q_2$ 的情况下应生产多少 $q_1$。
+
+    \PrintSolutionsTF{
+      \fbox{\parbox{\linewidth}{
+      \begin{align*}
+        \frac{\delta \pi}{\delta q_1} & = \vary{136}{59} - 2q_1 - q_2 - \vary{4}{3}q_1 =0 \\
+        \Rightarrow \vary{6}{5}q  & = \vary{136}{59} - q_2 \\
+        BR_1(q_2) & = \vary{\frac{136-q_2}{6}}{\frac{59-q_2}{5}} 
+      \end{align*}
+      }
+      }
+    }{\vspace{10cm}}
+
+  \item (\points{3})
+  公司2的最佳反应函数是什么？
+
+    \PrintSolutionsTF{
+      \fbox{\parbox{\linewidth}{
+      你可以像(d)部分一样进行推导，
+      或者你也可以直接指出，由于两家公司具有相同的边际成本函数和收益结构，
+      该博弈是对称的。
+      
+      所以，
+       $$BR_2(q_1) = \vary{\frac{136-q_1}{6}}{\frac{59-q_1}{5}}$$
+      }
+      }
+    }{\vspace{3cm}}
+
+    \newpage
+
+  \item (\points{8})
+  使用你的最佳反应函数求出该同时Cournot竞争博弈的纳什均衡。
+
+    \PrintSolutionsTF{
+      \fbox{\parbox{\linewidth}{
+      纳什均衡发生在两条最佳反应函数的交点处：
+      \begin{align*}
+        q_1  & = \vary{\frac{136-(\frac{136-q_1}{6})}{6}}{\frac{59-\frac{59-q_1}{5}}{5}} \\
+        (\frac{\vary{136}{59}-q_1}{\vary{6}{5}}) & = \vary{136}{59} - \vary{6}{5}q_1 \\
+        \vary{136}{59}-q_1 & = \vary{136\cdot 6}{59\cdot 5} - \vary{6}{5}q_1\cdot 6 \\
+        \vary{35}{26}q_1 & = \vary{816}{295} - \vary{136}{59} = \vary{680}{236} \\
+        q_1^* & \approx \vary{19.4}{9.1} 
+      \end{align*}
+      然后将 $q_1^* \approx \vary{19.4}{9.1}$ 代入 $BR_2(q_1^*)$：
+      \begin{align*}
+        q_2^* & = BR_2(q_1) = \vary{\frac{136-19.4}{6}}{\frac{59-9.1}{5}} \\
+        q_2^* & \approx \vary{19.4}{9.1} 
+      \end{align*}
+      因此，该博弈的纳什均衡为：
+      $$\{ q_1^* = \vary{19.4}{9.1}, ~ q_2^* = \vary{19.4}{9.1} \}$$
+
+      \hrulefill
+
+      \textbf{评分说明：} 最终答案可以用分数或四舍五入后的小数表示。
+      如果学生给出的数量在正确答案的上下两分之一以内，应给予满分。
+      代数过程容易出错，但学生应能运用课堂上学到的Cournot模型知识，
+      意识到 $q_1+q_2$ 的总量应低于他们在(a)部分求得的 $Q^*_{PC}$。
+      如果学生对模型的设定和直觉理解到位，仅仅是代数出错，可给予大部分分数。
+    
+      }
+      }
+    }{\vspace{3cm}}
+  \end{enumerate}
+\end{question}

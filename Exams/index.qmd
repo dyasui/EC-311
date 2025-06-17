@@ -74,3 +74,22 @@ title: "Exams"
   <i class="fa-solid fa-window-restore"></i>&ensp;Solutions
 </a>
 ```
+
+### Spring 2025 Final
+```{=html}
+<a class="btn btn-primary btn-md" href="Final/EC311-Sp25-final_v1.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Version1
+</a>
+<a class="btn btn-primary btn-md" href="Final/[Corrected]EC311-Sp25-final_v1.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;V1Solutions
+</a>
+```
+
+```{=html}
+<a class="btn btn-primary btn-md" href="Final/EC311-Sp25-final_v2.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;Version2
+</a>
+<a class="btn btn-primary btn-md" href="Final/[Corrected]EC311-Sp25-final_v2.pdf" target="_blank">
+  <i class="fa-solid fa-window-restore"></i>&ensp;V2Solutions
+</a>
+```

@@ -1,0 +1,123 @@
+\documentclass{article}
+
+% load packages
+\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{black}}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18} 
+\usepackage{multirow,array} % for payoff matrix formatting
+% use exsheets to create different versions with \vary{}{}
+\usepackage{exsheets}
+\SetupExSheets{
+  headings = block-wp,
+  solution/print = true % set this to true to print key
+}
+
+% document formatting settings
+\geometry{left=1.0in,right=1.0in,top=0.75in,bottom=1.0in}
+\setlength{\parindent}{0pt} % turn off para indenting
+
+% title and date for cover page
+\title{Econ 311 - Intermediate Microeconomics \\
+       Final Exam}
+\author{University of Oregon}
+\date{June 11, 2025}
+
+% DOCUMENT BEGINS HERE
+\begin{document}
+
+\maketitle
+
+% SET VERSION NUMBER HERE: 
+\variant{1}
+
+\begin{center}
+  
+  \PrintSolutionsTF{\Large{\color{red} Version \vary{1}{2} Answer Key}}{\Large{\textbf{Version \vary{1}{2}}}}
+\end{center}
+
+\begin{center}
+  \fbox{\fbox{\parbox{4in}{\centering
+    Give every question your best shot. \\
+    Fear is the mind-killer.}}}
+\end{center}
+
+\vspace{0.5in}
+
+% space for student to write their name
+\makebox[.6\textwidth]{Name: \enspace\hrulefill} \makebox[.3\textwidth]{95\#: \enspace\hrulefill}
+
+\vspace{0.5in}
+
+% instructions section
+You have a total of 1h 50min (110 minutes) to complete the exam.
+
+The only items allowed on your desk at any time are pens/pencils, scratch paper, a 3x5 note card, and a calculator. Everything else must be stored in your bag underneath your desk.
+
+If you need to use the bathroom during the exam, leave your phone on the table in the front of the classroom. Please wait until there are no phones currently on the table before you go to the bathroom.
+
+Any form of cheating will result on a zero on the exam.
+
+\vspace{0.25in}
+
+There are three sections to be completed:
+\begin{itemize}
+  \item Multiple Choice: 10 Questions (worth 3 points each)
+  \item Short-Answer Questions: 4 Questions (worth 10 points each)
+  \item Multi-Part Analysis Questions: 1 Question (worth a total of 30 points)
+\end{itemize}
+
+\vspace{0.25in}
+
+Point totals and question specific instructions are listed for each section.
+Please ask for clarification if a question is not clear to you.
+
+\vspace{0.25in}
+
+The exam is a total of 9 pages.
+Please verify you have all 9 in your exam. 
+If you do not, let me know immediately.
+
+\newpage
+
+%------------------------------------------------------------------------------%
+
+\section*{Multiple Choice}
+
+\input{questions/mc}
+
+%------------------------------------------------------------------------------%
+\newpage
+
+\section*{Short Answer}
+
+\input{questions/short-profit-max}
+
+\input{questions/short-monopoly}
+
+\newpage
+
+\input{questions/short-cost-min}
+
+\newpage
+
+\input{questions/short-cost-curves}
+
+%------------------------------------------------------------------------------%
+\newpage
+
+\section*{Long Answer}
+
+\input{questions/long-imperfect-comp}
+
+%------------------------------------------------------------------------------%
+
+
+\end{document}

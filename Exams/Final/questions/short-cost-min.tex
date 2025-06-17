@@ -1,0 +1,43 @@
+\begin{question}[type=exam]{10}
+  Consider a car assembly line that produces $Q$ cars by combining
+  robotic arms $K$, and human workers, $L$ using the following production function:
+  $$Q = f(K,L) = K\cdot L$$
+  Suppose that each robotic arm costs \$\vary{60}{90} per hour to rent
+  and that each human worker is paid an hourly wage of \$\vary{15}{30}.
+
+  What is the cheapest combination of $K$ and $L$ to assemble $Q=\vary{4}{3}$ cars per hour?
+
+\PrintSolutionsTF{
+  \fbox{\parbox{\linewidth}{
+    \begin{multicols}{2}
+      You could set up this way:
+      \begin{align*}
+        \frac{MP_L}{MP_K} & = \frac{w}{r} \\ 
+        \Rightarrow \frac{K}{L} & = \frac{\vary{15}{30}}{\vary{60}{90}} \\ 
+      \end{align*}
+      Then plug in $K=\vary{\frac{1}{4}}{\frac{1}{3}} L$ into $K\cdot L=Q$:
+      \begin{align*}
+        \vary{4}{3} & = (\vary{\frac{1}{4}}{\frac{1}{3}}L)\cdot L \\
+        \Rightarrow L^* & = \vary{4}{3} \\
+        \Rightarrow K^* & = \vary{\frac{1}{4}}{\frac{1}{3}} (\vary{4}{3}) = 1\
+      \end{align*}
+    
+      \columnbreak
+
+      Another correct way to solve:
+      \begin{align*}
+        \frac{MP_K}{MP_L} & = \frac{r}{w} \\ 
+        \Rightarrow \frac{L}{K} & = \frac{\vary{60}{90}}{\vary{15}{30}} \\ 
+      \end{align*}
+      Then plug in $L=\vary{4}{3} L$ into $K\cdot L=Q$:
+      \begin{align*}
+        \vary{4}{3} & = (\vary{4}{3}K)\cdot K \\
+        \Rightarrow K^* & = 1 \\
+        \Rightarrow L^* & = \vary{4}{3} \\
+      \end{align*}
+      \end{multicols}
+      The cost minimizing bundle is \textbf{\vary{4}{3} workers} and \textbf{1 robot}.
+    }
+  }}{\vspace{5cm}}
+
+\end{question}
