@@ -93,3 +93,5 @@ title: "Exams"
   <i class="fa-solid fa-window-restore"></i>&ensp;V2Solutions
 </a>
 ```
+
+[Spring Class Performance](final/final-report.html)
