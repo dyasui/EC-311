@@ -1,0 +1,31 @@
+---
+name: final performance report
+---
+
+# Final Exam Score distribution
+
+![](images/exam-distribution.pdf)
+
+The average score out of 100 on the final exam was about 68.
+This was an overall improvement of about 2 points over the midterm.
+
+# Class Grade Distribution
+
+After including the final exam, midterm, homeworks, quizzes, and participation, here is the overall distribution of the percentage grades in Canvas:
+
+![](images/grade-distribution.pdf)
+
+Because we achieved over 50% participation on course surveys, I dropped the percentile cutoffs each by 1%.
+The 4th 34th and 79th percentile cutoffs are shown below next to the range of grades that get assigned to each letter.
+
+| Score in Canvas at the end of class (%) | Letter Grade |
+|:---------------:|:------------:|
+| >90             | A            |
+| 85-90           | A-           |
+| 80-85           | B+           |
+| 77-80           | B            |
+| 74-77           | B-           |
+| 70-74           | C+           |
+| 65-70           | C            |
+| 54-65           | C-           |
+| <54             | D/F          |
