@@ -94,4 +94,6 @@ title: "Exams"
 </a>
 ```
 
-[Spring Class Performance](final/final-report.html)
+### Final Grades Report
+
+[Spring Class Performance](Final/final-report.html)

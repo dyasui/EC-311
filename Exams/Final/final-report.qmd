@@ -27,5 +27,5 @@ The 4th 34th and 79th percentile cutoffs are shown below next to the range of gr
 | 74-77           | B-           |
 | 70-74           | C+           |
 | 65-70           | C            |
-| 54-65           | C-           |
+| 65-70           | C            |
 | <54             | D/F          |
